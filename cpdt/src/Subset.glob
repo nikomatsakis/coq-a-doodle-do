@@ -1,0 +1,1138 @@
+DIGEST 7fb186dbce0cd3f1d882ed60388d423a
+FCpdt.Subset
+R305:308 Coq.Lists.List <> <> lib
+R327:342 Cpdt.CpdtTactics <> <> lib
+R354:363 Coq.extraction.Extraction <> <> lib
+R1379:1382 Coq.Init.Nat <> pred def
+prf 2247:2250 <> zgtz
+R2259:2262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2255:2257 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R2263:2267 Coq.Init.Logic <> False ind
+def 2296:2307 <> pred_strong1
+R2314:2316 Coq.Init.Datatypes <> nat ind
+binder 2310:2310 <> n:1
+R2326:2329 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2322:2324 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R2321:2321 Cpdt.Subset <> n:1 var
+R2330:2332 Coq.Init.Datatypes <> nat ind
+R2345:2345 Cpdt.Subset <> n:1 var
+R2358:2358 Coq.Init.Datatypes <> O constr
+R2373:2375 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+binder 2367:2368 <> pf:3
+R2387:2390 Cpdt.Subset <> zgtz thm
+R2392:2393 Cpdt.Subset <> pf:3 var
+R2410:2410 Coq.Init.Datatypes <> S constr
+prf 3227:3233 <> two_gt0
+R3238:3240 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R3275:3286 Cpdt.Subset <> pred_strong1 def
+R3288:3294 Cpdt.Subset <> two_gt0 thm
+def 4942:4954 <> pred_strong1'
+R4961:4963 Coq.Init.Datatypes <> nat ind
+binder 4957:4957 <> n:4
+R4973:4976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4969:4971 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R4968:4968 Cpdt.Subset <> n:4 var
+R4977:4979 Coq.Init.Datatypes <> nat ind
+R4992:4992 Cpdt.Subset <> n:4 var
+R5006:5009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5002:5004 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R5001:5001 Cpdt.Subset <> n:5 var
+R5010:5012 Coq.Init.Datatypes <> nat ind
+R5025:5025 Coq.Init.Datatypes <> O constr
+R5040:5042 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+binder 5034:5035 <> pf:6
+R5054:5057 Cpdt.Subset <> zgtz thm
+R5059:5060 Cpdt.Subset <> pf:6 var
+R5077:5077 Coq.Init.Datatypes <> S constr
+def 6655:6657 <> bar
+R6662:6663 Coq.Init.Logic <> ex ind
+R6704:6706 Coq.Init.Specif <> sig ind
+def 7317:7328 <> pred_strong2
+R7335:7335 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7337:7339 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7343:7345 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7351:7351 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R7340:7342 Coq.Init.Datatypes <> nat ind
+binder 7336:7336 <> n:7
+R7347:7349 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R7346:7346 Cpdt.Subset <> n:7 var
+binder 7331:7331 <> s:8
+R7356:7358 Coq.Init.Datatypes <> nat ind
+R7371:7371 Cpdt.Subset <> s:8 var
+R7384:7388 Coq.Init.Specif <> exist constr
+R7390:7390 Coq.Init.Datatypes <> O constr
+R7404:7407 Cpdt.Subset <> zgtz thm
+R7427:7431 Coq.Init.Specif <> exist constr
+R7434:7434 Coq.Init.Datatypes <> S constr
+R7988:7999 Cpdt.Subset <> pred_strong2 def
+R8002:8006 Coq.Init.Specif <> exist constr
+R8012:8018 Cpdt.Subset <> two_gt0 thm
+def 9027:9038 <> pred_strong3
+R9045:9045 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9047:9049 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9053:9055 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9061:9061 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9050:9052 Coq.Init.Datatypes <> nat ind
+binder 9046:9046 <> n:10
+R9057:9059 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R9056:9056 Cpdt.Subset <> n:10 var
+binder 9041:9041 <> s:11
+R9066:9066 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9068:9070 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9074:9076 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9094:9094 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9071:9073 Coq.Init.Datatypes <> nat ind
+binder 9067:9067 <> m:12
+R9088:9090 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9077:9085 Coq.Init.Specif <> proj1_sig def
+R9087:9087 Cpdt.Subset <> s:11 var
+R9091:9091 Coq.Init.Datatypes <> S constr
+R9093:9093 Cpdt.Subset <> m:12 var
+R9107:9107 Cpdt.Subset <> s:11 var
+R9116:9116 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9118:9120 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9124:9126 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9144:9144 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R9121:9123 Coq.Init.Datatypes <> nat ind
+binder 9117:9117 <> m:14
+R9138:9140 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9127:9135 Coq.Init.Specif <> proj1_sig def
+R9137:9137 Cpdt.Subset <> s:13 var
+R9141:9141 Coq.Init.Datatypes <> S constr
+R9143:9143 Cpdt.Subset <> m:14 var
+R9157:9161 Coq.Init.Specif <> exist constr
+R9177:9180 Cpdt.Subset <> zgtz thm
+R9200:9204 Coq.Init.Specif <> exist constr
+R9207:9207 Coq.Init.Datatypes <> S constr
+R9219:9223 Coq.Init.Specif <> exist constr
+R9231:9237 Coq.Init.Logic <> eq_refl constr
+def 9296:9298 <> ugh
+R9303:9304 Coq.Init.Peano <> lt def
+R9355:9366 Cpdt.Subset <> pred_strong3 def
+R9369:9373 Coq.Init.Specif <> exist constr
+R9379:9385 Cpdt.Subset <> two_gt0 thm
+def 9590:9600 <> pred_strong
+def 11246:11257 <> pred_strong4
+R11272:11274 Coq.Init.Datatypes <> nat ind
+binder 11268:11268 <> n:15
+R11282:11285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11278:11280 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R11277:11277 Cpdt.Subset <> n:15 var
+R11286:11286 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R11288:11290 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R11294:11296 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R11304:11304 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R11291:11293 Coq.Init.Datatypes <> nat ind
+binder 11287:11287 <> m:16
+R11298:11300 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11297:11297 Cpdt.Subset <> n:15 var
+R11301:11301 Coq.Init.Datatypes <> S constr
+R11303:11303 Cpdt.Subset <> m:16 var
+binder 11321:11321 <> n:17
+R11336:11336 Cpdt.Subset <> n:17 var
+R11351:11351 Coq.Init.Datatypes <> O constr
+R11365:11373 Coq.Init.Logic <> False_rec scheme
+R11387:11387 Coq.Init.Datatypes <> S constr
+R11404:11408 Coq.Init.Specif <> exist constr
+binder 11321:11321 <> n:19
+R11336:11336 Cpdt.Subset <> n:19 var
+R11351:11351 Coq.Init.Datatypes <> O constr
+R11365:11373 Coq.Init.Logic <> False_rec scheme
+R11387:11387 Coq.Init.Datatypes <> S constr
+R11404:11408 Coq.Init.Specif <> exist constr
+binder 12922:12922 <> n:21
+R12937:12937 Cpdt.Subset <> n:21 var
+R12952:12952 Coq.Init.Datatypes <> O constr
+R12966:12974 Coq.Init.Logic <> False_rec scheme
+R12988:12988 Coq.Init.Datatypes <> S constr
+R13005:13009 Coq.Init.Specif <> exist constr
+binder 12922:12922 <> n:23
+R12937:12937 Cpdt.Subset <> n:23 var
+R12952:12952 Coq.Init.Datatypes <> O constr
+R12966:12974 Coq.Init.Logic <> False_rec scheme
+R12988:12988 Coq.Init.Datatypes <> S constr
+R13005:13009 Coq.Init.Specif <> exist constr
+R13575:13586 Cpdt.Subset <> pred_strong4 def
+R14382:14393 Cpdt.Subset <> pred_strong4 def
+R14395:14401 Cpdt.Subset <> two_gt0 thm
+def 14715:14727 <> pred_strong4'
+R14742:14744 Coq.Init.Datatypes <> nat ind
+binder 14738:14738 <> n:25
+R14752:14755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14748:14750 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R14747:14747 Cpdt.Subset <> n:25 var
+R14756:14756 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14758:14760 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14764:14766 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14774:14774 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R14761:14763 Coq.Init.Datatypes <> nat ind
+binder 14757:14757 <> m:26
+R14768:14770 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14767:14767 Cpdt.Subset <> n:25 var
+R14771:14771 Coq.Init.Datatypes <> S constr
+R14773:14773 Cpdt.Subset <> m:26 var
+binder 14791:14791 <> n:27
+R14806:14806 Cpdt.Subset <> n:27 var
+R14821:14821 Coq.Init.Datatypes <> O constr
+R14835:14843 Coq.Init.Logic <> False_rec scheme
+R14857:14857 Coq.Init.Datatypes <> S constr
+R14874:14878 Coq.Init.Specif <> exist constr
+binder 14791:14791 <> n:29
+R14806:14806 Cpdt.Subset <> n:29 var
+R14821:14821 Coq.Init.Datatypes <> O constr
+R14835:14843 Coq.Init.Logic <> False_rec scheme
+R14857:14857 Coq.Init.Datatypes <> S constr
+R14874:14878 Coq.Init.Specif <> exist constr
+R14929:14941 Cpdt.Subset <> pred_strong4' def
+R15727:15735 Coq.Init.Logic <> False_rec scheme
+not 15719:15719 <> :::'!'
+R15764:15768 Coq.Init.Specif <> exist constr
+not 15752:15752 <> :::'['_x_']'
+def 15790:15801 <> pred_strong5
+R15816:15818 Coq.Init.Datatypes <> nat ind
+binder 15812:15812 <> n:31
+R15826:15829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15822:15824 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R15821:15821 Cpdt.Subset <> n:31 var
+R15830:15830 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15832:15834 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15838:15840 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15848:15848 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R15835:15837 Coq.Init.Datatypes <> nat ind
+binder 15831:15831 <> m:32
+R15842:15844 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15841:15841 Cpdt.Subset <> n:31 var
+R15845:15845 Coq.Init.Datatypes <> S constr
+R15847:15847 Cpdt.Subset <> m:32 var
+binder 15865:15865 <> n:33
+R15880:15880 Cpdt.Subset <> n:33 var
+R15895:15895 Coq.Init.Datatypes <> O constr
+R15909:15909 Cpdt.Subset <> :::'!' not
+R15919:15919 Coq.Init.Datatypes <> S constr
+R15936:15936 Cpdt.Subset <> :::'['_x_']' not
+R15939:15939 Cpdt.Subset <> :::'['_x_']' not
+binder 15865:15865 <> n:35
+R15880:15880 Cpdt.Subset <> n:35 var
+R15895:15895 Coq.Init.Datatypes <> O constr
+R15909:15909 Cpdt.Subset <> :::'!' not
+R15919:15919 Coq.Init.Datatypes <> S constr
+R15936:15936 Cpdt.Subset <> :::'['_x_']' not
+R15939:15939 Cpdt.Subset <> :::'['_x_']' not
+R16087:16098 Cpdt.Subset <> pred_strong5 def
+R16100:16106 Cpdt.Subset <> two_gt0 thm
+def 16543:16554 <> pred_strong6
+R16561:16563 Coq.Init.Datatypes <> nat ind
+binder 16557:16557 <> n:37
+R16572:16574 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R16571:16571 Cpdt.Subset <> n:37 var
+R16580:16580 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16582:16584 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16588:16590 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16598:16598 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R16585:16587 Coq.Init.Datatypes <> nat ind
+binder 16581:16581 <> m:38
+R16592:16594 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16591:16591 Cpdt.Subset <> n:37 var
+R16595:16595 Coq.Init.Datatypes <> S constr
+R16597:16597 Cpdt.Subset <> m:38 var
+R16611:16611 Cpdt.Subset <> n:37 var
+R16624:16624 Coq.Init.Datatypes <> O constr
+R16637:16637 Coq.Init.Datatypes <> S constr
+R17145:17156 Cpdt.Subset <> pred_strong6 def
+R17158:17164 Cpdt.Subset <> two_gt0 thm
+R17558:17564 Coq.Init.Specif <> sumbool ind
+R17987:17990 Coq.Init.Specif <> left constr
+not 17975:17975 <> :::'Yes'
+R18018:18022 Coq.Init.Specif <> right constr
+not 18007:18007 <> :::'No'
+R18075:18076 Cpdt.Subset <> :::'No' not
+R18066:18068 Cpdt.Subset <> :::'Yes' not
+not 18039:18039 <> :::'Reduce'_x
+def 18759:18768 <> eq_nat_dec
+R18785:18787 Coq.Init.Datatypes <> nat ind
+binder 18779:18779 <> n:40
+binder 18781:18781 <> m:41
+R18790:18790 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18796:18800 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18807:18807 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18792:18794 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18791:18791 Cpdt.Subset <> n:40 var
+R18795:18795 Cpdt.Subset <> m:41 var
+R18802:18805 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18801:18801 Cpdt.Subset <> n:40 var
+R18806:18806 Cpdt.Subset <> m:41 var
+R18833:18835 Coq.Init.Datatypes <> nat ind
+binder 18827:18827 <> n:42
+binder 18829:18829 <> m:43
+R18840:18840 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18846:18850 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18857:18857 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18842:18844 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18841:18841 Cpdt.Subset <> n:42 var
+R18845:18845 Cpdt.Subset <> m:43 var
+R18852:18855 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18851:18851 Cpdt.Subset <> n:42 var
+R18856:18856 Cpdt.Subset <> m:43 var
+R18875:18875 Cpdt.Subset <> m:43 var
+R18872:18872 Cpdt.Subset <> n:42 var
+R18890:18890 Coq.Init.Datatypes <> O constr
+R18893:18893 Coq.Init.Datatypes <> O constr
+R18898:18900 Cpdt.Subset <> :::'Yes' not
+R18910:18910 Coq.Init.Datatypes <> S constr
+R18916:18916 Coq.Init.Datatypes <> S constr
+R18924:18931 Cpdt.Subset <> :::'Reduce'_x not
+R18939:18939 Cpdt.Subset <> :::'Reduce'_x not
+R18932:18932 Cpdt.Subset <> f:44 var
+R18957:18958 Cpdt.Subset <> :::'No' not
+R18833:18835 Coq.Init.Datatypes <> nat ind
+binder 18827:18827 <> n:47
+binder 18829:18829 <> m:48
+R18840:18840 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18846:18850 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18857:18857 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R18842:18844 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18841:18841 Cpdt.Subset <> n:47 var
+R18845:18845 Cpdt.Subset <> m:48 var
+R18852:18855 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R18851:18851 Cpdt.Subset <> n:47 var
+R18856:18856 Cpdt.Subset <> m:48 var
+R18875:18875 Cpdt.Subset <> m:48 var
+R18872:18872 Cpdt.Subset <> n:47 var
+R18890:18890 Coq.Init.Datatypes <> O constr
+R18893:18893 Coq.Init.Datatypes <> O constr
+R18898:18900 Cpdt.Subset <> :::'Yes' not
+R18910:18910 Coq.Init.Datatypes <> S constr
+R18916:18916 Coq.Init.Datatypes <> S constr
+R18924:18931 Cpdt.Subset <> :::'Reduce'_x not
+R18939:18939 Cpdt.Subset <> :::'Reduce'_x not
+R18932:18932 Cpdt.Subset <> f:49 var
+R18957:18958 Cpdt.Subset <> :::'No' not
+R19008:19017 Cpdt.Subset <> eq_nat_dec def
+R19119:19128 Cpdt.Subset <> eq_nat_dec def
+def 20210:20220 <> eq_nat_dec'
+R20229:20231 Coq.Init.Datatypes <> nat ind
+binder 20223:20223 <> n:52
+binder 20225:20225 <> m:53
+R20236:20236 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R20242:20246 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R20253:20253 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R20238:20240 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20237:20237 Cpdt.Subset <> n:52 var
+R20241:20241 Cpdt.Subset <> m:53 var
+R20248:20251 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R20247:20247 Cpdt.Subset <> n:52 var
+R20252:20252 Cpdt.Subset <> m:53 var
+R20736:20742 Coq.Init.Specif <> sumbool ind
+R21734:21740 Cpdt.Subset <> :::'Reduce'_x not
+R21725:21727 Cpdt.Subset <> :::'Yes' not
+not 21702:21702 <> :::x_'||'_x
+sec 21928:21933 <> In_dec
+var 21947:21947 In_dec A
+var 21967:21974 In_dec A_eq_dec
+R21991:21991 Cpdt.Subset <> In_dec.A var
+binder 21985:21985 <> x:55
+binder 21987:21987 <> y:56
+R21994:21994 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R22000:22004 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R22011:22011 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R21996:21998 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21995:21995 Cpdt.Subset <> x:55 var
+R21999:21999 Cpdt.Subset <> y:56 var
+R22006:22009 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R22005:22005 Cpdt.Subset <> x:55 var
+R22010:22010 Cpdt.Subset <> y:56 var
+def 22121:22126 <> In_dec
+R22142:22142 Cpdt.Subset <> In_dec.A var
+binder 22138:22138 <> x:58
+R22151:22154 Coq.Init.Datatypes <> list ind
+R22156:22156 Cpdt.Subset <> In_dec.A var
+binder 22146:22147 <> ls:59
+R22160:22160 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R22168:22172 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R22182:22182 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R22161:22162 Coq.Lists.List <> In def
+R22166:22167 Cpdt.Subset <> ls:59 var
+R22164:22164 Cpdt.Subset <> x:58 var
+R22173:22174 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22175:22176 Coq.Lists.List <> In def
+R22180:22181 Cpdt.Subset <> ls:59 var
+R22178:22178 Cpdt.Subset <> x:58 var
+R22208:22208 Cpdt.Subset <> In_dec.A var
+binder 22204:22204 <> x:60
+R22217:22220 Coq.Init.Datatypes <> list ind
+R22222:22222 Cpdt.Subset <> In_dec.A var
+binder 22212:22213 <> ls:61
+R22227:22227 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R22235:22239 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R22249:22249 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R22228:22229 Coq.Lists.List <> In def
+R22233:22234 Cpdt.Subset <> ls:61 var
+R22231:22231 Cpdt.Subset <> x:60 var
+R22240:22241 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22242:22243 Coq.Lists.List <> In def
+R22247:22248 Cpdt.Subset <> ls:61 var
+R22245:22245 Cpdt.Subset <> x:60 var
+R22266:22267 Cpdt.Subset <> ls:61 var
+R22277:22279 Coq.Init.Datatypes <> nil constr
+R22284:22285 Cpdt.Subset <> :::'No' not
+R22292:22295 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22316:22319 Cpdt.Subset <> :::x_'||'_x not
+R22320:22320 Cpdt.Subset <> f:62 var
+R22322:22322 Cpdt.Subset <> x:60 var
+R22303:22310 Cpdt.Subset <> In_dec.A_eq_dec var
+R22312:22312 Cpdt.Subset <> x:60 var
+R22208:22208 Cpdt.Subset <> In_dec.A var
+binder 22204:22204 <> x:64
+R22217:22220 Coq.Init.Datatypes <> list ind
+R22222:22222 Cpdt.Subset <> In_dec.A var
+binder 22212:22213 <> ls:65
+R22227:22227 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R22235:22239 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R22249:22249 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R22228:22229 Coq.Lists.List <> In def
+R22233:22234 Cpdt.Subset <> ls:65 var
+R22231:22231 Cpdt.Subset <> x:64 var
+R22240:22241 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22242:22243 Coq.Lists.List <> In def
+R22247:22248 Cpdt.Subset <> ls:65 var
+R22245:22245 Cpdt.Subset <> x:64 var
+R22266:22267 Cpdt.Subset <> ls:65 var
+R22277:22279 Coq.Init.Datatypes <> nil constr
+R22284:22285 Cpdt.Subset <> :::'No' not
+R22292:22295 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22316:22319 Cpdt.Subset <> :::x_'||'_x not
+R22320:22320 Cpdt.Subset <> f:66 var
+R22322:22322 Cpdt.Subset <> x:64 var
+R22303:22310 Cpdt.Subset <> In_dec.A_eq_dec var
+R22312:22312 Cpdt.Subset <> x:64 var
+R22362:22367 Cpdt.Subset In_dec <> sec
+R22387:22392 Cpdt.Subset <> In_dec def
+R22409:22412 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22414:22417 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22418:22420 Coq.Init.Datatypes <> nil constr
+R22394:22403 Cpdt.Subset <> eq_nat_dec def
+R22551:22556 Cpdt.Subset <> In_dec def
+R22573:22576 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22578:22581 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R22582:22584 Coq.Init.Datatypes <> nil constr
+R22558:22567 Cpdt.Subset <> eq_nat_dec def
+ind 23930:23934 <> maybe
+constr 23973:23979 <> Unknown
+constr 23993:23997 <> Found
+binder 23937:23937 <> A:68
+R23952:23955 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23951:23951 Cpdt.Subset <> A:68 var
+binder 23947:23947 <> P:69
+R23983:23987 Cpdt.Subset <> maybe:70 ind
+R23989:23989 Cpdt.Subset <> P:69 var
+R24012:24012 Cpdt.Subset <> A:68 var
+binder 24008:24008 <> x:72
+R24018:24021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24015:24015 Cpdt.Subset <> P:69 var
+R24017:24017 Cpdt.Subset <> x:72 var
+R24022:24026 Cpdt.Subset <> maybe:70 ind
+R24028:24028 Cpdt.Subset <> P:69 var
+R24149:24153 Cpdt.Subset <> maybe ind
+binder 24160:24160 <> x:73
+not 24131:24131 <> :::'{{'_x_'|'_x_'}}'
+R24188:24194 Cpdt.Subset <> Unknown constr
+not 24179:24179 <> :::'??'
+R24223:24227 Cpdt.Subset <> Found constr
+not 24209:24209 <> :::'[|'_x_'|]'
+def 24309:24320 <> pred_strong7
+R24335:24337 Coq.Init.Datatypes <> nat ind
+binder 24331:24331 <> n:74
+R24340:24341 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R24343:24345 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R24353:24354 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+binder 24342:24342 <> m:75
+R24347:24349 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24346:24346 Cpdt.Subset <> n:74 var
+R24350:24350 Coq.Init.Datatypes <> S constr
+R24352:24352 Cpdt.Subset <> m:75 var
+binder 24371:24371 <> n:76
+R24386:24386 Cpdt.Subset <> n:76 var
+R24395:24396 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R24398:24400 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R24408:24409 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+binder 24397:24397 <> m:78
+R24402:24404 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24401:24401 Cpdt.Subset <> n:77 var
+R24405:24405 Coq.Init.Datatypes <> S constr
+R24407:24407 Cpdt.Subset <> m:78 var
+R24424:24424 Coq.Init.Datatypes <> O constr
+R24429:24429 Cpdt.Subset <> :::'??' not
+R24440:24440 Coq.Init.Datatypes <> S constr
+R24448:24449 Cpdt.Subset <> :::'[|'_x_'|]' not
+R24452:24453 Cpdt.Subset <> :::'[|'_x_'|]' not
+binder 24371:24371 <> n:79
+R24386:24386 Cpdt.Subset <> n:79 var
+R24395:24396 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R24398:24400 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R24408:24409 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+binder 24397:24397 <> m:81
+R24402:24404 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24401:24401 Cpdt.Subset <> n:80 var
+R24405:24405 Coq.Init.Datatypes <> S constr
+R24407:24407 Cpdt.Subset <> m:81 var
+R24424:24424 Coq.Init.Datatypes <> O constr
+R24429:24429 Cpdt.Subset <> :::'??' not
+R24440:24440 Coq.Init.Datatypes <> S constr
+R24448:24449 Cpdt.Subset <> :::'[|'_x_'|]' not
+R24452:24453 Cpdt.Subset <> :::'[|'_x_'|]' not
+R24500:24511 Cpdt.Subset <> pred_strong7 def
+R24611:24622 Cpdt.Subset <> pred_strong7 def
+R25143:25147 Coq.Init.Specif <> sumor ind
+R25517:25523 Coq.Init.Specif <> inright constr
+not 25508:25508 <> :::'!!'
+R25556:25561 Coq.Init.Specif <> inleft constr
+R25565:25565 Cpdt.Subset <> :::'['_x_']' not
+R25567:25567 Cpdt.Subset <> :::'['_x_']' not
+not 25540:25540 <> :::'[||'_x_'||]'
+def 25795:25806 <> pred_strong8
+R25821:25823 Coq.Init.Datatypes <> nat ind
+binder 25817:25817 <> n:82
+R25845:25848 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R25854:25854 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R25826:25826 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R25828:25830 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R25834:25836 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R25844:25844 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R25831:25833 Coq.Init.Datatypes <> nat ind
+binder 25827:25827 <> m:83
+R25838:25840 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25837:25837 Cpdt.Subset <> n:82 var
+R25841:25841 Coq.Init.Datatypes <> S constr
+R25843:25843 Cpdt.Subset <> m:83 var
+R25850:25852 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25849:25849 Cpdt.Subset <> n:82 var
+binder 25871:25871 <> n:84
+R25886:25886 Cpdt.Subset <> n:84 var
+R25901:25901 Coq.Init.Datatypes <> O constr
+R25906:25907 Cpdt.Subset <> :::'!!' not
+R25917:25917 Coq.Init.Datatypes <> S constr
+R25925:25927 Cpdt.Subset <> :::'[||'_x_'||]' not
+R25930:25932 Cpdt.Subset <> :::'[||'_x_'||]' not
+binder 25871:25871 <> n:86
+R25886:25886 Cpdt.Subset <> n:86 var
+R25901:25901 Coq.Init.Datatypes <> O constr
+R25906:25907 Cpdt.Subset <> :::'!!' not
+R25917:25917 Coq.Init.Datatypes <> S constr
+R25925:25927 Cpdt.Subset <> :::'[||'_x_'||]' not
+R25930:25932 Cpdt.Subset <> :::'[||'_x_'||]' not
+R25979:25990 Cpdt.Subset <> pred_strong8 def
+R26105:26116 Cpdt.Subset <> pred_strong8 def
+R26858:26864 Cpdt.Subset <> Unknown constr
+R26869:26869 Cpdt.Subset <> :::'??' not
+R26903:26907 Cpdt.Subset <> Found constr
+not 26794:26794 <> :::x_'<-'_x_';'_x
+def 27574:27583 <> doublePred
+R27602:27604 Coq.Init.Datatypes <> nat ind
+binder 27594:27595 <> n1:88
+binder 27597:27598 <> n2:89
+R27607:27608 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R27610:27612 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R27645:27646 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+binder 27609:27609 <> p:90
+R27627:27630 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R27615:27617 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27613:27614 Cpdt.Subset <> n1:88 var
+R27618:27618 Coq.Init.Datatypes <> S constr
+R27621:27623 Coq.Init.Datatypes <> fst def
+R27625:27625 Cpdt.Subset <> p:90 var
+R27633:27635 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27631:27632 Cpdt.Subset <> n2:89 var
+R27636:27636 Coq.Init.Datatypes <> S constr
+R27639:27641 Coq.Init.Datatypes <> snd def
+R27643:27643 Cpdt.Subset <> p:90 var
+binder 27663:27664 <> n1:91
+binder 27666:27667 <> n2:92
+R27678:27681 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R27697:27702 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R27682:27693 Cpdt.Subset <> pred_strong7 def
+R27695:27696 Cpdt.Subset <> n1:91 var
+binder 27676:27677 <> m1:93
+R27705:27708 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R27724:27729 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R27709:27720 Cpdt.Subset <> pred_strong7 def
+R27722:27723 Cpdt.Subset <> n2:92 var
+binder 27703:27704 <> m2:94
+R27730:27731 Cpdt.Subset <> :::'[|'_x_'|]' not
+R27740:27741 Cpdt.Subset <> :::'[|'_x_'|]' not
+R27732:27732 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27735:27736 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27739:27739 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27733:27734 Cpdt.Subset <> m1:93 var
+R27737:27738 Cpdt.Subset <> m2:94 var
+binder 27663:27664 <> n1:95
+binder 27666:27667 <> n2:96
+R27678:27681 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R27697:27702 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R27682:27693 Cpdt.Subset <> pred_strong7 def
+R27695:27696 Cpdt.Subset <> n1:95 var
+binder 27676:27677 <> m1:97
+R27705:27708 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R27724:27729 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R27709:27720 Cpdt.Subset <> pred_strong7 def
+R27722:27723 Cpdt.Subset <> n2:96 var
+binder 27703:27704 <> m2:98
+R27730:27731 Cpdt.Subset <> :::'[|'_x_'|]' not
+R27740:27741 Cpdt.Subset <> :::'[|'_x_'|]' not
+R27732:27732 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27735:27736 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27739:27739 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27733:27734 Cpdt.Subset <> m1:97 var
+R27737:27738 Cpdt.Subset <> m2:98 var
+R28211:28217 Coq.Init.Specif <> inright constr
+R28224:28225 Cpdt.Subset <> :::'!!' not
+R28260:28265 Coq.Init.Specif <> inleft constr
+R28268:28272 Coq.Init.Specif <> exist constr
+not 28144:28144 <> :::x_'<--'_x_';'_x
+def 28514:28524 <> doublePred'
+R28543:28545 Coq.Init.Datatypes <> nat ind
+binder 28535:28536 <> n1:99
+binder 28538:28539 <> n2:100
+R28600:28605 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R28622:28622 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R28550:28550 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R28552:28554 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R28564:28566 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R28599:28599 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R28558:28560 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R28555:28557 Coq.Init.Datatypes <> nat ind
+R28561:28563 Coq.Init.Datatypes <> nat ind
+binder 28551:28551 <> p:101
+R28581:28584 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28569:28571 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28567:28568 Cpdt.Subset <> n1:99 var
+R28572:28572 Coq.Init.Datatypes <> S constr
+R28575:28577 Coq.Init.Datatypes <> fst def
+R28579:28579 Cpdt.Subset <> p:101 var
+R28587:28589 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28585:28586 Cpdt.Subset <> n2:100 var
+R28590:28590 Coq.Init.Datatypes <> S constr
+R28593:28595 Coq.Init.Datatypes <> snd def
+R28597:28597 Cpdt.Subset <> p:101 var
+R28612:28615 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R28608:28610 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28606:28607 Cpdt.Subset <> n1:99 var
+R28618:28620 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28616:28617 Cpdt.Subset <> n2:100 var
+binder 28639:28640 <> n1:102
+binder 28642:28643 <> n2:103
+R28654:28658 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R28674:28679 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R28659:28670 Cpdt.Subset <> pred_strong8 def
+R28672:28673 Cpdt.Subset <> n1:102 var
+binder 28652:28653 <> m1:104
+R28682:28686 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R28702:28707 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R28687:28698 Cpdt.Subset <> pred_strong8 def
+R28700:28701 Cpdt.Subset <> n2:103 var
+binder 28680:28681 <> m2:105
+R28708:28710 Cpdt.Subset <> :::'[||'_x_'||]' not
+R28719:28721 Cpdt.Subset <> :::'[||'_x_'||]' not
+R28711:28711 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28714:28715 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28718:28718 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28712:28713 Cpdt.Subset <> m1:104 var
+R28716:28717 Cpdt.Subset <> m2:105 var
+binder 28639:28640 <> n1:106
+binder 28642:28643 <> n2:107
+R28654:28658 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R28674:28679 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R28659:28670 Cpdt.Subset <> pred_strong8 def
+R28672:28673 Cpdt.Subset <> n1:106 var
+binder 28652:28653 <> m1:108
+R28682:28686 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R28702:28707 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R28687:28698 Cpdt.Subset <> pred_strong8 def
+R28700:28701 Cpdt.Subset <> n2:107 var
+binder 28680:28681 <> m2:109
+R28708:28710 Cpdt.Subset <> :::'[||'_x_'||]' not
+R28719:28721 Cpdt.Subset <> :::'[||'_x_'||]' not
+R28711:28711 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28714:28715 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28718:28718 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28712:28713 Cpdt.Subset <> m1:108 var
+R28716:28717 Cpdt.Subset <> m2:109 var
+ind 29042:29044 <> exp
+constr 29057:29059 <> Nat
+constr 29076:29079 <> Plus
+constr 29103:29106 <> Bool
+constr 29124:29126 <> And
+R29066:29069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29063:29065 Coq.Init.Datatypes <> nat ind
+R29070:29072 Cpdt.Subset <> exp:110 ind
+R29086:29089 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29083:29085 Cpdt.Subset <> exp:110 ind
+R29093:29096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29090:29092 Cpdt.Subset <> exp:110 ind
+R29097:29099 Cpdt.Subset <> exp:110 ind
+R29114:29117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29110:29113 Coq.Init.Datatypes <> bool ind
+R29118:29120 Cpdt.Subset <> exp:110 ind
+R29133:29136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29130:29132 Cpdt.Subset <> exp:110 ind
+R29140:29143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29137:29139 Cpdt.Subset <> exp:110 ind
+R29144:29146 Cpdt.Subset <> exp:110 ind
+ind 29265:29268 <> type
+constr 29279:29282 <> TNat
+constr 29286:29290 <> TBool
+ind 29304:29310 <> hasType
+constr 29339:29343 <> HtNat
+constr 29382:29387 <> HtPlus
+constr 29477:29482 <> HtBool
+constr 29523:29527 <> HtAnd
+R29317:29320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29314:29316 Cpdt.Subset <> exp ind
+R29325:29328 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29321:29324 Cpdt.Subset <> type ind
+binder 29354:29354 <> n:116
+R29359:29365 Cpdt.Subset <> hasType:114 ind
+R29375:29378 Cpdt.Subset <> TNat constr
+R29368:29370 Cpdt.Subset <> Nat constr
+R29372:29372 Cpdt.Subset <> n:116 var
+binder 29398:29399 <> e1:117
+binder 29401:29402 <> e2:118
+R29422:29427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29407:29413 Cpdt.Subset <> hasType:114 ind
+R29418:29421 Cpdt.Subset <> TNat constr
+R29415:29416 Cpdt.Subset <> e1:117 var
+R29443:29448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29428:29434 Cpdt.Subset <> hasType:114 ind
+R29439:29442 Cpdt.Subset <> TNat constr
+R29436:29437 Cpdt.Subset <> e2:118 var
+R29449:29455 Cpdt.Subset <> hasType:114 ind
+R29470:29473 Cpdt.Subset <> TNat constr
+R29458:29461 Cpdt.Subset <> Plus constr
+R29466:29467 Cpdt.Subset <> e2:118 var
+R29463:29464 Cpdt.Subset <> e1:117 var
+binder 29493:29493 <> b:119
+R29498:29504 Cpdt.Subset <> hasType:114 ind
+R29515:29519 Cpdt.Subset <> TBool constr
+R29507:29510 Cpdt.Subset <> Bool constr
+R29512:29512 Cpdt.Subset <> b:119 var
+binder 29538:29539 <> e1:120
+binder 29541:29542 <> e2:121
+R29563:29568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29547:29553 Cpdt.Subset <> hasType:114 ind
+R29558:29562 Cpdt.Subset <> TBool constr
+R29555:29556 Cpdt.Subset <> e1:120 var
+R29585:29590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29569:29575 Cpdt.Subset <> hasType:114 ind
+R29580:29584 Cpdt.Subset <> TBool constr
+R29577:29578 Cpdt.Subset <> e2:121 var
+R29591:29597 Cpdt.Subset <> hasType:114 ind
+R29611:29615 Cpdt.Subset <> TBool constr
+R29600:29602 Cpdt.Subset <> And constr
+R29607:29608 Cpdt.Subset <> e2:121 var
+R29604:29605 Cpdt.Subset <> e1:120 var
+def 29758:29768 <> eq_type_dec
+R29787:29790 Cpdt.Subset <> type ind
+binder 29779:29780 <> t1:122
+binder 29782:29783 <> t2:123
+R29793:29793 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R29801:29805 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R29814:29814 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R29796:29798 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29794:29795 Cpdt.Subset <> t1:122 var
+R29799:29800 Cpdt.Subset <> t2:123 var
+R29808:29811 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R29806:29807 Cpdt.Subset <> t1:122 var
+R29812:29813 Cpdt.Subset <> t2:123 var
+R30305:30305 Cpdt.Subset <> :::'??' not
+not 30271:30271 <> :::x_';;'_x
+def 30717:30725 <> typeCheck
+R30740:30742 Cpdt.Subset <> exp ind
+binder 30736:30736 <> e:124
+R30745:30746 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R30748:30750 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R30762:30763 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+binder 30747:30747 <> t:125
+R30751:30757 Cpdt.Subset <> hasType ind
+R30761:30761 Cpdt.Subset <> t:125 var
+R30759:30759 Cpdt.Subset <> e:124 var
+R30804:30810 Cpdt.Subset <> hasType ind
+R30835:30837 Cpdt.Subset <> exp ind
+binder 30831:30831 <> e:126
+R30842:30843 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R30845:30847 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R30859:30860 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+binder 30844:30844 <> t:127
+R30848:30854 Cpdt.Subset <> hasType ind
+R30858:30858 Cpdt.Subset <> t:127 var
+R30856:30856 Cpdt.Subset <> e:126 var
+R30875:30875 Cpdt.Subset <> e:126 var
+R30884:30885 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R30887:30889 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R30901:30902 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+binder 30886:30886 <> t:130
+R30890:30896 Cpdt.Subset <> hasType ind
+R30900:30900 Cpdt.Subset <> t:130 var
+R30898:30898 Cpdt.Subset <> e:129 var
+R30917:30919 Cpdt.Subset <> Nat constr
+R30926:30927 Cpdt.Subset <> :::'[|'_x_'|]' not
+R30932:30933 Cpdt.Subset <> :::'[|'_x_'|]' not
+R30928:30931 Cpdt.Subset <> TNat constr
+R30943:30946 Cpdt.Subset <> Plus constr
+R30967:30970 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R30975:30984 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R30971:30971 Cpdt.Subset <> F:128 var
+binder 30965:30966 <> t1:131
+R30987:30990 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R30995:31004 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R30991:30991 Cpdt.Subset <> F:128 var
+binder 30985:30986 <> t2:132
+R31024:31034 Cpdt.Subset <> :::x_';;'_x not
+R31054:31064 Cpdt.Subset <> :::x_';;'_x not
+R31065:31066 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31071:31072 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31067:31070 Cpdt.Subset <> TNat constr
+R31035:31045 Cpdt.Subset <> eq_type_dec def
+R31050:31053 Cpdt.Subset <> TNat constr
+R31047:31048 Cpdt.Subset <> t2:132 var
+R31005:31015 Cpdt.Subset <> eq_type_dec def
+R31020:31023 Cpdt.Subset <> TNat constr
+R31017:31018 Cpdt.Subset <> t1:131 var
+R31082:31085 Cpdt.Subset <> Bool constr
+R31092:31093 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31099:31100 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31094:31098 Cpdt.Subset <> TBool constr
+R31110:31112 Cpdt.Subset <> And constr
+R31133:31136 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R31141:31150 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R31137:31137 Cpdt.Subset <> F:128 var
+binder 31131:31132 <> t1:133
+R31153:31156 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R31161:31170 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R31157:31157 Cpdt.Subset <> F:128 var
+binder 31151:31152 <> t2:134
+R31191:31201 Cpdt.Subset <> :::x_';;'_x not
+R31222:31232 Cpdt.Subset <> :::x_';;'_x not
+R31233:31234 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31240:31241 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31235:31239 Cpdt.Subset <> TBool constr
+R31202:31212 Cpdt.Subset <> eq_type_dec def
+R31217:31221 Cpdt.Subset <> TBool constr
+R31214:31215 Cpdt.Subset <> t2:134 var
+R31171:31181 Cpdt.Subset <> eq_type_dec def
+R31186:31190 Cpdt.Subset <> TBool constr
+R31183:31184 Cpdt.Subset <> t1:133 var
+R30835:30837 Cpdt.Subset <> exp ind
+binder 30831:30831 <> e:135
+R30842:30843 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R30845:30847 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R30859:30860 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+binder 30844:30844 <> t:136
+R30848:30854 Cpdt.Subset <> hasType ind
+R30858:30858 Cpdt.Subset <> t:136 var
+R30856:30856 Cpdt.Subset <> e:135 var
+R30875:30875 Cpdt.Subset <> e:135 var
+R30884:30885 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R30887:30889 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+R30901:30902 Cpdt.Subset <> :::'{{'_x_'|'_x_'}}' not
+binder 30886:30886 <> t:139
+R30890:30896 Cpdt.Subset <> hasType ind
+R30900:30900 Cpdt.Subset <> t:139 var
+R30898:30898 Cpdt.Subset <> e:138 var
+R30917:30919 Cpdt.Subset <> Nat constr
+R30926:30927 Cpdt.Subset <> :::'[|'_x_'|]' not
+R30932:30933 Cpdt.Subset <> :::'[|'_x_'|]' not
+R30928:30931 Cpdt.Subset <> TNat constr
+R30943:30946 Cpdt.Subset <> Plus constr
+R30967:30970 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R30975:30984 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R30971:30971 Cpdt.Subset <> F:137 var
+binder 30965:30966 <> t1:140
+R30987:30990 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R30995:31004 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R30991:30991 Cpdt.Subset <> F:137 var
+binder 30985:30986 <> t2:141
+R31024:31034 Cpdt.Subset <> :::x_';;'_x not
+R31054:31064 Cpdt.Subset <> :::x_';;'_x not
+R31065:31066 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31071:31072 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31067:31070 Cpdt.Subset <> TNat constr
+R31035:31045 Cpdt.Subset <> eq_type_dec def
+R31050:31053 Cpdt.Subset <> TNat constr
+R31047:31048 Cpdt.Subset <> t2:141 var
+R31005:31015 Cpdt.Subset <> eq_type_dec def
+R31020:31023 Cpdt.Subset <> TNat constr
+R31017:31018 Cpdt.Subset <> t1:140 var
+R31082:31085 Cpdt.Subset <> Bool constr
+R31092:31093 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31099:31100 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31094:31098 Cpdt.Subset <> TBool constr
+R31110:31112 Cpdt.Subset <> And constr
+R31133:31136 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R31141:31150 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R31137:31137 Cpdt.Subset <> F:137 var
+binder 31131:31132 <> t1:142
+R31153:31156 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R31161:31170 Cpdt.Subset <> :::x_'<-'_x_';'_x not
+R31157:31157 Cpdt.Subset <> F:137 var
+binder 31151:31152 <> t2:143
+R31191:31201 Cpdt.Subset <> :::x_';;'_x not
+R31222:31232 Cpdt.Subset <> :::x_';;'_x not
+R31233:31234 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31240:31241 Cpdt.Subset <> :::'[|'_x_'|]' not
+R31235:31239 Cpdt.Subset <> TBool constr
+R31202:31212 Cpdt.Subset <> eq_type_dec def
+R31217:31221 Cpdt.Subset <> TBool constr
+R31214:31215 Cpdt.Subset <> t2:143 var
+R31171:31181 Cpdt.Subset <> eq_type_dec def
+R31186:31190 Cpdt.Subset <> TBool constr
+R31183:31184 Cpdt.Subset <> t1:142 var
+R30804:30810 Cpdt.Subset <> hasType ind
+R31370:31378 Cpdt.Subset <> typeCheck def
+R31381:31383 Cpdt.Subset <> Nat constr
+R31494:31502 Cpdt.Subset <> typeCheck def
+R31505:31508 Cpdt.Subset <> Plus constr
+R31519:31521 Cpdt.Subset <> Nat constr
+R31511:31513 Cpdt.Subset <> Nat constr
+R31648:31656 Cpdt.Subset <> typeCheck def
+R31659:31662 Cpdt.Subset <> Plus constr
+R31673:31676 Cpdt.Subset <> Bool constr
+R31678:31682 Coq.Init.Datatypes <> false constr
+R31665:31667 Cpdt.Subset <> Nat constr
+R34438:34439 Cpdt.Subset <> :::'!!' not
+not 34403:34403 <> :::x_';;;'_x
+prf 34591:34601 <> hasType_det
+binder 34612:34612 <> e:144
+binder 34614:34615 <> t1:145
+R34632:34637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34620:34626 Cpdt.Subset <> hasType ind
+R34630:34631 Cpdt.Subset <> t1:145 var
+R34628:34628 Cpdt.Subset <> e:144 var
+binder 34645:34646 <> t2:146
+R34661:34668 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34649:34655 Cpdt.Subset <> hasType ind
+R34659:34660 Cpdt.Subset <> t2:146 var
+R34657:34657 Cpdt.Subset <> e:144 var
+R34671:34673 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34669:34670 Cpdt.Subset <> t1:145 var
+R34674:34675 Cpdt.Subset <> t2:146 var
+def 34855:34864 <> typeCheck'
+R34879:34881 Cpdt.Subset <> exp ind
+binder 34875:34875 <> e:147
+R34908:34911 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R34935:34935 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R34884:34884 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R34886:34888 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R34893:34895 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R34907:34907 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R34889:34892 Cpdt.Subset <> type ind
+binder 34885:34885 <> t:148
+R34896:34902 Cpdt.Subset <> hasType ind
+R34906:34906 Cpdt.Subset <> t:148 var
+R34904:34904 Cpdt.Subset <> e:147 var
+binder 34919:34919 <> t:149
+R34922:34923 Coq.Init.Logic <> ::type_scope:'~'_x not
+R34924:34930 Cpdt.Subset <> hasType ind
+R34934:34934 Cpdt.Subset <> t:149 var
+R34932:34932 Cpdt.Subset <> e:147 var
+R34976:34982 Cpdt.Subset <> hasType ind
+R35454:35456 Cpdt.Subset <> exp ind
+binder 35450:35450 <> e:150
+R35485:35488 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R35512:35512 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R35461:35461 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35463:35465 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35470:35472 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35484:35484 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35466:35469 Cpdt.Subset <> type ind
+binder 35462:35462 <> t:151
+R35473:35479 Cpdt.Subset <> hasType ind
+R35483:35483 Cpdt.Subset <> t:151 var
+R35481:35481 Cpdt.Subset <> e:150 var
+binder 35496:35496 <> t:152
+R35499:35500 Coq.Init.Logic <> ::type_scope:'~'_x not
+R35501:35507 Cpdt.Subset <> hasType ind
+R35511:35511 Cpdt.Subset <> t:152 var
+R35509:35509 Cpdt.Subset <> e:150 var
+R35527:35527 Cpdt.Subset <> e:150 var
+R35560:35563 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R35587:35587 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R35536:35536 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35538:35540 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35545:35547 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35559:35559 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35541:35544 Cpdt.Subset <> type ind
+binder 35537:35537 <> t:155
+R35548:35554 Cpdt.Subset <> hasType ind
+R35558:35558 Cpdt.Subset <> t:155 var
+R35556:35556 Cpdt.Subset <> e:154 var
+binder 35571:35571 <> t:156
+R35574:35575 Coq.Init.Logic <> ::type_scope:'~'_x not
+R35576:35582 Cpdt.Subset <> hasType ind
+R35586:35586 Cpdt.Subset <> t:156 var
+R35584:35584 Cpdt.Subset <> e:154 var
+R35602:35604 Cpdt.Subset <> Nat constr
+R35611:35613 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35618:35620 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35614:35617 Cpdt.Subset <> TNat constr
+R35630:35633 Cpdt.Subset <> Plus constr
+R35654:35658 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35663:35672 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35659:35659 Cpdt.Subset <> F:153 var
+binder 35652:35653 <> t1:157
+R35675:35679 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35684:35693 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35680:35680 Cpdt.Subset <> F:153 var
+binder 35673:35674 <> t2:158
+R35713:35724 Cpdt.Subset <> :::x_';;;'_x not
+R35744:35755 Cpdt.Subset <> :::x_';;;'_x not
+R35756:35758 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35763:35765 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35759:35762 Cpdt.Subset <> TNat constr
+R35725:35735 Cpdt.Subset <> eq_type_dec def
+R35740:35743 Cpdt.Subset <> TNat constr
+R35737:35738 Cpdt.Subset <> t2:158 var
+R35694:35704 Cpdt.Subset <> eq_type_dec def
+R35709:35712 Cpdt.Subset <> TNat constr
+R35706:35707 Cpdt.Subset <> t1:157 var
+R35775:35778 Cpdt.Subset <> Bool constr
+R35785:35787 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35793:35795 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35788:35792 Cpdt.Subset <> TBool constr
+R35805:35807 Cpdt.Subset <> And constr
+R35828:35832 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35837:35846 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35833:35833 Cpdt.Subset <> F:153 var
+binder 35826:35827 <> t1:159
+R35849:35853 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35858:35867 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35854:35854 Cpdt.Subset <> F:153 var
+binder 35847:35848 <> t2:160
+R35888:35899 Cpdt.Subset <> :::x_';;;'_x not
+R35920:35931 Cpdt.Subset <> :::x_';;;'_x not
+R35932:35934 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35940:35942 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35935:35939 Cpdt.Subset <> TBool constr
+R35900:35910 Cpdt.Subset <> eq_type_dec def
+R35915:35919 Cpdt.Subset <> TBool constr
+R35912:35913 Cpdt.Subset <> t2:160 var
+R35868:35878 Cpdt.Subset <> eq_type_dec def
+R35883:35887 Cpdt.Subset <> TBool constr
+R35880:35881 Cpdt.Subset <> t1:159 var
+R35454:35456 Cpdt.Subset <> exp ind
+binder 35450:35450 <> e:161
+R35485:35488 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R35512:35512 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R35461:35461 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35463:35465 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35470:35472 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35484:35484 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35466:35469 Cpdt.Subset <> type ind
+binder 35462:35462 <> t:162
+R35473:35479 Cpdt.Subset <> hasType ind
+R35483:35483 Cpdt.Subset <> t:162 var
+R35481:35481 Cpdt.Subset <> e:161 var
+binder 35496:35496 <> t:163
+R35499:35500 Coq.Init.Logic <> ::type_scope:'~'_x not
+R35501:35507 Cpdt.Subset <> hasType ind
+R35511:35511 Cpdt.Subset <> t:163 var
+R35509:35509 Cpdt.Subset <> e:161 var
+R35527:35527 Cpdt.Subset <> e:161 var
+R35560:35563 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R35587:35587 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R35536:35536 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35538:35540 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35545:35547 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35559:35559 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R35541:35544 Cpdt.Subset <> type ind
+binder 35537:35537 <> t:166
+R35548:35554 Cpdt.Subset <> hasType ind
+R35558:35558 Cpdt.Subset <> t:166 var
+R35556:35556 Cpdt.Subset <> e:165 var
+binder 35571:35571 <> t:167
+R35574:35575 Coq.Init.Logic <> ::type_scope:'~'_x not
+R35576:35582 Cpdt.Subset <> hasType ind
+R35586:35586 Cpdt.Subset <> t:167 var
+R35584:35584 Cpdt.Subset <> e:165 var
+R35602:35604 Cpdt.Subset <> Nat constr
+R35611:35613 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35618:35620 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35614:35617 Cpdt.Subset <> TNat constr
+R35630:35633 Cpdt.Subset <> Plus constr
+R35654:35658 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35663:35672 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35659:35659 Cpdt.Subset <> F:164 var
+binder 35652:35653 <> t1:168
+R35675:35679 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35684:35693 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35680:35680 Cpdt.Subset <> F:164 var
+binder 35673:35674 <> t2:169
+R35713:35724 Cpdt.Subset <> :::x_';;;'_x not
+R35744:35755 Cpdt.Subset <> :::x_';;;'_x not
+R35756:35758 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35763:35765 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35759:35762 Cpdt.Subset <> TNat constr
+R35725:35735 Cpdt.Subset <> eq_type_dec def
+R35740:35743 Cpdt.Subset <> TNat constr
+R35737:35738 Cpdt.Subset <> t2:169 var
+R35694:35704 Cpdt.Subset <> eq_type_dec def
+R35709:35712 Cpdt.Subset <> TNat constr
+R35706:35707 Cpdt.Subset <> t1:168 var
+R35775:35778 Cpdt.Subset <> Bool constr
+R35785:35787 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35793:35795 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35788:35792 Cpdt.Subset <> TBool constr
+R35805:35807 Cpdt.Subset <> And constr
+R35828:35832 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35837:35846 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35833:35833 Cpdt.Subset <> F:164 var
+binder 35826:35827 <> t1:170
+R35849:35853 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35858:35867 Cpdt.Subset <> :::x_'<--'_x_';'_x not
+R35854:35854 Cpdt.Subset <> F:164 var
+binder 35847:35848 <> t2:171
+R35888:35899 Cpdt.Subset <> :::x_';;;'_x not
+R35920:35931 Cpdt.Subset <> :::x_';;;'_x not
+R35932:35934 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35940:35942 Cpdt.Subset <> :::'[||'_x_'||]' not
+R35935:35939 Cpdt.Subset <> TBool constr
+R35900:35910 Cpdt.Subset <> eq_type_dec def
+R35915:35919 Cpdt.Subset <> TBool constr
+R35912:35913 Cpdt.Subset <> t2:171 var
+R35868:35878 Cpdt.Subset <> eq_type_dec def
+R35883:35887 Cpdt.Subset <> TBool constr
+R35880:35881 Cpdt.Subset <> t1:170 var
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35970:35971 Coq.Init.Datatypes <> tt constr
+R35973:35979 Cpdt.Subset <> hasType ind
+R35973:35979 Cpdt.Subset <> hasType ind
+R35973:35979 Cpdt.Subset <> hasType ind
+R35973:35979 Cpdt.Subset <> hasType ind
+R35973:35979 Cpdt.Subset <> hasType ind
+R35973:35979 Cpdt.Subset <> hasType ind
+R35973:35979 Cpdt.Subset <> hasType ind
+R35973:35979 Cpdt.Subset <> hasType ind
+R35973:35979 Cpdt.Subset <> hasType ind
+R35973:35979 Cpdt.Subset <> hasType ind
+R35973:35979 Cpdt.Subset <> hasType ind
+R35973:35979 Cpdt.Subset <> hasType ind
+R34976:34982 Cpdt.Subset <> hasType ind
+R36842:36851 Cpdt.Subset <> typeCheck' def
+R36854:36856 Cpdt.Subset <> Nat constr
+R37028:37037 Cpdt.Subset <> typeCheck' def
+R37040:37043 Cpdt.Subset <> Plus constr
+R37054:37056 Cpdt.Subset <> Nat constr
+R37046:37048 Cpdt.Subset <> Nat constr
+R37259:37268 Cpdt.Subset <> typeCheck' def
+R37271:37274 Cpdt.Subset <> Plus constr
+R37285:37288 Cpdt.Subset <> Bool constr
+R37290:37294 Coq.Init.Datatypes <> false constr
+R37277:37279 Cpdt.Subset <> Nat constr

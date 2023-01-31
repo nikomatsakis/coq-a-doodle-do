@@ -1,0 +1,939 @@
+DIGEST 2d5a7f574fdaaae471c0d9f510ac6a88
+FCpdt.Coinductive
+R305:308 Coq.Lists.List <> <> lib
+R327:342 Cpdt.CpdtTactics <> <> lib
+def 357:359 <> bad
+R363:366 Coq.Init.Datatypes <> unit ind
+R371:372 Coq.Init.Datatypes <> tt constr
+sec 3160:3165 <> stream
+var 3179:3179 stream A
+ind 3204:3209 <> stream
+constr 3225:3228 <> Cons
+R3233:3236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3232:3232 Cpdt.Coinductive <> stream.A var
+R3243:3246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3237:3242 Cpdt.Coinductive <> stream:2 ind
+R3247:3252 Cpdt.Coinductive <> stream:2 ind
+R3259:3264 Cpdt.Coinductive stream <> sec
+ind 3315:3324 <> evilStream
+constr 3329:3331 <> Nil
+def 4167:4172 <> zeroes
+R4176:4181 Cpdt.Coinductive <> stream coind
+R4183:4185 Coq.Init.Datatypes <> nat ind
+R4190:4193 Cpdt.Coinductive <> Cons constr
+R4197:4202 Cpdt.Coinductive <> zeroes:6 def
+def 4386:4397 <> trues_falses
+def 4444:4455 <> falses_trues
+R4401:4406 Cpdt.Coinductive <> stream coind
+R4408:4411 Coq.Init.Datatypes <> bool ind
+R4459:4464 Cpdt.Coinductive <> stream coind
+R4466:4469 Coq.Init.Datatypes <> bool ind
+R4416:4419 Cpdt.Coinductive <> Cons constr
+R4426:4437 Cpdt.Coinductive <> falses_trues:8 def
+R4421:4424 Coq.Init.Datatypes <> true constr
+R4474:4477 Cpdt.Coinductive <> Cons constr
+R4485:4496 Cpdt.Coinductive <> trues_falses:7 def
+R4479:4483 Coq.Init.Datatypes <> false constr
+def 4813:4818 <> approx
+binder 4820:4820 <> A:9
+R4827:4832 Cpdt.Coinductive <> stream coind
+R4834:4834 Cpdt.Coinductive <> A:9 var
+binder 4823:4823 <> s:10
+R4842:4844 Coq.Init.Datatypes <> nat ind
+binder 4838:4838 <> n:11
+R4849:4852 Coq.Init.Datatypes <> list ind
+R4854:4854 Cpdt.Coinductive <> A:9 var
+R4867:4867 Cpdt.Coinductive <> n:11 var
+R4880:4880 Coq.Init.Datatypes <> O constr
+R4885:4887 Coq.Init.Datatypes <> nil constr
+R4895:4895 Coq.Init.Datatypes <> S constr
+R4915:4915 Cpdt.Coinductive <> s:10 var
+R4932:4935 Cpdt.Coinductive <> Cons constr
+R4945:4948 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4949:4954 Cpdt.Coinductive <> approx:12 def
+R4993:4998 Cpdt.Coinductive <> approx def
+R5000:5005 Cpdt.Coinductive <> zeroes def
+R5144:5149 Cpdt.Coinductive <> approx def
+R5151:5162 Cpdt.Coinductive <> trues_falses def
+def 5428:5433 <> looper
+sec 6845:6847 <> map
+var 6862:6862 map A
+var 6864:6864 map B
+var 6885:6885 map f
+R6890:6893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6889:6889 Cpdt.Coinductive <> map.A var
+R6894:6894 Cpdt.Coinductive <> map.B var
+def 6911:6913 <> map
+R6920:6925 Cpdt.Coinductive <> stream coind
+R6927:6927 Cpdt.Coinductive <> map.A var
+binder 6916:6916 <> s:18
+R6932:6937 Cpdt.Coinductive <> stream coind
+R6939:6939 Cpdt.Coinductive <> map.B var
+R6954:6954 Cpdt.Coinductive <> s:18 var
+R6969:6972 Cpdt.Coinductive <> Cons constr
+R6981:6984 Cpdt.Coinductive <> Cons constr
+R6993:6995 Cpdt.Coinductive <> map:19 def
+R6987:6987 Cpdt.Coinductive <> map.f var
+R7013:7015 Cpdt.Coinductive map <> sec
+def 7065:7070 <> filter
+sec 7779:7788 <> interleave
+var 7802:7802 interleave A
+def 7826:7835 <> interleave
+R7846:7851 Cpdt.Coinductive <> stream coind
+R7853:7853 Cpdt.Coinductive <> interleave.A var
+binder 7838:7839 <> s1:22
+binder 7841:7842 <> s2:23
+R7858:7863 Cpdt.Coinductive <> stream coind
+R7865:7865 Cpdt.Coinductive <> interleave.A var
+R7884:7885 Cpdt.Coinductive <> s2:23 var
+R7880:7881 Cpdt.Coinductive <> s1:22 var
+R7900:7903 Cpdt.Coinductive <> Cons constr
+R7912:7915 Cpdt.Coinductive <> Cons constr
+R7926:7929 Cpdt.Coinductive <> Cons constr
+R7935:7938 Cpdt.Coinductive <> Cons constr
+R7944:7953 Cpdt.Coinductive <> interleave:24 def
+R7976:7985 Cpdt.Coinductive interleave <> sec
+sec 8132:8135 <> map'
+var 8150:8150 map' A
+var 8152:8152 map' B
+var 8173:8173 map' f
+R8178:8181 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8177:8177 Cpdt.Coinductive <> map'.A var
+R8182:8182 Cpdt.Coinductive <> map'.B var
+R8477:8480 Cpdt.Coinductive map' <> sec
+def 8829:8830 <> tl
+binder 8832:8832 <> A:30
+R8839:8844 Cpdt.Coinductive <> stream coind
+R8846:8846 Cpdt.Coinductive <> A:30 var
+binder 8835:8835 <> s:31
+R8851:8856 Cpdt.Coinductive <> stream coind
+R8858:8858 Cpdt.Coinductive <> A:30 var
+R8871:8871 Cpdt.Coinductive <> s:31 var
+R8884:8887 Cpdt.Coinductive <> Cons constr
+def 12108:12111 <> ones
+R12115:12120 Cpdt.Coinductive <> stream coind
+R12122:12124 Coq.Init.Datatypes <> nat ind
+R12129:12132 Cpdt.Coinductive <> Cons constr
+R12136:12139 Cpdt.Coinductive <> ones:33 def
+def 12153:12157 <> ones'
+R12162:12164 Cpdt.Coinductive <> map def
+R12168:12173 Cpdt.Coinductive <> zeroes def
+R12166:12166 Coq.Init.Datatypes <> S constr
+prf 12240:12246 <> ones_eq
+R12254:12256 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12250:12253 Cpdt.Coinductive <> ones def
+R12257:12261 Cpdt.Coinductive <> ones' def
+def 12311:12313 <> foo
+R12319:12320 Coq.Init.Logic <> eq ind
+sec 13361:13369 <> stream_eq
+var 13383:13383 stream_eq A
+ind 13408:13416 <> stream_eq
+constr 13456:13464 <> Stream_eq
+R13428:13431 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13420:13425 Cpdt.Coinductive <> stream coind
+R13427:13427 Cpdt.Coinductive <> stream_eq.A var
+R13440:13443 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13432:13437 Cpdt.Coinductive <> stream coind
+R13439:13439 Cpdt.Coinductive <> stream_eq.A var
+binder 13475:13475 <> h:37
+binder 13477:13478 <> t1:38
+binder 13480:13481 <> t2:39
+R13503:13510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13488:13496 Cpdt.Coinductive <> stream_eq:35 ind
+R13501:13502 Cpdt.Coinductive <> t2:39 var
+R13498:13499 Cpdt.Coinductive <> t1:38 var
+R13511:13519 Cpdt.Coinductive <> stream_eq:35 ind
+R13534:13537 Cpdt.Coinductive <> Cons constr
+R13541:13542 Cpdt.Coinductive <> t2:39 var
+R13539:13539 Cpdt.Coinductive <> h:37 var
+R13522:13525 Cpdt.Coinductive <> Cons constr
+R13529:13530 Cpdt.Coinductive <> t1:38 var
+R13527:13527 Cpdt.Coinductive <> h:37 var
+R13550:13558 Cpdt.Coinductive stream_eq <> sec
+prf 13851:13857 <> ones_eq
+R13861:13869 Cpdt.Coinductive <> stream_eq coind
+R13876:13880 Cpdt.Coinductive <> ones' def
+R13871:13874 Cpdt.Coinductive <> ones def
+def 16088:16091 <> frob
+binder 16093:16093 <> A:40
+R16100:16105 Cpdt.Coinductive <> stream coind
+R16107:16107 Cpdt.Coinductive <> A:40 var
+binder 16096:16096 <> s:41
+R16112:16117 Cpdt.Coinductive <> stream coind
+R16119:16119 Cpdt.Coinductive <> A:40 var
+R16132:16132 Cpdt.Coinductive <> s:41 var
+R16145:16148 Cpdt.Coinductive <> Cons constr
+R16157:16160 Cpdt.Coinductive <> Cons constr
+prf 16253:16259 <> frob_eq
+binder 16270:16270 <> A:43
+R16277:16282 Cpdt.Coinductive <> stream coind
+R16284:16284 Cpdt.Coinductive <> A:43 var
+binder 16273:16273 <> s:44
+R16289:16291 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16288:16288 Cpdt.Coinductive <> s:44 var
+R16292:16295 Cpdt.Coinductive <> frob def
+R16297:16297 Cpdt.Coinductive <> s:44 var
+prf 16418:16424 <> ones_eq
+R16428:16436 Cpdt.Coinductive <> stream_eq coind
+R16443:16447 Cpdt.Coinductive <> ones' def
+R16438:16441 Cpdt.Coinductive <> ones def
+R16540:16546 Cpdt.Coinductive <> frob_eq thm
+R16548:16551 Cpdt.Coinductive <> ones def
+R16540:16546 Cpdt.Coinductive <> frob_eq thm
+R16548:16551 Cpdt.Coinductive <> ones def
+R16540:16546 Cpdt.Coinductive <> frob_eq thm
+R16548:16551 Cpdt.Coinductive <> ones def
+R16566:16572 Cpdt.Coinductive <> frob_eq thm
+R16574:16578 Cpdt.Coinductive <> ones' def
+R16566:16572 Cpdt.Coinductive <> frob_eq thm
+R16574:16578 Cpdt.Coinductive <> ones' def
+R16566:16572 Cpdt.Coinductive <> frob_eq thm
+R16574:16578 Cpdt.Coinductive <> ones' def
+prf 18899:18906 <> ones_eq'
+R18910:18918 Cpdt.Coinductive <> stream_eq coind
+R18925:18929 Cpdt.Coinductive <> ones' def
+R18920:18923 Cpdt.Coinductive <> ones def
+def 20448:20449 <> hd
+binder 20451:20451 <> A:45
+R20458:20463 Cpdt.Coinductive <> stream coind
+R20465:20465 Cpdt.Coinductive <> A:45 var
+binder 20454:20454 <> s:46
+R20470:20470 Cpdt.Coinductive <> A:45 var
+R20483:20483 Cpdt.Coinductive <> s:46 var
+R20496:20499 Cpdt.Coinductive <> Cons constr
+sec 20697:20711 <> stream_eq_coind
+var 20725:20725 stream_eq_coind A
+var 20746:20746 stream_eq_coind R
+R20758:20761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20750:20755 Cpdt.Coinductive <> stream coind
+R20757:20757 Cpdt.Coinductive <> stream_eq_coind.A var
+R20770:20773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20762:20767 Cpdt.Coinductive <> stream coind
+R20769:20769 Cpdt.Coinductive <> stream_eq_coind.A var
+var 20969:20980 stream_eq_coind Cons_case_hd
+binder 20991:20992 <> s1:50
+binder 20994:20995 <> s2:51
+R21005:21008 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20998:20998 Cpdt.Coinductive <> stream_eq_coind.R var
+R21003:21004 Cpdt.Coinductive <> s2:51 var
+R21000:21001 Cpdt.Coinductive <> s1:50 var
+R21014:21016 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21009:21010 Cpdt.Coinductive <> hd def
+R21012:21013 Cpdt.Coinductive <> s1:50 var
+R21017:21018 Cpdt.Coinductive <> hd def
+R21020:21021 Cpdt.Coinductive <> s2:51 var
+var 21037:21048 stream_eq_coind Cons_case_tl
+binder 21059:21060 <> s1:53
+binder 21062:21063 <> s2:54
+R21073:21076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21066:21066 Cpdt.Coinductive <> stream_eq_coind.R var
+R21071:21072 Cpdt.Coinductive <> s2:54 var
+R21068:21069 Cpdt.Coinductive <> s1:53 var
+R21077:21077 Cpdt.Coinductive <> stream_eq_coind.R var
+R21088:21089 Cpdt.Coinductive <> tl def
+R21091:21092 Cpdt.Coinductive <> s2:54 var
+R21080:21081 Cpdt.Coinductive <> tl def
+R21083:21084 Cpdt.Coinductive <> s1:53 var
+prf 21608:21622 <> stream_eq_coind
+binder 21633:21634 <> s1:56
+binder 21636:21637 <> s2:57
+R21647:21650 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21640:21640 Cpdt.Coinductive <> stream_eq_coind.R var
+R21645:21646 Cpdt.Coinductive <> s2:57 var
+R21642:21643 Cpdt.Coinductive <> s1:56 var
+R21651:21659 Cpdt.Coinductive <> stream_eq coind
+R21664:21665 Cpdt.Coinductive <> s2:57 var
+R21661:21662 Cpdt.Coinductive <> s1:56 var
+R21744:21755 Cpdt.Coinductive <> stream_eq_coind.Cons_case_hd var
+R21744:21755 Cpdt.Coinductive <> stream_eq_coind.Cons_case_hd var
+R21854:21865 Cpdt.Coinductive <> stream_eq_coind.Cons_case_tl var
+R21854:21865 Cpdt.Coinductive <> stream_eq_coind.Cons_case_tl var
+R21882:21896 Cpdt.Coinductive stream_eq_coind <> sec
+R22049:22063 Cpdt.Coinductive <> stream_eq_coind thm
+prf 22246:22254 <> ones_eq''
+R22258:22266 Cpdt.Coinductive <> stream_eq coind
+R22273:22277 Cpdt.Coinductive <> ones' def
+R22268:22271 Cpdt.Coinductive <> ones def
+R22289:22303 Cpdt.Coinductive <> stream_eq_coind thm
+binder 22310:22311 <> s1:58
+binder 22313:22314 <> s2:59
+R22328:22331 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22321:22323 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22319:22320 Cpdt.Coinductive <> s1:58 var
+R22324:22327 Cpdt.Coinductive <> ones def
+R22334:22336 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22332:22333 Cpdt.Coinductive <> s2:59 var
+R22337:22341 Cpdt.Coinductive <> ones' def
+R22289:22303 Cpdt.Coinductive <> stream_eq_coind thm
+binder 22310:22311 <> s1:60
+binder 22313:22314 <> s2:61
+R22328:22331 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22321:22323 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22319:22320 Cpdt.Coinductive <> s1:60 var
+R22324:22327 Cpdt.Coinductive <> ones def
+R22334:22336 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22332:22333 Cpdt.Coinductive <> s2:61 var
+R22337:22341 Cpdt.Coinductive <> ones' def
+sec 22954:22967 <> stream_eq_loop
+var 22981:22981 stream_eq_loop A
+var 23003:23004 stream_eq_loop s1
+var 23006:23007 stream_eq_loop s2
+R23011:23016 Cpdt.Coinductive <> stream coind
+R23018:23018 Cpdt.Coinductive <> stream_eq_loop.A var
+var 23035:23046 stream_eq_loop Cons_case_hd
+R23055:23057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23050:23051 Cpdt.Coinductive <> hd def
+R23053:23054 Cpdt.Coinductive <> stream_eq_loop.s1 var
+R23058:23059 Cpdt.Coinductive <> hd def
+R23061:23062 Cpdt.Coinductive <> stream_eq_loop.s2 var
+var 23078:23082 stream_eq_loop loop1
+R23091:23093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23086:23087 Cpdt.Coinductive <> tl def
+R23089:23090 Cpdt.Coinductive <> stream_eq_loop.s1 var
+R23094:23095 Cpdt.Coinductive <> stream_eq_loop.s1 var
+var 23111:23115 stream_eq_loop loop2
+R23124:23126 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23119:23120 Cpdt.Coinductive <> tl def
+R23122:23123 Cpdt.Coinductive <> stream_eq_loop.s2 var
+R23127:23128 Cpdt.Coinductive <> stream_eq_loop.s2 var
+prf 23264:23277 <> stream_eq_loop
+R23281:23289 Cpdt.Coinductive <> stream_eq coind
+R23294:23295 Cpdt.Coinductive <> stream_eq_loop.s2 var
+R23291:23292 Cpdt.Coinductive <> stream_eq_loop.s1 var
+R23309:23323 Cpdt.Coinductive <> stream_eq_coind thm
+binder 23330:23332 <> s1':68
+binder 23334:23336 <> s2':69
+R23349:23352 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23344:23346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23341:23343 Cpdt.Coinductive <> s1':68 var
+R23347:23348 Cpdt.Coinductive <> stream_eq_loop.s1 var
+R23356:23358 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23353:23355 Cpdt.Coinductive <> s2':69 var
+R23359:23360 Cpdt.Coinductive <> stream_eq_loop.s2 var
+R23309:23323 Cpdt.Coinductive <> stream_eq_coind thm
+binder 23330:23332 <> s1':70
+binder 23334:23336 <> s2':71
+R23349:23352 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23344:23346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23341:23343 Cpdt.Coinductive <> s1':70 var
+R23347:23348 Cpdt.Coinductive <> stream_eq_loop.s1 var
+R23356:23358 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23353:23355 Cpdt.Coinductive <> s2':71 var
+R23359:23360 Cpdt.Coinductive <> stream_eq_loop.s2 var
+R23383:23396 Cpdt.Coinductive stream_eq_loop <> sec
+prf 23408:23417 <> ones_eq'''
+R23421:23429 Cpdt.Coinductive <> stream_eq coind
+R23436:23440 Cpdt.Coinductive <> ones' def
+R23431:23434 Cpdt.Coinductive <> ones def
+R23451:23464 Cpdt.Coinductive <> stream_eq_loop thm
+R23451:23464 Cpdt.Coinductive <> stream_eq_loop thm
+R23737:23741 Coq.Arith.Arith <> <> lib
+R23750:23753 Coq.Arith.Factorial <> fact def
+def 24017:24026 <> fact_slow'
+R24033:24035 Coq.Init.Datatypes <> nat ind
+binder 24029:24029 <> n:72
+R24041:24044 Cpdt.Coinductive <> Cons constr
+R24056:24065 Cpdt.Coinductive <> fact_slow':73 def
+R24068:24068 Coq.Init.Datatypes <> S constr
+R24070:24070 Cpdt.Coinductive <> n:72 var
+R24047:24050 Coq.Arith.Factorial <> fact def
+R24052:24052 Cpdt.Coinductive <> n:72 var
+def 24086:24094 <> fact_slow
+R24099:24108 Cpdt.Coinductive <> fact_slow' def
+def 24286:24295 <> fact_iter'
+R24308:24310 Coq.Init.Datatypes <> nat ind
+binder 24298:24300 <> cur:74
+binder 24302:24304 <> acc:75
+R24316:24319 Cpdt.Coinductive <> Cons constr
+R24326:24335 Cpdt.Coinductive <> fact_iter':76 def
+R24349:24351 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R24346:24348 Cpdt.Coinductive <> acc:75 var
+R24352:24354 Cpdt.Coinductive <> cur:74 var
+R24338:24338 Coq.Init.Datatypes <> S constr
+R24340:24342 Cpdt.Coinductive <> cur:74 var
+R24321:24323 Cpdt.Coinductive <> acc:75 var
+def 24370:24378 <> fact_iter
+R24383:24392 Cpdt.Coinductive <> fact_iter' def
+R24495:24500 Cpdt.Coinductive <> approx def
+R24502:24510 Cpdt.Coinductive <> fact_iter def
+R24614:24619 Cpdt.Coinductive <> approx def
+R24621:24629 Cpdt.Coinductive <> fact_slow def
+prf 24964:24971 <> fact_def
+binder 24982:24982 <> x:77
+binder 24984:24984 <> n:78
+R25016:25018 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24989:24998 Cpdt.Coinductive <> fact_iter' def
+R25009:25011 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R25003:25006 Coq.Arith.Factorial <> fact def
+R25008:25008 Cpdt.Coinductive <> n:78 var
+R25012:25012 Coq.Init.Datatypes <> S constr
+R25014:25014 Cpdt.Coinductive <> n:78 var
+R25000:25000 Cpdt.Coinductive <> x:77 var
+R25019:25028 Cpdt.Coinductive <> fact_iter' def
+R25033:25036 Coq.Arith.Factorial <> fact def
+R25039:25039 Coq.Init.Datatypes <> S constr
+R25041:25041 Cpdt.Coinductive <> n:78 var
+R25030:25030 Cpdt.Coinductive <> x:77 var
+prf 25323:25330 <> fact_eq'
+binder 25341:25341 <> n:79
+R25344:25352 Cpdt.Coinductive <> stream_eq coind
+R25383:25392 Cpdt.Coinductive <> fact_slow' def
+R25394:25394 Cpdt.Coinductive <> n:79 var
+R25355:25364 Cpdt.Coinductive <> fact_iter' def
+R25373:25376 Coq.Arith.Factorial <> fact def
+R25378:25378 Cpdt.Coinductive <> n:79 var
+R25367:25367 Coq.Init.Datatypes <> S constr
+R25369:25369 Cpdt.Coinductive <> n:79 var
+R25414:25428 Cpdt.Coinductive <> stream_eq_coind thm
+binder 25435:25436 <> s1:80
+binder 25438:25439 <> s2:81
+R25444:25450 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R25452:25453 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 25451:25451 <> n:82
+R25484:25491 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25456:25458 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25454:25455 Cpdt.Coinductive <> s1:80 var
+R25459:25468 Cpdt.Coinductive <> fact_iter' def
+R25477:25480 Coq.Arith.Factorial <> fact def
+R25482:25482 Cpdt.Coinductive <> n:82 var
+R25471:25471 Coq.Init.Datatypes <> S constr
+R25473:25473 Cpdt.Coinductive <> n:82 var
+R25494:25496 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25492:25493 Cpdt.Coinductive <> s2:81 var
+R25497:25506 Cpdt.Coinductive <> fact_slow' def
+R25508:25508 Cpdt.Coinductive <> n:82 var
+R25414:25428 Cpdt.Coinductive <> stream_eq_coind thm
+binder 25435:25436 <> s1:83
+binder 25438:25439 <> s2:84
+R25444:25450 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R25452:25453 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 25451:25451 <> n:85
+R25484:25491 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25456:25458 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25454:25455 Cpdt.Coinductive <> s1:83 var
+R25459:25468 Cpdt.Coinductive <> fact_iter' def
+R25477:25480 Coq.Arith.Factorial <> fact def
+R25482:25482 Cpdt.Coinductive <> n:85 var
+R25471:25471 Coq.Init.Datatypes <> S constr
+R25473:25473 Cpdt.Coinductive <> n:85 var
+R25494:25496 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25492:25493 Cpdt.Coinductive <> s2:84 var
+R25497:25506 Cpdt.Coinductive <> fact_slow' def
+R25508:25508 Cpdt.Coinductive <> n:85 var
+prf 25604:25610 <> fact_eq
+R25614:25622 Cpdt.Coinductive <> stream_eq coind
+R25634:25642 Cpdt.Coinductive <> fact_slow def
+R25624:25632 Cpdt.Coinductive <> fact_iter def
+R25653:25660 Cpdt.Coinductive <> fact_eq' thm
+R25653:25660 Cpdt.Coinductive <> fact_eq' thm
+sec 26206:26223 <> stream_eq_onequant
+var 26238:26238 stream_eq_onequant A
+var 26240:26240 stream_eq_onequant B
+var 26377:26377 stream_eq_onequant f
+var 26379:26379 stream_eq_onequant g
+R26384:26387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26383:26383 Cpdt.Coinductive <> stream_eq_onequant.A var
+R26388:26393 Cpdt.Coinductive <> stream coind
+R26395:26395 Cpdt.Coinductive <> stream_eq_onequant.B var
+var 26618:26629 stream_eq_onequant Cons_case_hd
+binder 26640:26640 <> x:90
+R26651:26653 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26643:26644 Cpdt.Coinductive <> hd def
+R26647:26647 Cpdt.Coinductive <> stream_eq_onequant.f var
+R26649:26649 Cpdt.Coinductive <> x:90 var
+R26654:26655 Cpdt.Coinductive <> hd def
+R26658:26658 Cpdt.Coinductive <> stream_eq_onequant.g var
+R26660:26660 Cpdt.Coinductive <> x:90 var
+var 26677:26688 stream_eq_onequant Cons_case_tl
+binder 26699:26699 <> x:92
+R26702:26708 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R26710:26711 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 26709:26709 <> y:93
+R26726:26729 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26720:26722 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26712:26713 Cpdt.Coinductive <> tl def
+R26716:26716 Cpdt.Coinductive <> stream_eq_onequant.f var
+R26718:26718 Cpdt.Coinductive <> x:92 var
+R26723:26723 Cpdt.Coinductive <> stream_eq_onequant.f var
+R26725:26725 Cpdt.Coinductive <> y:93 var
+R26738:26740 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26730:26731 Cpdt.Coinductive <> tl def
+R26734:26734 Cpdt.Coinductive <> stream_eq_onequant.g var
+R26736:26736 Cpdt.Coinductive <> x:92 var
+R26741:26741 Cpdt.Coinductive <> stream_eq_onequant.g var
+R26743:26743 Cpdt.Coinductive <> y:93 var
+prf 26949:26966 <> stream_eq_onequant
+binder 26977:26977 <> x:95
+R26980:26988 Cpdt.Coinductive <> stream_eq coind
+R26997:26997 Cpdt.Coinductive <> stream_eq_onequant.g var
+R26999:26999 Cpdt.Coinductive <> x:95 var
+R26991:26991 Cpdt.Coinductive <> stream_eq_onequant.f var
+R26993:26993 Cpdt.Coinductive <> x:95 var
+R27021:27035 Cpdt.Coinductive <> stream_eq_coind thm
+binder 27042:27043 <> s1:96
+binder 27045:27046 <> s2:97
+R27051:27057 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R27059:27060 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 27058:27058 <> x:98
+R27069:27072 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R27063:27065 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27061:27062 Cpdt.Coinductive <> s1:96 var
+R27066:27066 Cpdt.Coinductive <> stream_eq_onequant.f var
+R27068:27068 Cpdt.Coinductive <> x:98 var
+R27075:27077 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27073:27074 Cpdt.Coinductive <> s2:97 var
+R27078:27078 Cpdt.Coinductive <> stream_eq_onequant.g var
+R27080:27080 Cpdt.Coinductive <> x:98 var
+R27021:27035 Cpdt.Coinductive <> stream_eq_coind thm
+binder 27042:27043 <> s1:99
+binder 27045:27046 <> s2:100
+R27051:27057 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R27059:27060 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 27058:27058 <> x:101
+R27069:27072 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R27063:27065 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27061:27062 Cpdt.Coinductive <> s1:99 var
+R27066:27066 Cpdt.Coinductive <> stream_eq_onequant.f var
+R27068:27068 Cpdt.Coinductive <> x:101 var
+R27075:27077 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27073:27074 Cpdt.Coinductive <> s2:100 var
+R27078:27078 Cpdt.Coinductive <> stream_eq_onequant.g var
+R27080:27080 Cpdt.Coinductive <> x:101 var
+R27110:27127 Cpdt.Coinductive stream_eq_onequant <> sec
+prf 27137:27145 <> fact_eq''
+binder 27156:27156 <> n:102
+R27159:27167 Cpdt.Coinductive <> stream_eq coind
+R27198:27207 Cpdt.Coinductive <> fact_slow' def
+R27209:27209 Cpdt.Coinductive <> n:102 var
+R27170:27179 Cpdt.Coinductive <> fact_iter' def
+R27188:27191 Coq.Arith.Factorial <> fact def
+R27193:27193 Cpdt.Coinductive <> n:102 var
+R27182:27182 Coq.Init.Datatypes <> S constr
+R27184:27184 Cpdt.Coinductive <> n:102 var
+R27221:27238 Cpdt.Coinductive <> stream_eq_onequant thm
+R27221:27238 Cpdt.Coinductive <> stream_eq_onequant thm
+def 28017:28019 <> var
+R28024:28026 Coq.Init.Datatypes <> nat ind
+def 28254:28257 <> vars
+R28265:28268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28262:28264 Cpdt.Coinductive <> var def
+R28269:28271 Coq.Init.Datatypes <> nat ind
+def 28285:28287 <> set
+R28295:28298 Cpdt.Coinductive <> vars def
+binder 28290:28291 <> vs:103
+R28306:28308 Cpdt.Coinductive <> var def
+binder 28302:28302 <> v:104
+R28316:28318 Coq.Init.Datatypes <> nat ind
+binder 28312:28312 <> n:105
+R28323:28326 Cpdt.Coinductive <> vars def
+binder 28337:28338 <> v':106
+R28346:28352 Coq.Arith.EqNat <> beq_nat abbrev
+R28354:28354 Cpdt.Coinductive <> v:104 var
+R28356:28357 Cpdt.Coinductive <> v':106 var
+R28371:28372 Cpdt.Coinductive <> vs:103 var
+R28374:28375 Cpdt.Coinductive <> v':106 var
+R28364:28364 Cpdt.Coinductive <> n:105 var
+ind 28510:28512 <> exp
+constr 28525:28529 <> Const
+constr 28546:28548 <> Var
+constr 28565:28568 <> Plus
+R28536:28539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28533:28535 Coq.Init.Datatypes <> nat ind
+R28540:28542 Cpdt.Coinductive <> exp:107 ind
+R28555:28558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28552:28554 Cpdt.Coinductive <> var def
+R28559:28561 Cpdt.Coinductive <> exp:107 ind
+R28575:28578 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28572:28574 Cpdt.Coinductive <> exp:107 ind
+R28582:28585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28579:28581 Cpdt.Coinductive <> exp:107 ind
+R28586:28588 Cpdt.Coinductive <> exp:107 ind
+def 28601:28607 <> evalExp
+R28615:28618 Cpdt.Coinductive <> vars def
+binder 28610:28611 <> vs:109
+R28626:28628 Cpdt.Coinductive <> exp ind
+binder 28622:28622 <> e:110
+R28633:28635 Coq.Init.Datatypes <> nat ind
+R28648:28648 Cpdt.Coinductive <> e:110 var
+R28661:28665 Cpdt.Coinductive <> Const constr
+R28680:28682 Cpdt.Coinductive <> Var constr
+R28689:28690 Cpdt.Coinductive <> vs:109 var
+R28700:28703 Cpdt.Coinductive <> Plus constr
+R28727:28729 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28714:28720 Cpdt.Coinductive <> evalExp:111 def
+R28722:28723 Cpdt.Coinductive <> vs:109 var
+R28730:28736 Cpdt.Coinductive <> evalExp:111 def
+R28738:28739 Cpdt.Coinductive <> vs:109 var
+ind 28954:28956 <> cmd
+constr 28969:28974 <> Assign
+constr 28998:29000 <> Seq
+constr 29024:29028 <> While
+R28981:28984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28978:28980 Cpdt.Coinductive <> var def
+R28988:28991 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28985:28987 Cpdt.Coinductive <> exp ind
+R28992:28994 Cpdt.Coinductive <> cmd:113 ind
+R29007:29010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29004:29006 Cpdt.Coinductive <> cmd:113 ind
+R29014:29017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29011:29013 Cpdt.Coinductive <> cmd:113 ind
+R29018:29020 Cpdt.Coinductive <> cmd:113 ind
+R29035:29038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29032:29034 Cpdt.Coinductive <> exp ind
+R29042:29045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29039:29041 Cpdt.Coinductive <> cmd:113 ind
+R29046:29048 Cpdt.Coinductive <> cmd:113 ind
+ind 29747:29753 <> evalCmd
+constr 29790:29799 <> EvalAssign
+constr 29870:29876 <> EvalSeq
+constr 29984:29997 <> EvalWhileFalse
+constr 30066:30078 <> EvalWhileTrue
+R29761:29764 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29757:29760 Cpdt.Coinductive <> vars def
+R29768:29771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29765:29767 Cpdt.Coinductive <> cmd ind
+R29776:29779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29772:29775 Cpdt.Coinductive <> vars def
+binder 29810:29811 <> vs:117
+binder 29813:29813 <> v:118
+binder 29815:29815 <> e:119
+R29818:29824 Cpdt.Coinductive <> evalCmd:115 ind
+R29843:29845 Cpdt.Coinductive <> set def
+R29853:29859 Cpdt.Coinductive <> evalExp def
+R29864:29864 Cpdt.Coinductive <> e:119 var
+R29861:29862 Cpdt.Coinductive <> vs:117 var
+R29850:29850 Cpdt.Coinductive <> v:118 var
+R29847:29848 Cpdt.Coinductive <> vs:117 var
+R29830:29835 Cpdt.Coinductive <> Assign constr
+R29839:29839 Cpdt.Coinductive <> e:119 var
+R29837:29837 Cpdt.Coinductive <> v:118 var
+R29826:29827 Cpdt.Coinductive <> vs:117 var
+binder 29887:29889 <> vs1:120
+binder 29891:29893 <> vs2:121
+binder 29895:29897 <> vs3:122
+binder 29899:29900 <> c1:123
+binder 29902:29903 <> c2:124
+R29924:29929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29906:29912 Cpdt.Coinductive <> evalCmd:115 ind
+R29921:29923 Cpdt.Coinductive <> vs2:121 var
+R29918:29919 Cpdt.Coinductive <> c1:123 var
+R29914:29916 Cpdt.Coinductive <> vs1:120 var
+R29948:29953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29930:29936 Cpdt.Coinductive <> evalCmd:115 ind
+R29945:29947 Cpdt.Coinductive <> vs3:122 var
+R29942:29943 Cpdt.Coinductive <> c2:124 var
+R29938:29940 Cpdt.Coinductive <> vs2:121 var
+R29954:29960 Cpdt.Coinductive <> evalCmd:115 ind
+R29978:29980 Cpdt.Coinductive <> vs3:122 var
+R29967:29969 Cpdt.Coinductive <> Seq constr
+R29974:29975 Cpdt.Coinductive <> c2:124 var
+R29971:29972 Cpdt.Coinductive <> c1:123 var
+R29962:29964 Cpdt.Coinductive <> vs1:120 var
+binder 30008:30009 <> vs:125
+binder 30011:30011 <> e:126
+binder 30013:30013 <> c:127
+R30032:30037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30028:30030 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30016:30022 Cpdt.Coinductive <> evalExp def
+R30027:30027 Cpdt.Coinductive <> e:126 var
+R30024:30025 Cpdt.Coinductive <> vs:125 var
+R30038:30044 Cpdt.Coinductive <> evalCmd:115 ind
+R30061:30062 Cpdt.Coinductive <> vs:125 var
+R30050:30054 Cpdt.Coinductive <> While constr
+R30058:30058 Cpdt.Coinductive <> c:127 var
+R30056:30056 Cpdt.Coinductive <> e:126 var
+R30046:30047 Cpdt.Coinductive <> vs:125 var
+binder 30089:30091 <> vs1:128
+binder 30093:30095 <> vs2:129
+binder 30097:30099 <> vs3:130
+binder 30101:30101 <> e:131
+binder 30103:30103 <> c:132
+R30124:30129 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30119:30122 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R30106:30112 Cpdt.Coinductive <> evalExp def
+R30118:30118 Cpdt.Coinductive <> e:131 var
+R30114:30116 Cpdt.Coinductive <> vs1:128 var
+R30147:30152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30130:30136 Cpdt.Coinductive <> evalCmd:115 ind
+R30144:30146 Cpdt.Coinductive <> vs2:129 var
+R30142:30142 Cpdt.Coinductive <> c:132 var
+R30138:30140 Cpdt.Coinductive <> vs1:128 var
+R30180:30185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30153:30159 Cpdt.Coinductive <> evalCmd:115 ind
+R30177:30179 Cpdt.Coinductive <> vs3:130 var
+R30166:30170 Cpdt.Coinductive <> While constr
+R30174:30174 Cpdt.Coinductive <> c:132 var
+R30172:30172 Cpdt.Coinductive <> e:131 var
+R30161:30163 Cpdt.Coinductive <> vs2:129 var
+R30186:30192 Cpdt.Coinductive <> evalCmd:115 ind
+R30210:30212 Cpdt.Coinductive <> vs3:130 var
+R30199:30203 Cpdt.Coinductive <> While constr
+R30207:30207 Cpdt.Coinductive <> c:132 var
+R30205:30205 Cpdt.Coinductive <> e:131 var
+R30194:30196 Cpdt.Coinductive <> vs1:128 var
+sec 30347:30359 <> evalCmd_coind
+var 30373:30373 evalCmd_coind R
+R30381:30384 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30377:30380 Cpdt.Coinductive <> vars def
+R30388:30391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30385:30387 Cpdt.Coinductive <> cmd ind
+R30396:30399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30392:30395 Cpdt.Coinductive <> vars def
+var 30420:30429 evalCmd_coind AssignCase
+binder 30440:30442 <> vs1:134
+binder 30444:30446 <> vs2:135
+binder 30448:30448 <> v:136
+binder 30450:30450 <> e:137
+R30475:30482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30453:30453 Cpdt.Coinductive <> evalCmd_coind.R var
+R30472:30474 Cpdt.Coinductive <> vs2:135 var
+R30460:30465 Cpdt.Coinductive <> Assign constr
+R30469:30469 Cpdt.Coinductive <> e:137 var
+R30467:30467 Cpdt.Coinductive <> v:136 var
+R30455:30457 Cpdt.Coinductive <> vs1:134 var
+R30486:30488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30483:30485 Cpdt.Coinductive <> vs2:135 var
+R30489:30491 Cpdt.Coinductive <> set def
+R30500:30506 Cpdt.Coinductive <> evalExp def
+R30512:30512 Cpdt.Coinductive <> e:137 var
+R30508:30510 Cpdt.Coinductive <> vs1:134 var
+R30497:30497 Cpdt.Coinductive <> v:136 var
+R30493:30495 Cpdt.Coinductive <> vs1:134 var
+var 30530:30536 evalCmd_coind SeqCase
+binder 30547:30549 <> vs1:139
+binder 30551:30553 <> vs3:140
+binder 30555:30556 <> c1:141
+binder 30558:30559 <> c2:142
+R30583:30590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30562:30562 Cpdt.Coinductive <> evalCmd_coind.R var
+R30580:30582 Cpdt.Coinductive <> vs3:140 var
+R30569:30571 Cpdt.Coinductive <> Seq constr
+R30576:30577 Cpdt.Coinductive <> c2:142 var
+R30573:30574 Cpdt.Coinductive <> c1:141 var
+R30564:30566 Cpdt.Coinductive <> vs1:139 var
+R30591:30597 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30601:30602 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 30598:30600 <> vs2:143
+R30615:30618 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30603:30603 Cpdt.Coinductive <> evalCmd_coind.R var
+R30612:30614 Cpdt.Coinductive <> vs2:143 var
+R30609:30610 Cpdt.Coinductive <> c1:141 var
+R30605:30607 Cpdt.Coinductive <> vs1:139 var
+R30619:30619 Cpdt.Coinductive <> evalCmd_coind.R var
+R30628:30630 Cpdt.Coinductive <> vs3:140 var
+R30625:30626 Cpdt.Coinductive <> c2:142 var
+R30621:30623 Cpdt.Coinductive <> vs2:143 var
+var 30647:30655 evalCmd_coind WhileCase
+binder 30666:30668 <> vs1:145
+binder 30670:30672 <> vs3:146
+binder 30674:30674 <> e:147
+binder 30676:30676 <> c:148
+R30700:30707 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30679:30679 Cpdt.Coinductive <> evalCmd_coind.R var
+R30697:30699 Cpdt.Coinductive <> vs3:146 var
+R30686:30690 Cpdt.Coinductive <> While constr
+R30694:30694 Cpdt.Coinductive <> c:148 var
+R30692:30692 Cpdt.Coinductive <> e:147 var
+R30681:30683 Cpdt.Coinductive <> vs1:145 var
+R30708:30708 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R30739:30747 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R30726:30729 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30722:30724 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30709:30715 Cpdt.Coinductive <> evalExp def
+R30721:30721 Cpdt.Coinductive <> e:147 var
+R30717:30719 Cpdt.Coinductive <> vs1:145 var
+R30733:30735 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30730:30732 Cpdt.Coinductive <> vs3:146 var
+R30736:30738 Cpdt.Coinductive <> vs1:145 var
+R30748:30754 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R30758:30759 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 30755:30757 <> vs2:149
+R30778:30781 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30773:30776 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R30760:30766 Cpdt.Coinductive <> evalExp def
+R30772:30772 Cpdt.Coinductive <> e:147 var
+R30768:30770 Cpdt.Coinductive <> vs1:145 var
+R30793:30796 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30782:30782 Cpdt.Coinductive <> evalCmd_coind.R var
+R30790:30792 Cpdt.Coinductive <> vs2:149 var
+R30788:30788 Cpdt.Coinductive <> c:148 var
+R30784:30786 Cpdt.Coinductive <> vs1:145 var
+R30797:30797 Cpdt.Coinductive <> evalCmd_coind.R var
+R30815:30817 Cpdt.Coinductive <> vs3:146 var
+R30804:30808 Cpdt.Coinductive <> While constr
+R30812:30812 Cpdt.Coinductive <> c:148 var
+R30810:30810 Cpdt.Coinductive <> e:147 var
+R30799:30801 Cpdt.Coinductive <> vs2:149 var
+prf 31146:31158 <> evalCmd_coind
+binder 31169:31171 <> vs1:151
+binder 31173:31173 <> c:152
+binder 31175:31177 <> vs2:153
+R31191:31194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31180:31180 Cpdt.Coinductive <> evalCmd_coind.R var
+R31188:31190 Cpdt.Coinductive <> vs2:153 var
+R31186:31186 Cpdt.Coinductive <> c:152 var
+R31182:31184 Cpdt.Coinductive <> vs1:151 var
+R31195:31201 Cpdt.Coinductive <> evalCmd coind
+R31209:31211 Cpdt.Coinductive <> vs2:153 var
+R31207:31207 Cpdt.Coinductive <> c:152 var
+R31203:31205 Cpdt.Coinductive <> vs1:151 var
+R31272:31281 Cpdt.Coinductive <> evalCmd_coind.AssignCase var
+R31272:31281 Cpdt.Coinductive <> evalCmd_coind.AssignCase var
+R31272:31281 Cpdt.Coinductive <> evalCmd_coind.AssignCase var
+R31314:31320 Cpdt.Coinductive <> evalCmd_coind.SeqCase var
+R31314:31320 Cpdt.Coinductive <> evalCmd_coind.SeqCase var
+R31374:31382 Cpdt.Coinductive <> evalCmd_coind.WhileCase var
+R31374:31382 Cpdt.Coinductive <> evalCmd_coind.WhileCase var
+R31454:31466 Cpdt.Coinductive evalCmd_coind <> sec
+def 31658:31663 <> optExp
+R31670:31672 Cpdt.Coinductive <> exp ind
+binder 31666:31666 <> e:154
+R31677:31679 Cpdt.Coinductive <> exp ind
+R31692:31692 Cpdt.Coinductive <> e:154 var
+R31705:31708 Cpdt.Coinductive <> Plus constr
+R31711:31715 Cpdt.Coinductive <> Const constr
+R31725:31730 Cpdt.Coinductive <> optExp:155 def
+R31732:31732 Cpdt.Coinductive <> e:154 var
+R31740:31743 Cpdt.Coinductive <> Plus constr
+R31754:31757 Cpdt.Coinductive <> Plus constr
+R31772:31777 Cpdt.Coinductive <> optExp:155 def
+R31760:31765 Cpdt.Coinductive <> optExp:155 def
+R31794:31794 Cpdt.Coinductive <> e:154 var
+def 31813:31818 <> optCmd
+R31825:31827 Cpdt.Coinductive <> cmd ind
+binder 31821:31821 <> c:157
+R31832:31834 Cpdt.Coinductive <> cmd ind
+R31847:31847 Cpdt.Coinductive <> c:157 var
+R31860:31865 Cpdt.Coinductive <> Assign constr
+R31874:31879 Cpdt.Coinductive <> Assign constr
+R31884:31889 Cpdt.Coinductive <> optExp def
+R31900:31902 Cpdt.Coinductive <> Seq constr
+R31913:31915 Cpdt.Coinductive <> Seq constr
+R31930:31935 Cpdt.Coinductive <> optCmd:158 def
+R31918:31923 Cpdt.Coinductive <> optCmd:158 def
+R31947:31951 Cpdt.Coinductive <> While constr
+R31960:31964 Cpdt.Coinductive <> While constr
+R31978:31983 Cpdt.Coinductive <> optCmd:158 def
+R31985:31985 Cpdt.Coinductive <> c:157 var
+R31967:31972 Cpdt.Coinductive <> optExp def
+prf 32197:32210 <> optExp_correct
+binder 32221:32222 <> vs:160
+binder 32224:32224 <> e:161
+R32248:32250 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32227:32233 Cpdt.Coinductive <> evalExp def
+R32239:32244 Cpdt.Coinductive <> optExp def
+R32246:32246 Cpdt.Coinductive <> e:161 var
+R32235:32236 Cpdt.Coinductive <> vs:160 var
+R32251:32257 Cpdt.Coinductive <> evalExp def
+R32262:32262 Cpdt.Coinductive <> e:161 var
+R32259:32260 Cpdt.Coinductive <> vs:160 var
+R32358:32362 Cpdt.Coinductive <> Const constr
+R32358:32362 Cpdt.Coinductive <> Const constr
+R32444:32444 Coq.Init.Datatypes <> O constr
+R32453:32453 Coq.Init.Datatypes <> S constr
+R32444:32444 Coq.Init.Datatypes <> O constr
+R32453:32453 Coq.Init.Datatypes <> S constr
+R32527:32540 Cpdt.Coinductive <> optExp_correct thm
+R32980:32986 Cpdt.Coinductive <> evalCmd coind
+R32980:32986 Cpdt.Coinductive <> evalCmd coind
+prf 33120:33134 <> optCmd_correct1
+binder 33145:33147 <> vs1:162
+binder 33149:33149 <> c:163
+binder 33151:33153 <> vs2:164
+R33173:33178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33156:33162 Cpdt.Coinductive <> evalCmd coind
+R33170:33172 Cpdt.Coinductive <> vs2:164 var
+R33168:33168 Cpdt.Coinductive <> c:163 var
+R33164:33166 Cpdt.Coinductive <> vs1:162 var
+R33179:33185 Cpdt.Coinductive <> evalCmd coind
+R33202:33204 Cpdt.Coinductive <> vs2:164 var
+R33192:33197 Cpdt.Coinductive <> optCmd def
+R33199:33199 Cpdt.Coinductive <> c:163 var
+R33187:33189 Cpdt.Coinductive <> vs1:162 var
+R33224:33236 Cpdt.Coinductive <> evalCmd_coind thm
+binder 33243:33245 <> vs1:165
+binder 33247:33248 <> c':166
+binder 33250:33252 <> vs2:167
+R33257:33263 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33265:33266 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 33264:33264 <> c:168
+R33284:33291 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33267:33273 Cpdt.Coinductive <> evalCmd coind
+R33281:33283 Cpdt.Coinductive <> vs2:167 var
+R33279:33279 Cpdt.Coinductive <> c:168 var
+R33275:33277 Cpdt.Coinductive <> vs1:165 var
+R33294:33296 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33292:33293 Cpdt.Coinductive <> c':166 var
+R33297:33302 Cpdt.Coinductive <> optCmd def
+R33304:33304 Cpdt.Coinductive <> c:168 var
+R33358:33360 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33361:33366 Cpdt.Coinductive <> optCmd def
+R33358:33360 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33361:33366 Cpdt.Coinductive <> optCmd def
+R33224:33236 Cpdt.Coinductive <> evalCmd_coind thm
+binder 33243:33245 <> vs1:169
+binder 33247:33248 <> c':170
+binder 33250:33252 <> vs2:171
+R33257:33263 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R33265:33266 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 33264:33264 <> c:172
+R33284:33291 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R33267:33273 Cpdt.Coinductive <> evalCmd coind
+R33281:33283 Cpdt.Coinductive <> vs2:171 var
+R33279:33279 Cpdt.Coinductive <> c:172 var
+R33275:33277 Cpdt.Coinductive <> vs1:169 var
+R33294:33296 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33292:33293 Cpdt.Coinductive <> c':170 var
+R33297:33302 Cpdt.Coinductive <> optCmd def
+R33304:33304 Cpdt.Coinductive <> c:172 var
+prf 33487:33501 <> optCmd_correct2
+binder 33512:33514 <> vs1:173
+binder 33516:33516 <> c:174
+binder 33518:33520 <> vs2:175
+R33549:33554 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33523:33529 Cpdt.Coinductive <> evalCmd coind
+R33546:33548 Cpdt.Coinductive <> vs2:175 var
+R33536:33541 Cpdt.Coinductive <> optCmd def
+R33543:33543 Cpdt.Coinductive <> c:174 var
+R33531:33533 Cpdt.Coinductive <> vs1:173 var
+R33555:33561 Cpdt.Coinductive <> evalCmd coind
+R33569:33571 Cpdt.Coinductive <> vs2:175 var
+R33567:33567 Cpdt.Coinductive <> c:174 var
+R33563:33565 Cpdt.Coinductive <> vs1:173 var
+R33591:33603 Cpdt.Coinductive <> evalCmd_coind thm
+binder 33610:33612 <> vs1:176
+binder 33614:33614 <> c:177
+binder 33616:33618 <> vs2:178
+R33623:33629 Cpdt.Coinductive <> evalCmd coind
+R33646:33648 Cpdt.Coinductive <> vs2:178 var
+R33636:33641 Cpdt.Coinductive <> optCmd def
+R33643:33643 Cpdt.Coinductive <> c:177 var
+R33631:33633 Cpdt.Coinductive <> vs1:176 var
+R33591:33603 Cpdt.Coinductive <> evalCmd_coind thm
+binder 33610:33612 <> vs1:179
+binder 33614:33614 <> c:180
+binder 33616:33618 <> vs2:181
+R33623:33629 Cpdt.Coinductive <> evalCmd coind
+R33646:33648 Cpdt.Coinductive <> vs2:181 var
+R33636:33641 Cpdt.Coinductive <> optCmd def
+R33643:33643 Cpdt.Coinductive <> c:180 var
+R33631:33633 Cpdt.Coinductive <> vs1:179 var
+prf 33688:33701 <> optCmd_correct
+binder 33712:33714 <> vs1:182
+binder 33716:33716 <> c:183
+binder 33718:33720 <> vs2:184
+R33749:33755 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R33723:33729 Cpdt.Coinductive <> evalCmd coind
+R33746:33748 Cpdt.Coinductive <> vs2:184 var
+R33736:33741 Cpdt.Coinductive <> optCmd def
+R33743:33743 Cpdt.Coinductive <> c:183 var
+R33731:33733 Cpdt.Coinductive <> vs1:182 var
+R33756:33762 Cpdt.Coinductive <> evalCmd coind
+R33770:33772 Cpdt.Coinductive <> vs2:184 var
+R33768:33768 Cpdt.Coinductive <> c:183 var
+R33764:33766 Cpdt.Coinductive <> vs1:182 var
+R33819:33833 Cpdt.Coinductive <> optCmd_correct2 thm
+R33794:33808 Cpdt.Coinductive <> optCmd_correct1 thm
+R33794:33808 Cpdt.Coinductive <> optCmd_correct1 thm
+R33819:33833 Cpdt.Coinductive <> optCmd_correct2 thm
+R33794:33808 Cpdt.Coinductive <> optCmd_correct1 thm

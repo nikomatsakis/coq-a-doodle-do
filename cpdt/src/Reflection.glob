@@ -1,0 +1,1167 @@
+DIGEST 27b1b6ed650756d4dc51f5d84bbcce4d
+FCpdt.Reflection
+R305:308 Coq.Lists.List <> <> lib
+R327:342 Cpdt.CpdtTactics <> <> lib
+R344:358 Cpdt.MoreSpecif <> <> lib
+ind 1423:1428 <> isEven
+constr 1449:1454 <> Even_O
+constr 1469:1475 <> Even_SS
+R1435:1438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1432:1434 Coq.Init.Datatypes <> nat ind
+R1458:1463 Cpdt.Reflection <> isEven:1 ind
+R1465:1465 Coq.Init.Datatypes <> O constr
+binder 1486:1486 <> n:3
+R1497:1500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1489:1494 Cpdt.Reflection <> isEven:1 ind
+R1496:1496 Cpdt.Reflection <> n:3 var
+R1501:1506 Cpdt.Reflection <> isEven:1 ind
+R1509:1509 Coq.Init.Datatypes <> S constr
+R1512:1512 Coq.Init.Datatypes <> S constr
+R1514:1514 Cpdt.Reflection <> n:3 var
+prf 1602:1609 <> even_256
+R1613:1618 Cpdt.Reflection <> isEven ind
+R1651:1658 Cpdt.Reflection <> even_256 thm
+def 3678:3685 <> paartial
+R3690:3696 Cpdt.MoreSpecif <> partial ind
+R3737:3743 Cpdt.MoreSpecif <> partial ind
+def 4243:4252 <> check_even
+R4267:4269 Coq.Init.Datatypes <> nat ind
+binder 4263:4263 <> n:4
+R4272:4272 Cpdt.MoreSpecif <> ::type_scope:'['_x_']' not
+R4281:4281 Cpdt.MoreSpecif <> ::type_scope:'['_x_']' not
+R4273:4278 Cpdt.Reflection <> isEven ind
+R4280:4280 Cpdt.Reflection <> n:4 var
+R4304:4309 Cpdt.Reflection <> isEven ind
+R4334:4336 Coq.Init.Datatypes <> nat ind
+binder 4330:4330 <> n:5
+R4341:4341 Cpdt.MoreSpecif <> ::type_scope:'['_x_']' not
+R4350:4350 Cpdt.MoreSpecif <> ::type_scope:'['_x_']' not
+R4342:4347 Cpdt.Reflection <> isEven ind
+R4349:4349 Cpdt.Reflection <> n:5 var
+R4365:4365 Cpdt.Reflection <> n:5 var
+R4385:4387 Cpdt.MoreSpecif <> ::partial_scope:'Yes' not
+R4402:4403 Cpdt.MoreSpecif <> ::partial_scope:'No' not
+R4413:4413 Coq.Init.Datatypes <> S constr
+R4416:4416 Coq.Init.Datatypes <> S constr
+R4425:4432 Cpdt.MoreSpecif <> ::partial_scope:'Reduce'_x not
+R4437:4437 Cpdt.MoreSpecif <> ::partial_scope:'Reduce'_x not
+R4433:4433 Cpdt.Reflection <> F:6 var
+R4334:4336 Coq.Init.Datatypes <> nat ind
+binder 4330:4330 <> n:8
+R4341:4341 Cpdt.MoreSpecif <> ::type_scope:'['_x_']' not
+R4350:4350 Cpdt.MoreSpecif <> ::type_scope:'['_x_']' not
+R4342:4347 Cpdt.Reflection <> isEven ind
+R4349:4349 Cpdt.Reflection <> n:8 var
+R4365:4365 Cpdt.Reflection <> n:8 var
+R4385:4387 Cpdt.MoreSpecif <> ::partial_scope:'Yes' not
+R4402:4403 Cpdt.MoreSpecif <> ::partial_scope:'No' not
+R4413:4413 Coq.Init.Datatypes <> S constr
+R4416:4416 Coq.Init.Datatypes <> S constr
+R4425:4432 Cpdt.MoreSpecif <> ::partial_scope:'Reduce'_x not
+R4437:4437 Cpdt.MoreSpecif <> ::partial_scope:'Reduce'_x not
+R4433:4433 Cpdt.Reflection <> F:9 var
+R4304:4309 Cpdt.Reflection <> isEven ind
+def 5089:5098 <> partialOut
+binder 5101:5101 <> P:11
+R5116:5116 Cpdt.MoreSpecif <> ::type_scope:'['_x_']' not
+R5118:5118 Cpdt.MoreSpecif <> ::type_scope:'['_x_']' not
+R5117:5117 Cpdt.Reflection <> P:11 var
+binder 5112:5112 <> x:12
+R5132:5132 Cpdt.Reflection <> x:12 var
+R5148:5148 Cpdt.Reflection <> x:13 var
+R5177:5182 Cpdt.MoreSpecif <> Proved constr
+R5189:5189 Cpdt.Reflection <> P:11 var
+R5213:5221 Cpdt.MoreSpecif <> Uncertain constr
+R5226:5229 Coq.Init.Logic <> True ind
+R5265:5270 Cpdt.MoreSpecif <> Proved constr
+R5287:5295 Cpdt.MoreSpecif <> Uncertain constr
+R5300:5300 Coq.Init.Logic <> I constr
+R5538:5543 Cpdt.Reflection <> isEven ind
+R5538:5543 Cpdt.Reflection <> isEven ind
+R5559:5568 Cpdt.Reflection <> partialOut def
+R5571:5580 Cpdt.Reflection <> check_even def
+prf 5897:5905 <> even_256'
+R5909:5914 Cpdt.Reflection <> isEven ind
+R5958:5966 Cpdt.Reflection <> even_256' thm
+prf 6459:6466 <> even_255
+R6470:6475 Cpdt.Reflection <> isEven ind
+prf 7681:7691 <> true_galore
+R7695:7695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7708:7713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7746:7746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7700:7703 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7696:7699 Coq.Init.Logic <> True ind
+R7704:7707 Coq.Init.Logic <> True ind
+R7718:7722 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7745:7745 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R7714:7717 Coq.Init.Logic <> True ind
+R7727:7731 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7744:7744 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7723:7726 Coq.Init.Logic <> True ind
+R7736:7739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7732:7735 Coq.Init.Logic <> True ind
+R7740:7743 Coq.Init.Logic <> True ind
+def 7810:7811 <> tg
+R7816:7816 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7824:7825 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7835:7835 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7817:7823 Coq.Init.Logic <> and_ind scheme
+R7826:7834 Coq.Init.Logic <> or_introl constr
+R7876:7886 Cpdt.Reflection <> true_galore thm
+ind 8663:8666 <> taut
+constr 8679:8686 <> TautTrue
+constr 8697:8703 <> TautAnd
+constr 8730:8735 <> TautOr
+constr 8762:8768 <> TautImp
+R8690:8693 Cpdt.Reflection <> taut:15 ind
+R8711:8714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8707:8710 Cpdt.Reflection <> taut:15 ind
+R8719:8722 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8715:8718 Cpdt.Reflection <> taut:15 ind
+R8723:8726 Cpdt.Reflection <> taut:15 ind
+R8743:8746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8739:8742 Cpdt.Reflection <> taut:15 ind
+R8751:8754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8747:8750 Cpdt.Reflection <> taut:15 ind
+R8755:8758 Cpdt.Reflection <> taut:15 ind
+R8776:8779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8772:8775 Cpdt.Reflection <> taut:15 ind
+R8784:8787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8780:8783 Cpdt.Reflection <> taut:15 ind
+R8788:8791 Cpdt.Reflection <> taut:15 ind
+def 9069:9078 <> tautDenote
+R9085:9088 Cpdt.Reflection <> taut ind
+binder 9081:9081 <> t:17
+R9109:9109 Cpdt.Reflection <> t:17 var
+R9122:9129 Cpdt.Reflection <> TautTrue constr
+R9134:9137 Coq.Init.Logic <> True ind
+R9145:9151 Cpdt.Reflection <> TautAnd constr
+R9175:9178 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9162:9171 Cpdt.Reflection <> tautDenote:18 def
+R9179:9188 Cpdt.Reflection <> tautDenote:18 def
+R9199:9204 Cpdt.Reflection <> TautOr constr
+R9228:9231 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9215:9224 Cpdt.Reflection <> tautDenote:18 def
+R9232:9241 Cpdt.Reflection <> tautDenote:18 def
+R9252:9258 Cpdt.Reflection <> TautImp constr
+R9282:9285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9269:9278 Cpdt.Reflection <> tautDenote:18 def
+R9286:9295 Cpdt.Reflection <> tautDenote:18 def
+prf 9401:9408 <> tautTrue
+binder 9419:9419 <> t:20
+R9422:9431 Cpdt.Reflection <> tautDenote def
+R9433:9433 Cpdt.Reflection <> t:20 var
+R9655:9658 Coq.Init.Logic <> True ind
+R9655:9658 Coq.Init.Logic <> True ind
+R9681:9684 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9681:9684 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9796:9799 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9796:9799 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9910:9913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9910:9913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10001:10007 Cpdt.Reflection <> TautImp constr
+R9887:9892 Cpdt.Reflection <> TautOr constr
+R9772:9778 Cpdt.Reflection <> TautAnd constr
+R10287:10294 Cpdt.Reflection <> tautTrue thm
+prf 10459:10470 <> true_galore'
+R10474:10474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10487:10492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10525:10525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10479:10482 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10475:10478 Coq.Init.Logic <> True ind
+R10483:10486 Coq.Init.Logic <> True ind
+R10497:10501 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10524:10524 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R10493:10496 Coq.Init.Logic <> True ind
+R10506:10510 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10523:10523 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10502:10505 Coq.Init.Logic <> True ind
+R10515:10518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10511:10514 Coq.Init.Logic <> True ind
+R10519:10522 Coq.Init.Logic <> True ind
+R10551:10562 Cpdt.Reflection <> true_galore' thm
+sec 12105:12110 <> monoid
+var 12124:12124 monoid A
+var 12144:12144 monoid e
+R12148:12148 Cpdt.Reflection <> monoid.A var
+var 12162:12162 monoid f
+R12167:12170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12166:12166 Cpdt.Reflection <> monoid.A var
+R12172:12175 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12171:12171 Cpdt.Reflection <> monoid.A var
+R12176:12176 Cpdt.Reflection <> monoid.A var
+R12195:12195 Cpdt.Reflection <> monoid.f var
+not 12188:12188 monoid :::x_'+'_x
+var 12212:12216 monoid assoc
+binder 12227:12227 <> a:24
+binder 12229:12229 <> b:25
+binder 12231:12231 <> c:26
+R12245:12247 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12234:12234 Cpdt.Reflection monoid :::x_'+'_x not
+R12240:12243 Cpdt.Reflection monoid :::x_'+'_x not
+R12236:12238 Cpdt.Reflection monoid :::x_'+'_x not
+R12235:12235 Cpdt.Reflection <> a:24 var
+R12239:12239 Cpdt.Reflection <> b:25 var
+R12244:12244 Cpdt.Reflection <> c:26 var
+R12249:12252 Cpdt.Reflection monoid :::x_'+'_x not
+R12258:12258 Cpdt.Reflection monoid :::x_'+'_x not
+R12248:12248 Cpdt.Reflection <> a:24 var
+R12254:12256 Cpdt.Reflection monoid :::x_'+'_x not
+R12253:12253 Cpdt.Reflection <> b:25 var
+R12257:12257 Cpdt.Reflection <> c:26 var
+var 12274:12279 monoid identl
+binder 12290:12290 <> a:28
+R12298:12300 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12294:12296 Cpdt.Reflection monoid :::x_'+'_x not
+R12293:12293 Cpdt.Reflection <> monoid.e var
+R12297:12297 Cpdt.Reflection <> a:28 var
+R12301:12301 Cpdt.Reflection <> a:28 var
+var 12317:12322 monoid identr
+binder 12333:12333 <> a:30
+R12341:12343 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12337:12339 Cpdt.Reflection monoid :::x_'+'_x not
+R12336:12336 Cpdt.Reflection <> a:30 var
+R12340:12340 Cpdt.Reflection <> monoid.e var
+R12344:12344 Cpdt.Reflection <> a:30 var
+ind 12858:12861 <> mexp
+constr 12876:12880 <> Ident
+constr 12893:12895 <> Var
+constr 12913:12914 <> Op
+R12884:12887 Cpdt.Reflection <> mexp:32 ind
+R12900:12903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12899:12899 Cpdt.Reflection <> monoid.A var
+R12904:12907 Cpdt.Reflection <> mexp:32 ind
+R12922:12925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12918:12921 Cpdt.Reflection <> mexp:32 ind
+R12930:12933 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12926:12929 Cpdt.Reflection <> mexp:32 ind
+R12934:12937 Cpdt.Reflection <> mexp:32 ind
+def 13005:13011 <> mdenote
+R13019:13022 Cpdt.Reflection <> mexp ind
+binder 13014:13015 <> me:34
+R13027:13027 Cpdt.Reflection <> monoid.A var
+R13042:13043 Cpdt.Reflection <> me:34 var
+R13058:13062 Cpdt.Reflection <> Ident constr
+R13067:13067 Cpdt.Reflection <> monoid.e var
+R13077:13079 Cpdt.Reflection <> Var constr
+R13096:13097 Cpdt.Reflection <> Op constr
+R13121:13123 Cpdt.Reflection monoid :::x_'+'_x not
+R13110:13116 Cpdt.Reflection <> mdenote:35 def
+R13124:13130 Cpdt.Reflection <> mdenote:35 def
+def 13322:13329 <> mldenote
+R13337:13340 Coq.Init.Datatypes <> list ind
+R13342:13342 Cpdt.Reflection <> monoid.A var
+binder 13332:13333 <> ls:37
+R13347:13347 Cpdt.Reflection <> monoid.A var
+R13362:13363 Cpdt.Reflection <> ls:37 var
+R13378:13380 Coq.Init.Datatypes <> nil constr
+R13385:13385 Cpdt.Reflection <> monoid.e var
+R13396:13399 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13408:13410 Cpdt.Reflection monoid :::x_'+'_x not
+R13411:13418 Cpdt.Reflection <> mldenote:38 def
+def 13508:13514 <> flatten
+R13522:13525 Cpdt.Reflection <> mexp ind
+binder 13517:13518 <> me:40
+R13530:13533 Coq.Init.Datatypes <> list ind
+R13535:13535 Cpdt.Reflection <> monoid.A var
+R13550:13551 Cpdt.Reflection <> me:40 var
+R13566:13570 Cpdt.Reflection <> Ident constr
+R13575:13577 Coq.Init.Datatypes <> nil constr
+R13587:13589 Cpdt.Reflection <> Var constr
+R13597:13600 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13601:13603 Coq.Init.Datatypes <> nil constr
+R13613:13614 Cpdt.Reflection <> Op constr
+R13638:13641 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R13627:13633 Cpdt.Reflection <> flatten:41 def
+R13642:13648 Cpdt.Reflection <> flatten:41 def
+prf 13772:13787 <> flatten_correct'
+binder 13798:13800 <> ml2:43
+binder 13802:13804 <> ml1:44
+R13838:13840 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13823:13825 Cpdt.Reflection monoid :::x_'+'_x not
+R13811:13818 Cpdt.Reflection <> mldenote def
+R13820:13822 Cpdt.Reflection <> ml1:44 var
+R13826:13833 Cpdt.Reflection <> mldenote def
+R13835:13837 Cpdt.Reflection <> ml2:43 var
+R13841:13848 Cpdt.Reflection <> mldenote def
+R13854:13857 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R13851:13853 Cpdt.Reflection <> ml1:44 var
+R13858:13860 Cpdt.Reflection <> ml2:43 var
+prf 13908:13922 <> flatten_correct
+binder 13933:13934 <> me:45
+R13947:13949 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13937:13943 Cpdt.Reflection <> mdenote def
+R13945:13946 Cpdt.Reflection <> me:45 var
+R13950:13957 Cpdt.Reflection <> mldenote def
+R13960:13966 Cpdt.Reflection <> flatten def
+R13968:13969 Cpdt.Reflection <> me:45 var
+prf 14157:14170 <> monoid_reflect
+binder 14181:14183 <> me1:46
+binder 14185:14187 <> me2:47
+R14241:14248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14216:14218 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14194:14201 Cpdt.Reflection <> mldenote def
+R14204:14210 Cpdt.Reflection <> flatten def
+R14212:14214 Cpdt.Reflection <> me1:46 var
+R14219:14226 Cpdt.Reflection <> mldenote def
+R14229:14235 Cpdt.Reflection <> flatten def
+R14237:14239 Cpdt.Reflection <> me2:47 var
+R14260:14262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14249:14255 Cpdt.Reflection <> mdenote def
+R14257:14259 Cpdt.Reflection <> me1:46 var
+R14263:14269 Cpdt.Reflection <> mdenote def
+R14271:14273 Cpdt.Reflection <> me2:47 var
+R14303:14317 Cpdt.Reflection <> flatten_correct thm
+R14303:14317 Cpdt.Reflection <> flatten_correct thm
+R14303:14317 Cpdt.Reflection <> flatten_correct thm
+R14303:14317 Cpdt.Reflection <> flatten_correct thm
+R14303:14317 Cpdt.Reflection <> flatten_correct thm
+R14303:14317 Cpdt.Reflection <> flatten_correct thm
+R14442:14442 Cpdt.Reflection <> monoid.e var
+R14442:14442 Cpdt.Reflection <> monoid.e var
+R14465:14467 Cpdt.Reflection monoid :::x_'+'_x not
+R14465:14467 Cpdt.Reflection monoid :::x_'+'_x not
+R14587:14589 Cpdt.Reflection <> Var constr
+R14556:14557 Cpdt.Reflection <> Op constr
+R15024:15026 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15024:15026 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15127:15129 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15117:15123 Cpdt.Reflection <> mdenote def
+R15130:15136 Cpdt.Reflection <> mdenote def
+R15161:15174 Cpdt.Reflection <> monoid_reflect thm
+prf 15280:15281 <> t1
+binder 15292:15292 <> a:48
+binder 15294:15294 <> b:49
+binder 15296:15296 <> c:50
+binder 15298:15298 <> d:51
+R15314:15316 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15310:15312 Cpdt.Reflection monoid :::x_'+'_x not
+R15306:15308 Cpdt.Reflection monoid :::x_'+'_x not
+R15302:15304 Cpdt.Reflection monoid :::x_'+'_x not
+R15301:15301 Cpdt.Reflection <> a:48 var
+R15305:15305 Cpdt.Reflection <> b:49 var
+R15309:15309 Cpdt.Reflection <> c:50 var
+R15313:15313 Cpdt.Reflection <> d:51 var
+R15328:15330 Cpdt.Reflection monoid :::x_'+'_x not
+R15318:15321 Cpdt.Reflection monoid :::x_'+'_x not
+R15327:15327 Cpdt.Reflection monoid :::x_'+'_x not
+R15317:15317 Cpdt.Reflection <> a:48 var
+R15323:15325 Cpdt.Reflection monoid :::x_'+'_x not
+R15322:15322 Cpdt.Reflection <> b:49 var
+R15326:15326 Cpdt.Reflection <> c:50 var
+R15331:15331 Cpdt.Reflection <> d:51 var
+R15677:15678 Cpdt.Reflection <> t1 thm
+R16112:16117 Cpdt.Reflection monoid <> sec
+R28461:28462 Coq.Init.Datatypes <> tt constr
+R28461:28462 Coq.Init.Datatypes <> tt constr
+R28479:28479 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28481:28482 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28484:28484 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28479:28479 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28481:28482 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28484:28484 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28500:28500 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28502:28503 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28508:28508 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28500:28500 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28502:28503 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28508:28508 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28608:28611 Coq.Init.Datatypes <> true constr
+R28608:28611 Coq.Init.Datatypes <> true constr
+R28627:28631 Coq.Init.Datatypes <> false constr
+R28627:28631 Coq.Init.Datatypes <> false constr
+R28644:28644 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28646:28647 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28650:28650 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R28835:28838 Coq.Init.Logic <> True ind
+R28835:28838 Coq.Init.Logic <> True ind
+R28852:28856 Coq.Init.Logic <> False ind
+R28852:28856 Coq.Init.Logic <> False ind
+R28873:28876 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28873:28876 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R28948:28951 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R28948:28951 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R29023:29026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29023:29026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29239:29239 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29241:29242 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29244:29244 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29239:29239 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29241:29242 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29244:29244 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29257:29257 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29259:29260 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29265:29265 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29257:29257 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29259:29260 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29265:29265 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R29317:29317 Coq.Init.Datatypes <> S constr
+ind 29767:29774 <> formula'
+constr 29787:29793 <> Atomic'
+constr 29815:29820 <> Truth'
+constr 29835:29844 <> Falsehood'
+constr 29859:29862 <> And'
+constr 29901:29903 <> Or'
+constr 29942:29945 <> Imp'
+R29800:29803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29797:29799 Coq.Init.Datatypes <> nat ind
+R29804:29811 Cpdt.Reflection <> formula':52 ind
+R29824:29831 Cpdt.Reflection <> formula':52 ind
+R29848:29855 Cpdt.Reflection <> formula':52 ind
+R29874:29877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29866:29873 Cpdt.Reflection <> formula':52 ind
+R29886:29889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29878:29885 Cpdt.Reflection <> formula':52 ind
+R29890:29897 Cpdt.Reflection <> formula':52 ind
+R29915:29918 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29907:29914 Cpdt.Reflection <> formula':52 ind
+R29927:29930 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29919:29926 Cpdt.Reflection <> formula':52 ind
+R29931:29938 Cpdt.Reflection <> formula':52 ind
+R29957:29960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29949:29956 Cpdt.Reflection <> formula':52 ind
+R29969:29972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29961:29968 Cpdt.Reflection <> formula':52 ind
+R29973:29980 Cpdt.Reflection <> formula':52 ind
+R30188:30191 Coq.Init.Logic <> True ind
+R30188:30191 Coq.Init.Logic <> True ind
+R30209:30213 Coq.Init.Logic <> False ind
+R30209:30213 Coq.Init.Logic <> False ind
+R30238:30241 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30238:30241 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30356:30359 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R30356:30359 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R30473:30476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30473:30476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30639:30645 Cpdt.Reflection <> Atomic' constr
+R30570:30573 Cpdt.Reflection <> Imp' constr
+R30453:30455 Cpdt.Reflection <> Or' constr
+R30335:30338 Cpdt.Reflection <> And' constr
+prf 30921:30924 <> mt3'
+binder 30935:30935 <> x:54
+binder 30937:30937 <> y:55
+binder 30939:30939 <> z:56
+R30982:30987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30944:30944 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R30959:30964 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R30981:30981 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R30950:30953 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30946:30948 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R30945:30945 Cpdt.Reflection <> x:54 var
+R30949:30949 Cpdt.Reflection <> y:55 var
+R30955:30957 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R30954:30954 Cpdt.Reflection <> y:55 var
+R30958:30958 Cpdt.Reflection <> z:56 var
+R30970:30973 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30966:30968 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R30965:30965 Cpdt.Reflection <> y:55 var
+R30969:30969 Cpdt.Reflection <> z:56 var
+R30975:30977 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R30974:30974 Cpdt.Reflection <> x:54 var
+R30978:30978 Coq.Init.Datatypes <> S constr
+R30980:30980 Cpdt.Reflection <> y:55 var
+R30993:30997 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R31014:31014 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R30989:30991 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R30988:30988 Cpdt.Reflection <> y:55 var
+R30992:30992 Cpdt.Reflection <> z:56 var
+R31003:31006 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R30999:31001 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R30998:30998 Cpdt.Reflection <> x:54 var
+R31002:31002 Cpdt.Reflection <> y:55 var
+R31008:31010 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R31007:31007 Cpdt.Reflection <> x:54 var
+R31011:31011 Coq.Init.Datatypes <> S constr
+R31013:31013 Cpdt.Reflection <> y:55 var
+ind 32114:32117 <> type
+constr 32131:32133 <> Nat
+constr 32144:32150 <> NatFunc
+R32137:32140 Cpdt.Reflection <> type:57 ind
+R32158:32161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32154:32157 Cpdt.Reflection <> type:57 ind
+R32162:32165 Cpdt.Reflection <> type:57 ind
+ind 32179:32182 <> term
+constr 32204:32208 <> Const
+constr 32230:32233 <> Plus
+constr 32272:32274 <> Abs
+R32190:32193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32186:32189 Cpdt.Reflection <> type ind
+R32215:32218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32212:32214 Coq.Init.Datatypes <> nat ind
+R32219:32222 Cpdt.Reflection <> term:59 ind
+R32224:32226 Cpdt.Reflection <> Nat constr
+R32245:32248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32237:32240 Cpdt.Reflection <> term:59 ind
+R32242:32244 Cpdt.Reflection <> Nat constr
+R32257:32260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32249:32252 Cpdt.Reflection <> term:59 ind
+R32254:32256 Cpdt.Reflection <> Nat constr
+R32261:32264 Cpdt.Reflection <> term:59 ind
+R32266:32268 Cpdt.Reflection <> Nat constr
+binder 32285:32285 <> t:61
+R32288:32288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32302:32306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32292:32295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32289:32291 Coq.Init.Datatypes <> nat ind
+R32296:32299 Cpdt.Reflection <> term:59 ind
+R32301:32301 Cpdt.Reflection <> t:61 var
+R32307:32310 Cpdt.Reflection <> term:59 ind
+R32313:32319 Cpdt.Reflection <> NatFunc constr
+R32321:32321 Cpdt.Reflection <> t:61 var
+def 32335:32344 <> typeDenote
+R32351:32354 Cpdt.Reflection <> type ind
+binder 32347:32347 <> t:62
+R32375:32375 Cpdt.Reflection <> t:62 var
+R32388:32390 Cpdt.Reflection <> Nat constr
+R32395:32397 Coq.Init.Datatypes <> nat ind
+R32405:32411 Cpdt.Reflection <> NatFunc constr
+R32421:32424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32418:32420 Coq.Init.Datatypes <> nat ind
+R32425:32434 Cpdt.Reflection <> typeDenote:63 def
+R32436:32436 Cpdt.Reflection <> t:62 var
+def 32455:32464 <> termDenote
+binder 32466:32466 <> t:65
+R32473:32476 Cpdt.Reflection <> term ind
+R32478:32478 Cpdt.Reflection <> t:65 var
+binder 32469:32469 <> e:66
+R32483:32492 Cpdt.Reflection <> typeDenote def
+R32494:32494 Cpdt.Reflection <> t:65 var
+R32507:32507 Cpdt.Reflection <> e:66 var
+R32520:32524 Cpdt.Reflection <> Const constr
+R32539:32542 Cpdt.Reflection <> Plus constr
+R32566:32568 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32553:32562 Cpdt.Reflection <> termDenote:67 def
+R32569:32578 Cpdt.Reflection <> termDenote:67 def
+R32589:32591 Cpdt.Reflection <> Abs constr
+binder 32605:32605 <> x:69
+R32610:32619 Cpdt.Reflection <> termDenote:67 def
+R32625:32625 Cpdt.Reflection <> x:69 var
+def 32734:32744 <> red_herring
+R32749:32749 Coq.Init.Datatypes <> O constr
+R32807:32809 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32807:32809 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32916:32918 Coq.Init.Datatypes <> nat ind
+binder 32912:32912 <> x:70
+R32916:32918 Coq.Init.Datatypes <> nat ind
+binder 32912:32912 <> x:71
+R33015:33019 Cpdt.Reflection <> Const constr
+R32974:32976 Cpdt.Reflection <> Abs constr
+binder 32983:32983 <> x:72
+R32991:32991 Cpdt.Reflection <> x:72 var
+R32889:32892 Cpdt.Reflection <> Plus constr
+ind 32114:32117 <> type
+constr 32131:32133 <> Nat
+constr 32144:32150 <> NatFunc
+R32137:32140 Cpdt.Reflection <> type:73 ind
+R32158:32161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32154:32157 Cpdt.Reflection <> type:73 ind
+R32162:32165 Cpdt.Reflection <> type:73 ind
+ind 32179:32182 <> term
+constr 32204:32208 <> Const
+constr 32230:32233 <> Plus
+constr 32272:32274 <> Abs
+R32190:32193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32186:32189 Cpdt.Reflection <> type ind
+R32215:32218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32212:32214 Coq.Init.Datatypes <> nat ind
+R32219:32222 Cpdt.Reflection <> term:75 ind
+R32224:32226 Cpdt.Reflection <> Nat constr
+R32245:32248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32237:32240 Cpdt.Reflection <> term:75 ind
+R32242:32244 Cpdt.Reflection <> Nat constr
+R32257:32260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32249:32252 Cpdt.Reflection <> term:75 ind
+R32254:32256 Cpdt.Reflection <> Nat constr
+R32261:32264 Cpdt.Reflection <> term:75 ind
+R32266:32268 Cpdt.Reflection <> Nat constr
+binder 32285:32285 <> t:77
+R32288:32288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32302:32306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32292:32295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32289:32291 Coq.Init.Datatypes <> nat ind
+R32296:32299 Cpdt.Reflection <> term:75 ind
+R32301:32301 Cpdt.Reflection <> t:77 var
+R32307:32310 Cpdt.Reflection <> term:75 ind
+R32313:32319 Cpdt.Reflection <> NatFunc constr
+R32321:32321 Cpdt.Reflection <> t:77 var
+def 32335:32344 <> typeDenote
+R32351:32354 Cpdt.Reflection <> type ind
+binder 32347:32347 <> t:78
+R32375:32375 Cpdt.Reflection <> t:78 var
+R32388:32390 Cpdt.Reflection <> Nat constr
+R32395:32397 Coq.Init.Datatypes <> nat ind
+R32405:32411 Cpdt.Reflection <> NatFunc constr
+R32421:32424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32418:32420 Coq.Init.Datatypes <> nat ind
+R32425:32434 Cpdt.Reflection <> typeDenote:79 def
+R32436:32436 Cpdt.Reflection <> t:78 var
+def 32455:32464 <> termDenote
+binder 32466:32466 <> t:81
+R32473:32476 Cpdt.Reflection <> term ind
+R32478:32478 Cpdt.Reflection <> t:81 var
+binder 32469:32469 <> e:82
+R32483:32492 Cpdt.Reflection <> typeDenote def
+R32494:32494 Cpdt.Reflection <> t:81 var
+R32507:32507 Cpdt.Reflection <> e:82 var
+R32520:32524 Cpdt.Reflection <> Const constr
+R32539:32542 Cpdt.Reflection <> Plus constr
+R32566:32568 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32553:32562 Cpdt.Reflection <> termDenote:83 def
+R32569:32578 Cpdt.Reflection <> termDenote:83 def
+R32589:32591 Cpdt.Reflection <> Abs constr
+binder 32605:32605 <> x:85
+R32610:32619 Cpdt.Reflection <> termDenote:83 def
+R32625:32625 Cpdt.Reflection <> x:85 var
+def 32734:32744 <> red_herring
+R32749:32749 Coq.Init.Datatypes <> O constr
+ind 32114:32117 <> type
+constr 32131:32133 <> Nat
+constr 32144:32150 <> NatFunc
+R32137:32140 Cpdt.Reflection <> type:86 ind
+R32158:32161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32154:32157 Cpdt.Reflection <> type:86 ind
+R32162:32165 Cpdt.Reflection <> type:86 ind
+ind 32179:32182 <> term
+constr 32204:32208 <> Const
+constr 32230:32233 <> Plus
+constr 32272:32274 <> Abs
+R32190:32193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32186:32189 Cpdt.Reflection <> type ind
+R32215:32218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32212:32214 Coq.Init.Datatypes <> nat ind
+R32219:32222 Cpdt.Reflection <> term:88 ind
+R32224:32226 Cpdt.Reflection <> Nat constr
+R32245:32248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32237:32240 Cpdt.Reflection <> term:88 ind
+R32242:32244 Cpdt.Reflection <> Nat constr
+R32257:32260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32249:32252 Cpdt.Reflection <> term:88 ind
+R32254:32256 Cpdt.Reflection <> Nat constr
+R32261:32264 Cpdt.Reflection <> term:88 ind
+R32266:32268 Cpdt.Reflection <> Nat constr
+binder 32285:32285 <> t:90
+R32288:32288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32302:32306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32292:32295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32289:32291 Coq.Init.Datatypes <> nat ind
+R32296:32299 Cpdt.Reflection <> term:88 ind
+R32301:32301 Cpdt.Reflection <> t:90 var
+R32307:32310 Cpdt.Reflection <> term:88 ind
+R32313:32319 Cpdt.Reflection <> NatFunc constr
+R32321:32321 Cpdt.Reflection <> t:90 var
+def 32335:32344 <> typeDenote
+R32351:32354 Cpdt.Reflection <> type ind
+binder 32347:32347 <> t:91
+R32375:32375 Cpdt.Reflection <> t:91 var
+R32388:32390 Cpdt.Reflection <> Nat constr
+R32395:32397 Coq.Init.Datatypes <> nat ind
+R32405:32411 Cpdt.Reflection <> NatFunc constr
+R32421:32424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32418:32420 Coq.Init.Datatypes <> nat ind
+R32425:32434 Cpdt.Reflection <> typeDenote:92 def
+R32436:32436 Cpdt.Reflection <> t:91 var
+def 32455:32464 <> termDenote
+binder 32466:32466 <> t:94
+R32473:32476 Cpdt.Reflection <> term ind
+R32478:32478 Cpdt.Reflection <> t:94 var
+binder 32469:32469 <> e:95
+R32483:32492 Cpdt.Reflection <> typeDenote def
+R32494:32494 Cpdt.Reflection <> t:94 var
+R32507:32507 Cpdt.Reflection <> e:95 var
+R32520:32524 Cpdt.Reflection <> Const constr
+R32539:32542 Cpdt.Reflection <> Plus constr
+R32566:32568 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32553:32562 Cpdt.Reflection <> termDenote:96 def
+R32569:32578 Cpdt.Reflection <> termDenote:96 def
+R32589:32591 Cpdt.Reflection <> Abs constr
+binder 32605:32605 <> x:98
+R32610:32619 Cpdt.Reflection <> termDenote:96 def
+R32625:32625 Cpdt.Reflection <> x:98 var
+def 33985:33995 <> red_herring
+R34000:34000 Coq.Init.Datatypes <> O constr
+R34058:34060 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R34058:34060 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R34167:34169 Coq.Init.Datatypes <> nat ind
+binder 34163:34163 <> x:99
+R34179:34179 Cpdt.Reflection <> x:99 var
+R34167:34169 Coq.Init.Datatypes <> nat ind
+binder 34163:34163 <> x:100
+R34179:34179 Cpdt.Reflection <> x:100 var
+R34256:34260 Cpdt.Reflection <> Const constr
+R34228:34230 Cpdt.Reflection <> Abs constr
+R34140:34143 Cpdt.Reflection <> Plus constr
+ind 32114:32117 <> type
+constr 32131:32133 <> Nat
+constr 32144:32150 <> NatFunc
+R32137:32140 Cpdt.Reflection <> type:101 ind
+R32158:32161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32154:32157 Cpdt.Reflection <> type:101 ind
+R32162:32165 Cpdt.Reflection <> type:101 ind
+ind 32179:32182 <> term
+constr 32204:32208 <> Const
+constr 32230:32233 <> Plus
+constr 32272:32274 <> Abs
+R32190:32193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32186:32189 Cpdt.Reflection <> type ind
+R32215:32218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32212:32214 Coq.Init.Datatypes <> nat ind
+R32219:32222 Cpdt.Reflection <> term:103 ind
+R32224:32226 Cpdt.Reflection <> Nat constr
+R32245:32248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32237:32240 Cpdt.Reflection <> term:103 ind
+R32242:32244 Cpdt.Reflection <> Nat constr
+R32257:32260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32249:32252 Cpdt.Reflection <> term:103 ind
+R32254:32256 Cpdt.Reflection <> Nat constr
+R32261:32264 Cpdt.Reflection <> term:103 ind
+R32266:32268 Cpdt.Reflection <> Nat constr
+binder 32285:32285 <> t:105
+R32288:32288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32302:32306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32292:32295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32289:32291 Coq.Init.Datatypes <> nat ind
+R32296:32299 Cpdt.Reflection <> term:103 ind
+R32301:32301 Cpdt.Reflection <> t:105 var
+R32307:32310 Cpdt.Reflection <> term:103 ind
+R32313:32319 Cpdt.Reflection <> NatFunc constr
+R32321:32321 Cpdt.Reflection <> t:105 var
+def 32335:32344 <> typeDenote
+R32351:32354 Cpdt.Reflection <> type ind
+binder 32347:32347 <> t:106
+R32375:32375 Cpdt.Reflection <> t:106 var
+R32388:32390 Cpdt.Reflection <> Nat constr
+R32395:32397 Coq.Init.Datatypes <> nat ind
+R32405:32411 Cpdt.Reflection <> NatFunc constr
+R32421:32424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32418:32420 Coq.Init.Datatypes <> nat ind
+R32425:32434 Cpdt.Reflection <> typeDenote:107 def
+R32436:32436 Cpdt.Reflection <> t:106 var
+def 32455:32464 <> termDenote
+binder 32466:32466 <> t:109
+R32473:32476 Cpdt.Reflection <> term ind
+R32478:32478 Cpdt.Reflection <> t:109 var
+binder 32469:32469 <> e:110
+R32483:32492 Cpdt.Reflection <> typeDenote def
+R32494:32494 Cpdt.Reflection <> t:109 var
+R32507:32507 Cpdt.Reflection <> e:110 var
+R32520:32524 Cpdt.Reflection <> Const constr
+R32539:32542 Cpdt.Reflection <> Plus constr
+R32566:32568 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32553:32562 Cpdt.Reflection <> termDenote:111 def
+R32569:32578 Cpdt.Reflection <> termDenote:111 def
+R32589:32591 Cpdt.Reflection <> Abs constr
+binder 32605:32605 <> x:113
+R32610:32619 Cpdt.Reflection <> termDenote:111 def
+R32625:32625 Cpdt.Reflection <> x:113 var
+def 32734:32744 <> red_herring
+R32749:32749 Coq.Init.Datatypes <> O constr
+R32807:32809 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32807:32809 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32916:32918 Coq.Init.Datatypes <> nat ind
+binder 32912:32912 <> x:114
+R32916:32918 Coq.Init.Datatypes <> nat ind
+binder 32912:32912 <> x:115
+R33015:33019 Cpdt.Reflection <> Const constr
+R32974:32976 Cpdt.Reflection <> Abs constr
+binder 32983:32983 <> x:116
+R32991:32991 Cpdt.Reflection <> x:116 var
+R32889:32892 Cpdt.Reflection <> Plus constr
+ind 32114:32117 <> type
+constr 32131:32133 <> Nat
+constr 32144:32150 <> NatFunc
+R32137:32140 Cpdt.Reflection <> type:117 ind
+R32158:32161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32154:32157 Cpdt.Reflection <> type:117 ind
+R32162:32165 Cpdt.Reflection <> type:117 ind
+ind 32179:32182 <> term
+constr 32204:32208 <> Const
+constr 32230:32233 <> Plus
+constr 32272:32274 <> Abs
+R32190:32193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32186:32189 Cpdt.Reflection <> type ind
+R32215:32218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32212:32214 Coq.Init.Datatypes <> nat ind
+R32219:32222 Cpdt.Reflection <> term:119 ind
+R32224:32226 Cpdt.Reflection <> Nat constr
+R32245:32248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32237:32240 Cpdt.Reflection <> term:119 ind
+R32242:32244 Cpdt.Reflection <> Nat constr
+R32257:32260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32249:32252 Cpdt.Reflection <> term:119 ind
+R32254:32256 Cpdt.Reflection <> Nat constr
+R32261:32264 Cpdt.Reflection <> term:119 ind
+R32266:32268 Cpdt.Reflection <> Nat constr
+binder 32285:32285 <> t:121
+R32288:32288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32302:32306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32292:32295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32289:32291 Coq.Init.Datatypes <> nat ind
+R32296:32299 Cpdt.Reflection <> term:119 ind
+R32301:32301 Cpdt.Reflection <> t:121 var
+R32307:32310 Cpdt.Reflection <> term:119 ind
+R32313:32319 Cpdt.Reflection <> NatFunc constr
+R32321:32321 Cpdt.Reflection <> t:121 var
+def 32335:32344 <> typeDenote
+R32351:32354 Cpdt.Reflection <> type ind
+binder 32347:32347 <> t:122
+R32375:32375 Cpdt.Reflection <> t:122 var
+R32388:32390 Cpdt.Reflection <> Nat constr
+R32395:32397 Coq.Init.Datatypes <> nat ind
+R32405:32411 Cpdt.Reflection <> NatFunc constr
+R32421:32424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32418:32420 Coq.Init.Datatypes <> nat ind
+R32425:32434 Cpdt.Reflection <> typeDenote:123 def
+R32436:32436 Cpdt.Reflection <> t:122 var
+def 32455:32464 <> termDenote
+binder 32466:32466 <> t:125
+R32473:32476 Cpdt.Reflection <> term ind
+R32478:32478 Cpdt.Reflection <> t:125 var
+binder 32469:32469 <> e:126
+R32483:32492 Cpdt.Reflection <> typeDenote def
+R32494:32494 Cpdt.Reflection <> t:125 var
+R32507:32507 Cpdt.Reflection <> e:126 var
+R32520:32524 Cpdt.Reflection <> Const constr
+R32539:32542 Cpdt.Reflection <> Plus constr
+R32566:32568 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32553:32562 Cpdt.Reflection <> termDenote:127 def
+R32569:32578 Cpdt.Reflection <> termDenote:127 def
+R32589:32591 Cpdt.Reflection <> Abs constr
+binder 32605:32605 <> x:129
+R32610:32619 Cpdt.Reflection <> termDenote:127 def
+R32625:32625 Cpdt.Reflection <> x:129 var
+def 32734:32744 <> red_herring
+R32749:32749 Coq.Init.Datatypes <> O constr
+ind 32114:32117 <> type
+constr 32131:32133 <> Nat
+constr 32144:32150 <> NatFunc
+R32137:32140 Cpdt.Reflection <> type:130 ind
+R32158:32161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32154:32157 Cpdt.Reflection <> type:130 ind
+R32162:32165 Cpdt.Reflection <> type:130 ind
+ind 32179:32182 <> term
+constr 32204:32208 <> Const
+constr 32230:32233 <> Plus
+constr 32272:32274 <> Abs
+R32190:32193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32186:32189 Cpdt.Reflection <> type ind
+R32215:32218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32212:32214 Coq.Init.Datatypes <> nat ind
+R32219:32222 Cpdt.Reflection <> term:132 ind
+R32224:32226 Cpdt.Reflection <> Nat constr
+R32245:32248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32237:32240 Cpdt.Reflection <> term:132 ind
+R32242:32244 Cpdt.Reflection <> Nat constr
+R32257:32260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32249:32252 Cpdt.Reflection <> term:132 ind
+R32254:32256 Cpdt.Reflection <> Nat constr
+R32261:32264 Cpdt.Reflection <> term:132 ind
+R32266:32268 Cpdt.Reflection <> Nat constr
+binder 32285:32285 <> t:134
+R32288:32288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32302:32306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32292:32295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32289:32291 Coq.Init.Datatypes <> nat ind
+R32296:32299 Cpdt.Reflection <> term:132 ind
+R32301:32301 Cpdt.Reflection <> t:134 var
+R32307:32310 Cpdt.Reflection <> term:132 ind
+R32313:32319 Cpdt.Reflection <> NatFunc constr
+R32321:32321 Cpdt.Reflection <> t:134 var
+def 32335:32344 <> typeDenote
+R32351:32354 Cpdt.Reflection <> type ind
+binder 32347:32347 <> t:135
+R32375:32375 Cpdt.Reflection <> t:135 var
+R32388:32390 Cpdt.Reflection <> Nat constr
+R32395:32397 Coq.Init.Datatypes <> nat ind
+R32405:32411 Cpdt.Reflection <> NatFunc constr
+R32421:32424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32418:32420 Coq.Init.Datatypes <> nat ind
+R32425:32434 Cpdt.Reflection <> typeDenote:136 def
+R32436:32436 Cpdt.Reflection <> t:135 var
+def 32455:32464 <> termDenote
+binder 32466:32466 <> t:138
+R32473:32476 Cpdt.Reflection <> term ind
+R32478:32478 Cpdt.Reflection <> t:138 var
+binder 32469:32469 <> e:139
+R32483:32492 Cpdt.Reflection <> typeDenote def
+R32494:32494 Cpdt.Reflection <> t:138 var
+R32507:32507 Cpdt.Reflection <> e:139 var
+R32520:32524 Cpdt.Reflection <> Const constr
+R32539:32542 Cpdt.Reflection <> Plus constr
+R32566:32568 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32553:32562 Cpdt.Reflection <> termDenote:140 def
+R32569:32578 Cpdt.Reflection <> termDenote:140 def
+R32589:32591 Cpdt.Reflection <> Abs constr
+binder 32605:32605 <> x:142
+R32610:32619 Cpdt.Reflection <> termDenote:140 def
+R32625:32625 Cpdt.Reflection <> x:142 var
+def 33985:33995 <> red_herring
+R34000:34000 Coq.Init.Datatypes <> O constr
+ind 32114:32117 <> type
+constr 32131:32133 <> Nat
+constr 32144:32150 <> NatFunc
+R32137:32140 Cpdt.Reflection <> type:143 ind
+R32158:32161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32154:32157 Cpdt.Reflection <> type:143 ind
+R32162:32165 Cpdt.Reflection <> type:143 ind
+ind 32179:32182 <> term
+constr 32204:32208 <> Const
+constr 32230:32233 <> Plus
+constr 32272:32274 <> Abs
+R32190:32193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32186:32189 Cpdt.Reflection <> type ind
+R32215:32218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32212:32214 Coq.Init.Datatypes <> nat ind
+R32219:32222 Cpdt.Reflection <> term:145 ind
+R32224:32226 Cpdt.Reflection <> Nat constr
+R32245:32248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32237:32240 Cpdt.Reflection <> term:145 ind
+R32242:32244 Cpdt.Reflection <> Nat constr
+R32257:32260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32249:32252 Cpdt.Reflection <> term:145 ind
+R32254:32256 Cpdt.Reflection <> Nat constr
+R32261:32264 Cpdt.Reflection <> term:145 ind
+R32266:32268 Cpdt.Reflection <> Nat constr
+binder 32285:32285 <> t:147
+R32288:32288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32302:32306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32292:32295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32289:32291 Coq.Init.Datatypes <> nat ind
+R32296:32299 Cpdt.Reflection <> term:145 ind
+R32301:32301 Cpdt.Reflection <> t:147 var
+R32307:32310 Cpdt.Reflection <> term:145 ind
+R32313:32319 Cpdt.Reflection <> NatFunc constr
+R32321:32321 Cpdt.Reflection <> t:147 var
+def 32335:32344 <> typeDenote
+R32351:32354 Cpdt.Reflection <> type ind
+binder 32347:32347 <> t:148
+R32375:32375 Cpdt.Reflection <> t:148 var
+R32388:32390 Cpdt.Reflection <> Nat constr
+R32395:32397 Coq.Init.Datatypes <> nat ind
+R32405:32411 Cpdt.Reflection <> NatFunc constr
+R32421:32424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32418:32420 Coq.Init.Datatypes <> nat ind
+R32425:32434 Cpdt.Reflection <> typeDenote:149 def
+R32436:32436 Cpdt.Reflection <> t:148 var
+def 32455:32464 <> termDenote
+binder 32466:32466 <> t:151
+R32473:32476 Cpdt.Reflection <> term ind
+R32478:32478 Cpdt.Reflection <> t:151 var
+binder 32469:32469 <> e:152
+R32483:32492 Cpdt.Reflection <> typeDenote def
+R32494:32494 Cpdt.Reflection <> t:151 var
+R32507:32507 Cpdt.Reflection <> e:152 var
+R32520:32524 Cpdt.Reflection <> Const constr
+R32539:32542 Cpdt.Reflection <> Plus constr
+R32566:32568 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32553:32562 Cpdt.Reflection <> termDenote:153 def
+R32569:32578 Cpdt.Reflection <> termDenote:153 def
+R32589:32591 Cpdt.Reflection <> Abs constr
+binder 32605:32605 <> x:155
+R32610:32619 Cpdt.Reflection <> termDenote:153 def
+R32625:32625 Cpdt.Reflection <> x:155 var
+def 32734:32744 <> red_herring
+R32749:32749 Coq.Init.Datatypes <> O constr
+R32807:32809 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32807:32809 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32916:32918 Coq.Init.Datatypes <> nat ind
+binder 32912:32912 <> x:156
+R32916:32918 Coq.Init.Datatypes <> nat ind
+binder 32912:32912 <> x:157
+R33015:33019 Cpdt.Reflection <> Const constr
+R32974:32976 Cpdt.Reflection <> Abs constr
+binder 32983:32983 <> x:158
+R32991:32991 Cpdt.Reflection <> x:158 var
+R32889:32892 Cpdt.Reflection <> Plus constr
+ind 32114:32117 <> type
+constr 32131:32133 <> Nat
+constr 32144:32150 <> NatFunc
+R32137:32140 Cpdt.Reflection <> type:159 ind
+R32158:32161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32154:32157 Cpdt.Reflection <> type:159 ind
+R32162:32165 Cpdt.Reflection <> type:159 ind
+ind 32179:32182 <> term
+constr 32204:32208 <> Const
+constr 32230:32233 <> Plus
+constr 32272:32274 <> Abs
+R32190:32193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32186:32189 Cpdt.Reflection <> type ind
+R32215:32218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32212:32214 Coq.Init.Datatypes <> nat ind
+R32219:32222 Cpdt.Reflection <> term:161 ind
+R32224:32226 Cpdt.Reflection <> Nat constr
+R32245:32248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32237:32240 Cpdt.Reflection <> term:161 ind
+R32242:32244 Cpdt.Reflection <> Nat constr
+R32257:32260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32249:32252 Cpdt.Reflection <> term:161 ind
+R32254:32256 Cpdt.Reflection <> Nat constr
+R32261:32264 Cpdt.Reflection <> term:161 ind
+R32266:32268 Cpdt.Reflection <> Nat constr
+binder 32285:32285 <> t:163
+R32288:32288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32302:32306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32292:32295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32289:32291 Coq.Init.Datatypes <> nat ind
+R32296:32299 Cpdt.Reflection <> term:161 ind
+R32301:32301 Cpdt.Reflection <> t:163 var
+R32307:32310 Cpdt.Reflection <> term:161 ind
+R32313:32319 Cpdt.Reflection <> NatFunc constr
+R32321:32321 Cpdt.Reflection <> t:163 var
+def 32335:32344 <> typeDenote
+R32351:32354 Cpdt.Reflection <> type ind
+binder 32347:32347 <> t:164
+R32375:32375 Cpdt.Reflection <> t:164 var
+R32388:32390 Cpdt.Reflection <> Nat constr
+R32395:32397 Coq.Init.Datatypes <> nat ind
+R32405:32411 Cpdt.Reflection <> NatFunc constr
+R32421:32424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32418:32420 Coq.Init.Datatypes <> nat ind
+R32425:32434 Cpdt.Reflection <> typeDenote:165 def
+R32436:32436 Cpdt.Reflection <> t:164 var
+def 32455:32464 <> termDenote
+binder 32466:32466 <> t:167
+R32473:32476 Cpdt.Reflection <> term ind
+R32478:32478 Cpdt.Reflection <> t:167 var
+binder 32469:32469 <> e:168
+R32483:32492 Cpdt.Reflection <> typeDenote def
+R32494:32494 Cpdt.Reflection <> t:167 var
+R32507:32507 Cpdt.Reflection <> e:168 var
+R32520:32524 Cpdt.Reflection <> Const constr
+R32539:32542 Cpdt.Reflection <> Plus constr
+R32566:32568 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32553:32562 Cpdt.Reflection <> termDenote:169 def
+R32569:32578 Cpdt.Reflection <> termDenote:169 def
+R32589:32591 Cpdt.Reflection <> Abs constr
+binder 32605:32605 <> x:171
+R32610:32619 Cpdt.Reflection <> termDenote:169 def
+R32625:32625 Cpdt.Reflection <> x:171 var
+def 32734:32744 <> red_herring
+R32749:32749 Coq.Init.Datatypes <> O constr
+ind 32114:32117 <> type
+constr 32131:32133 <> Nat
+constr 32144:32150 <> NatFunc
+R32137:32140 Cpdt.Reflection <> type:172 ind
+R32158:32161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32154:32157 Cpdt.Reflection <> type:172 ind
+R32162:32165 Cpdt.Reflection <> type:172 ind
+ind 32179:32182 <> term
+constr 32204:32208 <> Const
+constr 32230:32233 <> Plus
+constr 32272:32274 <> Abs
+R32190:32193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32186:32189 Cpdt.Reflection <> type ind
+R32215:32218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32212:32214 Coq.Init.Datatypes <> nat ind
+R32219:32222 Cpdt.Reflection <> term:174 ind
+R32224:32226 Cpdt.Reflection <> Nat constr
+R32245:32248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32237:32240 Cpdt.Reflection <> term:174 ind
+R32242:32244 Cpdt.Reflection <> Nat constr
+R32257:32260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32249:32252 Cpdt.Reflection <> term:174 ind
+R32254:32256 Cpdt.Reflection <> Nat constr
+R32261:32264 Cpdt.Reflection <> term:174 ind
+R32266:32268 Cpdt.Reflection <> Nat constr
+binder 32285:32285 <> t:176
+R32288:32288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32302:32306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32292:32295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32289:32291 Coq.Init.Datatypes <> nat ind
+R32296:32299 Cpdt.Reflection <> term:174 ind
+R32301:32301 Cpdt.Reflection <> t:176 var
+R32307:32310 Cpdt.Reflection <> term:174 ind
+R32313:32319 Cpdt.Reflection <> NatFunc constr
+R32321:32321 Cpdt.Reflection <> t:176 var
+def 32335:32344 <> typeDenote
+R32351:32354 Cpdt.Reflection <> type ind
+binder 32347:32347 <> t:177
+R32375:32375 Cpdt.Reflection <> t:177 var
+R32388:32390 Cpdt.Reflection <> Nat constr
+R32395:32397 Coq.Init.Datatypes <> nat ind
+R32405:32411 Cpdt.Reflection <> NatFunc constr
+R32421:32424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32418:32420 Coq.Init.Datatypes <> nat ind
+R32425:32434 Cpdt.Reflection <> typeDenote:178 def
+R32436:32436 Cpdt.Reflection <> t:177 var
+def 32455:32464 <> termDenote
+binder 32466:32466 <> t:180
+R32473:32476 Cpdt.Reflection <> term ind
+R32478:32478 Cpdt.Reflection <> t:180 var
+binder 32469:32469 <> e:181
+R32483:32492 Cpdt.Reflection <> typeDenote def
+R32494:32494 Cpdt.Reflection <> t:180 var
+R32507:32507 Cpdt.Reflection <> e:181 var
+R32520:32524 Cpdt.Reflection <> Const constr
+R32539:32542 Cpdt.Reflection <> Plus constr
+R32566:32568 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R32553:32562 Cpdt.Reflection <> termDenote:182 def
+R32569:32578 Cpdt.Reflection <> termDenote:182 def
+R32589:32591 Cpdt.Reflection <> Abs constr
+binder 32605:32605 <> x:184
+R32610:32619 Cpdt.Reflection <> termDenote:182 def
+R32625:32625 Cpdt.Reflection <> x:184 var
+binder 34877:34877 <> x:185
+R34893:34895 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R34892:34892 Cpdt.Reflection <> x:185 var
+R34901:34901 Cpdt.Reflection <> x:185 var
+binder 34877:34877 <> x:186
+R34893:34895 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R34892:34892 Cpdt.Reflection <> x:186 var
+R34901:34901 Cpdt.Reflection <> x:186 var
+binder 35019:35019 <> x:187
+R35032:35034 Coq.Init.Datatypes <> nat ind
+binder 35028:35028 <> y:188
+R35045:35045 Cpdt.Reflection <> x:187 var
+R35047:35047 Cpdt.Reflection <> y:188 var
+binder 35019:35019 <> x:189
+R35032:35034 Coq.Init.Datatypes <> nat ind
+binder 35028:35028 <> y:190
+R35045:35045 Cpdt.Reflection <> x:189 var
+R35047:35047 Cpdt.Reflection <> y:190 var
+binder 35192:35192 <> x:191
+R35197:35201 Cpdt.Reflection <> Const constr
+R35206:35206 Cpdt.Reflection <> x:191 var
+R35084:35086 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R35087:35089 Coq.Init.Datatypes <> nat ind
+binder 35079:35079 <> p:192
+R35098:35100 Coq.Init.Datatypes <> fst def
+R35102:35102 Cpdt.Reflection <> p:192 var
+R35106:35108 Coq.Init.Datatypes <> snd def
+R35110:35110 Cpdt.Reflection <> p:192 var
+binder 35137:35137 <> u:193
+R35142:35144 Cpdt.Reflection <> Abs constr
+binder 35151:35151 <> v:194
+R35159:35159 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35161:35162 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35164:35164 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35160:35160 Cpdt.Reflection <> u:193 var
+R35163:35163 Cpdt.Reflection <> v:194 var
+binder 34982:34982 <> x:195
+R34987:34990 Cpdt.Reflection <> Plus constr
+R35003:35003 Cpdt.Reflection <> x:195 var
+R34996:34996 Cpdt.Reflection <> x:195 var
+R36231:36233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36231:36233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36275:36278 Coq.Init.Datatypes <> unit ind
+R36322:36325 Coq.Init.Datatypes <> unit ind
+R36372:36374 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36353:36362 Cpdt.Reflection <> termDenote def
+R36369:36370 Coq.Init.Datatypes <> tt constr
+R36375:36384 Cpdt.Reflection <> termDenote def
+R36391:36392 Coq.Init.Datatypes <> tt constr
+R36428:36430 Coq.Init.Datatypes <> fst def
+R36432:36434 Coq.Init.Datatypes <> snd def
+def 36445:36505 <> Unnamed_thm
+R36450:36450 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36480:36484 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36505:36505 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36462:36464 Coq.Init.Datatypes <> nat ind
+binder 36456:36456 <> x:196
+binder 36458:36458 <> y:197
+R36475:36477 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R36471:36473 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R36470:36470 Cpdt.Reflection <> x:196 var
+R36474:36474 Cpdt.Reflection <> y:197 var
+R36496:36498 Coq.Init.Datatypes <> nat ind
+binder 36492:36492 <> z:198
+R36504:36504 Cpdt.Reflection <> z:198 var

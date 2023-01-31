@@ -1,0 +1,1778 @@
+DIGEST ab1cc295ddc442095b3b67dcb4c64865
+FCpdt.ProgLang
+R305:328 Coq.Logic.FunctionalExtensionality <> <> lib
+R330:333 Coq.Lists.List <> <> lib
+R352:367 Cpdt.CpdtTactics <> <> lib
+R369:380 Cpdt.DepList <> <> lib
+R2912:2912 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2923:2927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2938:2938 Coq.Init.Logic <> ::type_scope:x_'='_x not
+binder 2917:2917 <> x:1
+binder 2932:2932 <> y:2
+R2912:2912 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2923:2927 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2938:2938 Coq.Init.Logic <> ::type_scope:x_'='_x not
+binder 2917:2917 <> x:3
+binder 2932:2932 <> y:4
+R2994:2996 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2994:2996 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3064:3066 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3058:3062 Cpdt.DepList <> :::x_':::'_x not
+R3069:3073 Cpdt.DepList <> :::x_':::'_x not
+R3064:3066 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3058:3062 Cpdt.DepList <> :::x_':::'_x not
+R3069:3073 Cpdt.DepList <> :::x_':::'_x not
+R3133:3135 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3124:3127 Cpdt.DepList <> hmap def
+R3136:3139 Cpdt.DepList <> hmap def
+R3133:3135 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3124:3127 Cpdt.DepList <> hmap def
+R3136:3139 Cpdt.DepList <> hmap def
+sec 3301:3304 <> hmap
+var 3318:3318 hmap A
+var 3340:3341 hmap B1
+var 3343:3344 hmap B2
+var 3346:3347 hmap B3
+R3352:3355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3351:3351 Cpdt.ProgLang <> hmap.A var
+var 3374:3375 hmap f1
+binder 3386:3386 <> x:9
+R3393:3396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3389:3390 Cpdt.ProgLang <> hmap.B1 var
+R3392:3392 Cpdt.ProgLang <> x:9 var
+R3397:3398 Cpdt.ProgLang <> hmap.B2 var
+R3400:3400 Cpdt.ProgLang <> x:9 var
+var 3414:3415 hmap f2
+binder 3426:3426 <> x:11
+R3433:3436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3429:3430 Cpdt.ProgLang <> hmap.B2 var
+R3432:3432 Cpdt.ProgLang <> x:11 var
+R3437:3438 Cpdt.ProgLang <> hmap.B3 var
+R3440:3440 Cpdt.ProgLang <> x:11 var
+prf 3454:3462 <> hmap_hmap
+binder 3473:3474 <> ls:13
+R3482:3486 Cpdt.DepList <> hlist ind
+R3491:3492 Cpdt.ProgLang <> ls:13 var
+R3488:3489 Cpdt.ProgLang <> hmap.B1 var
+binder 3477:3478 <> hl:14
+R3516:3518 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3496:3499 Cpdt.DepList <> hmap def
+R3505:3508 Cpdt.DepList <> hmap def
+R3513:3514 Cpdt.ProgLang <> hl:14 var
+R3510:3511 Cpdt.ProgLang <> hmap.f1 var
+R3501:3502 Cpdt.ProgLang <> hmap.f2 var
+R3519:3522 Cpdt.DepList <> hmap def
+R3556:3557 Cpdt.ProgLang <> hl:14 var
+binder 3529:3529 <> i:15
+R3536:3537 Cpdt.ProgLang <> hmap.B1 var
+R3539:3539 Cpdt.ProgLang <> i:15 var
+binder 3532:3532 <> x:16
+R3545:3546 Cpdt.ProgLang <> hmap.f2 var
+R3549:3550 Cpdt.ProgLang <> hmap.f1 var
+R3552:3552 Cpdt.ProgLang <> x:16 var
+R3596:3599 Cpdt.ProgLang hmap <> sec
+sec 3611:3616 <> Forall
+var 3630:3630 Forall A
+var 3651:3651 Forall P
+R3656:3659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3655:3655 Cpdt.ProgLang <> Forall.A var
+prf 3677:3685 <> Forall_In
+binder 3696:3697 <> ls:19
+R3711:3714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3700:3705 Coq.Lists.List <> Forall ind
+R3709:3710 Cpdt.ProgLang <> ls:19 var
+R3707:3707 Cpdt.ProgLang <> Forall.P var
+binder 3722:3722 <> x:20
+R3732:3735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3725:3726 Coq.Lists.List <> In def
+R3730:3731 Cpdt.ProgLang <> ls:19 var
+R3728:3728 Cpdt.ProgLang <> x:20 var
+R3736:3736 Cpdt.ProgLang <> Forall.P var
+R3738:3738 Cpdt.ProgLang <> x:20 var
+prf 3783:3792 <> Forall_In'
+binder 3803:3804 <> ls:21
+R3807:3807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3832:3836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3815:3815 <> x:22
+R3825:3828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3818:3819 Coq.Lists.List <> In def
+R3823:3824 Cpdt.ProgLang <> ls:21 var
+R3821:3821 Cpdt.ProgLang <> x:22 var
+R3829:3829 Cpdt.ProgLang <> Forall.P var
+R3831:3831 Cpdt.ProgLang <> x:22 var
+R3837:3842 Coq.Lists.List <> Forall ind
+R3846:3847 Cpdt.ProgLang <> ls:21 var
+R3844:3844 Cpdt.ProgLang <> Forall.P var
+var 3894:3895 Forall P'
+R3900:3903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3899:3899 Cpdt.ProgLang <> Forall.A var
+prf 3921:3933 <> Forall_weaken
+binder 3944:3945 <> ls:24
+R3959:3966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3948:3953 Coq.Lists.List <> Forall ind
+R3957:3958 Cpdt.ProgLang <> ls:24 var
+R3955:3955 Cpdt.ProgLang <> Forall.P var
+R3967:3967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3989:3997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 3975:3975 <> x:25
+R3981:3984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3978:3978 Cpdt.ProgLang <> Forall.P var
+R3980:3980 Cpdt.ProgLang <> x:25 var
+R3985:3986 Cpdt.ProgLang <> Forall.P' var
+R3988:3988 Cpdt.ProgLang <> x:25 var
+R3998:4003 Coq.Lists.List <> Forall ind
+R4008:4009 Cpdt.ProgLang <> ls:24 var
+R4005:4006 Cpdt.ProgLang <> Forall.P' var
+R4047:4052 Cpdt.ProgLang Forall <> sec
+ind 4244:4247 <> type
+constr 4261:4263 <> Nat
+constr 4274:4277 <> Func
+R4267:4270 Cpdt.ProgLang <> type:26 ind
+R4285:4288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4281:4284 Cpdt.ProgLang <> type:26 ind
+R4293:4296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4289:4292 Cpdt.ProgLang <> type:26 ind
+R4297:4300 Cpdt.ProgLang <> type:26 ind
+def 4313:4322 <> typeDenote
+R4329:4332 Cpdt.ProgLang <> type ind
+binder 4325:4325 <> t:28
+R4353:4353 Cpdt.ProgLang <> t:28 var
+R4366:4368 Cpdt.ProgLang <> Nat constr
+R4373:4375 Coq.Init.Datatypes <> nat ind
+R4383:4386 Cpdt.ProgLang <> Func constr
+R4410:4413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4397:4406 Cpdt.ProgLang <> typeDenote:29 def
+R4414:4423 Cpdt.ProgLang <> typeDenote:29 def
+mod 5244:5253 <> FirstOrder
+ind 5438:5441 FirstOrder term
+constr 5478:5480 FirstOrder Var
+constr 5524:5528 FirstOrder Const
+constr 5564:5567 FirstOrder Plus
+constr 5625:5627 FirstOrder Abs
+constr 5698:5700 FirstOrder App
+constr 5777:5779 FirstOrder Let
+R5454:5457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5445:5448 Coq.Init.Datatypes <> list ind
+R5450:5453 Cpdt.ProgLang <> type ind
+R5462:5465 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5458:5461 Cpdt.ProgLang <> type ind
+binder 5491:5491 <> G:33
+binder 5493:5493 <> t:34
+R5506:5509 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5496:5501 Cpdt.DepList <> member ind
+R5505:5505 Cpdt.ProgLang <> G:33 var
+R5503:5503 Cpdt.ProgLang <> t:34 var
+R5510:5513 Cpdt.ProgLang <> term:31 ind
+R5517:5517 Cpdt.ProgLang <> t:34 var
+R5515:5515 Cpdt.ProgLang <> G:33 var
+binder 5539:5539 <> G:35
+R5545:5548 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5542:5544 Coq.Init.Datatypes <> nat ind
+R5549:5552 Cpdt.ProgLang <> term:31 ind
+R5556:5558 Cpdt.ProgLang <> Nat constr
+R5554:5554 Cpdt.ProgLang <> G:35 var
+binder 5578:5578 <> G:36
+R5591:5594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5581:5584 Cpdt.ProgLang <> term:31 ind
+R5588:5590 Cpdt.ProgLang <> Nat constr
+R5586:5586 Cpdt.ProgLang <> G:36 var
+R5605:5608 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5595:5598 Cpdt.ProgLang <> term:31 ind
+R5602:5604 Cpdt.ProgLang <> Nat constr
+R5600:5600 Cpdt.ProgLang <> G:36 var
+R5609:5612 Cpdt.ProgLang <> term:31 ind
+R5616:5618 Cpdt.ProgLang <> Nat constr
+R5614:5614 Cpdt.ProgLang <> G:36 var
+binder 5638:5638 <> G:37
+binder 5640:5642 <> dom:38
+binder 5644:5646 <> ran:39
+R5668:5671 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5649:5652 Cpdt.ProgLang <> term:31 ind
+R5665:5667 Cpdt.ProgLang <> ran:39 var
+R5658:5661 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5655:5657 Cpdt.ProgLang <> dom:38 var
+R5662:5662 Cpdt.ProgLang <> G:37 var
+R5672:5675 Cpdt.ProgLang <> term:31 ind
+R5680:5683 Cpdt.ProgLang <> Func constr
+R5689:5691 Cpdt.ProgLang <> ran:39 var
+R5685:5687 Cpdt.ProgLang <> dom:38 var
+R5677:5677 Cpdt.ProgLang <> G:37 var
+binder 5711:5711 <> G:40
+binder 5713:5715 <> dom:41
+binder 5717:5719 <> ran:42
+R5743:5746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5722:5725 Cpdt.ProgLang <> term:31 ind
+R5730:5733 Cpdt.ProgLang <> Func constr
+R5739:5741 Cpdt.ProgLang <> ran:42 var
+R5735:5737 Cpdt.ProgLang <> dom:41 var
+R5727:5727 Cpdt.ProgLang <> G:40 var
+R5757:5760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5747:5750 Cpdt.ProgLang <> term:31 ind
+R5754:5756 Cpdt.ProgLang <> dom:41 var
+R5752:5752 Cpdt.ProgLang <> G:40 var
+R5761:5764 Cpdt.ProgLang <> term:31 ind
+R5768:5770 Cpdt.ProgLang <> ran:42 var
+R5766:5766 Cpdt.ProgLang <> G:40 var
+binder 5790:5790 <> G:43
+binder 5792:5793 <> t1:44
+binder 5795:5796 <> t2:45
+R5808:5811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5799:5802 Cpdt.ProgLang <> term:31 ind
+R5806:5807 Cpdt.ProgLang <> t1:44 var
+R5804:5804 Cpdt.ProgLang <> G:43 var
+R5829:5832 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5812:5815 Cpdt.ProgLang <> term:31 ind
+R5827:5828 Cpdt.ProgLang <> t2:45 var
+R5820:5823 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R5818:5819 Cpdt.ProgLang <> t1:44 var
+R5824:5824 Cpdt.ProgLang <> G:43 var
+R5833:5836 Cpdt.ProgLang <> term:31 ind
+R5840:5841 Cpdt.ProgLang <> t2:45 var
+R5838:5838 Cpdt.ProgLang <> G:43 var
+R5857:5861 Cpdt.ProgLang FirstOrder Const constr
+R5857:5861 Cpdt.ProgLang FirstOrder Const constr
+def 6060:6062 FirstOrder add
+R6066:6069 Cpdt.ProgLang FirstOrder term ind
+R6076:6079 Cpdt.ProgLang <> Func constr
+R6086:6089 Cpdt.ProgLang <> Func constr
+R6095:6097 Cpdt.ProgLang <> Nat constr
+R6091:6093 Cpdt.ProgLang <> Nat constr
+R6081:6083 Cpdt.ProgLang <> Nat constr
+R6071:6073 Coq.Init.Datatypes <> nil constr
+R6108:6110 Cpdt.ProgLang FirstOrder Abs constr
+R6113:6115 Cpdt.ProgLang FirstOrder Abs constr
+R6118:6121 Cpdt.ProgLang FirstOrder Plus constr
+R6145:6147 Cpdt.ProgLang FirstOrder Var constr
+R6149:6154 Cpdt.DepList <> HFirst constr
+R6124:6126 Cpdt.ProgLang FirstOrder Var constr
+R6129:6133 Cpdt.DepList <> HNext constr
+R6135:6140 Cpdt.DepList <> HFirst constr
+def 6171:6188 FirstOrder three_the_hard_way
+R6192:6195 Cpdt.ProgLang FirstOrder term ind
+R6201:6203 Cpdt.ProgLang <> Nat constr
+R6197:6199 Coq.Init.Datatypes <> nil constr
+R6212:6214 Cpdt.ProgLang FirstOrder App constr
+R6237:6241 Cpdt.ProgLang FirstOrder Const constr
+R6217:6219 Cpdt.ProgLang FirstOrder App constr
+R6226:6230 Cpdt.ProgLang FirstOrder Const constr
+R6221:6223 Cpdt.ProgLang FirstOrder add ex
+def 6428:6437 FirstOrder termDenote
+binder 6439:6439 <> G:46
+binder 6441:6441 <> t:47
+R6448:6451 Cpdt.ProgLang FirstOrder term ind
+R6455:6455 Cpdt.ProgLang <> t:47 var
+R6453:6453 Cpdt.ProgLang <> G:46 var
+binder 6444:6444 <> e:48
+R6478:6481 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6460:6464 Cpdt.DepList <> hlist ind
+R6477:6477 Cpdt.ProgLang <> G:46 var
+R6466:6475 Cpdt.ProgLang <> typeDenote def
+R6482:6491 Cpdt.ProgLang <> typeDenote def
+R6493:6493 Cpdt.ProgLang <> t:47 var
+R6508:6508 Cpdt.ProgLang <> e:48 var
+R6523:6525 Cpdt.ProgLang FirstOrder Var constr
+binder 6540:6540 <> s:51
+R6545:6548 Cpdt.DepList <> hget def
+R6550:6550 Cpdt.ProgLang <> s:51 var
+R6563:6567 Cpdt.ProgLang FirstOrder Const constr
+R6595:6598 Cpdt.ProgLang FirstOrder Plus constr
+binder 6615:6615 <> s:52
+R6635:6637 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6620:6629 Cpdt.ProgLang <> termDenote:49 def
+R6634:6634 Cpdt.ProgLang <> s:52 var
+R6638:6647 Cpdt.ProgLang <> termDenote:49 def
+R6652:6652 Cpdt.ProgLang <> s:52 var
+R6663:6665 Cpdt.ProgLang FirstOrder Abs constr
+binder 6683:6683 <> s:53
+binder 6692:6692 <> x:54
+R6697:6706 Cpdt.ProgLang <> termDenote:49 def
+R6713:6717 Cpdt.DepList <> :::x_':::'_x not
+R6712:6712 Cpdt.ProgLang <> x:54 var
+R6718:6718 Cpdt.ProgLang <> s:53 var
+R6729:6731 Cpdt.ProgLang FirstOrder App constr
+binder 6752:6752 <> s:55
+R6758:6767 Cpdt.ProgLang <> termDenote:49 def
+R6772:6772 Cpdt.ProgLang <> s:55 var
+R6776:6785 Cpdt.ProgLang <> termDenote:49 def
+R6790:6790 Cpdt.ProgLang <> s:55 var
+R6802:6804 Cpdt.ProgLang FirstOrder Let constr
+binder 6825:6825 <> s:56
+R6830:6839 Cpdt.ProgLang <> termDenote:49 def
+R6860:6864 Cpdt.DepList <> :::x_':::'_x not
+R6845:6854 Cpdt.ProgLang <> termDenote:49 def
+R6859:6859 Cpdt.ProgLang <> s:56 var
+R6865:6865 Cpdt.ProgLang <> s:56 var
+def 7141:7145 FirstOrder ident
+binder 7147:7147 <> G:57
+binder 7149:7149 <> t:58
+R7156:7159 Cpdt.ProgLang FirstOrder term ind
+R7163:7163 Cpdt.ProgLang <> t:58 var
+R7161:7161 Cpdt.ProgLang <> G:57 var
+binder 7152:7152 <> e:59
+R7168:7171 Cpdt.ProgLang FirstOrder term ind
+R7175:7175 Cpdt.ProgLang <> t:58 var
+R7173:7173 Cpdt.ProgLang <> G:57 var
+R7190:7190 Cpdt.ProgLang <> e:59 var
+R7205:7207 Cpdt.ProgLang FirstOrder Var constr
+R7218:7220 Cpdt.ProgLang FirstOrder Var constr
+R7233:7237 Cpdt.ProgLang FirstOrder Const constr
+R7246:7250 Cpdt.ProgLang FirstOrder Const constr
+R7262:7265 Cpdt.ProgLang FirstOrder Plus constr
+R7278:7281 Cpdt.ProgLang FirstOrder Plus constr
+R7295:7299 Cpdt.ProgLang <> ident:60 def
+R7284:7288 Cpdt.ProgLang <> ident:60 def
+R7314:7316 Cpdt.ProgLang FirstOrder Abs constr
+R7330:7332 Cpdt.ProgLang FirstOrder Abs constr
+R7335:7339 Cpdt.ProgLang <> ident:60 def
+R7353:7355 Cpdt.ProgLang FirstOrder App constr
+R7372:7374 Cpdt.ProgLang FirstOrder App constr
+R7388:7392 Cpdt.ProgLang <> ident:60 def
+R7377:7381 Cpdt.ProgLang <> ident:60 def
+R7407:7409 Cpdt.ProgLang FirstOrder Let constr
+R7426:7428 Cpdt.ProgLang FirstOrder Let constr
+R7442:7446 Cpdt.ProgLang <> ident:60 def
+R7431:7435 Cpdt.ProgLang <> ident:60 def
+prf 7472:7481 FirstOrder identSound
+binder 7492:7492 <> G:62
+binder 7494:7494 <> t:63
+R7501:7504 Cpdt.ProgLang FirstOrder term ind
+R7508:7508 Cpdt.ProgLang <> t:63 var
+R7506:7506 Cpdt.ProgLang <> G:62 var
+binder 7497:7497 <> e:64
+binder 7511:7511 <> s:65
+R7540:7542 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7518:7527 Cpdt.ProgLang FirstOrder termDenote def
+R7539:7539 Cpdt.ProgLang <> s:65 var
+R7530:7534 Cpdt.ProgLang FirstOrder ident def
+R7536:7536 Cpdt.ProgLang <> e:64 var
+R7543:7552 Cpdt.ProgLang FirstOrder termDenote def
+R7556:7556 Cpdt.ProgLang <> s:65 var
+R7554:7554 Cpdt.ProgLang <> e:64 var
+def 7752:7756 FirstOrder cfold
+binder 7758:7758 <> G:66
+binder 7760:7760 <> t:67
+R7767:7770 Cpdt.ProgLang FirstOrder term ind
+R7774:7774 Cpdt.ProgLang <> t:67 var
+R7772:7772 Cpdt.ProgLang <> G:66 var
+binder 7763:7763 <> e:68
+R7779:7782 Cpdt.ProgLang FirstOrder term ind
+R7786:7786 Cpdt.ProgLang <> t:67 var
+R7784:7784 Cpdt.ProgLang <> G:66 var
+R7801:7801 Cpdt.ProgLang <> e:68 var
+R7816:7819 Cpdt.ProgLang FirstOrder Plus constr
+R7851:7855 Cpdt.ProgLang <> cfold:69 def
+binder 7844:7846 <> e1':71
+R7882:7886 Cpdt.ProgLang <> cfold:69 def
+binder 7875:7877 <> e2':72
+R7924:7926 Cpdt.ProgLang <> e1':71 var
+R7970:7974 Cpdt.ProgLang FirstOrder Const constr
+R8018:8020 Cpdt.ProgLang <> e2':72 var
+R8068:8072 Cpdt.ProgLang FirstOrder Const constr
+R8082:8085 Coq.Init.Datatypes <> Some constr
+R8088:8092 Cpdt.ProgLang FirstOrder Const constr
+R8097:8099 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R8142:8145 Coq.Init.Datatypes <> None constr
+R8212:8215 Coq.Init.Datatypes <> None constr
+binder 7906:7913 <> maybeOpt:75
+R8262:8269 Cpdt.ProgLang <> maybeOpt:75 var
+R8288:8291 Coq.Init.Datatypes <> None constr
+R8296:8299 Cpdt.ProgLang FirstOrder Plus constr
+R8305:8307 Cpdt.ProgLang <> e2':72 var
+R8301:8303 Cpdt.ProgLang <> e1':71 var
+R8321:8324 Coq.Init.Datatypes <> Some constr
+R8356:8358 Cpdt.ProgLang FirstOrder Abs constr
+R8372:8374 Cpdt.ProgLang FirstOrder Abs constr
+R8377:8381 Cpdt.ProgLang <> cfold:69 def
+R8395:8397 Cpdt.ProgLang FirstOrder App constr
+R8414:8416 Cpdt.ProgLang FirstOrder App constr
+R8430:8434 Cpdt.ProgLang <> cfold:69 def
+R8419:8423 Cpdt.ProgLang <> cfold:69 def
+R8449:8451 Cpdt.ProgLang FirstOrder Let constr
+R8468:8470 Cpdt.ProgLang FirstOrder Let constr
+R8484:8488 Cpdt.ProgLang <> cfold:69 def
+R8473:8477 Cpdt.ProgLang <> cfold:69 def
+R8508:8508 Cpdt.ProgLang <> e:68 var
+prf 8601:8610 FirstOrder cfoldSound
+binder 8621:8621 <> G:77
+binder 8623:8623 <> t:78
+R8630:8633 Cpdt.ProgLang FirstOrder term ind
+R8637:8637 Cpdt.ProgLang <> t:78 var
+R8635:8635 Cpdt.ProgLang <> G:77 var
+binder 8626:8626 <> e:79
+binder 8640:8640 <> s:80
+R8669:8671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8647:8656 Cpdt.ProgLang FirstOrder termDenote def
+R8668:8668 Cpdt.ProgLang <> s:80 var
+R8659:8663 Cpdt.ProgLang FirstOrder cfold def
+R8665:8665 Cpdt.ProgLang <> e:79 var
+R8672:8681 Cpdt.ProgLang FirstOrder termDenote def
+R8685:8685 Cpdt.ProgLang <> s:80 var
+R8683:8683 Cpdt.ProgLang <> e:79 var
+R8784:8786 Cpdt.ProgLang FirstOrder Var constr
+R8784:8786 Cpdt.ProgLang FirstOrder Var constr
+def 10234:10241 FirstOrder insertAt
+R10248:10251 Cpdt.ProgLang <> type ind
+binder 10244:10244 <> t:81
+R10259:10262 Coq.Init.Datatypes <> list ind
+R10264:10267 Cpdt.ProgLang <> type ind
+binder 10255:10255 <> G:82
+R10275:10277 Coq.Init.Datatypes <> nat ind
+binder 10271:10271 <> n:83
+R10293:10296 Coq.Init.Datatypes <> list ind
+R10298:10301 Cpdt.ProgLang <> type ind
+R10316:10316 Cpdt.ProgLang <> n:83 var
+R10331:10331 Coq.Init.Datatypes <> O constr
+R10337:10340 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10336:10336 Cpdt.ProgLang <> t:81 var
+R10341:10341 Cpdt.ProgLang <> G:82 var
+R10351:10351 Coq.Init.Datatypes <> S constr
+R10365:10365 Cpdt.ProgLang <> G:82 var
+R10392:10394 Coq.Init.Datatypes <> nil constr
+R10400:10403 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10399:10399 Cpdt.ProgLang <> t:81 var
+R10404:10404 Cpdt.ProgLang <> G:82 var
+R10428:10431 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10440:10443 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10444:10451 Cpdt.ProgLang <> insertAt:84 def
+R10453:10453 Cpdt.ProgLang <> t:81 var
+def 10602:10608 FirstOrder liftVar
+binder 10610:10610 <> t:87
+binder 10612:10612 <> G:88
+R10619:10624 Cpdt.DepList <> member ind
+R10628:10628 Cpdt.ProgLang <> G:88 var
+R10626:10626 Cpdt.ProgLang <> t:87 var
+binder 10615:10615 <> x:89
+binder 10631:10632 <> t':90
+binder 10634:10634 <> n:91
+R10638:10643 Cpdt.DepList <> member ind
+R10648:10655 Cpdt.ProgLang FirstOrder insertAt def
+R10662:10662 Cpdt.ProgLang <> n:91 var
+R10660:10660 Cpdt.ProgLang <> G:88 var
+R10657:10658 Cpdt.ProgLang <> t':90 var
+R10645:10645 Cpdt.ProgLang <> t:87 var
+R10678:10678 Cpdt.ProgLang <> x:89 var
+R10693:10698 Cpdt.DepList <> HFirst constr
+R10712:10712 Cpdt.ProgLang <> n:91 var
+R10721:10726 Cpdt.DepList <> member ind
+R10731:10738 Cpdt.ProgLang FirstOrder insertAt def
+R10753:10753 Cpdt.ProgLang <> n:94 var
+R10745:10748 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10744:10744 Cpdt.ProgLang <> t:87 var
+R10740:10741 Cpdt.ProgLang <> t':90 var
+R10728:10728 Cpdt.ProgLang <> t:87 var
+R10786:10786 Coq.Init.Datatypes <> O constr
+R10791:10795 Cpdt.DepList <> HNext constr
+R10797:10802 Cpdt.DepList <> HFirst constr
+R10834:10839 Cpdt.DepList <> HFirst constr
+R10874:10878 Cpdt.DepList <> HNext constr
+R10899:10899 Cpdt.ProgLang <> n:91 var
+R10908:10913 Cpdt.DepList <> member ind
+R10918:10925 Cpdt.ProgLang FirstOrder insertAt def
+R10942:10942 Cpdt.ProgLang <> n:95 var
+R10934:10937 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10927:10928 Cpdt.ProgLang <> t':90 var
+R10915:10915 Cpdt.ProgLang <> t:87 var
+R10981:10981 Coq.Init.Datatypes <> O constr
+R10986:10990 Cpdt.DepList <> HNext constr
+R10993:10997 Cpdt.DepList <> HNext constr
+R11034:11034 Coq.Init.Datatypes <> S constr
+R11042:11046 Cpdt.DepList <> HNext constr
+R11049:11055 Cpdt.ProgLang <> liftVar:92 def
+R11060:11061 Cpdt.ProgLang <> t':90 var
+def 11232:11236 FirstOrder lift'
+binder 11238:11238 <> G:96
+binder 11240:11241 <> t':97
+binder 11243:11243 <> n:98
+binder 11245:11245 <> t:99
+R11252:11255 Cpdt.ProgLang FirstOrder term ind
+R11259:11259 Cpdt.ProgLang <> t:99 var
+R11257:11257 Cpdt.ProgLang <> G:96 var
+binder 11248:11248 <> e:100
+R11264:11267 Cpdt.ProgLang FirstOrder term ind
+R11287:11287 Cpdt.ProgLang <> t:99 var
+R11270:11277 Cpdt.ProgLang FirstOrder insertAt def
+R11284:11284 Cpdt.ProgLang <> n:98 var
+R11282:11282 Cpdt.ProgLang <> G:96 var
+R11279:11280 Cpdt.ProgLang <> t':97 var
+R11302:11302 Cpdt.ProgLang <> e:100 var
+R11317:11319 Cpdt.ProgLang FirstOrder Var constr
+R11330:11332 Cpdt.ProgLang FirstOrder Var constr
+R11335:11341 Cpdt.ProgLang FirstOrder liftVar def
+R11348:11348 Cpdt.ProgLang <> n:98 var
+R11345:11346 Cpdt.ProgLang <> t':97 var
+R11360:11364 Cpdt.ProgLang FirstOrder Const constr
+R11373:11377 Cpdt.ProgLang FirstOrder Const constr
+R11379:11379 Cpdt.ProgLang <> n:98 var
+R11389:11392 Cpdt.ProgLang FirstOrder Plus constr
+R11405:11408 Cpdt.ProgLang FirstOrder Plus constr
+R11427:11431 Cpdt.ProgLang <> lift':101 def
+R11436:11436 Cpdt.ProgLang <> n:98 var
+R11433:11434 Cpdt.ProgLang <> t':97 var
+R11411:11415 Cpdt.ProgLang <> lift':101 def
+R11420:11420 Cpdt.ProgLang <> n:98 var
+R11417:11418 Cpdt.ProgLang <> t':97 var
+R11451:11453 Cpdt.ProgLang FirstOrder Abs constr
+R11467:11469 Cpdt.ProgLang FirstOrder Abs constr
+R11472:11476 Cpdt.ProgLang <> lift':101 def
+R11482:11482 Coq.Init.Datatypes <> S constr
+R11484:11484 Cpdt.ProgLang <> n:98 var
+R11478:11479 Cpdt.ProgLang <> t':97 var
+R11499:11501 Cpdt.ProgLang FirstOrder App constr
+R11518:11520 Cpdt.ProgLang FirstOrder App constr
+R11539:11543 Cpdt.ProgLang <> lift':101 def
+R11548:11548 Cpdt.ProgLang <> n:98 var
+R11545:11546 Cpdt.ProgLang <> t':97 var
+R11523:11527 Cpdt.ProgLang <> lift':101 def
+R11532:11532 Cpdt.ProgLang <> n:98 var
+R11529:11530 Cpdt.ProgLang <> t':97 var
+R11563:11565 Cpdt.ProgLang FirstOrder Let constr
+R11582:11584 Cpdt.ProgLang FirstOrder Let constr
+R11603:11607 Cpdt.ProgLang <> lift':101 def
+R11613:11613 Coq.Init.Datatypes <> S constr
+R11615:11615 Cpdt.ProgLang <> n:98 var
+R11609:11610 Cpdt.ProgLang <> t':97 var
+R11587:11591 Cpdt.ProgLang <> lift':101 def
+R11596:11596 Cpdt.ProgLang <> n:98 var
+R11593:11594 Cpdt.ProgLang <> t':97 var
+def 11840:11843 FirstOrder lift
+binder 11845:11845 <> G:103
+binder 11847:11848 <> t':104
+binder 11850:11850 <> t:105
+R11857:11860 Cpdt.ProgLang FirstOrder term ind
+R11864:11864 Cpdt.ProgLang <> t:105 var
+R11862:11862 Cpdt.ProgLang <> G:103 var
+binder 11853:11853 <> e:106
+R11869:11872 Cpdt.ProgLang FirstOrder term ind
+R11884:11884 Cpdt.ProgLang <> t:105 var
+R11877:11880 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11875:11876 Cpdt.ProgLang <> t':104 var
+R11881:11881 Cpdt.ProgLang <> G:103 var
+R11893:11897 Cpdt.ProgLang FirstOrder lift' def
+R11904:11904 Cpdt.ProgLang <> e:106 var
+R11902:11902 Coq.Init.Datatypes <> O constr
+R11899:11900 Cpdt.ProgLang <> t':104 var
+def 12378:12382 FirstOrder unlet
+binder 12384:12384 <> G:107
+binder 12386:12386 <> t:108
+R12393:12396 Cpdt.ProgLang FirstOrder term ind
+R12400:12400 Cpdt.ProgLang <> t:108 var
+R12398:12398 Cpdt.ProgLang <> G:107 var
+binder 12389:12389 <> e:109
+binder 12403:12404 <> G':110
+R12425:12428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12408:12412 Cpdt.DepList <> hlist ind
+R12424:12424 Cpdt.ProgLang <> G:107 var
+R12415:12418 Cpdt.ProgLang FirstOrder term ind
+R12420:12421 Cpdt.ProgLang <> G':110 var
+R12429:12432 Cpdt.ProgLang FirstOrder term ind
+R12437:12437 Cpdt.ProgLang <> t:108 var
+R12434:12435 Cpdt.ProgLang <> G':110 var
+R12452:12452 Cpdt.ProgLang <> e:109 var
+R12467:12469 Cpdt.ProgLang FirstOrder Var constr
+binder 12484:12484 <> s:113
+R12489:12492 Cpdt.DepList <> hget def
+R12494:12494 Cpdt.ProgLang <> s:113 var
+R12507:12511 Cpdt.ProgLang FirstOrder Const constr
+R12529:12533 Cpdt.ProgLang FirstOrder Const constr
+R12545:12548 Cpdt.ProgLang FirstOrder Plus constr
+binder 12565:12565 <> s:114
+R12570:12573 Cpdt.ProgLang FirstOrder Plus constr
+R12589:12593 Cpdt.ProgLang <> unlet:111 def
+R12598:12598 Cpdt.ProgLang <> s:114 var
+R12576:12580 Cpdt.ProgLang <> unlet:111 def
+R12585:12585 Cpdt.ProgLang <> s:114 var
+R12610:12612 Cpdt.ProgLang FirstOrder Abs constr
+binder 12630:12630 <> s:115
+R12635:12637 Cpdt.ProgLang FirstOrder Abs constr
+R12640:12644 Cpdt.ProgLang <> unlet:111 def
+R12660:12664 Cpdt.DepList <> :::x_':::'_x not
+R12650:12652 Cpdt.ProgLang FirstOrder Var constr
+R12654:12659 Cpdt.DepList <> HFirst constr
+R12665:12668 Cpdt.DepList <> hmap def
+R12679:12679 Cpdt.ProgLang <> s:115 var
+R12671:12674 Cpdt.ProgLang FirstOrder lift def
+R12691:12693 Cpdt.ProgLang FirstOrder App constr
+binder 12714:12714 <> s:116
+R12719:12721 Cpdt.ProgLang FirstOrder App constr
+R12737:12741 Cpdt.ProgLang <> unlet:111 def
+R12746:12746 Cpdt.ProgLang <> s:116 var
+R12724:12728 Cpdt.ProgLang <> unlet:111 def
+R12733:12733 Cpdt.ProgLang <> s:116 var
+R12758:12760 Cpdt.ProgLang FirstOrder Let constr
+binder 12782:12782 <> s:117
+R12787:12791 Cpdt.ProgLang <> unlet:111 def
+R12807:12811 Cpdt.DepList <> :::x_':::'_x not
+R12797:12801 Cpdt.ProgLang <> unlet:111 def
+R12806:12806 Cpdt.ProgLang <> s:117 var
+R12812:12812 Cpdt.ProgLang <> s:117 var
+def 13115:13123 FirstOrder insertAtS
+R13130:13133 Cpdt.ProgLang <> type ind
+binder 13126:13126 <> t:118
+R13141:13150 Cpdt.ProgLang <> typeDenote def
+R13152:13152 Cpdt.ProgLang <> t:118 var
+binder 13137:13137 <> x:119
+R13160:13163 Coq.Init.Datatypes <> list ind
+R13165:13168 Cpdt.ProgLang <> type ind
+binder 13156:13156 <> G:120
+R13176:13178 Coq.Init.Datatypes <> nat ind
+binder 13172:13172 <> n:121
+R13216:13219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13198:13202 Cpdt.DepList <> hlist ind
+R13215:13215 Cpdt.ProgLang <> G:120 var
+R13204:13213 Cpdt.ProgLang <> typeDenote def
+R13220:13224 Cpdt.DepList <> hlist ind
+R13238:13245 Cpdt.ProgLang FirstOrder insertAt def
+R13251:13251 Cpdt.ProgLang <> n:121 var
+R13249:13249 Cpdt.ProgLang <> G:120 var
+R13247:13247 Cpdt.ProgLang <> t:118 var
+R13226:13235 Cpdt.ProgLang <> typeDenote def
+R13267:13267 Cpdt.ProgLang <> n:121 var
+R13282:13282 Coq.Init.Datatypes <> O constr
+binder 13291:13291 <> s:124
+R13297:13301 Cpdt.DepList <> :::x_':::'_x not
+R13296:13296 Cpdt.ProgLang <> x:119 var
+R13302:13302 Cpdt.ProgLang <> s:124 var
+R13312:13312 Coq.Init.Datatypes <> S constr
+R13326:13326 Cpdt.ProgLang <> G:120 var
+R13353:13387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13335:13339 Cpdt.DepList <> hlist ind
+R13352:13352 Cpdt.ProgLang <> G:125 var
+R13341:13350 Cpdt.ProgLang <> typeDenote def
+R13388:13392 Cpdt.DepList <> hlist ind
+R13406:13413 Cpdt.ProgLang FirstOrder insertAt def
+R13420:13420 Coq.Init.Datatypes <> S constr
+R13417:13417 Cpdt.ProgLang <> G:125 var
+R13415:13415 Cpdt.ProgLang <> t:118 var
+R13394:13403 Cpdt.ProgLang <> typeDenote def
+R13452:13454 Coq.Init.Datatypes <> nil constr
+binder 13463:13463 <> s:126
+R13469:13473 Cpdt.DepList <> :::x_':::'_x not
+R13468:13468 Cpdt.ProgLang <> x:119 var
+R13474:13474 Cpdt.ProgLang <> s:126 var
+R13498:13501 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+binder 13512:13512 <> s:127
+R13522:13526 Cpdt.DepList <> :::x_':::'_x not
+R13517:13519 Cpdt.DepList <> hhd def
+R13521:13521 Cpdt.ProgLang <> s:127 var
+R13527:13535 Cpdt.ProgLang <> insertAtS:122 def
+R13545:13547 Cpdt.DepList <> htl def
+R13549:13549 Cpdt.ProgLang <> s:127 var
+R13539:13539 Cpdt.ProgLang <> x:119 var
+R13537:13537 Cpdt.ProgLang <> t:118 var
+R13594:13602 Cpdt.ProgLang FirstOrder insertAtS def
+R13594:13602 Cpdt.ProgLang FirstOrder insertAtS def
+prf 13845:13856 FirstOrder liftVarSound
+binder 13867:13868 <> t':128
+R13875:13884 Cpdt.ProgLang <> typeDenote def
+R13886:13887 Cpdt.ProgLang <> t':128 var
+binder 13871:13871 <> x:129
+binder 13890:13890 <> t:130
+binder 13892:13892 <> G:131
+R13899:13904 Cpdt.DepList <> member ind
+R13908:13908 Cpdt.ProgLang <> G:131 var
+R13906:13906 Cpdt.ProgLang <> t:130 var
+binder 13895:13895 <> m:132
+binder 13911:13911 <> s:133
+binder 13913:13913 <> n:134
+R13928:13930 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13920:13923 Cpdt.DepList <> hget def
+R13927:13927 Cpdt.ProgLang <> m:132 var
+R13925:13925 Cpdt.ProgLang <> s:133 var
+R13931:13934 Cpdt.DepList <> hget def
+R13955:13961 Cpdt.ProgLang FirstOrder liftVar def
+R13968:13968 Cpdt.ProgLang <> n:134 var
+R13965:13966 Cpdt.ProgLang <> t':128 var
+R13963:13963 Cpdt.ProgLang <> m:132 var
+R13937:13945 Cpdt.ProgLang FirstOrder insertAtS def
+R13951:13951 Cpdt.ProgLang <> s:133 var
+R13949:13949 Cpdt.ProgLang <> n:134 var
+R13947:13947 Cpdt.ProgLang <> x:129 var
+prf 14132:14141 FirstOrder lift'Sound
+binder 14152:14152 <> G:135
+binder 14154:14155 <> t':136
+R14162:14171 Cpdt.ProgLang <> typeDenote def
+R14173:14174 Cpdt.ProgLang <> t':136 var
+binder 14158:14158 <> x:137
+binder 14177:14177 <> t:138
+R14184:14187 Cpdt.ProgLang FirstOrder term ind
+R14191:14191 Cpdt.ProgLang <> t:138 var
+R14189:14189 Cpdt.ProgLang <> G:135 var
+binder 14180:14180 <> e:139
+binder 14194:14194 <> n:140
+binder 14196:14196 <> s:141
+R14217:14219 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14203:14212 Cpdt.ProgLang FirstOrder termDenote def
+R14216:14216 Cpdt.ProgLang <> s:141 var
+R14214:14214 Cpdt.ProgLang <> e:139 var
+R14220:14229 Cpdt.ProgLang FirstOrder termDenote def
+R14247:14255 Cpdt.ProgLang FirstOrder insertAtS def
+R14261:14261 Cpdt.ProgLang <> s:141 var
+R14259:14259 Cpdt.ProgLang <> n:140 var
+R14257:14257 Cpdt.ProgLang <> x:137 var
+R14232:14236 Cpdt.ProgLang FirstOrder lift' def
+R14243:14243 Cpdt.ProgLang <> e:139 var
+R14241:14241 Cpdt.ProgLang <> n:140 var
+R14238:14239 Cpdt.ProgLang <> t':136 var
+binder 14346:14346 <> n:142
+binder 14348:14348 <> s:143
+R14352:14354 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14355:14364 Cpdt.ProgLang FirstOrder termDenote def
+R14367:14371 Cpdt.ProgLang FirstOrder lift' def
+R14375:14375 Cpdt.ProgLang <> n:142 var
+binder 14346:14346 <> n:144
+binder 14348:14348 <> s:145
+R14352:14354 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14355:14364 Cpdt.ProgLang FirstOrder termDenote def
+R14367:14371 Cpdt.ProgLang FirstOrder lift' def
+R14375:14375 Cpdt.ProgLang <> n:144 var
+R14413:14417 Cpdt.ProgLang FirstOrder lift' def
+R14422:14422 Coq.Init.Datatypes <> S constr
+R14413:14417 Cpdt.ProgLang FirstOrder lift' def
+R14422:14422 Coq.Init.Datatypes <> S constr
+R14453:14453 Coq.Init.Datatypes <> S constr
+R14453:14453 Coq.Init.Datatypes <> S constr
+R14453:14453 Coq.Init.Datatypes <> S constr
+prf 14558:14566 FirstOrder liftSound
+binder 14577:14577 <> G:146
+binder 14579:14580 <> t':147
+R14587:14596 Cpdt.ProgLang <> typeDenote def
+R14598:14599 Cpdt.ProgLang <> t':147 var
+binder 14583:14583 <> x:148
+binder 14602:14602 <> t:149
+R14609:14612 Cpdt.ProgLang FirstOrder term ind
+R14616:14616 Cpdt.ProgLang <> t:149 var
+R14614:14614 Cpdt.ProgLang <> G:146 var
+binder 14605:14605 <> e:150
+binder 14619:14619 <> s:151
+R14658:14660 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14626:14635 Cpdt.ProgLang FirstOrder termDenote def
+R14651:14655 Cpdt.DepList <> :::x_':::'_x not
+R14650:14650 Cpdt.ProgLang <> x:148 var
+R14656:14656 Cpdt.ProgLang <> s:151 var
+R14638:14641 Cpdt.ProgLang FirstOrder lift def
+R14646:14646 Cpdt.ProgLang <> e:150 var
+R14643:14644 Cpdt.ProgLang <> t':147 var
+R14661:14670 Cpdt.ProgLang FirstOrder termDenote def
+R14674:14674 Cpdt.ProgLang <> s:151 var
+R14672:14672 Cpdt.ProgLang <> e:150 var
+R14688:14691 Cpdt.ProgLang FirstOrder lift def
+R14711:14720 Cpdt.ProgLang FirstOrder lift'Sound thm
+R14728:14728 Coq.Init.Datatypes <> O constr
+R14711:14720 Cpdt.ProgLang FirstOrder lift'Sound thm
+R14728:14728 Coq.Init.Datatypes <> O constr
+R14711:14720 Cpdt.ProgLang FirstOrder lift'Sound thm
+R14728:14728 Coq.Init.Datatypes <> O constr
+R14764:14772 Cpdt.DepList <> hget_hmap thm
+R14774:14782 Cpdt.ProgLang <> hmap_hmap thm
+R14784:14792 Cpdt.ProgLang FirstOrder liftSound thm
+prf 14908:14918 FirstOrder unletSound'
+binder 14929:14929 <> G:152
+binder 14931:14931 <> t:153
+R14938:14941 Cpdt.ProgLang FirstOrder term ind
+R14945:14945 Cpdt.ProgLang <> t:153 var
+R14943:14943 Cpdt.ProgLang <> G:152 var
+binder 14934:14934 <> e:154
+binder 14948:14949 <> G':155
+R14956:14960 Cpdt.DepList <> hlist ind
+R14972:14972 Cpdt.ProgLang <> G:152 var
+R14963:14966 Cpdt.ProgLang FirstOrder term ind
+R14968:14969 Cpdt.ProgLang <> G':155 var
+binder 14952:14952 <> s:156
+binder 14975:14976 <> s1:157
+R15008:15014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14983:14992 Cpdt.ProgLang FirstOrder termDenote def
+R15006:15007 Cpdt.ProgLang <> s1:157 var
+R14995:14999 Cpdt.ProgLang FirstOrder unlet def
+R15003:15003 Cpdt.ProgLang <> s:156 var
+R15001:15001 Cpdt.ProgLang <> e:154 var
+R15015:15024 Cpdt.ProgLang FirstOrder termDenote def
+R15029:15032 Cpdt.DepList <> hmap def
+R15081:15081 Cpdt.ProgLang <> s:156 var
+binder 15039:15040 <> t':158
+R15048:15051 Cpdt.ProgLang FirstOrder term ind
+R15056:15057 Cpdt.ProgLang <> t':158 var
+R15053:15054 Cpdt.ProgLang <> G':155 var
+binder 15043:15044 <> e':159
+R15063:15072 Cpdt.ProgLang FirstOrder termDenote def
+R15077:15078 Cpdt.ProgLang <> s1:157 var
+R15074:15075 Cpdt.ProgLang <> e':159 var
+R15026:15026 Cpdt.ProgLang <> e:154 var
+prf 15461:15470 FirstOrder unletSound
+binder 15481:15481 <> t:160
+R15488:15491 Cpdt.ProgLang FirstOrder term ind
+R15497:15497 Cpdt.ProgLang <> t:160 var
+R15493:15495 Coq.Init.Datatypes <> nil constr
+binder 15484:15484 <> e:161
+R15535:15537 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15505:15514 Cpdt.ProgLang FirstOrder termDenote def
+R15531:15534 Cpdt.DepList <> HNil constr
+R15517:15521 Cpdt.ProgLang FirstOrder unlet def
+R15525:15528 Cpdt.DepList <> HNil constr
+R15523:15523 Cpdt.ProgLang <> e:161 var
+R15538:15547 Cpdt.ProgLang FirstOrder termDenote def
+R15551:15554 Cpdt.DepList <> HNil constr
+R15549:15549 Cpdt.ProgLang <> e:161 var
+R15575:15585 Cpdt.ProgLang FirstOrder unletSound' thm
+R15575:15585 Cpdt.ProgLang FirstOrder unletSound' thm
+R15600:15609 Cpdt.ProgLang FirstOrder <> mod
+mod 16560:16570 <> HigherOrder
+sec 17938:17940 HigherOrder var
+var 17956:17958 HigherOrder.var var
+R17966:17969 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17962:17965 Cpdt.ProgLang <> type ind
+ind 17991:17994 HigherOrder term
+constr 18020:18022 HigherOrder Var
+constr 18059:18063 HigherOrder Const
+constr 18089:18092 HigherOrder Plus
+constr 18136:18138 HigherOrder Abs
+constr 18209:18211 HigherOrder App
+constr 18282:18284 HigherOrder Let
+R18002:18005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17998:18001 Cpdt.ProgLang <> type ind
+binder 18033:18033 <> t:165
+R18041:18044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18036:18038 Cpdt.ProgLang <> HigherOrder.var.var var
+R18040:18040 Cpdt.ProgLang <> t:165 var
+R18045:18048 Cpdt.ProgLang <> term:163 ind
+R18050:18050 Cpdt.ProgLang <> t:165 var
+R18070:18073 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18067:18069 Coq.Init.Datatypes <> nat ind
+R18074:18077 Cpdt.ProgLang <> term:163 ind
+R18079:18081 Cpdt.ProgLang <> Nat constr
+R18104:18107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18096:18099 Cpdt.ProgLang <> term:163 ind
+R18101:18103 Cpdt.ProgLang <> Nat constr
+R18116:18119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18108:18111 Cpdt.ProgLang <> term:163 ind
+R18113:18115 Cpdt.ProgLang <> Nat constr
+R18120:18123 Cpdt.ProgLang <> term:163 ind
+R18125:18127 Cpdt.ProgLang <> Nat constr
+binder 18149:18151 <> dom:166
+binder 18153:18155 <> ran:167
+R18158:18158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18178:18182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18166:18169 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18159:18161 Cpdt.ProgLang <> HigherOrder.var.var var
+R18163:18165 Cpdt.ProgLang <> dom:166 var
+R18170:18173 Cpdt.ProgLang <> term:163 ind
+R18175:18177 Cpdt.ProgLang <> ran:167 var
+R18183:18186 Cpdt.ProgLang <> term:163 ind
+R18189:18192 Cpdt.ProgLang <> Func constr
+R18198:18200 Cpdt.ProgLang <> ran:167 var
+R18194:18196 Cpdt.ProgLang <> dom:166 var
+binder 18222:18224 <> dom:168
+binder 18226:18228 <> ran:169
+R18250:18253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18231:18234 Cpdt.ProgLang <> term:163 ind
+R18237:18240 Cpdt.ProgLang <> Func constr
+R18246:18248 Cpdt.ProgLang <> ran:169 var
+R18242:18244 Cpdt.ProgLang <> dom:168 var
+R18262:18265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18254:18257 Cpdt.ProgLang <> term:163 ind
+R18259:18261 Cpdt.ProgLang <> dom:168 var
+R18266:18269 Cpdt.ProgLang <> term:163 ind
+R18271:18273 Cpdt.ProgLang <> ran:169 var
+binder 18295:18296 <> t1:170
+binder 18298:18299 <> t2:171
+R18309:18312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18302:18305 Cpdt.ProgLang <> term:163 ind
+R18307:18308 Cpdt.ProgLang <> t1:170 var
+R18313:18313 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18331:18335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18320:18323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18314:18316 Cpdt.ProgLang <> HigherOrder.var.var var
+R18318:18319 Cpdt.ProgLang <> t1:170 var
+R18324:18327 Cpdt.ProgLang <> term:163 ind
+R18329:18330 Cpdt.ProgLang <> t2:171 var
+R18336:18339 Cpdt.ProgLang <> term:163 ind
+R18341:18342 Cpdt.ProgLang <> t2:171 var
+R18351:18353 Cpdt.ProgLang HigherOrder.var <> sec
+R18369:18371 Cpdt.ProgLang HigherOrder Var constr
+R18369:18371 Cpdt.ProgLang HigherOrder Var constr
+R18396:18400 Cpdt.ProgLang HigherOrder Const constr
+R18396:18400 Cpdt.ProgLang HigherOrder Const constr
+R18423:18425 Cpdt.ProgLang HigherOrder Abs constr
+R18423:18425 Cpdt.ProgLang HigherOrder Abs constr
+def 19011:19014 HigherOrder Term
+binder 19016:19016 <> t:172
+binder 19028:19030 <> var:173
+R19033:19036 Cpdt.ProgLang HigherOrder term ind
+R19042:19042 Cpdt.ProgLang <> t:172 var
+R19038:19040 Cpdt.ProgLang <> var:173 var
+def 19280:19282 HigherOrder add
+R19286:19289 Cpdt.ProgLang HigherOrder Term def
+R19292:19295 Cpdt.ProgLang <> Func constr
+R19302:19305 Cpdt.ProgLang <> Func constr
+R19311:19313 Cpdt.ProgLang <> Nat constr
+R19307:19309 Cpdt.ProgLang <> Nat constr
+R19297:19299 Cpdt.ProgLang <> Nat constr
+binder 19324:19326 <> var:174
+R19335:19337 Cpdt.ProgLang HigherOrder Abs constr
+binder 19344:19344 <> x:175
+R19349:19351 Cpdt.ProgLang HigherOrder Abs constr
+binder 19358:19358 <> y:176
+R19363:19366 Cpdt.ProgLang HigherOrder Plus constr
+R19377:19379 Cpdt.ProgLang HigherOrder Var constr
+R19381:19381 Cpdt.ProgLang <> y:176 var
+R19369:19371 Cpdt.ProgLang HigherOrder Var constr
+R19373:19373 Cpdt.ProgLang <> x:175 var
+def 19398:19415 HigherOrder three_the_hard_way
+R19419:19422 Cpdt.ProgLang HigherOrder Term def
+R19424:19426 Cpdt.ProgLang <> Nat constr
+binder 19435:19437 <> var:177
+R19446:19448 Cpdt.ProgLang HigherOrder App constr
+R19477:19481 Cpdt.ProgLang HigherOrder Const constr
+R19451:19453 Cpdt.ProgLang HigherOrder App constr
+R19466:19470 Cpdt.ProgLang HigherOrder Const constr
+R19456:19458 Cpdt.ProgLang HigherOrder add ex
+R19460:19462 Cpdt.ProgLang <> var:177 var
+def 19740:19743 HigherOrder add'
+R19747:19750 Cpdt.ProgLang HigherOrder Term def
+R19753:19756 Cpdt.ProgLang <> Func constr
+R19763:19766 Cpdt.ProgLang <> Func constr
+R19772:19774 Cpdt.ProgLang <> Nat constr
+R19768:19770 Cpdt.ProgLang <> Nat constr
+R19758:19760 Cpdt.ProgLang <> Nat constr
+R19794:19796 Cpdt.ProgLang HigherOrder Abs constr
+binder 19803:19803 <> x:178
+R19808:19810 Cpdt.ProgLang HigherOrder Abs constr
+binder 19817:19817 <> y:179
+R19822:19825 Cpdt.ProgLang HigherOrder Plus constr
+R19836:19838 Cpdt.ProgLang HigherOrder Var constr
+R19840:19840 Cpdt.ProgLang <> y:179 var
+R19828:19830 Cpdt.ProgLang HigherOrder Var constr
+R19832:19832 Cpdt.ProgLang <> x:178 var
+def 19857:19875 HigherOrder three_the_hard_way'
+R19879:19882 Cpdt.ProgLang HigherOrder Term def
+R19884:19886 Cpdt.ProgLang <> Nat constr
+R19904:19906 Cpdt.ProgLang HigherOrder App constr
+R19934:19938 Cpdt.ProgLang HigherOrder Const constr
+R19909:19911 Cpdt.ProgLang HigherOrder App constr
+R19923:19927 Cpdt.ProgLang HigherOrder Const constr
+R19914:19917 Cpdt.ProgLang HigherOrder add' ex
+def 20865:20873 HigherOrder countVars
+binder 20875:20875 <> t:180
+R20882:20885 Cpdt.ProgLang HigherOrder term ind
+R20903:20903 Cpdt.ProgLang <> t:180 var
+R20897:20900 Coq.Init.Datatypes <> unit ind
+binder 20878:20878 <> e:181
+R20908:20910 Coq.Init.Datatypes <> nat ind
+R20925:20925 Cpdt.ProgLang <> e:181 var
+R20940:20942 Cpdt.ProgLang HigherOrder Var constr
+R20962:20966 Cpdt.ProgLang HigherOrder Const constr
+R20983:20986 Cpdt.ProgLang HigherOrder Plus constr
+R21009:21011 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R20997:21005 Cpdt.ProgLang <> countVars:182 def
+R21012:21020 Cpdt.ProgLang <> countVars:182 def
+R21034:21036 Cpdt.ProgLang HigherOrder Abs constr
+R21048:21056 Cpdt.ProgLang <> countVars:182 def
+R21062:21063 Coq.Init.Datatypes <> tt constr
+R21074:21076 Cpdt.ProgLang HigherOrder App constr
+R21103:21105 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R21091:21099 Cpdt.ProgLang <> countVars:182 def
+R21106:21114 Cpdt.ProgLang <> countVars:182 def
+R21128:21130 Cpdt.ProgLang HigherOrder Let constr
+R21157:21159 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R21145:21153 Cpdt.ProgLang <> countVars:182 def
+R21160:21168 Cpdt.ProgLang <> countVars:182 def
+R21174:21175 Coq.Init.Datatypes <> tt constr
+def 21529:21537 HigherOrder CountVars
+binder 21539:21539 <> t:184
+R21546:21549 Cpdt.ProgLang HigherOrder Term def
+R21551:21551 Cpdt.ProgLang <> t:184 var
+binder 21542:21542 <> E:185
+R21557:21565 Cpdt.ProgLang HigherOrder countVars def
+R21568:21568 Cpdt.ProgLang <> E:185 var
+R21580:21583 Coq.Init.Datatypes <> unit ind
+R21672:21680 Cpdt.ProgLang HigherOrder CountVars def
+R21682:21699 Cpdt.ProgLang HigherOrder three_the_hard_way ex
+R22483:22488 Coq.Strings.String <> <> lib
+def 22530:22535 HigherOrder pretty
+binder 22537:22537 <> t:186
+R22544:22547 Cpdt.ProgLang HigherOrder term ind
+R22567:22567 Cpdt.ProgLang <> t:186 var
+R22559:22564 Coq.Strings.String <> string ind
+binder 22540:22540 <> e:187
+R22575:22580 Coq.Strings.String <> string ind
+binder 22571:22571 <> x:188
+R22585:22590 Coq.Strings.String <> string ind
+R22605:22605 Cpdt.ProgLang <> e:187 var
+R22620:22622 Cpdt.ProgLang HigherOrder Var constr
+R22642:22646 Cpdt.ProgLang HigherOrder Const constr
+R22665:22668 Cpdt.ProgLang HigherOrder Plus constr
+R22682:22685 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22697:22700 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22686:22691 Cpdt.ProgLang <> pretty:189 def
+R22696:22696 Cpdt.ProgLang <> x:188 var
+R22706:22709 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22721:22724 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22710:22715 Cpdt.ProgLang <> pretty:189 def
+R22720:22720 Cpdt.ProgLang <> x:188 var
+R22738:22740 Cpdt.ProgLang HigherOrder Abs constr
+R22759:22762 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22764:22767 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22763:22763 Cpdt.ProgLang <> x:188 var
+R22774:22777 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22802:22805 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22778:22783 Cpdt.ProgLang <> pretty:189 def
+R22794:22797 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22793:22793 Cpdt.ProgLang <> x:188 var
+R22789:22789 Cpdt.ProgLang <> x:188 var
+R22818:22820 Cpdt.ProgLang HigherOrder App constr
+R22838:22841 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22853:22856 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22842:22847 Cpdt.ProgLang <> pretty:189 def
+R22852:22852 Cpdt.ProgLang <> x:188 var
+R22860:22863 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22875:22878 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22864:22869 Cpdt.ProgLang <> pretty:189 def
+R22874:22874 Cpdt.ProgLang <> x:188 var
+R22892:22894 Cpdt.ProgLang HigherOrder Let constr
+R22916:22919 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22921:22924 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22920:22920 Cpdt.ProgLang <> x:188 var
+R22930:22933 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22945:22948 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22934:22939 Cpdt.ProgLang <> pretty:189 def
+R22944:22944 Cpdt.ProgLang <> x:188 var
+R22955:22966 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22991:22994 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22967:22972 Cpdt.ProgLang <> pretty:189 def
+R22983:22986 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R22982:22982 Cpdt.ProgLang <> x:188 var
+R22978:22978 Cpdt.ProgLang <> x:188 var
+def 23022:23027 HigherOrder Pretty
+binder 23029:23029 <> t:191
+R23036:23039 Cpdt.ProgLang HigherOrder Term def
+R23041:23041 Cpdt.ProgLang <> t:191 var
+binder 23032:23032 <> E:192
+R23047:23052 Cpdt.ProgLang HigherOrder pretty def
+R23055:23055 Cpdt.ProgLang <> E:192 var
+R23067:23072 Coq.Strings.String <> string ind
+R23100:23105 Cpdt.ProgLang HigherOrder Pretty def
+R23107:23124 Cpdt.ProgLang HigherOrder three_the_hard_way ex
+def 23858:23863 HigherOrder squash
+binder 23865:23867 <> var:193
+binder 23869:23869 <> t:194
+R23876:23879 Cpdt.ProgLang HigherOrder term ind
+R23892:23892 Cpdt.ProgLang <> t:194 var
+R23882:23885 Cpdt.ProgLang HigherOrder term ind
+R23887:23889 Cpdt.ProgLang <> var:193 var
+binder 23872:23872 <> e:195
+R23897:23900 Cpdt.ProgLang HigherOrder term ind
+R23906:23906 Cpdt.ProgLang <> t:194 var
+R23902:23904 Cpdt.ProgLang <> var:193 var
+R23921:23921 Cpdt.ProgLang <> e:195 var
+R23936:23938 Cpdt.ProgLang HigherOrder Var constr
+R23960:23964 Cpdt.ProgLang HigherOrder Const constr
+R23971:23975 Cpdt.ProgLang HigherOrder Const constr
+R23987:23990 Cpdt.ProgLang HigherOrder Plus constr
+R24001:24004 Cpdt.ProgLang HigherOrder Plus constr
+R24019:24024 Cpdt.ProgLang <> squash:196 def
+R24007:24012 Cpdt.ProgLang <> squash:196 def
+R24039:24041 Cpdt.ProgLang HigherOrder Abs constr
+R24053:24055 Cpdt.ProgLang HigherOrder Abs constr
+binder 24062:24062 <> x:198
+R24067:24072 Cpdt.ProgLang <> squash:196 def
+R24079:24081 Cpdt.ProgLang HigherOrder Var constr
+R24083:24083 Cpdt.ProgLang <> x:198 var
+R24096:24098 Cpdt.ProgLang HigherOrder App constr
+R24113:24115 Cpdt.ProgLang HigherOrder App constr
+R24130:24135 Cpdt.ProgLang <> squash:196 def
+R24118:24123 Cpdt.ProgLang <> squash:196 def
+R24150:24152 Cpdt.ProgLang HigherOrder Let constr
+R24167:24169 Cpdt.ProgLang HigherOrder Let constr
+binder 24188:24188 <> x:199
+R24193:24198 Cpdt.ProgLang <> squash:196 def
+R24205:24207 Cpdt.ProgLang HigherOrder Var constr
+R24209:24209 Cpdt.ProgLang <> x:199 var
+R24172:24177 Cpdt.ProgLang <> squash:196 def
+def 24410:24414 HigherOrder Term1
+R24425:24428 Cpdt.ProgLang <> type ind
+binder 24417:24418 <> t1:200
+binder 24420:24421 <> t2:201
+binder 24441:24443 <> var:202
+R24452:24455 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24446:24448 Cpdt.ProgLang <> var:202 var
+R24450:24451 Cpdt.ProgLang <> t1:200 var
+R24456:24459 Cpdt.ProgLang HigherOrder term ind
+R24465:24466 Cpdt.ProgLang <> t2:201 var
+R24461:24463 Cpdt.ProgLang <> var:202 var
+def 24892:24896 HigherOrder Subst
+R24907:24910 Cpdt.ProgLang <> type ind
+binder 24899:24900 <> t1:203
+binder 24902:24903 <> t2:204
+R24918:24922 Cpdt.ProgLang HigherOrder Term1 def
+R24927:24928 Cpdt.ProgLang <> t2:204 var
+R24924:24925 Cpdt.ProgLang <> t1:203 var
+binder 24914:24914 <> E:205
+R24937:24940 Cpdt.ProgLang HigherOrder Term def
+R24942:24943 Cpdt.ProgLang <> t1:203 var
+binder 24932:24933 <> E':206
+R24948:24951 Cpdt.ProgLang HigherOrder Term def
+R24953:24954 Cpdt.ProgLang <> t2:204 var
+binder 24967:24969 <> var:207
+R24974:24979 Cpdt.ProgLang HigherOrder squash def
+R24982:24982 Cpdt.ProgLang <> E:205 var
+R24985:24988 Cpdt.ProgLang HigherOrder term ind
+R24990:24992 Cpdt.ProgLang <> var:207 var
+R24996:24997 Cpdt.ProgLang <> E':206 var
+R24999:25001 Cpdt.ProgLang <> var:207 var
+R25025:25029 Cpdt.ProgLang HigherOrder Subst def
+R25067:25084 Cpdt.ProgLang HigherOrder three_the_hard_way ex
+binder 25038:25038 <> x:208
+R25043:25046 Cpdt.ProgLang HigherOrder Plus constr
+R25057:25061 Cpdt.ProgLang HigherOrder Const constr
+R25049:25051 Cpdt.ProgLang HigherOrder Var constr
+R25053:25053 Cpdt.ProgLang <> x:208 var
+def 25564:25573 HigherOrder termDenote
+binder 25575:25575 <> t:209
+R25582:25585 Cpdt.ProgLang HigherOrder term ind
+R25598:25598 Cpdt.ProgLang <> t:209 var
+R25587:25596 Cpdt.ProgLang <> typeDenote def
+binder 25578:25578 <> e:210
+R25603:25612 Cpdt.ProgLang <> typeDenote def
+R25614:25614 Cpdt.ProgLang <> t:209 var
+R25629:25629 Cpdt.ProgLang <> e:210 var
+R25644:25646 Cpdt.ProgLang HigherOrder Var constr
+R25666:25670 Cpdt.ProgLang HigherOrder Const constr
+R25687:25690 Cpdt.ProgLang HigherOrder Plus constr
+R25714:25716 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R25701:25710 Cpdt.ProgLang <> termDenote:211 def
+R25717:25726 Cpdt.ProgLang <> termDenote:211 def
+R25740:25742 Cpdt.ProgLang HigherOrder Abs constr
+binder 25758:25758 <> x:213
+R25763:25772 Cpdt.ProgLang <> termDenote:211 def
+R25778:25778 Cpdt.ProgLang <> x:213 var
+R25789:25791 Cpdt.ProgLang HigherOrder App constr
+R25807:25816 Cpdt.ProgLang <> termDenote:211 def
+R25823:25832 Cpdt.ProgLang <> termDenote:211 def
+R25847:25849 Cpdt.ProgLang HigherOrder Let constr
+R25864:25873 Cpdt.ProgLang <> termDenote:211 def
+R25880:25889 Cpdt.ProgLang <> termDenote:211 def
+def 25919:25928 HigherOrder TermDenote
+binder 25930:25930 <> t:214
+R25937:25940 Cpdt.ProgLang HigherOrder Term def
+R25942:25942 Cpdt.ProgLang <> t:214 var
+binder 25933:25933 <> E:215
+R25947:25956 Cpdt.ProgLang <> typeDenote def
+R25958:25958 Cpdt.ProgLang <> t:214 var
+R25967:25976 Cpdt.ProgLang HigherOrder termDenote def
+R25979:25979 Cpdt.ProgLang <> E:215 var
+R25981:25990 Cpdt.ProgLang <> typeDenote def
+R26013:26022 Cpdt.ProgLang HigherOrder TermDenote def
+R26024:26041 Cpdt.ProgLang HigherOrder three_the_hard_way ex
+def 26842:26846 HigherOrder ident
+binder 26848:26850 <> var:216
+binder 26852:26852 <> t:217
+R26859:26862 Cpdt.ProgLang HigherOrder term ind
+R26868:26868 Cpdt.ProgLang <> t:217 var
+R26864:26866 Cpdt.ProgLang <> var:216 var
+binder 26855:26855 <> e:218
+R26873:26876 Cpdt.ProgLang HigherOrder term ind
+R26882:26882 Cpdt.ProgLang <> t:217 var
+R26878:26880 Cpdt.ProgLang <> var:216 var
+R26897:26897 Cpdt.ProgLang <> e:218 var
+R26912:26914 Cpdt.ProgLang HigherOrder Var constr
+R26923:26925 Cpdt.ProgLang HigherOrder Var constr
+R26938:26942 Cpdt.ProgLang HigherOrder Const constr
+R26949:26953 Cpdt.ProgLang HigherOrder Const constr
+R26965:26968 Cpdt.ProgLang HigherOrder Plus constr
+R26979:26982 Cpdt.ProgLang HigherOrder Plus constr
+R26996:27000 Cpdt.ProgLang <> ident:219 def
+R26985:26989 Cpdt.ProgLang <> ident:219 def
+R27015:27017 Cpdt.ProgLang HigherOrder Abs constr
+R27029:27031 Cpdt.ProgLang HigherOrder Abs constr
+binder 27038:27038 <> x:221
+R27043:27047 Cpdt.ProgLang <> ident:219 def
+R27053:27053 Cpdt.ProgLang <> x:221 var
+R27065:27067 Cpdt.ProgLang HigherOrder App constr
+R27082:27084 Cpdt.ProgLang HigherOrder App constr
+R27098:27102 Cpdt.ProgLang <> ident:219 def
+R27087:27091 Cpdt.ProgLang <> ident:219 def
+R27117:27119 Cpdt.ProgLang HigherOrder Let constr
+R27134:27136 Cpdt.ProgLang HigherOrder Let constr
+binder 27154:27154 <> x:222
+R27159:27163 Cpdt.ProgLang <> ident:219 def
+R27169:27169 Cpdt.ProgLang <> x:222 var
+R27139:27143 Cpdt.ProgLang <> ident:219 def
+def 27196:27200 HigherOrder Ident
+binder 27202:27202 <> t:223
+R27209:27212 Cpdt.ProgLang HigherOrder Term def
+R27214:27214 Cpdt.ProgLang <> t:223 var
+binder 27205:27205 <> E:224
+R27219:27222 Cpdt.ProgLang HigherOrder Term def
+R27224:27224 Cpdt.ProgLang <> t:223 var
+binder 27233:27235 <> var:225
+R27244:27248 Cpdt.ProgLang HigherOrder ident def
+R27251:27251 Cpdt.ProgLang <> E:224 var
+R27253:27255 Cpdt.ProgLang <> var:225 var
+prf 27531:27540 HigherOrder identSound
+binder 27551:27551 <> t:226
+R27558:27561 Cpdt.ProgLang HigherOrder term ind
+R27574:27574 Cpdt.ProgLang <> t:226 var
+R27563:27572 Cpdt.ProgLang <> typeDenote def
+binder 27554:27554 <> e:227
+R27602:27604 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27582:27591 Cpdt.ProgLang HigherOrder termDenote def
+R27594:27598 Cpdt.ProgLang HigherOrder ident def
+R27600:27600 Cpdt.ProgLang <> e:227 var
+R27605:27614 Cpdt.ProgLang HigherOrder termDenote def
+R27616:27616 Cpdt.ProgLang <> e:227 var
+prf 27658:27667 HigherOrder IdentSound
+binder 27678:27678 <> t:228
+R27685:27688 Cpdt.ProgLang HigherOrder Term def
+R27690:27690 Cpdt.ProgLang <> t:228 var
+binder 27681:27681 <> E:229
+R27718:27720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27698:27707 Cpdt.ProgLang HigherOrder TermDenote def
+R27710:27714 Cpdt.ProgLang HigherOrder Ident def
+R27716:27716 Cpdt.ProgLang <> E:229 var
+R27721:27730 Cpdt.ProgLang HigherOrder TermDenote def
+R27732:27732 Cpdt.ProgLang <> E:229 var
+R27753:27762 Cpdt.ProgLang HigherOrder identSound thm
+R27753:27762 Cpdt.ProgLang HigherOrder identSound thm
+def 27889:27893 HigherOrder cfold
+binder 27895:27897 <> var:230
+binder 27899:27899 <> t:231
+R27906:27909 Cpdt.ProgLang HigherOrder term ind
+R27915:27915 Cpdt.ProgLang <> t:231 var
+R27911:27913 Cpdt.ProgLang <> var:230 var
+binder 27902:27902 <> e:232
+R27920:27923 Cpdt.ProgLang HigherOrder term ind
+R27929:27929 Cpdt.ProgLang <> t:231 var
+R27925:27927 Cpdt.ProgLang <> var:230 var
+R27944:27944 Cpdt.ProgLang <> e:232 var
+R27959:27962 Cpdt.ProgLang HigherOrder Plus constr
+R27992:27996 Cpdt.ProgLang <> cfold:233 def
+binder 27985:27987 <> e1':235
+R28023:28027 Cpdt.ProgLang <> cfold:233 def
+binder 28016:28018 <> e2':236
+R28056:28058 Cpdt.ProgLang <> e2':236 var
+R28051:28053 Cpdt.ProgLang <> e1':235 var
+R28079:28083 Cpdt.ProgLang HigherOrder Const constr
+R28089:28093 Cpdt.ProgLang HigherOrder Const constr
+R28101:28105 Cpdt.ProgLang HigherOrder Const constr
+R28110:28112 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28139:28142 Cpdt.ProgLang HigherOrder Plus constr
+R28148:28150 Cpdt.ProgLang <> e2':236 var
+R28144:28146 Cpdt.ProgLang <> e1':235 var
+R28175:28177 Cpdt.ProgLang HigherOrder Abs constr
+R28189:28191 Cpdt.ProgLang HigherOrder Abs constr
+binder 28198:28198 <> x:239
+R28203:28207 Cpdt.ProgLang <> cfold:233 def
+R28213:28213 Cpdt.ProgLang <> x:239 var
+R28225:28227 Cpdt.ProgLang HigherOrder App constr
+R28242:28244 Cpdt.ProgLang HigherOrder App constr
+R28258:28262 Cpdt.ProgLang <> cfold:233 def
+R28247:28251 Cpdt.ProgLang <> cfold:233 def
+R28277:28279 Cpdt.ProgLang HigherOrder Let constr
+R28294:28296 Cpdt.ProgLang HigherOrder Let constr
+binder 28314:28314 <> x:240
+R28319:28323 Cpdt.ProgLang <> cfold:233 def
+R28329:28329 Cpdt.ProgLang <> x:240 var
+R28299:28303 Cpdt.ProgLang <> cfold:233 def
+R28347:28347 Cpdt.ProgLang <> e:232 var
+def 28372:28376 HigherOrder Cfold
+binder 28378:28378 <> t:241
+R28385:28388 Cpdt.ProgLang HigherOrder Term def
+R28390:28390 Cpdt.ProgLang <> t:241 var
+binder 28381:28381 <> E:242
+R28395:28398 Cpdt.ProgLang HigherOrder Term def
+R28400:28400 Cpdt.ProgLang <> t:241 var
+binder 28409:28411 <> var:243
+R28420:28424 Cpdt.ProgLang HigherOrder cfold def
+R28427:28427 Cpdt.ProgLang <> E:242 var
+R28429:28431 Cpdt.ProgLang <> var:243 var
+prf 28444:28453 HigherOrder cfoldSound
+binder 28464:28464 <> t:244
+R28471:28474 Cpdt.ProgLang HigherOrder term ind
+R28487:28487 Cpdt.ProgLang <> t:244 var
+R28476:28485 Cpdt.ProgLang <> typeDenote def
+binder 28467:28467 <> e:245
+R28515:28517 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28495:28504 Cpdt.ProgLang HigherOrder termDenote def
+R28507:28511 Cpdt.ProgLang HigherOrder cfold def
+R28513:28513 Cpdt.ProgLang <> e:245 var
+R28518:28527 Cpdt.ProgLang HigherOrder termDenote def
+R28529:28529 Cpdt.ProgLang <> e:245 var
+R28628:28630 Cpdt.ProgLang HigherOrder Var constr
+R28628:28630 Cpdt.ProgLang HigherOrder Var constr
+prf 28735:28744 HigherOrder CfoldSound
+binder 28755:28755 <> t:246
+R28762:28765 Cpdt.ProgLang HigherOrder Term def
+R28767:28767 Cpdt.ProgLang <> t:246 var
+binder 28758:28758 <> E:247
+R28795:28797 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28775:28784 Cpdt.ProgLang HigherOrder TermDenote def
+R28787:28791 Cpdt.ProgLang HigherOrder Cfold def
+R28793:28793 Cpdt.ProgLang <> E:247 var
+R28798:28807 Cpdt.ProgLang HigherOrder TermDenote def
+R28809:28809 Cpdt.ProgLang <> E:247 var
+R28830:28839 Cpdt.ProgLang HigherOrder cfoldSound thm
+R28830:28839 Cpdt.ProgLang HigherOrder cfoldSound thm
+def 29274:29278 HigherOrder unlet
+binder 29280:29282 <> var:248
+binder 29284:29284 <> t:249
+R29291:29294 Cpdt.ProgLang HigherOrder term ind
+R29307:29307 Cpdt.ProgLang <> t:249 var
+R29297:29300 Cpdt.ProgLang HigherOrder term ind
+R29302:29304 Cpdt.ProgLang <> var:248 var
+binder 29287:29287 <> e:250
+R29312:29315 Cpdt.ProgLang HigherOrder term ind
+R29321:29321 Cpdt.ProgLang <> t:249 var
+R29317:29319 Cpdt.ProgLang <> var:248 var
+R29336:29336 Cpdt.ProgLang <> e:250 var
+R29351:29353 Cpdt.ProgLang HigherOrder Var constr
+R29375:29379 Cpdt.ProgLang HigherOrder Const constr
+R29386:29390 Cpdt.ProgLang HigherOrder Const constr
+R29402:29405 Cpdt.ProgLang HigherOrder Plus constr
+R29416:29419 Cpdt.ProgLang HigherOrder Plus constr
+R29433:29437 Cpdt.ProgLang <> unlet:251 def
+R29422:29426 Cpdt.ProgLang <> unlet:251 def
+R29452:29454 Cpdt.ProgLang HigherOrder Abs constr
+R29466:29468 Cpdt.ProgLang HigherOrder Abs constr
+binder 29475:29475 <> x:253
+R29480:29484 Cpdt.ProgLang <> unlet:251 def
+R29491:29493 Cpdt.ProgLang HigherOrder Var constr
+R29495:29495 Cpdt.ProgLang <> x:253 var
+R29508:29510 Cpdt.ProgLang HigherOrder App constr
+R29525:29527 Cpdt.ProgLang HigherOrder App constr
+R29541:29545 Cpdt.ProgLang <> unlet:251 def
+R29530:29534 Cpdt.ProgLang <> unlet:251 def
+R29560:29562 Cpdt.ProgLang HigherOrder Let constr
+R29577:29581 Cpdt.ProgLang <> unlet:251 def
+R29588:29592 Cpdt.ProgLang <> unlet:251 def
+def 29622:29626 HigherOrder Unlet
+binder 29628:29628 <> t:254
+R29635:29638 Cpdt.ProgLang HigherOrder Term def
+R29640:29640 Cpdt.ProgLang <> t:254 var
+binder 29631:29631 <> E:255
+R29645:29648 Cpdt.ProgLang HigherOrder Term def
+R29650:29650 Cpdt.ProgLang <> t:254 var
+binder 29659:29661 <> var:256
+R29670:29674 Cpdt.ProgLang HigherOrder unlet def
+R29677:29677 Cpdt.ProgLang <> E:255 var
+R29680:29683 Cpdt.ProgLang HigherOrder term ind
+R29685:29687 Cpdt.ProgLang <> var:256 var
+R29824:29828 Cpdt.ProgLang HigherOrder Unlet def
+R29830:29847 Cpdt.ProgLang HigherOrder three_the_hard_way ex
+def 30217:30234 HigherOrder three_a_harder_way
+R30238:30241 Cpdt.ProgLang HigherOrder Term def
+R30243:30245 Cpdt.ProgLang <> Nat constr
+R30263:30265 Cpdt.ProgLang HigherOrder Let constr
+binder 30282:30282 <> x:257
+R30287:30289 Cpdt.ProgLang HigherOrder Let constr
+binder 30306:30306 <> y:258
+R30311:30313 Cpdt.ProgLang HigherOrder App constr
+R30338:30340 Cpdt.ProgLang HigherOrder Var constr
+R30342:30342 Cpdt.ProgLang <> y:258 var
+R30316:30318 Cpdt.ProgLang HigherOrder App constr
+R30329:30331 Cpdt.ProgLang HigherOrder Var constr
+R30333:30333 Cpdt.ProgLang <> x:257 var
+R30321:30323 Cpdt.ProgLang HigherOrder add ex
+R30292:30296 Cpdt.ProgLang HigherOrder Const constr
+R30268:30272 Cpdt.ProgLang HigherOrder Const constr
+R30367:30371 Cpdt.ProgLang HigherOrder Unlet def
+R30373:30390 Cpdt.ProgLang HigherOrder three_a_harder_way def
+sec 31730:31731 HigherOrder wf
+var 31748:31751 HigherOrder.wf var1
+var 31753:31756 HigherOrder.wf var2
+R31764:31767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31760:31763 Cpdt.ProgLang <> type ind
+rec 32021:32028 HigherOrder varEntry
+proj 32041:32042 HigherOrder Ty
+proj 32058:32062 HigherOrder First
+proj 32081:32086 HigherOrder Second
+R32046:32049 Cpdt.ProgLang <> type ind
+R32066:32069 Cpdt.ProgLang <> HigherOrder.wf.var1 var
+R32071:32072 Cpdt.ProgLang <> Ty:262 meth
+R32090:32093 Cpdt.ProgLang <> HigherOrder.wf.var2 var
+R32095:32096 Cpdt.ProgLang <> Ty:262 meth
+ind 32503:32504 HigherOrder wf
+constr 32579:32583 HigherOrder WfVar
+constr 32687:32693 HigherOrder WfConst
+constr 32741:32746 HigherOrder WfPlus
+constr 32856:32860 HigherOrder WfAbs
+constr 33034:33038 HigherOrder WfApp
+constr 33201:33205 HigherOrder WfLet
+R32521:32524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32508:32511 Coq.Init.Datatypes <> list ind
+R32513:32520 Cpdt.ProgLang HigherOrder varEntry rec
+binder 32532:32532 <> t:265
+R32546:32549 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32535:32538 Cpdt.ProgLang HigherOrder term ind
+R32545:32545 Cpdt.ProgLang <> t:265 var
+R32540:32543 Cpdt.ProgLang <> HigherOrder.wf.var1 var
+R32561:32564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32550:32553 Cpdt.ProgLang HigherOrder term ind
+R32560:32560 Cpdt.ProgLang <> t:265 var
+R32555:32558 Cpdt.ProgLang <> HigherOrder.wf.var2 var
+binder 32594:32594 <> G:268
+binder 32596:32596 <> t:269
+binder 32598:32598 <> x:270
+binder 32600:32601 <> x':271
+R32648:32657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32604:32605 Coq.Lists.List <> In def
+R32647:32647 Cpdt.ProgLang <> G:268 var
+R32610:32611 Cpdt.ProgLang HigherOrder Ty proj
+R32610:32611 Cpdt.ProgLang HigherOrder Ty proj
+R32610:32611 Cpdt.ProgLang HigherOrder Ty proj
+R32619:32623 Cpdt.ProgLang HigherOrder First proj
+R32619:32623 Cpdt.ProgLang HigherOrder First proj
+R32631:32636 Cpdt.ProgLang HigherOrder Second proj
+R32631:32636 Cpdt.ProgLang HigherOrder Second proj
+R32616:32616 Cpdt.ProgLang <> t:269 var
+R32628:32628 Cpdt.ProgLang <> x:270 var
+R32641:32642 Cpdt.ProgLang <> x':271 var
+R32658:32659 Cpdt.ProgLang <> wf:266 ind
+R32672:32674 Cpdt.ProgLang HigherOrder Var constr
+R32676:32677 Cpdt.ProgLang <> x':271 var
+R32664:32666 Cpdt.ProgLang HigherOrder Var constr
+R32668:32668 Cpdt.ProgLang <> x:270 var
+R32661:32661 Cpdt.ProgLang <> G:268 var
+binder 32704:32704 <> G:272
+binder 32706:32706 <> n:273
+R32709:32710 Cpdt.ProgLang <> wf:266 ind
+R32725:32729 Cpdt.ProgLang HigherOrder Const constr
+R32731:32731 Cpdt.ProgLang <> n:273 var
+R32715:32719 Cpdt.ProgLang HigherOrder Const constr
+R32721:32721 Cpdt.ProgLang <> n:273 var
+R32712:32712 Cpdt.ProgLang <> G:272 var
+binder 32757:32757 <> G:274
+binder 32759:32760 <> e1:275
+binder 32762:32763 <> e2:276
+binder 32765:32767 <> e1':277
+binder 32769:32771 <> e2':278
+R32785:32794 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32774:32775 Cpdt.ProgLang <> wf:266 ind
+R32782:32784 Cpdt.ProgLang <> e1':277 var
+R32779:32780 Cpdt.ProgLang <> e1:275 var
+R32777:32777 Cpdt.ProgLang <> G:274 var
+R32806:32815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32795:32796 Cpdt.ProgLang <> wf:266 ind
+R32803:32805 Cpdt.ProgLang <> e2':278 var
+R32800:32801 Cpdt.ProgLang <> e2:276 var
+R32798:32798 Cpdt.ProgLang <> G:274 var
+R32816:32817 Cpdt.ProgLang <> wf:266 ind
+R32835:32838 Cpdt.ProgLang HigherOrder Plus constr
+R32844:32846 Cpdt.ProgLang <> e2':278 var
+R32840:32842 Cpdt.ProgLang <> e1':277 var
+R32822:32825 Cpdt.ProgLang HigherOrder Plus constr
+R32830:32831 Cpdt.ProgLang <> e2:276 var
+R32827:32828 Cpdt.ProgLang <> e1:275 var
+R32819:32819 Cpdt.ProgLang <> G:274 var
+binder 32871:32871 <> G:279
+binder 32873:32875 <> dom:280
+binder 32877:32879 <> ran:281
+R32892:32895 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32889:32891 Cpdt.ProgLang <> dom:280 var
+R32896:32899 Cpdt.ProgLang HigherOrder term ind
+R32903:32905 Cpdt.ProgLang <> ran:281 var
+binder 32882:32883 <> e1:282
+binder 32908:32910 <> e1':283
+R32919:32919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32992:33002 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 32927:32928 <> x1:284
+binder 32930:32931 <> x2:285
+R32934:32935 Cpdt.ProgLang <> wf:266 ind
+R32985:32987 Cpdt.ProgLang <> e1':283 var
+R32989:32990 Cpdt.ProgLang <> x2:285 var
+R32977:32978 Cpdt.ProgLang <> e1:282 var
+R32980:32981 Cpdt.ProgLang <> x1:284 var
+R32938:32940 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32966:32972 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R32941:32945 Cpdt.ProgLang HigherOrder First proj
+R32941:32945 Cpdt.ProgLang HigherOrder First proj
+R32941:32945 Cpdt.ProgLang HigherOrder First proj
+R32954:32959 Cpdt.ProgLang HigherOrder Second proj
+R32954:32959 Cpdt.ProgLang HigherOrder Second proj
+R32950:32951 Cpdt.ProgLang <> x1:284 var
+R32964:32965 Cpdt.ProgLang <> x2:285 var
+R32973:32973 Cpdt.ProgLang <> G:279 var
+R33003:33004 Cpdt.ProgLang <> wf:266 ind
+R33018:33020 Cpdt.ProgLang HigherOrder Abs constr
+R33022:33024 Cpdt.ProgLang <> e1':283 var
+R33009:33011 Cpdt.ProgLang HigherOrder Abs constr
+R33013:33014 Cpdt.ProgLang <> e1:282 var
+R33006:33006 Cpdt.ProgLang <> G:279 var
+binder 33049:33049 <> G:286
+binder 33051:33053 <> dom:287
+binder 33055:33057 <> ran:288
+R33065:33068 Cpdt.ProgLang HigherOrder term ind
+R33073:33076 Cpdt.ProgLang <> Func constr
+R33082:33084 Cpdt.ProgLang <> ran:288 var
+R33078:33080 Cpdt.ProgLang <> dom:287 var
+binder 33060:33061 <> e1:289
+R33094:33097 Cpdt.ProgLang HigherOrder term ind
+R33101:33103 Cpdt.ProgLang <> dom:287 var
+binder 33089:33090 <> e2:290
+binder 33106:33108 <> e1':291
+binder 33110:33112 <> e2':292
+R33132:33141 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33121:33122 Cpdt.ProgLang <> wf:266 ind
+R33129:33131 Cpdt.ProgLang <> e1':291 var
+R33126:33127 Cpdt.ProgLang <> e1:289 var
+R33124:33124 Cpdt.ProgLang <> G:286 var
+R33153:33162 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33142:33143 Cpdt.ProgLang <> wf:266 ind
+R33150:33152 Cpdt.ProgLang <> e2':292 var
+R33147:33148 Cpdt.ProgLang <> e2:290 var
+R33145:33145 Cpdt.ProgLang <> G:286 var
+R33163:33164 Cpdt.ProgLang <> wf:266 ind
+R33181:33183 Cpdt.ProgLang HigherOrder App constr
+R33189:33191 Cpdt.ProgLang <> e2':292 var
+R33185:33187 Cpdt.ProgLang <> e1':291 var
+R33169:33171 Cpdt.ProgLang HigherOrder App constr
+R33176:33177 Cpdt.ProgLang <> e2:290 var
+R33173:33174 Cpdt.ProgLang <> e1:289 var
+R33166:33166 Cpdt.ProgLang <> G:286 var
+binder 33216:33216 <> G:293
+binder 33218:33219 <> t1:294
+binder 33221:33222 <> t2:295
+binder 33224:33225 <> e1:296
+binder 33227:33229 <> e1':297
+R33241:33244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33239:33240 Cpdt.ProgLang <> t1:294 var
+R33245:33248 Cpdt.ProgLang HigherOrder term ind
+R33252:33253 Cpdt.ProgLang <> t2:295 var
+binder 33232:33233 <> e2:298
+binder 33256:33258 <> e2':299
+R33272:33281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33261:33262 Cpdt.ProgLang <> wf:266 ind
+R33269:33271 Cpdt.ProgLang <> e1':297 var
+R33266:33267 Cpdt.ProgLang <> e1:296 var
+R33264:33264 Cpdt.ProgLang <> G:293 var
+R33282:33282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33355:33365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 33290:33291 <> x1:300
+binder 33293:33294 <> x2:301
+R33297:33298 Cpdt.ProgLang <> wf:266 ind
+R33348:33350 Cpdt.ProgLang <> e2':299 var
+R33352:33353 Cpdt.ProgLang <> x2:301 var
+R33340:33341 Cpdt.ProgLang <> e2:298 var
+R33343:33344 Cpdt.ProgLang <> x1:300 var
+R33301:33303 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33329:33335 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R33304:33308 Cpdt.ProgLang HigherOrder First proj
+R33304:33308 Cpdt.ProgLang HigherOrder First proj
+R33304:33308 Cpdt.ProgLang HigherOrder First proj
+R33317:33322 Cpdt.ProgLang HigherOrder Second proj
+R33317:33322 Cpdt.ProgLang HigherOrder Second proj
+R33313:33314 Cpdt.ProgLang <> x1:300 var
+R33327:33328 Cpdt.ProgLang <> x2:301 var
+R33336:33336 Cpdt.ProgLang <> G:293 var
+R33366:33367 Cpdt.ProgLang <> wf:266 ind
+R33384:33386 Cpdt.ProgLang HigherOrder Let constr
+R33392:33394 Cpdt.ProgLang <> e2':299 var
+R33388:33390 Cpdt.ProgLang <> e1':297 var
+R33372:33374 Cpdt.ProgLang HigherOrder Let constr
+R33379:33380 Cpdt.ProgLang <> e2:298 var
+R33376:33377 Cpdt.ProgLang <> e1:296 var
+R33369:33369 Cpdt.ProgLang <> G:293 var
+R33404:33405 Cpdt.ProgLang HigherOrder.wf <> sec
+def 33635:33636 HigherOrder Wf
+binder 33638:33638 <> t:302
+R33645:33648 Cpdt.ProgLang HigherOrder Term def
+R33650:33650 Cpdt.ProgLang <> t:302 var
+binder 33641:33641 <> E:303
+binder 33663:33666 <> var1:304
+binder 33668:33671 <> var2:305
+R33674:33675 Cpdt.ProgLang HigherOrder wf ind
+R33691:33691 Cpdt.ProgLang <> E:303 var
+R33693:33696 Cpdt.ProgLang <> var2:305 var
+R33682:33682 Cpdt.ProgLang <> E:303 var
+R33684:33687 Cpdt.ProgLang <> var1:304 var
+R33677:33679 Coq.Init.Datatypes <> nil constr
+prf 33861:33881 HigherOrder three_the_hard_way_Wf
+R33885:33886 Cpdt.ProgLang HigherOrder Wf def
+R33888:33905 Cpdt.ProgLang HigherOrder three_the_hard_way ex
+R33981:33982 Cpdt.ProgLang HigherOrder wf ind
+R33981:33982 Cpdt.ProgLang HigherOrder wf ind
+R34441:34446 Coq.Lists.List <> Forall ind
+R34441:34446 Coq.Lists.List <> Forall ind
+R34458:34459 Coq.Lists.List <> In def
+R34458:34459 Coq.Lists.List <> In def
+R34482:34490 Cpdt.ProgLang <> Forall_In thm
+prf 34610:34619 HigherOrder unletSound
+binder 34630:34630 <> G:306
+binder 34632:34632 <> t:307
+R34640:34643 Cpdt.ProgLang HigherOrder term ind
+R34647:34647 Cpdt.ProgLang <> t:307 var
+binder 34635:34636 <> e1:308
+binder 34650:34651 <> e2:309
+R34668:34675 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34658:34659 Cpdt.ProgLang HigherOrder wf ind
+R34666:34667 Cpdt.ProgLang <> e2:309 var
+R34663:34664 Cpdt.ProgLang <> e1:308 var
+R34661:34661 Cpdt.ProgLang <> G:306 var
+R34730:34737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34676:34681 Coq.Lists.List <> Forall ind
+R34729:34729 Cpdt.ProgLang <> G:306 var
+binder 34688:34689 <> ve:310
+R34715:34717 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34694:34703 Cpdt.ProgLang HigherOrder termDenote def
+R34706:34710 Cpdt.ProgLang HigherOrder First proj
+R34712:34713 Cpdt.ProgLang <> ve:310 var
+R34718:34723 Cpdt.ProgLang HigherOrder Second proj
+R34725:34726 Cpdt.ProgLang <> ve:310 var
+R34759:34761 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34738:34747 Cpdt.ProgLang HigherOrder termDenote def
+R34750:34754 Cpdt.ProgLang HigherOrder unlet def
+R34756:34757 Cpdt.ProgLang <> e1:308 var
+R34762:34771 Cpdt.ProgLang HigherOrder termDenote def
+R34773:34774 Cpdt.ProgLang <> e2:309 var
+prf 34816:34825 HigherOrder UnletSound
+binder 34836:34836 <> t:311
+R34843:34846 Cpdt.ProgLang HigherOrder Term def
+R34848:34848 Cpdt.ProgLang <> t:311 var
+binder 34839:34839 <> E:312
+R34856:34863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34852:34853 Cpdt.ProgLang HigherOrder Wf def
+R34855:34855 Cpdt.ProgLang <> E:312 var
+R34884:34886 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34864:34873 Cpdt.ProgLang HigherOrder TermDenote def
+R34876:34880 Cpdt.ProgLang HigherOrder Unlet def
+R34882:34882 Cpdt.ProgLang <> E:312 var
+R34887:34896 Cpdt.ProgLang HigherOrder TermDenote def
+R34898:34898 Cpdt.ProgLang <> E:312 var
+R34920:34929 Cpdt.ProgLang HigherOrder unletSound thm
+R34920:34929 Cpdt.ProgLang HigherOrder unletSound thm
+R37121:37122 Cpdt.ProgLang <> wf ind
+R37142:37143 Coq.Lists.List <> In def
+R37184:37189 Coq.Lists.List <> Forall ind
+R37206:37218 Cpdt.ProgLang <> Forall_weaken thm
+prf 37255:37265 HigherOrder wf_monotone
+binder 37276:37279 <> var1:313
+binder 37281:37284 <> var2:314
+binder 37286:37286 <> G:315
+binder 37288:37288 <> t:316
+R37296:37299 Cpdt.ProgLang HigherOrder term ind
+R37306:37306 Cpdt.ProgLang <> t:316 var
+R37301:37304 Cpdt.ProgLang <> var1:313 var
+binder 37291:37292 <> e1:317
+R37315:37318 Cpdt.ProgLang HigherOrder term ind
+R37325:37325 Cpdt.ProgLang <> t:316 var
+R37320:37323 Cpdt.ProgLang <> var2:314 var
+binder 37310:37311 <> e2:318
+R37343:37350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37333:37334 Cpdt.ProgLang HigherOrder wf ind
+R37341:37342 Cpdt.ProgLang <> e2:318 var
+R37338:37339 Cpdt.ProgLang <> e1:317 var
+R37336:37336 Cpdt.ProgLang <> G:315 var
+binder 37358:37359 <> G':319
+R37389:37398 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37362:37367 Coq.Lists.List <> Forall ind
+R37388:37388 Cpdt.ProgLang <> G:315 var
+binder 37374:37374 <> x:320
+R37379:37380 Coq.Lists.List <> In def
+R37384:37385 Cpdt.ProgLang <> G':319 var
+R37382:37382 Cpdt.ProgLang <> x:320 var
+R37399:37400 Cpdt.ProgLang HigherOrder wf ind
+R37408:37409 Cpdt.ProgLang <> e2:318 var
+R37405:37406 Cpdt.ProgLang <> e1:317 var
+R37402:37403 Cpdt.ProgLang <> G':319 var
+R37955:37956 Cpdt.ProgLang HigherOrder wf ind
+prf 37993:37999 HigherOrder unletWf
+binder 38010:38013 <> var1:321
+binder 38015:38018 <> var2:322
+binder 38020:38020 <> G:323
+binder 38022:38022 <> t:324
+R38030:38033 Cpdt.ProgLang HigherOrder term ind
+R38047:38047 Cpdt.ProgLang <> t:324 var
+R38036:38039 Cpdt.ProgLang HigherOrder term ind
+R38041:38044 Cpdt.ProgLang <> var1:321 var
+binder 38025:38026 <> e1:325
+R38056:38059 Cpdt.ProgLang HigherOrder term ind
+R38073:38073 Cpdt.ProgLang <> t:324 var
+R38062:38065 Cpdt.ProgLang HigherOrder term ind
+R38067:38070 Cpdt.ProgLang <> var2:322 var
+binder 38051:38052 <> e2:326
+R38091:38098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38081:38082 Cpdt.ProgLang HigherOrder wf ind
+R38089:38090 Cpdt.ProgLang <> e2:326 var
+R38086:38087 Cpdt.ProgLang <> e1:325 var
+R38084:38084 Cpdt.ProgLang <> G:323 var
+binder 38106:38107 <> G':327
+R38159:38168 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38110:38115 Coq.Lists.List <> Forall ind
+R38158:38158 Cpdt.ProgLang <> G:323 var
+binder 38122:38123 <> ve:328
+R38128:38129 Cpdt.ProgLang HigherOrder wf ind
+R38146:38151 Cpdt.ProgLang HigherOrder Second proj
+R38153:38154 Cpdt.ProgLang <> ve:328 var
+R38135:38139 Cpdt.ProgLang HigherOrder First proj
+R38141:38142 Cpdt.ProgLang <> ve:328 var
+R38131:38132 Cpdt.ProgLang <> G':327 var
+R38169:38170 Cpdt.ProgLang HigherOrder wf ind
+R38187:38191 Cpdt.ProgLang HigherOrder unlet def
+R38193:38194 Cpdt.ProgLang <> e2:326 var
+R38176:38180 Cpdt.ProgLang HigherOrder unlet def
+R38182:38183 Cpdt.ProgLang <> e1:325 var
+R38172:38173 Cpdt.ProgLang <> G':327 var
+prf 38336:38342 HigherOrder UnletWf
+binder 38353:38353 <> t:329
+R38360:38363 Cpdt.ProgLang HigherOrder Term def
+R38365:38365 Cpdt.ProgLang <> t:329 var
+binder 38356:38356 <> E:330
+R38373:38380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38369:38370 Cpdt.ProgLang HigherOrder Wf def
+R38372:38372 Cpdt.ProgLang <> E:330 var
+R38381:38382 Cpdt.ProgLang HigherOrder Wf def
+R38385:38389 Cpdt.ProgLang HigherOrder Unlet def
+R38391:38391 Cpdt.ProgLang <> E:330 var
+R38431:38433 Coq.Init.Datatypes <> nil constr
+R38418:38424 Cpdt.ProgLang HigherOrder unletWf thm
+R38431:38433 Coq.Init.Datatypes <> nil constr
+R38418:38424 Cpdt.ProgLang HigherOrder unletWf thm
+R39341:39344 Cpdt.ProgLang <> Func constr
+not 39332:39332 HigherOrder :::x_'-->'_x
+R39401:39403 Cpdt.ProgLang HigherOrder Var constr
+not 39394:39394 HigherOrder :::'^'
+R39424:39428 Cpdt.ProgLang HigherOrder Const constr
+not 39417:39417 HigherOrder :::'#'
+R39446:39448 Cpdt.ProgLang HigherOrder App constr
+not 39439:39439 HigherOrder :::x_'@'_x
+R39501:39504 Cpdt.ProgLang HigherOrder Plus constr
+not 39493:39493 HigherOrder :::x_'@+'_x
+R39570:39572 Cpdt.ProgLang HigherOrder Abs constr
+binder 39590:39590 <> x:331
+not 39552:39552 HigherOrder :::'\'_x_':'_x_','_x
+not 39661:39661 HigherOrder :::'['_x_']'
+def 39697:39699 HigherOrder Add
+R39703:39706 Cpdt.ProgLang HigherOrder Term def
+R39712:39716 Cpdt.ProgLang HigherOrder :::x_'-->'_x not
+R39709:39711 Cpdt.ProgLang <> Nat constr
+R39720:39724 Cpdt.ProgLang HigherOrder :::x_'-->'_x not
+R39717:39719 Cpdt.ProgLang <> Nat constr
+R39725:39727 Cpdt.ProgLang <> Nat constr
+R39737:39737 Cpdt.ProgLang HigherOrder :::'['_x_']' not
+R39766:39766 Cpdt.ProgLang HigherOrder :::'['_x_']' not
+R39738:39738 Cpdt.ProgLang HigherOrder :::'\'_x_':'_x_','_x not
+R39740:39742 Cpdt.ProgLang HigherOrder :::'\'_x_':'_x_','_x not
+R39746:39747 Cpdt.ProgLang HigherOrder :::'\'_x_':'_x_','_x not
+R39743:39745 Cpdt.ProgLang <> Nat constr
+binder 39739:39739 <> x:332
+R39748:39748 Cpdt.ProgLang HigherOrder :::'\'_x_':'_x_','_x not
+R39750:39752 Cpdt.ProgLang HigherOrder :::'\'_x_':'_x_','_x not
+R39756:39757 Cpdt.ProgLang HigherOrder :::'\'_x_':'_x_','_x not
+R39753:39755 Cpdt.ProgLang <> Nat constr
+binder 39749:39749 <> y:333
+R39760:39763 Cpdt.ProgLang HigherOrder :::x_'@+'_x not
+R39758:39759 Cpdt.ProgLang HigherOrder :::'^' not
+R39759:39759 Cpdt.ProgLang <> x:332 var
+R39764:39765 Cpdt.ProgLang HigherOrder :::'^' not
+R39765:39765 Cpdt.ProgLang <> y:333 var
+def 39780:39797 HigherOrder Three_the_hard_way
+R39801:39804 Cpdt.ProgLang HigherOrder Term def
+R39806:39808 Cpdt.ProgLang <> Nat constr
+R39817:39817 Cpdt.ProgLang HigherOrder :::'['_x_']' not
+R39833:39833 Cpdt.ProgLang HigherOrder :::'['_x_']' not
+R39828:39830 Cpdt.ProgLang HigherOrder :::x_'@'_x not
+R39823:39825 Cpdt.ProgLang HigherOrder :::x_'@'_x not
+R39818:39820 Cpdt.ProgLang HigherOrder Add ex
+R39826:39827 Cpdt.ProgLang HigherOrder :::'#' not
+R39831:39832 Cpdt.ProgLang HigherOrder :::'#' not
+R39855:39864 Cpdt.ProgLang HigherOrder TermDenote def
+R39866:39883 Cpdt.ProgLang HigherOrder Three_the_hard_way ex
+R39942:39952 Cpdt.ProgLang HigherOrder <> mod

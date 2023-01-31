@@ -1,0 +1,1905 @@
+DIGEST 559a803f2473190c35336a9be923a06f
+FCpdt.Universes
+R305:308 Coq.Lists.List <> <> lib
+R310:312 Coq.micromega.Lia <> <> lib
+R329:333 Coq.Init.Logic <> False ind
+R359:360 Coq.Init.Logic <> eq ind
+R362:364 Coq.Init.Datatypes <> nat ind
+R395:401 Cpdt.DepList <> <> lib
+R403:418 Cpdt.CpdtTactics <> <> lib
+R430:439 Coq.extraction.Extraction <> <> lib
+R1970:1972 Coq.Init.Datatypes <> nat ind
+R2978:2980 Coq.Init.Datatypes <> nat ind
+R4536:4538 Coq.Init.Datatypes <> nat ind
+binder 4532:4532 <> T:1
+R4541:4543 Cpdt.DepList <> fin ind
+R4545:4545 Cpdt.Universes <> T:1 var
+binder 4638:4638 <> T:2
+R4647:4647 Cpdt.Universes <> T:2 var
+binder 4755:4755 <> T:3
+R4765:4765 Cpdt.Universes <> T:3 var
+def 5894:5895 <> id
+binder 5898:5898 <> T:4
+R5912:5912 Cpdt.Universes <> T:4 var
+binder 5908:5908 <> x:5
+R5917:5917 Cpdt.Universes <> T:4 var
+R5922:5922 Cpdt.Universes <> x:5 var
+R5932:5933 Cpdt.Universes <> id def
+R305:308 Coq.Lists.List <> <> lib
+R310:312 Coq.micromega.Lia <> <> lib
+R329:333 Coq.Init.Logic <> False ind
+R359:360 Coq.Init.Logic <> eq ind
+R362:364 Coq.Init.Datatypes <> nat ind
+R395:401 Cpdt.DepList <> <> lib
+R403:418 Cpdt.CpdtTactics <> <> lib
+R430:439 Coq.extraction.Extraction <> <> lib
+R1970:1972 Coq.Init.Datatypes <> nat ind
+R2978:2980 Coq.Init.Datatypes <> nat ind
+R4536:4538 Coq.Init.Datatypes <> nat ind
+binder 4532:4532 <> T:6
+R4541:4543 Cpdt.DepList <> fin ind
+R4545:4545 Cpdt.Universes <> T:6 var
+binder 4638:4638 <> T:7
+R4647:4647 Cpdt.Universes <> T:7 var
+binder 4755:4755 <> T:8
+R4765:4765 Cpdt.Universes <> T:8 var
+def 6340:6341 <> id
+binder 6344:6344 <> T:9
+R6359:6359 Cpdt.Universes <> T:9 var
+binder 6355:6355 <> x:10
+R6364:6364 Cpdt.Universes <> T:9 var
+R6369:6369 Cpdt.Universes <> x:10 var
+R6378:6379 Cpdt.Universes <> id def
+R6450:6451 Cpdt.Universes <> id def
+R6532:6533 Cpdt.Universes <> id def
+ind 8834:8836 <> exp
+constr 8858:8862 <> Const
+constr 8889:8892 <> Pair
+constr 8946:8947 <> Eq
+R8844:8847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8873:8873 <> T:13
+R8877:8880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8876:8876 Cpdt.Universes <> T:13 var
+R8881:8883 Cpdt.Universes <> exp:11 ind
+R8885:8885 Cpdt.Universes <> T:13 var
+binder 8903:8904 <> T1:14
+binder 8906:8907 <> T2:15
+R8916:8919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8910:8912 Cpdt.Universes <> exp:11 ind
+R8914:8915 Cpdt.Universes <> T1:14 var
+R8926:8929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8920:8922 Cpdt.Universes <> exp:11 ind
+R8924:8925 Cpdt.Universes <> T2:15 var
+R8930:8932 Cpdt.Universes <> exp:11 ind
+R8937:8939 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8935:8936 Cpdt.Universes <> T1:14 var
+R8940:8941 Cpdt.Universes <> T2:15 var
+binder 8958:8958 <> T:16
+R8966:8969 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8961:8963 Cpdt.Universes <> exp:11 ind
+R8965:8965 Cpdt.Universes <> T:16 var
+R8975:8978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8970:8972 Cpdt.Universes <> exp:11 ind
+R8974:8974 Cpdt.Universes <> T:16 var
+R8979:8981 Cpdt.Universes <> exp:11 ind
+R8983:8986 Coq.Init.Datatypes <> bool ind
+R9449:9453 Cpdt.Universes <> Const constr
+R9531:9534 Cpdt.Universes <> Pair constr
+R9547:9551 Cpdt.Universes <> Const constr
+R9553:9554 Coq.Init.Datatypes <> tt constr
+R9537:9541 Cpdt.Universes <> Const constr
+R9658:9659 Cpdt.Universes <> Eq constr
+R9674:9678 Cpdt.Universes <> Const constr
+R9662:9666 Cpdt.Universes <> Const constr
+ind 12722:12725 <> prod
+constr 12730:12733 <> pair
+R305:308 Coq.Lists.List <> <> lib
+R310:312 Coq.micromega.Lia <> <> lib
+R329:333 Coq.Init.Logic <> False ind
+R359:360 Coq.Init.Logic <> eq ind
+R362:364 Coq.Init.Datatypes <> nat ind
+R395:401 Cpdt.DepList <> <> lib
+R403:418 Cpdt.CpdtTactics <> <> lib
+R430:439 Coq.extraction.Extraction <> <> lib
+R1970:1972 Coq.Init.Datatypes <> nat ind
+R2978:2980 Coq.Init.Datatypes <> nat ind
+R4536:4538 Coq.Init.Datatypes <> nat ind
+binder 4532:4532 <> T:19
+R4541:4543 Cpdt.DepList <> fin ind
+R4545:4545 Cpdt.Universes <> T:19 var
+binder 4638:4638 <> T:20
+R4647:4647 Cpdt.Universes <> T:20 var
+binder 4755:4755 <> T:21
+R4765:4765 Cpdt.Universes <> T:21 var
+def 5894:5895 <> id
+binder 5898:5898 <> T:22
+R5912:5912 Cpdt.Universes <> T:22 var
+binder 5908:5908 <> x:23
+R5917:5917 Cpdt.Universes <> T:22 var
+R5922:5922 Cpdt.Universes <> x:23 var
+R5932:5933 Cpdt.Universes <> id def
+R305:308 Coq.Lists.List <> <> lib
+R310:312 Coq.micromega.Lia <> <> lib
+R329:333 Coq.Init.Logic <> False ind
+R359:360 Coq.Init.Logic <> eq ind
+R362:364 Coq.Init.Datatypes <> nat ind
+R395:401 Cpdt.DepList <> <> lib
+R403:418 Cpdt.CpdtTactics <> <> lib
+R430:439 Coq.extraction.Extraction <> <> lib
+R1970:1972 Coq.Init.Datatypes <> nat ind
+R2978:2980 Coq.Init.Datatypes <> nat ind
+R4536:4538 Coq.Init.Datatypes <> nat ind
+binder 4532:4532 <> T:24
+R4541:4543 Cpdt.DepList <> fin ind
+R4545:4545 Cpdt.Universes <> T:24 var
+binder 4638:4638 <> T:25
+R4647:4647 Cpdt.Universes <> T:25 var
+binder 4755:4755 <> T:26
+R4765:4765 Cpdt.Universes <> T:26 var
+def 6340:6341 <> id
+binder 6344:6344 <> T:27
+R6359:6359 Cpdt.Universes <> T:27 var
+binder 6355:6355 <> x:28
+R6364:6364 Cpdt.Universes <> T:27 var
+R6369:6369 Cpdt.Universes <> x:28 var
+R6378:6379 Cpdt.Universes <> id def
+R6450:6451 Cpdt.Universes <> id def
+R6532:6533 Cpdt.Universes <> id def
+ind 8834:8836 <> exp
+constr 8858:8862 <> Const
+constr 8889:8892 <> Pair
+constr 8946:8947 <> Eq
+R8844:8847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8873:8873 <> T:31
+R8877:8880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8876:8876 Cpdt.Universes <> T:31 var
+R8881:8883 Cpdt.Universes <> exp:29 ind
+R8885:8885 Cpdt.Universes <> T:31 var
+binder 8903:8904 <> T1:32
+binder 8906:8907 <> T2:33
+R8916:8919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8910:8912 Cpdt.Universes <> exp:29 ind
+R8914:8915 Cpdt.Universes <> T1:32 var
+R8926:8929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8920:8922 Cpdt.Universes <> exp:29 ind
+R8924:8925 Cpdt.Universes <> T2:33 var
+R8930:8932 Cpdt.Universes <> exp:29 ind
+R8937:8939 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R8935:8936 Cpdt.Universes <> T1:32 var
+R8940:8941 Cpdt.Universes <> T2:33 var
+binder 8958:8958 <> T:34
+R8966:8969 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8961:8963 Cpdt.Universes <> exp:29 ind
+R8965:8965 Cpdt.Universes <> T:34 var
+R8975:8978 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8970:8972 Cpdt.Universes <> exp:29 ind
+R8974:8974 Cpdt.Universes <> T:34 var
+R8979:8981 Cpdt.Universes <> exp:29 ind
+R8983:8986 Coq.Init.Datatypes <> bool ind
+R9449:9453 Cpdt.Universes <> Const constr
+R9531:9534 Cpdt.Universes <> Pair constr
+R9547:9551 Cpdt.Universes <> Const constr
+R9553:9554 Coq.Init.Datatypes <> tt constr
+R9537:9541 Cpdt.Universes <> Const constr
+R9658:9659 Cpdt.Universes <> Eq constr
+R9674:9678 Cpdt.Universes <> Const constr
+R9662:9666 Cpdt.Universes <> Const constr
+R14654:14654 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14658:14659 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14671:14671 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14655:14657 Coq.Init.Datatypes <> nat ind
+R14660:14660 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14665:14666 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14670:14670 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+ind 14887:14891 <> prod'
+constr 14921:14925 <> pair'
+R14899:14902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14907:14910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 14936:14936 <> A:37
+binder 14938:14938 <> B:38
+R14949:14952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14948:14948 Cpdt.Universes <> A:37 var
+R14954:14957 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14953:14953 Cpdt.Universes <> B:38 var
+R14958:14962 Cpdt.Universes <> prod':35 ind
+R14966:14966 Cpdt.Universes <> B:38 var
+R14964:14964 Cpdt.Universes <> A:37 var
+ind 15658:15660 <> foo
+constr 15685:15687 <> Foo
+binder 15663:15663 <> A:39
+R15692:15695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15691:15691 Cpdt.Universes <> A:39 var
+R15696:15698 Cpdt.Universes <> foo:40 ind
+R15700:15700 Cpdt.Universes <> A:39 var
+R15769:15771 Cpdt.Universes <> foo ind
+R15773:15775 Coq.Init.Datatypes <> nat ind
+R15847:15849 Cpdt.Universes <> foo ind
+R15926:15928 Cpdt.Universes <> foo ind
+R15930:15933 Coq.Init.Logic <> True ind
+ind 16671:16673 <> bar
+constr 16685:16687 <> Bar
+R16691:16693 Cpdt.Universes <> bar:42 ind
+R16703:16705 Cpdt.Universes <> bar ind
+prf 17228:17235 <> symmetry
+binder 17246:17246 <> A:44
+binder 17248:17248 <> B:45
+R17265:17270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17261:17263 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17260:17260 Cpdt.Universes <> A:44 var
+R17264:17264 Cpdt.Universes <> B:45 var
+R17272:17274 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17271:17271 Cpdt.Universes <> B:45 var
+R17275:17275 Cpdt.Universes <> A:44 var
+prf 17407:17435 <> illustrative_but_silly_detour
+R17443:17445 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17439:17442 Coq.Init.Datatypes <> unit ind
+R17446:17449 Coq.Init.Datatypes <> unit ind
+prf 18612:18640 <> illustrative_but_silly_detour
+R18644:18644 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18656:18659 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18645:18648 Coq.Init.Datatypes <> unit ind
+R18660:18663 Coq.Init.Datatypes <> unit ind
+R18674:18681 Cpdt.Universes <> symmetry thm
+R18674:18681 Cpdt.Universes <> symmetry thm
+prf 19387:19397 <> ex_symmetry
+R19401:19401 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19417:19422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19438:19438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19402:19408 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R19410:19411 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 19409:19409 <> x:46
+R19413:19415 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19412:19412 Cpdt.Universes <> x:46 var
+R19423:19429 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R19431:19432 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 19430:19430 <> x:47
+R19434:19436 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19437:19437 Cpdt.Universes <> x:47 var
+R20111:20118 Coq.Init.Logic <> ex_intro constr
+R20111:20118 Coq.Init.Logic <> ex_intro constr
+R21486:21488 Coq.Init.Specif <> sig ind
+R21629:21630 Coq.Init.Logic <> ex ind
+def 21908:21912 <> projS
+binder 21914:21914 <> A:48
+R21922:21925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21921:21921 Cpdt.Universes <> A:48 var
+binder 21917:21917 <> P:49
+R21937:21939 Coq.Init.Specif <> sig ind
+R21941:21941 Cpdt.Universes <> P:49 var
+binder 21933:21933 <> x:50
+R21946:21946 Cpdt.Universes <> A:48 var
+R21959:21959 Cpdt.Universes <> x:50 var
+R21972:21976 Coq.Init.Specif <> exist constr
+def 22041:22045 <> projE
+R22050:22050 Coq.Init.Datatypes <> O constr
+def 23601:23607 <> sym_sig
+R23614:23616 Coq.Init.Specif <> sig ind
+binder 23623:23623 <> n:52
+R23629:23631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23628:23628 Cpdt.Universes <> n:52 var
+binder 23610:23610 <> x:53
+R23638:23640 Coq.Init.Specif <> sig ind
+binder 23647:23647 <> n:54
+R23653:23655 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23656:23656 Cpdt.Universes <> n:54 var
+R23670:23670 Cpdt.Universes <> x:53 var
+R23683:23687 Coq.Init.Specif <> exist constr
+R23697:23701 Coq.Init.Specif <> exist constr
+R23708:23713 Coq.Init.Logic <> sym_eq abbrev
+def 24006:24011 <> sym_ex
+R24018:24019 Coq.Init.Logic <> ex ind
+binder 24026:24026 <> n:56
+R24032:24034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24031:24031 Cpdt.Universes <> n:56 var
+binder 24014:24014 <> x:57
+R24041:24042 Coq.Init.Logic <> ex ind
+binder 24049:24049 <> n:58
+R24055:24057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24058:24058 Cpdt.Universes <> n:58 var
+R24072:24072 Cpdt.Universes <> x:57 var
+R24085:24092 Coq.Init.Logic <> ex_intro constr
+R24102:24109 Coq.Init.Logic <> ex_intro constr
+R24116:24121 Coq.Init.Logic <> sym_eq abbrev
+binder 25595:25595 <> P:60
+binder 25597:25597 <> Q:61
+R25613:25616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25608:25611 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25607:25607 Cpdt.Universes <> P:60 var
+R25612:25612 Cpdt.Universes <> Q:61 var
+R25618:25621 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25617:25617 Cpdt.Universes <> Q:61 var
+R25622:25622 Cpdt.Universes <> P:60 var
+ind 26285:26288 <> expP
+constr 26310:26315 <> ConstP
+constr 26343:26347 <> PairP
+constr 26404:26406 <> EqP
+R26296:26299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 26326:26326 <> T:64
+R26330:26333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26329:26329 Cpdt.Universes <> T:64 var
+R26334:26337 Cpdt.Universes <> expP:62 ind
+R26339:26339 Cpdt.Universes <> T:64 var
+binder 26358:26359 <> T1:65
+binder 26361:26362 <> T2:66
+R26372:26375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26365:26368 Cpdt.Universes <> expP:62 ind
+R26370:26371 Cpdt.Universes <> T1:65 var
+R26383:26386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26376:26379 Cpdt.Universes <> expP:62 ind
+R26381:26382 Cpdt.Universes <> T2:66 var
+R26387:26390 Cpdt.Universes <> expP:62 ind
+R26395:26397 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R26393:26394 Cpdt.Universes <> T1:65 var
+R26398:26399 Cpdt.Universes <> T2:66 var
+binder 26417:26417 <> T:67
+R26426:26429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26420:26423 Cpdt.Universes <> expP:62 ind
+R26425:26425 Cpdt.Universes <> T:67 var
+R26436:26439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26430:26433 Cpdt.Universes <> expP:62 ind
+R26435:26435 Cpdt.Universes <> T:67 var
+R26440:26443 Cpdt.Universes <> expP:62 ind
+R26445:26448 Coq.Init.Datatypes <> bool ind
+R26458:26463 Cpdt.Universes <> ConstP constr
+R26543:26547 Cpdt.Universes <> PairP constr
+R26561:26566 Cpdt.Universes <> ConstP constr
+R26568:26569 Coq.Init.Datatypes <> tt constr
+R26550:26555 Cpdt.Universes <> ConstP constr
+R26677:26679 Cpdt.Universes <> EqP constr
+R26695:26700 Cpdt.Universes <> ConstP constr
+R26682:26687 Cpdt.Universes <> ConstP constr
+R26807:26812 Cpdt.Universes <> ConstP constr
+R26815:26820 Cpdt.Universes <> ConstP constr
+R26822:26822 Coq.Init.Datatypes <> O constr
+ind 27379:27384 <> eqPlus
+constr 27418:27421 <> Base
+constr 27456:27459 <> Func
+binder 27395:27395 <> T:68
+R27399:27402 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27398:27398 Cpdt.Universes <> T:68 var
+R27404:27407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27403:27403 Cpdt.Universes <> T:68 var
+binder 27432:27432 <> T:71
+R27439:27439 Cpdt.Universes <> T:71 var
+binder 27435:27435 <> x:72
+R27443:27448 Cpdt.Universes <> eqPlus:69 ind
+R27452:27452 Cpdt.Universes <> x:72 var
+R27450:27450 Cpdt.Universes <> x:72 var
+binder 27470:27472 <> dom:73
+binder 27474:27476 <> ran:74
+R27490:27493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27487:27489 Cpdt.Universes <> dom:73 var
+R27494:27496 Cpdt.Universes <> ran:74 var
+binder 27479:27480 <> f1:75
+binder 27482:27483 <> f2:76
+R27502:27502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27539:27545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27514:27516 Cpdt.Universes <> dom:73 var
+binder 27510:27510 <> x:77
+R27519:27524 Cpdt.Universes <> eqPlus:69 ind
+R27534:27535 Cpdt.Universes <> f2:76 var
+R27537:27537 Cpdt.Universes <> x:77 var
+R27527:27528 Cpdt.Universes <> f1:75 var
+R27530:27530 Cpdt.Universes <> x:77 var
+R27546:27551 Cpdt.Universes <> eqPlus:69 ind
+R27556:27557 Cpdt.Universes <> f2:76 var
+R27553:27554 Cpdt.Universes <> f1:75 var
+R27568:27571 Cpdt.Universes <> Base constr
+R27653:27656 Cpdt.Universes <> Func constr
+binder 27693:27693 <> n:78
+R27698:27701 Cpdt.Universes <> Base constr
+R27703:27703 Cpdt.Universes <> n:78 var
+binder 27676:27676 <> n:79
+R27682:27684 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R27685:27685 Cpdt.Universes <> n:79 var
+binder 27663:27663 <> n:80
+R27668:27668 Cpdt.Universes <> n:80 var
+R27886:27889 Cpdt.Universes <> Base constr
+R27892:27895 Cpdt.Universes <> Base constr
+R28815:28828 Coq.Logic.Classical_Prop <> <> lib
+R28837:28843 Coq.Logic.Classical_Prop <> classic prfax
+ax 29060:29066 <> classic
+binder 29077:29077 <> P:81
+R29088:29091 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R29087:29087 Cpdt.Universes <> P:81 var
+R29092:29093 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29094:29094 Cpdt.Universes <> P:81 var
+ax 29415:29417 <> num
+R29421:29423 Coq.Init.Datatypes <> nat ind
+ax 29432:29439 <> positive
+R29446:29448 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R29443:29445 Cpdt.Universes <> num defax
+R21486:21488 Coq.Init.Specif <> sig ind
+R21629:21630 Coq.Init.Logic <> ex ind
+def 21908:21912 <> projS
+binder 21914:21914 <> A:85
+R21922:21925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21921:21921 Cpdt.Universes <> A:85 var
+binder 21917:21917 <> P:86
+R21937:21939 Coq.Init.Specif <> sig ind
+R21941:21941 Cpdt.Universes <> P:86 var
+binder 21933:21933 <> x:87
+R21946:21946 Cpdt.Universes <> A:85 var
+R21959:21959 Cpdt.Universes <> x:87 var
+R21972:21976 Coq.Init.Specif <> exist constr
+def 22041:22045 <> projE
+R22050:22050 Coq.Init.Datatypes <> O constr
+def 23601:23607 <> sym_sig
+R23614:23616 Coq.Init.Specif <> sig ind
+binder 23623:23623 <> n:89
+R23629:23631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23628:23628 Cpdt.Universes <> n:89 var
+binder 23610:23610 <> x:90
+R23638:23640 Coq.Init.Specif <> sig ind
+binder 23647:23647 <> n:91
+R23653:23655 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23656:23656 Cpdt.Universes <> n:91 var
+R23670:23670 Cpdt.Universes <> x:90 var
+R23683:23687 Coq.Init.Specif <> exist constr
+R23697:23701 Coq.Init.Specif <> exist constr
+R23708:23713 Coq.Init.Logic <> sym_eq abbrev
+def 24006:24011 <> sym_ex
+R24018:24019 Coq.Init.Logic <> ex ind
+binder 24026:24026 <> n:93
+R24032:24034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24031:24031 Cpdt.Universes <> n:93 var
+binder 24014:24014 <> x:94
+R24041:24042 Coq.Init.Logic <> ex ind
+binder 24049:24049 <> n:95
+R24055:24057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24058:24058 Cpdt.Universes <> n:95 var
+R24072:24072 Cpdt.Universes <> x:94 var
+R24085:24092 Coq.Init.Logic <> ex_intro constr
+R24102:24109 Coq.Init.Logic <> ex_intro constr
+R24116:24121 Coq.Init.Logic <> sym_eq abbrev
+binder 25595:25595 <> P:97
+binder 25597:25597 <> Q:98
+R25613:25616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25608:25611 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25607:25607 Cpdt.Universes <> P:97 var
+R25612:25612 Cpdt.Universes <> Q:98 var
+R25618:25621 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25617:25617 Cpdt.Universes <> Q:98 var
+R25622:25622 Cpdt.Universes <> P:97 var
+ind 26285:26288 <> expP
+constr 26310:26315 <> ConstP
+constr 26343:26347 <> PairP
+constr 26404:26406 <> EqP
+R26296:26299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 26326:26326 <> T:101
+R26330:26333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26329:26329 Cpdt.Universes <> T:101 var
+R26334:26337 Cpdt.Universes <> expP:99 ind
+R26339:26339 Cpdt.Universes <> T:101 var
+binder 26358:26359 <> T1:102
+binder 26361:26362 <> T2:103
+R26372:26375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26365:26368 Cpdt.Universes <> expP:99 ind
+R26370:26371 Cpdt.Universes <> T1:102 var
+R26383:26386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26376:26379 Cpdt.Universes <> expP:99 ind
+R26381:26382 Cpdt.Universes <> T2:103 var
+R26387:26390 Cpdt.Universes <> expP:99 ind
+R26395:26397 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R26393:26394 Cpdt.Universes <> T1:102 var
+R26398:26399 Cpdt.Universes <> T2:103 var
+binder 26417:26417 <> T:104
+R26426:26429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26420:26423 Cpdt.Universes <> expP:99 ind
+R26425:26425 Cpdt.Universes <> T:104 var
+R26436:26439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26430:26433 Cpdt.Universes <> expP:99 ind
+R26435:26435 Cpdt.Universes <> T:104 var
+R26440:26443 Cpdt.Universes <> expP:99 ind
+R26445:26448 Coq.Init.Datatypes <> bool ind
+R26458:26463 Cpdt.Universes <> ConstP constr
+R26543:26547 Cpdt.Universes <> PairP constr
+R26561:26566 Cpdt.Universes <> ConstP constr
+R26568:26569 Coq.Init.Datatypes <> tt constr
+R26550:26555 Cpdt.Universes <> ConstP constr
+R26677:26679 Cpdt.Universes <> EqP constr
+R26695:26700 Cpdt.Universes <> ConstP constr
+R26682:26687 Cpdt.Universes <> ConstP constr
+R26807:26812 Cpdt.Universes <> ConstP constr
+R26815:26820 Cpdt.Universes <> ConstP constr
+R26822:26822 Coq.Init.Datatypes <> O constr
+ind 27379:27384 <> eqPlus
+constr 27418:27421 <> Base
+constr 27456:27459 <> Func
+binder 27395:27395 <> T:105
+R27399:27402 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27398:27398 Cpdt.Universes <> T:105 var
+R27404:27407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27403:27403 Cpdt.Universes <> T:105 var
+binder 27432:27432 <> T:108
+R27439:27439 Cpdt.Universes <> T:108 var
+binder 27435:27435 <> x:109
+R27443:27448 Cpdt.Universes <> eqPlus:106 ind
+R27452:27452 Cpdt.Universes <> x:109 var
+R27450:27450 Cpdt.Universes <> x:109 var
+binder 27470:27472 <> dom:110
+binder 27474:27476 <> ran:111
+R27490:27493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27487:27489 Cpdt.Universes <> dom:110 var
+R27494:27496 Cpdt.Universes <> ran:111 var
+binder 27479:27480 <> f1:112
+binder 27482:27483 <> f2:113
+R27502:27502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27539:27545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27514:27516 Cpdt.Universes <> dom:110 var
+binder 27510:27510 <> x:114
+R27519:27524 Cpdt.Universes <> eqPlus:106 ind
+R27534:27535 Cpdt.Universes <> f2:113 var
+R27537:27537 Cpdt.Universes <> x:114 var
+R27527:27528 Cpdt.Universes <> f1:112 var
+R27530:27530 Cpdt.Universes <> x:114 var
+R27546:27551 Cpdt.Universes <> eqPlus:106 ind
+R27556:27557 Cpdt.Universes <> f2:113 var
+R27553:27554 Cpdt.Universes <> f1:112 var
+R27568:27571 Cpdt.Universes <> Base constr
+R27653:27656 Cpdt.Universes <> Func constr
+binder 27693:27693 <> n:115
+R27698:27701 Cpdt.Universes <> Base constr
+R27703:27703 Cpdt.Universes <> n:115 var
+binder 27676:27676 <> n:116
+R27682:27684 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R27685:27685 Cpdt.Universes <> n:116 var
+binder 27663:27663 <> n:117
+R27668:27668 Cpdt.Universes <> n:117 var
+R27886:27889 Cpdt.Universes <> Base constr
+R27892:27895 Cpdt.Universes <> Base constr
+R28815:28828 Coq.Logic.Classical_Prop <> <> lib
+R28837:28843 Coq.Logic.Classical_Prop <> classic prfax
+ax 29060:29066 <> classic
+binder 29077:29077 <> P:118
+R29088:29091 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R29087:29087 Cpdt.Universes <> P:118 var
+R29092:29093 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29094:29094 Cpdt.Universes <> P:118 var
+ax 30180:30190 <> not_classic
+R30194:30195 Coq.Init.Logic <> ::type_scope:'~'_x not
+binder 30203:30203 <> P:120
+R30214:30217 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R30213:30213 Cpdt.Universes <> P:120 var
+R30218:30219 Coq.Init.Logic <> ::type_scope:'~'_x not
+R30220:30220 Cpdt.Universes <> P:120 var
+prf 30232:30235 <> uhoh
+R30239:30243 Coq.Init.Logic <> False ind
+R30259:30265 Cpdt.Universes <> classic prfax
+R30267:30277 Cpdt.Universes <> not_classic prfax
+R30259:30265 Cpdt.Universes <> classic prfax
+R30267:30277 Cpdt.Universes <> not_classic prfax
+prf 30301:30310 <> uhoh_again
+R30319:30321 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30315:30317 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R30336:30339 Cpdt.Universes <> uhoh thm
+R21486:21488 Coq.Init.Specif <> sig ind
+R21629:21630 Coq.Init.Logic <> ex ind
+def 21908:21912 <> projS
+binder 21914:21914 <> A:122
+R21922:21925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21921:21921 Cpdt.Universes <> A:122 var
+binder 21917:21917 <> P:123
+R21937:21939 Coq.Init.Specif <> sig ind
+R21941:21941 Cpdt.Universes <> P:123 var
+binder 21933:21933 <> x:124
+R21946:21946 Cpdt.Universes <> A:122 var
+R21959:21959 Cpdt.Universes <> x:124 var
+R21972:21976 Coq.Init.Specif <> exist constr
+def 22041:22045 <> projE
+R22050:22050 Coq.Init.Datatypes <> O constr
+def 23601:23607 <> sym_sig
+R23614:23616 Coq.Init.Specif <> sig ind
+binder 23623:23623 <> n:126
+R23629:23631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23628:23628 Cpdt.Universes <> n:126 var
+binder 23610:23610 <> x:127
+R23638:23640 Coq.Init.Specif <> sig ind
+binder 23647:23647 <> n:128
+R23653:23655 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23656:23656 Cpdt.Universes <> n:128 var
+R23670:23670 Cpdt.Universes <> x:127 var
+R23683:23687 Coq.Init.Specif <> exist constr
+R23697:23701 Coq.Init.Specif <> exist constr
+R23708:23713 Coq.Init.Logic <> sym_eq abbrev
+def 24006:24011 <> sym_ex
+R24018:24019 Coq.Init.Logic <> ex ind
+binder 24026:24026 <> n:130
+R24032:24034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24031:24031 Cpdt.Universes <> n:130 var
+binder 24014:24014 <> x:131
+R24041:24042 Coq.Init.Logic <> ex ind
+binder 24049:24049 <> n:132
+R24055:24057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24058:24058 Cpdt.Universes <> n:132 var
+R24072:24072 Cpdt.Universes <> x:131 var
+R24085:24092 Coq.Init.Logic <> ex_intro constr
+R24102:24109 Coq.Init.Logic <> ex_intro constr
+R24116:24121 Coq.Init.Logic <> sym_eq abbrev
+binder 25595:25595 <> P:134
+binder 25597:25597 <> Q:135
+R25613:25616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25608:25611 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25607:25607 Cpdt.Universes <> P:134 var
+R25612:25612 Cpdt.Universes <> Q:135 var
+R25618:25621 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25617:25617 Cpdt.Universes <> Q:135 var
+R25622:25622 Cpdt.Universes <> P:134 var
+ind 26285:26288 <> expP
+constr 26310:26315 <> ConstP
+constr 26343:26347 <> PairP
+constr 26404:26406 <> EqP
+R26296:26299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 26326:26326 <> T:138
+R26330:26333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26329:26329 Cpdt.Universes <> T:138 var
+R26334:26337 Cpdt.Universes <> expP:136 ind
+R26339:26339 Cpdt.Universes <> T:138 var
+binder 26358:26359 <> T1:139
+binder 26361:26362 <> T2:140
+R26372:26375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26365:26368 Cpdt.Universes <> expP:136 ind
+R26370:26371 Cpdt.Universes <> T1:139 var
+R26383:26386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26376:26379 Cpdt.Universes <> expP:136 ind
+R26381:26382 Cpdt.Universes <> T2:140 var
+R26387:26390 Cpdt.Universes <> expP:136 ind
+R26395:26397 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R26393:26394 Cpdt.Universes <> T1:139 var
+R26398:26399 Cpdt.Universes <> T2:140 var
+binder 26417:26417 <> T:141
+R26426:26429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26420:26423 Cpdt.Universes <> expP:136 ind
+R26425:26425 Cpdt.Universes <> T:141 var
+R26436:26439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26430:26433 Cpdt.Universes <> expP:136 ind
+R26435:26435 Cpdt.Universes <> T:141 var
+R26440:26443 Cpdt.Universes <> expP:136 ind
+R26445:26448 Coq.Init.Datatypes <> bool ind
+R26458:26463 Cpdt.Universes <> ConstP constr
+R26543:26547 Cpdt.Universes <> PairP constr
+R26561:26566 Cpdt.Universes <> ConstP constr
+R26568:26569 Coq.Init.Datatypes <> tt constr
+R26550:26555 Cpdt.Universes <> ConstP constr
+R26677:26679 Cpdt.Universes <> EqP constr
+R26695:26700 Cpdt.Universes <> ConstP constr
+R26682:26687 Cpdt.Universes <> ConstP constr
+R26807:26812 Cpdt.Universes <> ConstP constr
+R26815:26820 Cpdt.Universes <> ConstP constr
+R26822:26822 Coq.Init.Datatypes <> O constr
+ind 27379:27384 <> eqPlus
+constr 27418:27421 <> Base
+constr 27456:27459 <> Func
+binder 27395:27395 <> T:142
+R27399:27402 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27398:27398 Cpdt.Universes <> T:142 var
+R27404:27407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27403:27403 Cpdt.Universes <> T:142 var
+binder 27432:27432 <> T:145
+R27439:27439 Cpdt.Universes <> T:145 var
+binder 27435:27435 <> x:146
+R27443:27448 Cpdt.Universes <> eqPlus:143 ind
+R27452:27452 Cpdt.Universes <> x:146 var
+R27450:27450 Cpdt.Universes <> x:146 var
+binder 27470:27472 <> dom:147
+binder 27474:27476 <> ran:148
+R27490:27493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27487:27489 Cpdt.Universes <> dom:147 var
+R27494:27496 Cpdt.Universes <> ran:148 var
+binder 27479:27480 <> f1:149
+binder 27482:27483 <> f2:150
+R27502:27502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27539:27545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27514:27516 Cpdt.Universes <> dom:147 var
+binder 27510:27510 <> x:151
+R27519:27524 Cpdt.Universes <> eqPlus:143 ind
+R27534:27535 Cpdt.Universes <> f2:150 var
+R27537:27537 Cpdt.Universes <> x:151 var
+R27527:27528 Cpdt.Universes <> f1:149 var
+R27530:27530 Cpdt.Universes <> x:151 var
+R27546:27551 Cpdt.Universes <> eqPlus:143 ind
+R27556:27557 Cpdt.Universes <> f2:150 var
+R27553:27554 Cpdt.Universes <> f1:149 var
+R27568:27571 Cpdt.Universes <> Base constr
+R27653:27656 Cpdt.Universes <> Func constr
+binder 27693:27693 <> n:152
+R27698:27701 Cpdt.Universes <> Base constr
+R27703:27703 Cpdt.Universes <> n:152 var
+binder 27676:27676 <> n:153
+R27682:27684 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R27685:27685 Cpdt.Universes <> n:153 var
+binder 27663:27663 <> n:154
+R27668:27668 Cpdt.Universes <> n:154 var
+R27886:27889 Cpdt.Universes <> Base constr
+R27892:27895 Cpdt.Universes <> Base constr
+R28815:28828 Coq.Logic.Classical_Prop <> <> lib
+R28837:28843 Coq.Logic.Classical_Prop <> classic prfax
+ax 29060:29066 <> classic
+binder 29077:29077 <> P:155
+R29088:29091 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R29087:29087 Cpdt.Universes <> P:155 var
+R29092:29093 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29094:29094 Cpdt.Universes <> P:155 var
+ax 29415:29417 <> num
+R29421:29423 Coq.Init.Datatypes <> nat ind
+ax 29432:29439 <> positive
+R29446:29448 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R29443:29445 Cpdt.Universes <> num defax
+R21486:21488 Coq.Init.Specif <> sig ind
+R21629:21630 Coq.Init.Logic <> ex ind
+def 21908:21912 <> projS
+binder 21914:21914 <> A:159
+R21922:21925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21921:21921 Cpdt.Universes <> A:159 var
+binder 21917:21917 <> P:160
+R21937:21939 Coq.Init.Specif <> sig ind
+R21941:21941 Cpdt.Universes <> P:160 var
+binder 21933:21933 <> x:161
+R21946:21946 Cpdt.Universes <> A:159 var
+R21959:21959 Cpdt.Universes <> x:161 var
+R21972:21976 Coq.Init.Specif <> exist constr
+def 22041:22045 <> projE
+R22050:22050 Coq.Init.Datatypes <> O constr
+def 23601:23607 <> sym_sig
+R23614:23616 Coq.Init.Specif <> sig ind
+binder 23623:23623 <> n:163
+R23629:23631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23628:23628 Cpdt.Universes <> n:163 var
+binder 23610:23610 <> x:164
+R23638:23640 Coq.Init.Specif <> sig ind
+binder 23647:23647 <> n:165
+R23653:23655 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23656:23656 Cpdt.Universes <> n:165 var
+R23670:23670 Cpdt.Universes <> x:164 var
+R23683:23687 Coq.Init.Specif <> exist constr
+R23697:23701 Coq.Init.Specif <> exist constr
+R23708:23713 Coq.Init.Logic <> sym_eq abbrev
+def 24006:24011 <> sym_ex
+R24018:24019 Coq.Init.Logic <> ex ind
+binder 24026:24026 <> n:167
+R24032:24034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24031:24031 Cpdt.Universes <> n:167 var
+binder 24014:24014 <> x:168
+R24041:24042 Coq.Init.Logic <> ex ind
+binder 24049:24049 <> n:169
+R24055:24057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24058:24058 Cpdt.Universes <> n:169 var
+R24072:24072 Cpdt.Universes <> x:168 var
+R24085:24092 Coq.Init.Logic <> ex_intro constr
+R24102:24109 Coq.Init.Logic <> ex_intro constr
+R24116:24121 Coq.Init.Logic <> sym_eq abbrev
+binder 25595:25595 <> P:171
+binder 25597:25597 <> Q:172
+R25613:25616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25608:25611 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25607:25607 Cpdt.Universes <> P:171 var
+R25612:25612 Cpdt.Universes <> Q:172 var
+R25618:25621 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R25617:25617 Cpdt.Universes <> Q:172 var
+R25622:25622 Cpdt.Universes <> P:171 var
+ind 26285:26288 <> expP
+constr 26310:26315 <> ConstP
+constr 26343:26347 <> PairP
+constr 26404:26406 <> EqP
+R26296:26299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 26326:26326 <> T:175
+R26330:26333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26329:26329 Cpdt.Universes <> T:175 var
+R26334:26337 Cpdt.Universes <> expP:173 ind
+R26339:26339 Cpdt.Universes <> T:175 var
+binder 26358:26359 <> T1:176
+binder 26361:26362 <> T2:177
+R26372:26375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26365:26368 Cpdt.Universes <> expP:173 ind
+R26370:26371 Cpdt.Universes <> T1:176 var
+R26383:26386 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26376:26379 Cpdt.Universes <> expP:173 ind
+R26381:26382 Cpdt.Universes <> T2:177 var
+R26387:26390 Cpdt.Universes <> expP:173 ind
+R26395:26397 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R26393:26394 Cpdt.Universes <> T1:176 var
+R26398:26399 Cpdt.Universes <> T2:177 var
+binder 26417:26417 <> T:178
+R26426:26429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26420:26423 Cpdt.Universes <> expP:173 ind
+R26425:26425 Cpdt.Universes <> T:178 var
+R26436:26439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26430:26433 Cpdt.Universes <> expP:173 ind
+R26435:26435 Cpdt.Universes <> T:178 var
+R26440:26443 Cpdt.Universes <> expP:173 ind
+R26445:26448 Coq.Init.Datatypes <> bool ind
+R26458:26463 Cpdt.Universes <> ConstP constr
+R26543:26547 Cpdt.Universes <> PairP constr
+R26561:26566 Cpdt.Universes <> ConstP constr
+R26568:26569 Coq.Init.Datatypes <> tt constr
+R26550:26555 Cpdt.Universes <> ConstP constr
+R26677:26679 Cpdt.Universes <> EqP constr
+R26695:26700 Cpdt.Universes <> ConstP constr
+R26682:26687 Cpdt.Universes <> ConstP constr
+R26807:26812 Cpdt.Universes <> ConstP constr
+R26815:26820 Cpdt.Universes <> ConstP constr
+R26822:26822 Coq.Init.Datatypes <> O constr
+ind 27379:27384 <> eqPlus
+constr 27418:27421 <> Base
+constr 27456:27459 <> Func
+binder 27395:27395 <> T:179
+R27399:27402 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27398:27398 Cpdt.Universes <> T:179 var
+R27404:27407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27403:27403 Cpdt.Universes <> T:179 var
+binder 27432:27432 <> T:182
+R27439:27439 Cpdt.Universes <> T:182 var
+binder 27435:27435 <> x:183
+R27443:27448 Cpdt.Universes <> eqPlus:180 ind
+R27452:27452 Cpdt.Universes <> x:183 var
+R27450:27450 Cpdt.Universes <> x:183 var
+binder 27470:27472 <> dom:184
+binder 27474:27476 <> ran:185
+R27490:27493 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27487:27489 Cpdt.Universes <> dom:184 var
+R27494:27496 Cpdt.Universes <> ran:185 var
+binder 27479:27480 <> f1:186
+binder 27482:27483 <> f2:187
+R27502:27502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27539:27545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27514:27516 Cpdt.Universes <> dom:184 var
+binder 27510:27510 <> x:188
+R27519:27524 Cpdt.Universes <> eqPlus:180 ind
+R27534:27535 Cpdt.Universes <> f2:187 var
+R27537:27537 Cpdt.Universes <> x:188 var
+R27527:27528 Cpdt.Universes <> f1:186 var
+R27530:27530 Cpdt.Universes <> x:188 var
+R27546:27551 Cpdt.Universes <> eqPlus:180 ind
+R27556:27557 Cpdt.Universes <> f2:187 var
+R27553:27554 Cpdt.Universes <> f1:186 var
+R27568:27571 Cpdt.Universes <> Base constr
+R27653:27656 Cpdt.Universes <> Func constr
+binder 27693:27693 <> n:189
+R27698:27701 Cpdt.Universes <> Base constr
+R27703:27703 Cpdt.Universes <> n:189 var
+binder 27676:27676 <> n:190
+R27682:27684 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R27685:27685 Cpdt.Universes <> n:190 var
+binder 27663:27663 <> n:191
+R27668:27668 Cpdt.Universes <> n:191 var
+R27886:27889 Cpdt.Universes <> Base constr
+R27892:27895 Cpdt.Universes <> Base constr
+R28815:28828 Coq.Logic.Classical_Prop <> <> lib
+R28837:28843 Coq.Logic.Classical_Prop <> classic prfax
+ax 29060:29066 <> classic
+binder 29077:29077 <> P:192
+R29088:29091 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R29087:29087 Cpdt.Universes <> P:192 var
+R29092:29093 Coq.Init.Logic <> ::type_scope:'~'_x not
+R29094:29094 Cpdt.Universes <> P:192 var
+prf 32211:32212 <> t1
+binder 32223:32223 <> P:194
+R32234:32237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32233:32233 Cpdt.Universes <> P:194 var
+R32238:32239 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32240:32241 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32242:32242 Cpdt.Universes <> P:194 var
+R32278:32279 Cpdt.Universes <> t1 thm
+prf 32338:32339 <> t2
+binder 32350:32350 <> P:195
+R32365:32368 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32360:32361 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32362:32363 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32364:32364 Cpdt.Universes <> P:195 var
+R32369:32369 Cpdt.Universes <> P:195 var
+R32461:32467 Cpdt.Universes <> classic prfax
+R32461:32467 Cpdt.Universes <> classic prfax
+R32504:32505 Cpdt.Universes <> t2 thm
+prf 32742:32751 <> nat_eq_dec
+R32768:32770 Coq.Init.Datatypes <> nat ind
+binder 32762:32762 <> n:196
+binder 32764:32764 <> m:197
+R32778:32781 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R32774:32776 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32773:32773 Cpdt.Universes <> n:196 var
+R32777:32777 Cpdt.Universes <> m:197 var
+R32783:32786 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R32782:32782 Cpdt.Universes <> n:196 var
+R32787:32787 Cpdt.Universes <> m:197 var
+prf 32873:32875 <> t2'
+R32892:32894 Coq.Init.Datatypes <> nat ind
+binder 32886:32886 <> n:198
+binder 32888:32888 <> m:199
+R32908:32911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32897:32898 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32899:32901 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32907:32907 Coq.Init.Logic <> ::type_scope:'~'_x not
+R32903:32905 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32902:32902 Cpdt.Universes <> n:198 var
+R32906:32906 Cpdt.Universes <> m:199 var
+R32913:32915 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32912:32912 Cpdt.Universes <> n:198 var
+R32916:32916 Cpdt.Universes <> m:199 var
+R32943:32952 Cpdt.Universes <> nat_eq_dec thm
+R32943:32952 Cpdt.Universes <> nat_eq_dec thm
+R32991:32993 Cpdt.Universes <> t2' thm
+R33453:33468 Coq.Logic.ProofIrrelevance <> <> lib
+R33477:33493 Coq.Logic.ProofIrrelevance <> proof_irrelevance prfax
+prf 33746:33749 <> zgtz
+R33758:33761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33754:33756 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R33762:33766 Coq.Init.Logic <> False ind
+def 33810:33821 <> pred_strong1
+R33828:33830 Coq.Init.Datatypes <> nat ind
+binder 33824:33824 <> n:200
+R33840:33843 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33836:33838 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R33835:33835 Cpdt.Universes <> n:200 var
+R33844:33846 Coq.Init.Datatypes <> nat ind
+R33859:33859 Cpdt.Universes <> n:200 var
+R33872:33872 Coq.Init.Datatypes <> O constr
+R33887:33889 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+binder 33881:33882 <> pf:202
+R33901:33904 Cpdt.Universes <> zgtz thm
+R33906:33907 Cpdt.Universes <> pf:202 var
+R33924:33924 Coq.Init.Datatypes <> S constr
+prf 34101:34118 <> pred_strong1_irrel
+binder 34129:34129 <> n:203
+R34143:34145 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R34142:34142 Cpdt.Universes <> n:203 var
+binder 34132:34134 <> pf1:204
+binder 34136:34138 <> pf2:205
+R34166:34168 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34150:34161 Cpdt.Universes <> pred_strong1 def
+R34163:34165 Cpdt.Universes <> pf1:204 var
+R34169:34180 Cpdt.Universes <> pred_strong1 def
+R34182:34184 Cpdt.Universes <> pf2:205 var
+prf 34807:34825 <> pred_strong1_irrel'
+binder 34836:34836 <> n:206
+R34850:34852 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R34849:34849 Cpdt.Universes <> n:206 var
+binder 34839:34841 <> pf1:207
+binder 34843:34845 <> pf2:208
+R34873:34875 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34857:34868 Cpdt.Universes <> pred_strong1 def
+R34870:34872 Cpdt.Universes <> pf1:207 var
+R34876:34887 Cpdt.Universes <> pred_strong1 def
+R34889:34891 Cpdt.Universes <> pf2:208 var
+R34919:34935 Coq.Logic.ProofIrrelevance <> proof_irrelevance prfax
+R34919:34935 Coq.Logic.ProofIrrelevance <> proof_irrelevance prfax
+R35143:35147 Coq.Logic.Eqdep <> <> lib
+R35157:35166 Coq.Logic.Eqdep Eq_rect_eq <> mod
+R35175:35184 Coq.Logic.Eqdep Eq_rect_eq eq_rect_eq prfax
+prf 35672:35679 <> UIP_refl
+binder 35690:35690 <> A:209
+R35697:35697 Cpdt.Universes <> A:209 var
+binder 35693:35693 <> x:210
+R35707:35709 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35706:35706 Cpdt.Universes <> x:210 var
+R35710:35710 Cpdt.Universes <> x:210 var
+binder 35701:35702 <> pf:211
+R35716:35718 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35714:35715 Cpdt.Universes <> pf:211 var
+R35719:35725 Coq.Init.Logic <> eq_refl constr
+R35727:35727 Cpdt.Universes <> x:210 var
+R35757:35763 Coq.Init.Logic <> eq_rect scheme
+R35775:35781 Coq.Init.Logic <> eq_refl constr
+R35768:35769 Coq.Init.Logic <> eq ind
+R35815:35824 Coq.Logic.Eqdep Eq_rect_eq eq_rect_eq prfax
+R35999:36001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35868:35870 Cpdt.Universes <> pf':212 var
+R35876:35878 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35889:35891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35892:35892 Cpdt.Universes <> y:214 var
+R35939:35945 Coq.Init.Logic <> eq_refl constr
+R35950:35956 Coq.Init.Logic <> eq_refl constr
+R36002:36004 Cpdt.Universes <> pf':212 var
+R36028:36034 Coq.Init.Logic <> eq_refl constr
+R36039:36045 Coq.Init.Logic <> eq_refl constr
+R35757:35763 Coq.Init.Logic <> eq_rect scheme
+R35775:35781 Coq.Init.Logic <> eq_refl constr
+R35768:35769 Coq.Init.Logic <> eq ind
+R35815:35824 Coq.Logic.Eqdep Eq_rect_eq eq_rect_eq prfax
+R35999:36001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35868:35870 Cpdt.Universes <> pf':215 var
+R35876:35878 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35889:35891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35892:35892 Cpdt.Universes <> y:217 var
+R35939:35945 Coq.Init.Logic <> eq_refl constr
+R35950:35956 Coq.Init.Logic <> eq_refl constr
+R36002:36004 Cpdt.Universes <> pf':215 var
+R36028:36034 Coq.Init.Logic <> eq_refl constr
+R36039:36045 Coq.Init.Logic <> eq_refl constr
+prf 36086:36088 <> UIP
+binder 36099:36099 <> A:218
+R36108:36108 Cpdt.Universes <> A:218 var
+binder 36102:36102 <> x:219
+binder 36104:36104 <> y:220
+R36123:36125 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36122:36122 Cpdt.Universes <> x:219 var
+R36126:36126 Cpdt.Universes <> y:220 var
+binder 36112:36114 <> pf1:221
+binder 36116:36118 <> pf2:222
+R36133:36135 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36130:36132 Cpdt.Universes <> pf1:221 var
+R36136:36138 Cpdt.Universes <> pf2:222 var
+R36223:36225 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36223:36225 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36245:36252 Cpdt.Universes <> UIP_refl thm
+R36269:36276 Cpdt.Universes <> UIP_refl thm
+R36245:36252 Cpdt.Universes <> UIP_refl thm
+R36245:36252 Cpdt.Universes <> UIP_refl thm
+R36269:36276 Cpdt.Universes <> UIP_refl thm
+R36269:36276 Cpdt.Universes <> UIP_refl thm
+R36354:36362 Coq.Logic.Eqdep_dec <> <> lib
+R37154:37177 Coq.Logic.FunctionalExtensionality <> <> lib
+R37186:37214 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+prf 37665:37688 <> predicate_extensionality
+binder 37700:37700 <> A:223
+R37716:37719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37715:37715 Cpdt.Universes <> A:223 var
+binder 37711:37711 <> B:224
+R37744:37744 Cpdt.Universes <> A:223 var
+binder 37740:37740 <> x:225
+R37747:37747 Cpdt.Universes <> B:224 var
+R37749:37749 Cpdt.Universes <> x:225 var
+binder 37727:37727 <> f:226
+binder 37729:37729 <> g:227
+R37755:37755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37779:37783 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37767:37767 Cpdt.Universes <> A:223 var
+binder 37763:37763 <> x:228
+R37773:37775 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37770:37770 Cpdt.Universes <> f:226 var
+R37772:37772 Cpdt.Universes <> x:228 var
+R37776:37776 Cpdt.Universes <> g:227 var
+R37778:37778 Cpdt.Universes <> x:228 var
+R37785:37787 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R37784:37784 Cpdt.Universes <> f:226 var
+R37788:37788 Cpdt.Universes <> g:227 var
+R37807:37835 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+R37807:37835 Coq.Logic.FunctionalExtensionality <> functional_extensionality_dep prfax
+R38465:38483 Coq.Logic.ConstructiveEpsilon <> <> lib
+R38492:38524 Coq.Logic.ConstructiveEpsilon <> constructive_definite_description abbrev
+R38837:38869 Coq.Logic.ConstructiveEpsilon <> constructive_definite_ground_description thm
+R39855:39875 Coq.Logic.ClassicalUniqueChoice <> <> lib
+R39884:39906 Coq.Logic.ClassicalUniqueChoice <> dependent_unique_choice prfax
+R40565:40580 Coq.Logic.RelationalChoice <> <> lib
+R40630:40644 Coq.Logic.ClassicalChoice <> <> lib
+R40653:40658 Coq.Logic.ClassicalChoice <> choice thm
+def 41339:41348 <> choice_Set
+binder 41351:41351 <> A:229
+binder 41353:41353 <> B:230
+R41369:41372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41368:41368 Cpdt.Universes <> A:229 var
+R41374:41377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41373:41373 Cpdt.Universes <> B:230 var
+binder 41364:41364 <> R:231
+R41400:41400 Cpdt.Universes <> A:229 var
+binder 41396:41396 <> x:232
+R41403:41403 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41405:41407 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41409:41411 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41417:41417 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41408:41408 Cpdt.Universes <> B:230 var
+binder 41404:41404 <> y:233
+R41412:41412 Cpdt.Universes <> R:231 var
+R41416:41416 Cpdt.Universes <> y:233 var
+R41414:41414 Cpdt.Universes <> x:232 var
+binder 41385:41385 <> H:234
+R41424:41424 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41426:41428 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41435:41437 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41461:41461 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41430:41433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41429:41429 Cpdt.Universes <> A:229 var
+R41434:41434 Cpdt.Universes <> B:230 var
+binder 41425:41425 <> f:235
+R41449:41449 Cpdt.Universes <> A:229 var
+binder 41445:41445 <> x:236
+R41452:41452 Cpdt.Universes <> R:231 var
+R41457:41457 Cpdt.Universes <> f:235 var
+R41459:41459 Cpdt.Universes <> x:236 var
+R41454:41454 Cpdt.Universes <> x:236 var
+R41468:41472 Coq.Init.Specif <> exist constr
+binder 41543:41543 <> x:237
+R41548:41556 Coq.Init.Specif <> proj2_sig def
+R41559:41559 Cpdt.Universes <> H:234 var
+R41561:41561 Cpdt.Universes <> x:237 var
+binder 41516:41516 <> x:238
+R41521:41529 Coq.Init.Specif <> proj1_sig def
+R41532:41532 Cpdt.Universes <> H:234 var
+R41534:41534 Cpdt.Universes <> x:238 var
+binder 41479:41479 <> f:239
+R41495:41495 Cpdt.Universes <> A:229 var
+binder 41491:41491 <> x:240
+R41498:41498 Cpdt.Universes <> R:231 var
+R41503:41503 Cpdt.Universes <> f:239 var
+R41505:41505 Cpdt.Universes <> x:240 var
+R41500:41500 Cpdt.Universes <> x:240 var
+def 44494:44497 <> cast
+binder 44500:44500 <> x:241
+binder 44502:44502 <> y:242
+R44518:44520 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44517:44517 Cpdt.Universes <> x:241 var
+R44521:44521 Cpdt.Universes <> y:242 var
+binder 44512:44513 <> pf:243
+R44529:44529 Cpdt.Universes <> x:241 var
+binder 44525:44525 <> v:244
+R44534:44534 Cpdt.Universes <> y:242 var
+R44547:44548 Cpdt.Universes <> pf:243 var
+R44561:44567 Coq.Init.Logic <> eq_refl constr
+R44572:44572 Cpdt.Universes <> v:244 var
+R44671:44674 Cpdt.Universes <> cast def
+binder 44704:44704 <> n:246
+R44709:44709 Coq.Init.Datatypes <> S constr
+R44711:44711 Cpdt.Universes <> n:246 var
+R44677:44683 Coq.Init.Logic <> eq_refl constr
+R44689:44692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44686:44688 Coq.Init.Datatypes <> nat ind
+R44693:44695 Coq.Init.Datatypes <> nat ind
+prf 44878:44879 <> t3
+R44883:44883 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44909:44913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44941:44941 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44895:44897 Coq.Init.Datatypes <> nat ind
+binder 44891:44891 <> n:247
+R44900:44902 Cpdt.DepList <> fin ind
+R44905:44905 Coq.Init.Datatypes <> S constr
+R44907:44907 Cpdt.Universes <> n:247 var
+R44925:44927 Coq.Init.Datatypes <> nat ind
+binder 44921:44921 <> n:248
+R44930:44932 Cpdt.DepList <> fin ind
+R44936:44938 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R44935:44935 Cpdt.Universes <> n:248 var
+R44955:44955 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44994:44998 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45039:45039 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44967:44969 Coq.Init.Datatypes <> nat ind
+binder 44963:44963 <> n:249
+binder 44977:44977 <> n:250
+R44982:44984 Cpdt.DepList <> fin ind
+R44987:44987 Coq.Init.Datatypes <> S constr
+R44989:44989 Cpdt.Universes <> n:250 var
+R44993:44993 Cpdt.Universes <> n:249 var
+R45010:45012 Coq.Init.Datatypes <> nat ind
+binder 45006:45006 <> n:251
+binder 45020:45020 <> n:252
+R45025:45027 Cpdt.DepList <> fin ind
+R45031:45033 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45030:45030 Cpdt.Universes <> n:252 var
+R45038:45038 Cpdt.Universes <> n:251 var
+R45056:45080 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+binder 45110:45110 <> n:253
+R45115:45117 Cpdt.DepList <> fin ind
+R45120:45120 Coq.Init.Datatypes <> S constr
+R45122:45122 Cpdt.Universes <> n:253 var
+binder 45087:45087 <> n:254
+R45092:45094 Cpdt.DepList <> fin ind
+R45098:45100 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45097:45097 Cpdt.Universes <> n:254 var
+R44955:44955 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44994:44998 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45039:45039 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44967:44969 Coq.Init.Datatypes <> nat ind
+binder 44963:44963 <> n:255
+binder 44977:44977 <> n:256
+R44982:44984 Cpdt.DepList <> fin ind
+R44987:44987 Coq.Init.Datatypes <> S constr
+R44989:44989 Cpdt.Universes <> n:256 var
+R44993:44993 Cpdt.Universes <> n:255 var
+R45010:45012 Coq.Init.Datatypes <> nat ind
+binder 45006:45006 <> n:257
+binder 45020:45020 <> n:258
+R45025:45027 Cpdt.DepList <> fin ind
+R45031:45033 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45030:45030 Cpdt.Universes <> n:258 var
+R45038:45038 Cpdt.Universes <> n:257 var
+R45056:45080 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+binder 45110:45110 <> n:259
+R45115:45117 Cpdt.DepList <> fin ind
+R45120:45120 Coq.Init.Datatypes <> S constr
+R45122:45122 Cpdt.Universes <> n:259 var
+binder 45087:45087 <> n:260
+R45092:45094 Cpdt.DepList <> fin ind
+R45098:45100 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45097:45097 Cpdt.Universes <> n:260 var
+R45056:45080 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+binder 45110:45110 <> n:261
+R45115:45117 Cpdt.DepList <> fin ind
+R45120:45120 Coq.Init.Datatypes <> S constr
+R45122:45122 Cpdt.Universes <> n:261 var
+binder 45087:45087 <> n:262
+R45092:45094 Cpdt.DepList <> fin ind
+R45098:45100 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45097:45097 Cpdt.Universes <> n:262 var
+R45056:45080 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+binder 45110:45110 <> n:263
+R45115:45117 Cpdt.DepList <> fin ind
+R45120:45120 Coq.Init.Datatypes <> S constr
+R45122:45122 Cpdt.Universes <> n:263 var
+binder 45087:45087 <> n:264
+R45092:45094 Cpdt.DepList <> fin ind
+R45098:45100 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45097:45097 Cpdt.Universes <> n:264 var
+R45158:45161 Cpdt.Universes <> cast def
+R45176:45180 Cpdt.DepList <> First constr
+R45163:45164 Cpdt.Universes <> t3 thm
+R38465:38483 Coq.Logic.ConstructiveEpsilon <> <> lib
+R38492:38524 Coq.Logic.ConstructiveEpsilon <> constructive_definite_description abbrev
+R38837:38869 Coq.Logic.ConstructiveEpsilon <> constructive_definite_ground_description thm
+R39855:39875 Coq.Logic.ClassicalUniqueChoice <> <> lib
+R39884:39906 Coq.Logic.ClassicalUniqueChoice <> dependent_unique_choice prfax
+R40565:40580 Coq.Logic.RelationalChoice <> <> lib
+R40630:40644 Coq.Logic.ClassicalChoice <> <> lib
+R40653:40658 Coq.Logic.ClassicalChoice <> choice thm
+def 41339:41348 <> choice_Set
+binder 41351:41351 <> A:265
+binder 41353:41353 <> B:266
+R41369:41372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41368:41368 Cpdt.Universes <> A:265 var
+R41374:41377 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41373:41373 Cpdt.Universes <> B:266 var
+binder 41364:41364 <> R:267
+R41400:41400 Cpdt.Universes <> A:265 var
+binder 41396:41396 <> x:268
+R41403:41403 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41405:41407 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41409:41411 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41417:41417 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41408:41408 Cpdt.Universes <> B:266 var
+binder 41404:41404 <> y:269
+R41412:41412 Cpdt.Universes <> R:267 var
+R41416:41416 Cpdt.Universes <> y:269 var
+R41414:41414 Cpdt.Universes <> x:268 var
+binder 41385:41385 <> H:270
+R41424:41424 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41426:41428 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41435:41437 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41461:41461 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R41430:41433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41429:41429 Cpdt.Universes <> A:265 var
+R41434:41434 Cpdt.Universes <> B:266 var
+binder 41425:41425 <> f:271
+R41449:41449 Cpdt.Universes <> A:265 var
+binder 41445:41445 <> x:272
+R41452:41452 Cpdt.Universes <> R:267 var
+R41457:41457 Cpdt.Universes <> f:271 var
+R41459:41459 Cpdt.Universes <> x:272 var
+R41454:41454 Cpdt.Universes <> x:272 var
+R41468:41472 Coq.Init.Specif <> exist constr
+binder 41543:41543 <> x:273
+R41548:41556 Coq.Init.Specif <> proj2_sig def
+R41559:41559 Cpdt.Universes <> H:270 var
+R41561:41561 Cpdt.Universes <> x:273 var
+binder 41516:41516 <> x:274
+R41521:41529 Coq.Init.Specif <> proj1_sig def
+R41532:41532 Cpdt.Universes <> H:270 var
+R41534:41534 Cpdt.Universes <> x:274 var
+binder 41479:41479 <> f:275
+R41495:41495 Cpdt.Universes <> A:265 var
+binder 41491:41491 <> x:276
+R41498:41498 Cpdt.Universes <> R:267 var
+R41503:41503 Cpdt.Universes <> f:275 var
+R41505:41505 Cpdt.Universes <> x:276 var
+R41500:41500 Cpdt.Universes <> x:276 var
+def 44494:44497 <> cast
+binder 44500:44500 <> x:277
+binder 44502:44502 <> y:278
+R44518:44520 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44517:44517 Cpdt.Universes <> x:277 var
+R44521:44521 Cpdt.Universes <> y:278 var
+binder 44512:44513 <> pf:279
+R44529:44529 Cpdt.Universes <> x:277 var
+binder 44525:44525 <> v:280
+R44534:44534 Cpdt.Universes <> y:278 var
+R44547:44548 Cpdt.Universes <> pf:279 var
+R44561:44567 Coq.Init.Logic <> eq_refl constr
+R44572:44572 Cpdt.Universes <> v:280 var
+R44671:44674 Cpdt.Universes <> cast def
+binder 44704:44704 <> n:282
+R44709:44709 Coq.Init.Datatypes <> S constr
+R44711:44711 Cpdt.Universes <> n:282 var
+R44677:44683 Coq.Init.Logic <> eq_refl constr
+R44689:44692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R44686:44688 Coq.Init.Datatypes <> nat ind
+R44693:44695 Coq.Init.Datatypes <> nat ind
+prf 45690:45691 <> t3
+R45695:45695 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45721:45725 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45753:45753 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45707:45709 Coq.Init.Datatypes <> nat ind
+binder 45703:45703 <> n:283
+R45712:45714 Cpdt.DepList <> fin ind
+R45717:45717 Coq.Init.Datatypes <> S constr
+R45719:45719 Cpdt.Universes <> n:283 var
+R45737:45739 Coq.Init.Datatypes <> nat ind
+binder 45733:45733 <> n:284
+R45742:45744 Cpdt.DepList <> fin ind
+R45748:45750 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45747:45747 Cpdt.Universes <> n:284 var
+R45767:45767 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45806:45810 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45851:45851 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45779:45781 Coq.Init.Datatypes <> nat ind
+binder 45775:45775 <> n:285
+binder 45789:45789 <> n:286
+R45794:45796 Cpdt.DepList <> fin ind
+R45799:45799 Coq.Init.Datatypes <> S constr
+R45801:45801 Cpdt.Universes <> n:286 var
+R45805:45805 Cpdt.Universes <> n:285 var
+R45822:45824 Coq.Init.Datatypes <> nat ind
+binder 45818:45818 <> n:287
+binder 45832:45832 <> n:288
+R45837:45839 Cpdt.DepList <> fin ind
+R45843:45845 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45842:45842 Cpdt.Universes <> n:288 var
+R45850:45850 Cpdt.Universes <> n:287 var
+R45868:45892 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+binder 45922:45922 <> n:289
+R45927:45929 Cpdt.DepList <> fin ind
+R45932:45932 Coq.Init.Datatypes <> S constr
+R45934:45934 Cpdt.Universes <> n:289 var
+binder 45899:45899 <> n:290
+R45904:45906 Cpdt.DepList <> fin ind
+R45910:45912 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45909:45909 Cpdt.Universes <> n:290 var
+R45767:45767 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45806:45810 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45851:45851 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45779:45781 Coq.Init.Datatypes <> nat ind
+binder 45775:45775 <> n:291
+binder 45789:45789 <> n:292
+R45794:45796 Cpdt.DepList <> fin ind
+R45799:45799 Coq.Init.Datatypes <> S constr
+R45801:45801 Cpdt.Universes <> n:292 var
+R45805:45805 Cpdt.Universes <> n:291 var
+R45822:45824 Coq.Init.Datatypes <> nat ind
+binder 45818:45818 <> n:293
+binder 45832:45832 <> n:294
+R45837:45839 Cpdt.DepList <> fin ind
+R45843:45845 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45842:45842 Cpdt.Universes <> n:294 var
+R45850:45850 Cpdt.Universes <> n:293 var
+R45868:45892 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+binder 45922:45922 <> n:295
+R45927:45929 Cpdt.DepList <> fin ind
+R45932:45932 Coq.Init.Datatypes <> S constr
+R45934:45934 Cpdt.Universes <> n:295 var
+binder 45899:45899 <> n:296
+R45904:45906 Cpdt.DepList <> fin ind
+R45910:45912 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45909:45909 Cpdt.Universes <> n:296 var
+R45868:45892 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+binder 45922:45922 <> n:297
+R45927:45929 Cpdt.DepList <> fin ind
+R45932:45932 Coq.Init.Datatypes <> S constr
+R45934:45934 Cpdt.Universes <> n:297 var
+binder 45899:45899 <> n:298
+R45904:45906 Cpdt.DepList <> fin ind
+R45910:45912 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45909:45909 Cpdt.Universes <> n:298 var
+R45868:45892 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+binder 45922:45922 <> n:299
+R45927:45929 Cpdt.DepList <> fin ind
+R45932:45932 Coq.Init.Datatypes <> S constr
+R45934:45934 Cpdt.Universes <> n:299 var
+binder 45899:45899 <> n:300
+R45904:45906 Cpdt.DepList <> fin ind
+R45910:45912 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45909:45909 Cpdt.Universes <> n:300 var
+R45974:45977 Cpdt.Universes <> cast def
+R45992:45996 Cpdt.DepList <> First constr
+R45979:45980 Cpdt.Universes <> t3 thm
+prf 46411:46415 <> plus1
+binder 46426:46426 <> n:301
+R46432:46434 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46429:46429 Coq.Init.Datatypes <> S constr
+R46431:46431 Cpdt.Universes <> n:301 var
+R46436:46438 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R46435:46435 Cpdt.Universes <> n:301 var
+prf 46493:46494 <> t4
+binder 46505:46505 <> n:302
+R46517:46519 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46508:46510 Cpdt.DepList <> fin ind
+R46513:46513 Coq.Init.Datatypes <> S constr
+R46515:46515 Cpdt.Universes <> n:302 var
+R46520:46522 Cpdt.DepList <> fin ind
+R46526:46528 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R46525:46525 Cpdt.Universes <> n:302 var
+R46557:46561 Cpdt.Universes <> plus1 thm
+R46557:46561 Cpdt.Universes <> plus1 thm
+R46590:46593 Cpdt.Universes <> cast def
+R46603:46607 Cpdt.DepList <> First constr
+R46596:46597 Cpdt.Universes <> t4 thm
+prf 48473:48481 <> fin_cases
+binder 48492:48492 <> n:303
+R48499:48501 Cpdt.DepList <> fin ind
+R48504:48504 Coq.Init.Datatypes <> S constr
+R48506:48506 Cpdt.Universes <> n:303 var
+binder 48495:48495 <> f:304
+R48520:48523 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R48512:48514 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R48511:48511 Cpdt.Universes <> f:304 var
+R48515:48519 Cpdt.DepList <> First constr
+R48524:48530 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R48533:48534 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 48531:48532 <> f':305
+R48536:48538 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R48535:48535 Cpdt.Universes <> f:304 var
+R48539:48542 Cpdt.DepList <> Next constr
+R48544:48545 Cpdt.Universes <> f':305 var
+R48619:48622 Coq.Logic.JMeq <> <> lib
+def 48654:48656 <> jme
+R48661:48661 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48666:48667 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48675:48675 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R48662:48665 Coq.Logic.JMeq <> JMeq ind
+R48668:48674 Coq.Logic.JMeq <> JMeq_eq thm
+R48728:48736 Cpdt.Universes <> fin_cases thm
+prf 49083:49098 <> fin_cases_again'
+binder 49109:49109 <> n:306
+R49116:49118 Cpdt.DepList <> fin ind
+R49120:49120 Cpdt.Universes <> n:306 var
+binder 49112:49112 <> f:307
+R49132:49132 Cpdt.Universes <> n:306 var
+R49146:49149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R49141:49143 Cpdt.DepList <> fin ind
+R49145:49145 Cpdt.Universes <> n:308 var
+R49166:49166 Coq.Init.Datatypes <> O constr
+R49180:49184 Coq.Init.Logic <> False ind
+R49192:49192 Coq.Init.Datatypes <> S constr
+binder 49204:49204 <> f:309
+R49218:49221 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R49210:49212 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R49209:49209 Cpdt.Universes <> f:309 var
+R49213:49217 Cpdt.DepList <> First constr
+R49222:49228 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R49231:49232 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 49229:49230 <> f':310
+R49234:49236 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R49233:49233 Cpdt.Universes <> f:309 var
+R49237:49240 Cpdt.DepList <> Next constr
+R49242:49243 Cpdt.Universes <> f':310 var
+R49251:49251 Cpdt.Universes <> f:307 var
+prf 49820:49834 <> fin_cases_again
+binder 49845:49845 <> n:311
+R49852:49854 Cpdt.DepList <> fin ind
+R49857:49857 Coq.Init.Datatypes <> S constr
+R49859:49859 Cpdt.Universes <> n:311 var
+binder 49848:49848 <> f:312
+R49873:49876 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R49865:49867 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R49864:49864 Cpdt.Universes <> f:312 var
+R49868:49872 Cpdt.DepList <> First constr
+R49877:49883 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R49886:49887 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 49884:49885 <> f':313
+R49889:49891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R49888:49888 Cpdt.Universes <> f:312 var
+R49892:49895 Cpdt.DepList <> Next constr
+R49897:49898 Cpdt.Universes <> f':313 var
+R49918:49933 Cpdt.Universes <> fin_cases_again' thm
+R49918:49933 Cpdt.Universes <> fin_cases_again' thm
+R49979:49993 Cpdt.Universes <> fin_cases_again thm
+def 50817:50822 <> finOut
+binder 50824:50824 <> n:314
+R50831:50833 Cpdt.DepList <> fin ind
+R50835:50835 Cpdt.Universes <> n:314 var
+binder 50827:50827 <> f:315
+R50846:50846 Cpdt.Universes <> n:314 var
+R50860:50863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R50855:50857 Cpdt.DepList <> fin ind
+R50859:50859 Cpdt.Universes <> n:316 var
+R50912:50912 Coq.Init.Datatypes <> O constr
+R50926:50934 Coq.Init.Datatypes <> Empty_set ind
+binder 50983:50983 <> f:317
+R51010:51013 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R51023:51023 Coq.Init.Specif <> ::type_scope:x_'+'_'{'_x_'}' not
+R50988:50988 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R50991:50993 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R50995:50997 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R51009:51009 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+binder 50989:50990 <> f':318
+R50999:51001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R50998:50998 Cpdt.Universes <> f:317 var
+R51002:51005 Cpdt.DepList <> Next constr
+R51007:51008 Cpdt.Universes <> f':318 var
+R51015:51017 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R51014:51014 Cpdt.Universes <> f:317 var
+R51018:51022 Cpdt.DepList <> First constr
+R51063:51063 Cpdt.Universes <> f:315 var
+R51076:51076 Cpdt.Universes <> f:315 var
+R51089:51093 Cpdt.DepList <> First constr
+R51100:51106 Coq.Init.Specif <> inright constr
+R51111:51117 Coq.Init.Logic <> eq_refl constr
+R51128:51131 Cpdt.DepList <> Next constr
+R51141:51146 Coq.Init.Specif <> inleft constr
+R51151:51155 Coq.Init.Specif <> exist constr
+R51163:51169 Coq.Init.Logic <> eq_refl constr
+ind 51923:51929 <> formula
+constr 51956:51961 <> Inject
+constr 51997:52001 <> VarEq
+constr 52043:52046 <> Lift
+constr 52097:52102 <> Forall
+constr 52153:52155 <> And
+R51942:51945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R51933:51936 Coq.Init.Datatypes <> list ind
+binder 51972:51973 <> Ts:322
+R51980:51983 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R51984:51990 Cpdt.Universes <> formula:320 ind
+R51992:51993 Cpdt.Universes <> Ts:322 var
+binder 52012:52012 <> T:323
+binder 52014:52015 <> Ts:324
+R52019:52022 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52018:52018 Cpdt.Universes <> T:323 var
+R52023:52029 Cpdt.Universes <> formula:320 ind
+R52033:52036 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R52032:52032 Cpdt.Universes <> T:323 var
+R52037:52038 Cpdt.Universes <> Ts:324 var
+binder 52057:52057 <> T:325
+binder 52059:52060 <> Ts:326
+R52073:52076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52063:52069 Cpdt.Universes <> formula:320 ind
+R52071:52072 Cpdt.Universes <> Ts:326 var
+R52077:52083 Cpdt.Universes <> formula:320 ind
+R52087:52090 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R52086:52086 Cpdt.Universes <> T:325 var
+R52091:52092 Cpdt.Universes <> Ts:326 var
+binder 52113:52113 <> T:327
+binder 52115:52116 <> Ts:328
+R52136:52139 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52119:52125 Cpdt.Universes <> formula:320 ind
+R52129:52132 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R52128:52128 Cpdt.Universes <> T:327 var
+R52133:52134 Cpdt.Universes <> Ts:328 var
+R52140:52146 Cpdt.Universes <> formula:320 ind
+R52148:52149 Cpdt.Universes <> Ts:328 var
+binder 52166:52167 <> Ts:329
+R52180:52183 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52170:52176 Cpdt.Universes <> formula:320 ind
+R52178:52179 Cpdt.Universes <> Ts:329 var
+R52194:52197 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52184:52190 Cpdt.Universes <> formula:320 ind
+R52192:52193 Cpdt.Universes <> Ts:329 var
+R52198:52204 Cpdt.Universes <> formula:320 ind
+R52206:52207 Cpdt.Universes <> Ts:329 var
+ind 52575:52579 <> proof
+constr 52608:52614 <> PInject
+constr 52665:52668 <> PAnd
+R52594:52597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52583:52589 Cpdt.Universes <> formula ind
+R52591:52593 Coq.Init.Datatypes <> nil constr
+binder 52626:52626 <> P:332
+R52638:52641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52637:52637 Cpdt.Universes <> P:332 var
+R52642:52646 Cpdt.Universes <> proof:330 ind
+R52649:52654 Cpdt.Universes <> Inject constr
+R52660:52660 Cpdt.Universes <> P:332 var
+R52656:52658 Coq.Init.Datatypes <> nil constr
+binder 52679:52679 <> p:333
+binder 52681:52681 <> q:334
+R52691:52694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52684:52688 Cpdt.Universes <> proof:330 ind
+R52690:52690 Cpdt.Universes <> p:333 var
+R52702:52705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52695:52699 Cpdt.Universes <> proof:330 ind
+R52701:52701 Cpdt.Universes <> q:334 var
+R52706:52710 Cpdt.Universes <> proof:330 ind
+R52713:52715 Cpdt.Universes <> And constr
+R52719:52719 Cpdt.Universes <> q:334 var
+R52717:52717 Cpdt.Universes <> p:333 var
+prf 52839:52843 <> proj1
+binder 52854:52854 <> p:335
+binder 52856:52856 <> q:336
+R52874:52877 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52859:52863 Cpdt.Universes <> proof ind
+R52866:52868 Cpdt.Universes <> And constr
+R52872:52872 Cpdt.Universes <> q:336 var
+R52870:52870 Cpdt.Universes <> p:335 var
+R52878:52882 Cpdt.Universes <> proof ind
+R52884:52884 Cpdt.Universes <> p:335 var
+R53577:53583 Coq.Program.Program <> <> lib
+R53577:53583 Coq.Program.Program <> <> lib
+R53657:53661 Cpdt.Universes <> proj1 thm
+prf 54266:54277 <> proj1_again'
+binder 54288:54288 <> r:337
+R54298:54303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R54291:54295 Cpdt.Universes <> proof ind
+R54297:54297 Cpdt.Universes <> r:337 var
+binder 54311:54311 <> p:338
+binder 54313:54313 <> q:339
+R54327:54330 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R54317:54319 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R54316:54316 Cpdt.Universes <> r:337 var
+R54320:54322 Cpdt.Universes <> And constr
+R54326:54326 Cpdt.Universes <> q:339 var
+R54324:54324 Cpdt.Universes <> p:338 var
+R54331:54335 Cpdt.Universes <> proof ind
+R54337:54337 Cpdt.Universes <> p:338 var
+def 55083:55089 <> existT'
+R55094:55099 Coq.Init.Specif <> existT constr
+R56086:56097 Cpdt.Universes <> proj1_again' thm
+prf 56952:56964 <> proj1_again''
+binder 56975:56975 <> r:340
+R56985:56990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R56978:56982 Cpdt.Universes <> proof ind
+R56984:56984 Cpdt.Universes <> r:340 var
+R56997:56997 Cpdt.Universes <> r:340 var
+R57013:57015 Cpdt.Universes <> And constr
+R57053:57056 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R57043:57049 Cpdt.Universes <> formula ind
+R57051:57052 Cpdt.Universes <> Ps:342 var
+R57094:57096 Coq.Init.Datatypes <> nil constr
+binder 57105:57105 <> p:343
+R57110:57114 Cpdt.Universes <> proof ind
+R57116:57116 Cpdt.Universes <> p:343 var
+R57159:57162 Coq.Init.Logic <> True ind
+R57207:57210 Coq.Init.Logic <> True ind
+prf 57256:57266 <> proj1_again
+binder 57277:57277 <> p:344
+binder 57279:57279 <> q:345
+R57297:57300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R57282:57286 Cpdt.Universes <> proof ind
+R57289:57291 Cpdt.Universes <> And constr
+R57295:57295 Cpdt.Universes <> q:345 var
+R57293:57293 Cpdt.Universes <> p:344 var
+R57301:57305 Cpdt.Universes <> proof ind
+R57307:57307 Cpdt.Universes <> p:344 var
+R57333:57345 Cpdt.Universes <> proj1_again'' thm
+R57333:57345 Cpdt.Universes <> proj1_again'' thm
+R57375:57385 Cpdt.Universes <> proj1_again thm
+sec 58483:58491 <> withTypes
+var 58505:58509 withTypes types
+R58513:58516 Coq.Init.Datatypes <> list ind
+var 58677:58682 withTypes values
+R58686:58690 Cpdt.DepList <> hlist ind
+R58711:58715 Cpdt.Universes <> withTypes.types var
+binder 58697:58697 <> x:347
+R58708:58708 Cpdt.Universes <> x:347 var
+var 58976:58983 withTypes natIndex
+R58987:58989 Coq.Init.Datatypes <> nat ind
+var 59003:59013 withTypes natIndex_ok
+R59041:59043 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R59017:59025 Coq.Lists.List <> nth_error def
+R59033:59040 Cpdt.Universes <> withTypes.natIndex var
+R59027:59031 Cpdt.Universes <> withTypes.types var
+R59044:59047 Coq.Init.Datatypes <> Some constr
+R59049:59051 Coq.Init.Datatypes <> nat ind
+prf 59363:59375 <> nth_error_nil
+binder 59386:59386 <> A:351
+binder 59388:59388 <> n:352
+binder 59390:59390 <> x:353
+R59426:59433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R59417:59419 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R59397:59405 Coq.Lists.List <> nth_error def
+R59416:59416 Cpdt.Universes <> n:352 var
+R59409:59411 Coq.Init.Datatypes <> nil constr
+R59413:59413 Cpdt.Universes <> A:351 var
+R59420:59423 Coq.Init.Datatypes <> Some constr
+R59425:59425 Cpdt.Universes <> x:353 var
+R59434:59438 Coq.Init.Logic <> False ind
+R59471:59475 Coq.Init.Specif <> error def
+R59514:59526 Cpdt.Universes <> nth_error_nil thm
+R59514:59526 Cpdt.Universes <> nth_error_nil thm
+prf 59548:59555 <> Some_inj
+binder 59566:59566 <> A:354
+R59575:59575 Cpdt.Universes <> A:354 var
+binder 59569:59569 <> x:355
+binder 59571:59571 <> y:356
+R59598:59605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R59589:59591 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R59583:59586 Coq.Init.Datatypes <> Some constr
+R59588:59588 Cpdt.Universes <> x:355 var
+R59592:59595 Coq.Init.Datatypes <> Some constr
+R59597:59597 Cpdt.Universes <> y:356 var
+R59607:59609 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R59606:59606 Cpdt.Universes <> x:355 var
+R59610:59610 Cpdt.Universes <> y:356 var
+def 59652:59657 <> getNat
+R59669:59672 Coq.Init.Datatypes <> list ind
+binder 59660:59665 <> types':357
+R59690:59694 Cpdt.DepList <> hlist ind
+R59715:59720 Cpdt.Universes <> types':357 var
+binder 59701:59701 <> x:358
+R59712:59712 Cpdt.Universes <> x:358 var
+binder 59680:59686 <> values':359
+R59739:59741 Coq.Init.Datatypes <> nat ind
+binder 59728:59735 <> natIndex:360
+R59746:59746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R59783:59787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R59772:59774 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R59747:59755 Coq.Lists.List <> nth_error def
+R59764:59771 Cpdt.Universes <> natIndex:360 var
+R59757:59762 Cpdt.Universes <> types':357 var
+R59775:59778 Coq.Init.Datatypes <> Some constr
+R59780:59782 Coq.Init.Datatypes <> nat ind
+R59788:59790 Coq.Init.Datatypes <> nat ind
+R59805:59811 Cpdt.Universes <> values':359 var
+R59826:59829 Cpdt.DepList <> HNil constr
+binder 59838:59839 <> pf:363
+R59850:59862 Cpdt.Universes <> nth_error_nil thm
+R59864:59865 Cpdt.Universes <> pf:363 var
+R59884:59888 Cpdt.DepList <> HCons constr
+R59923:59930 Cpdt.Universes <> natIndex:360 var
+R59978:59981 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R59967:59969 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R59939:59947 Coq.Lists.List <> nth_error def
+R59959:59966 Cpdt.Universes <> natIndex:364 var
+R59951:59954 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R59970:59973 Coq.Init.Datatypes <> Some constr
+R59975:59977 Coq.Init.Datatypes <> nat ind
+R59982:59984 Coq.Init.Datatypes <> nat ind
+R60003:60003 Coq.Init.Datatypes <> O constr
+binder 60012:60013 <> pf:365
+R60036:60043 Cpdt.Universes <> Some_inj thm
+R60045:60046 Cpdt.Universes <> pf:365 var
+R60052:60054 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R60064:60064 Cpdt.Universes <> T:366 var
+R60087:60093 Coq.Init.Logic <> eq_refl constr
+R60128:60128 Coq.Init.Datatypes <> S constr
+R60143:60148 Cpdt.Universes <> getNat:361 def
+R60194:60202 Cpdt.Universes withTypes <> sec
+def 60323:60329 <> myTypes
+R60338:60341 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R60334:60337 Coq.Init.Datatypes <> unit ind
+R60345:60348 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R60342:60344 Coq.Init.Datatypes <> nat ind
+R60353:60356 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R60349:60352 Coq.Init.Datatypes <> bool ind
+R60357:60359 Coq.Init.Datatypes <> nil constr
+def 60373:60380 <> myValues
+R60384:60388 Cpdt.DepList <> hlist ind
+R60409:60415 Cpdt.Universes <> myTypes def
+binder 60395:60395 <> x:367
+R60406:60406 Cpdt.Universes <> x:367 var
+R60424:60428 Cpdt.DepList <> :::x_':::'_x not
+R60422:60423 Coq.Init.Datatypes <> tt constr
+R60430:60434 Cpdt.DepList <> :::x_':::'_x not
+R60440:60444 Cpdt.DepList <> :::x_':::'_x not
+R60435:60439 Coq.Init.Datatypes <> false constr
+R60445:60448 Cpdt.DepList <> HNil constr
+def 60463:60472 <> myNatIndex
+prf 60489:60501 <> myNatIndex_ok
+R60533:60535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R60505:60513 Coq.Lists.List <> nth_error def
+R60523:60532 Cpdt.Universes <> myNatIndex def
+R60515:60521 Cpdt.Universes <> myTypes def
+R60536:60539 Coq.Init.Datatypes <> Some constr
+R60541:60543 Coq.Init.Datatypes <> nat ind
+R60587:60592 Cpdt.Universes <> getNat def
+R60614:60626 Cpdt.Universes <> myNatIndex_ok thm
+R60603:60612 Cpdt.Universes <> myNatIndex def
+R60594:60601 Cpdt.Universes <> myValues def
+prf 60900:60919 <> getNat_is_reasonable
+binder 60930:60931 <> pf:368
+R60963:60965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R60934:60939 Cpdt.Universes <> getNat def
+R60961:60962 Cpdt.Universes <> pf:368 var
+R60950:60959 Cpdt.Universes <> myNatIndex def
+R60941:60948 Cpdt.Universes <> myValues def
+def 61934:61939 <> copies
+binder 61941:61941 <> A:369
+R61948:61948 Cpdt.Universes <> A:369 var
+binder 61944:61944 <> x:370
+R61956:61958 Coq.Init.Datatypes <> nat ind
+binder 61952:61952 <> n:371
+R61963:61966 Coq.Init.Datatypes <> list ind
+R61968:61968 Cpdt.Universes <> A:369 var
+R61981:61981 Cpdt.Universes <> n:371 var
+R61994:61994 Coq.Init.Datatypes <> O constr
+R61999:62001 Coq.Init.Datatypes <> nil constr
+R62009:62009 Coq.Init.Datatypes <> S constr
+R62018:62021 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R62017:62017 Cpdt.Universes <> x:370 var
+R62022:62027 Cpdt.Universes <> copies:372 def
+R62029:62029 Cpdt.Universes <> x:370 var
+def 62051:62056 <> update
+binder 62058:62058 <> A:374
+R62066:62069 Coq.Init.Datatypes <> list ind
+R62071:62071 Cpdt.Universes <> A:374 var
+binder 62061:62062 <> ls:375
+R62079:62081 Coq.Init.Datatypes <> nat ind
+binder 62075:62075 <> n:376
+R62089:62089 Cpdt.Universes <> A:374 var
+binder 62085:62085 <> x:377
+R62094:62097 Coq.Init.Datatypes <> list ind
+R62099:62099 Cpdt.Universes <> A:374 var
+R62112:62113 Cpdt.Universes <> ls:375 var
+R62126:62128 Coq.Init.Datatypes <> nil constr
+R62143:62146 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R62133:62138 Cpdt.Universes <> copies def
+R62142:62142 Cpdt.Universes <> n:376 var
+R62140:62140 Cpdt.Universes <> x:377 var
+R62148:62151 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R62147:62147 Cpdt.Universes <> x:377 var
+R62152:62154 Coq.Init.Datatypes <> nil constr
+R62163:62166 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R62180:62180 Cpdt.Universes <> n:376 var
+R62209:62209 Coq.Init.Datatypes <> O constr
+R62215:62218 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R62214:62214 Cpdt.Universes <> x:377 var
+R62245:62245 Coq.Init.Datatypes <> S constr
+R62254:62257 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R62258:62263 Cpdt.Universes <> update:378 def
+R62272:62272 Cpdt.Universes <> x:377 var
+sec 62367:62376 <> withTypes'
+var 62390:62394 withTypes' types
+R62398:62401 Coq.Init.Datatypes <> list ind
+var 62419:62426 withTypes' natIndex
+R62430:62432 Coq.Init.Datatypes <> nat ind
+def 62619:62624 <> types'
+R62629:62634 Cpdt.Universes <> update def
+R62651:62653 Coq.Init.Datatypes <> nat ind
+R62642:62649 Cpdt.Universes <> withTypes'.natIndex var
+R62636:62640 Cpdt.Universes <> withTypes'.types var
+var 62668:62673 withTypes' values
+R62677:62681 Cpdt.DepList <> hlist ind
+R62702:62707 Cpdt.Universes <> types' def
+binder 62688:62688 <> x:383
+R62699:62699 Cpdt.Universes <> x:383 var
+def 62847:62856 <> skipCopies
+R62863:62865 Coq.Init.Datatypes <> nat ind
+binder 62859:62859 <> n:385
+R62927:62930 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R62874:62878 Cpdt.DepList <> hlist ind
+R62912:62915 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R62900:62905 Cpdt.Universes <> copies def
+R62911:62911 Cpdt.Universes <> n:385 var
+R62907:62909 Coq.Init.Datatypes <> nat ind
+R62919:62922 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R62916:62918 Coq.Init.Datatypes <> nat ind
+R62923:62925 Coq.Init.Datatypes <> nil constr
+binder 62885:62885 <> x:386
+R62896:62896 Cpdt.Universes <> x:386 var
+R62931:62933 Coq.Init.Datatypes <> nat ind
+R62948:62948 Cpdt.Universes <> n:385 var
+R62963:62963 Coq.Init.Datatypes <> O constr
+binder 62972:62973 <> vs:389
+R62978:62980 Cpdt.DepList <> hhd def
+R62982:62983 Cpdt.Universes <> vs:389 var
+R62993:62993 Coq.Init.Datatypes <> S constr
+binder 63005:63006 <> vs:390
+R63011:63020 Cpdt.Universes <> skipCopies:387 def
+R63026:63028 Cpdt.DepList <> htl def
+R63030:63031 Cpdt.Universes <> vs:390 var
+def 63055:63061 <> getNat'
+R63074:63077 Coq.Init.Datatypes <> list ind
+binder 63064:63070 <> types'':391
+R63096:63098 Coq.Init.Datatypes <> nat ind
+binder 63085:63092 <> natIndex:392
+R63161:63164 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R63107:63111 Cpdt.DepList <> hlist ind
+R63133:63138 Cpdt.Universes <> update def
+R63157:63159 Coq.Init.Datatypes <> nat ind
+R63148:63155 Cpdt.Universes <> natIndex:392 var
+R63140:63146 Cpdt.Universes <> types'':391 var
+binder 63118:63118 <> x:393
+R63129:63129 Cpdt.Universes <> x:393 var
+R63165:63167 Coq.Init.Datatypes <> nat ind
+R63182:63188 Cpdt.Universes <> types'':391 var
+R63203:63205 Coq.Init.Datatypes <> nil constr
+R63210:63219 Cpdt.Universes <> skipCopies def
+R63221:63228 Cpdt.Universes <> natIndex:392 var
+R63239:63242 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R63267:63274 Cpdt.Universes <> natIndex:392 var
+R63353:63356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R63283:63287 Cpdt.DepList <> hlist ind
+R63319:63324 Cpdt.Universes <> update def
+R63349:63351 Coq.Init.Datatypes <> nat ind
+R63340:63347 Cpdt.Universes <> natIndex:396 var
+R63328:63331 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+binder 63294:63294 <> x:397
+R63305:63305 Cpdt.Universes <> x:397 var
+R63357:63359 Coq.Init.Datatypes <> nat ind
+R63378:63378 Coq.Init.Datatypes <> O constr
+binder 63387:63388 <> vs:398
+R63393:63395 Cpdt.DepList <> hhd def
+R63397:63398 Cpdt.Universes <> vs:398 var
+R63412:63412 Coq.Init.Datatypes <> S constr
+binder 63431:63432 <> vs:399
+R63437:63443 Cpdt.Universes <> getNat':394 def
+R63463:63465 Cpdt.DepList <> htl def
+R63467:63468 Cpdt.Universes <> vs:399 var
+R63496:63505 Cpdt.Universes withTypes' <> sec
+prf 63704:63723 <> getNat_is_reasonable
+R63762:63764 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R63727:63733 Cpdt.Universes <> getNat' def
+R63754:63761 Cpdt.Universes <> myValues def
+R63743:63752 Cpdt.Universes <> myNatIndex def
+R63735:63741 Cpdt.Universes <> myTypes def

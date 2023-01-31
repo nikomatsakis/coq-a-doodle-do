@@ -1,0 +1,749 @@
+DIGEST bfa45757012767ab8b0e9eff323396a5
+FCpdt.StackMachine
+R1433:1436 Coq.Bool.Bool <> <> lib
+R1438:1442 Coq.Arith.Arith <> <> lib
+R1444:1447 Coq.Lists.List <> <> lib
+R1449:1464 Cpdt.CpdtTactics <> <> lib
+def 1563:1566 <> bleh
+R1571:1579 Coq.Lists.List <> app_assoc thm
+ind 2506:2510 <> binop
+constr 2521:2524 <> Plus
+constr 2528:2532 <> Times
+ind 3527:3529 <> exp
+constr 3542:3546 <> Const
+constr 3563:3567 <> Binop
+R3553:3556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3550:3552 Coq.Init.Datatypes <> nat ind
+R3557:3559 Cpdt.StackMachine <> exp:3 ind
+R3576:3579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3571:3575 Cpdt.StackMachine <> binop ind
+R3583:3586 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3580:3582 Cpdt.StackMachine <> exp:3 ind
+R3590:3593 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3587:3589 Cpdt.StackMachine <> exp:3 ind
+R3594:3596 Cpdt.StackMachine <> exp:3 ind
+def 4735:4745 <> binopDenote
+R4752:4756 Cpdt.StackMachine <> binop ind
+binder 4748:4748 <> b:5
+R4764:4767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4761:4763 Coq.Init.Datatypes <> nat ind
+R4771:4774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4768:4770 Coq.Init.Datatypes <> nat ind
+R4775:4777 Coq.Init.Datatypes <> nat ind
+R4790:4790 Cpdt.StackMachine <> b:5 var
+R4803:4806 Cpdt.StackMachine <> Plus constr
+R4811:4814 Coq.Init.Peano <> plus abbrev
+R4822:4826 Cpdt.StackMachine <> Times constr
+R4831:4834 Coq.Init.Peano <> mult abbrev
+def 8648:8656 <> expDenote
+R8663:8665 Cpdt.StackMachine <> exp ind
+binder 8659:8659 <> e:7
+R8670:8672 Coq.Init.Datatypes <> nat ind
+R8685:8685 Cpdt.StackMachine <> e:7 var
+R8698:8702 Cpdt.StackMachine <> Const constr
+R8717:8721 Cpdt.StackMachine <> Binop constr
+R8735:8745 Cpdt.StackMachine <> binopDenote def
+R8751:8759 Cpdt.StackMachine <> expDenote:8 def
+R8766:8774 Cpdt.StackMachine <> expDenote:8 def
+R10345:10353 Cpdt.StackMachine <> expDenote def
+R10356:10360 Cpdt.StackMachine <> Const constr
+R10402:10410 Cpdt.StackMachine <> expDenote def
+R10413:10417 Cpdt.StackMachine <> Binop constr
+R10435:10439 Cpdt.StackMachine <> Const constr
+R10425:10429 Cpdt.StackMachine <> Const constr
+R10419:10422 Cpdt.StackMachine <> Plus constr
+R10480:10488 Cpdt.StackMachine <> expDenote def
+R10491:10495 Cpdt.StackMachine <> Binop constr
+R10537:10541 Cpdt.StackMachine <> Const constr
+R10504:10508 Cpdt.StackMachine <> Binop constr
+R10526:10530 Cpdt.StackMachine <> Const constr
+R10516:10520 Cpdt.StackMachine <> Const constr
+R10510:10513 Cpdt.StackMachine <> Plus constr
+R10497:10501 Cpdt.StackMachine <> Times constr
+ind 10823:10827 <> instr
+constr 10840:10845 <> iConst
+constr 10864:10869 <> iBinop
+R10852:10855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10849:10851 Coq.Init.Datatypes <> nat ind
+R10856:10860 Cpdt.StackMachine <> instr:10 ind
+R10878:10881 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10873:10877 Cpdt.StackMachine <> binop ind
+R10882:10886 Cpdt.StackMachine <> instr:10 ind
+def 10901:10904 <> prog
+R10909:10912 Coq.Init.Datatypes <> list ind
+R10914:10918 Cpdt.StackMachine <> instr ind
+def 10932:10936 <> stack
+R10941:10944 Coq.Init.Datatypes <> list ind
+R10946:10948 Coq.Init.Datatypes <> nat ind
+def 11566:11576 <> instrDenote
+R11583:11587 Cpdt.StackMachine <> instr ind
+binder 11579:11579 <> i:12
+R11595:11599 Cpdt.StackMachine <> stack def
+binder 11591:11591 <> s:13
+R11604:11609 Coq.Init.Datatypes <> option ind
+R11611:11615 Cpdt.StackMachine <> stack def
+R11628:11628 Cpdt.StackMachine <> i:12 var
+R11641:11646 Cpdt.StackMachine <> iConst constr
+R11653:11656 Coq.Init.Datatypes <> Some constr
+R11660:11663 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11664:11664 Cpdt.StackMachine <> s:13 var
+R11673:11678 Cpdt.StackMachine <> iBinop constr
+R11697:11697 Cpdt.StackMachine <> s:13 var
+R11718:11721 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11726:11729 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11736:11739 Coq.Init.Datatypes <> Some constr
+R11767:11770 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R11743:11753 Cpdt.StackMachine <> binopDenote def
+R11790:11793 Coq.Init.Datatypes <> None constr
+def 11973:11982 <> progDenote
+R11989:11992 Cpdt.StackMachine <> prog def
+binder 11985:11985 <> p:16
+R12000:12004 Cpdt.StackMachine <> stack def
+binder 11996:11996 <> s:17
+R12009:12014 Coq.Init.Datatypes <> option ind
+R12016:12020 Cpdt.StackMachine <> stack def
+R12033:12033 Cpdt.StackMachine <> p:16 var
+R12046:12048 Coq.Init.Datatypes <> nil constr
+R12053:12056 Coq.Init.Datatypes <> Some constr
+R12058:12058 Cpdt.StackMachine <> s:17 var
+R12067:12070 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12089:12099 Cpdt.StackMachine <> instrDenote def
+R12103:12103 Cpdt.StackMachine <> s:17 var
+R12120:12123 Coq.Init.Datatypes <> None constr
+R12128:12131 Coq.Init.Datatypes <> None constr
+R12143:12146 Coq.Init.Datatypes <> Some constr
+R12154:12163 Cpdt.StackMachine <> progDenote:18 def
+def 12498:12504 <> compile
+R12511:12513 Cpdt.StackMachine <> exp ind
+binder 12507:12507 <> e:20
+R12518:12521 Cpdt.StackMachine <> prog def
+R12534:12534 Cpdt.StackMachine <> e:20 var
+R12547:12551 Cpdt.StackMachine <> Const constr
+R12566:12569 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12558:12563 Cpdt.StackMachine <> iConst constr
+R12570:12572 Coq.Init.Datatypes <> nil constr
+R12580:12584 Cpdt.StackMachine <> Binop constr
+R12607:12610 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12597:12603 Cpdt.StackMachine <> compile:21 def
+R12621:12624 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R12611:12617 Cpdt.StackMachine <> compile:21 def
+R12633:12636 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R12625:12630 Cpdt.StackMachine <> iBinop constr
+R12637:12639 Coq.Init.Datatypes <> nil constr
+R12799:12805 Cpdt.StackMachine <> compile def
+R12808:12812 Cpdt.StackMachine <> Const constr
+R12869:12875 Cpdt.StackMachine <> compile def
+R12878:12882 Cpdt.StackMachine <> Binop constr
+R12900:12904 Cpdt.StackMachine <> Const constr
+R12890:12894 Cpdt.StackMachine <> Const constr
+R12884:12887 Cpdt.StackMachine <> Plus constr
+R12987:12993 Cpdt.StackMachine <> compile def
+R12996:13000 Cpdt.StackMachine <> Binop constr
+R13042:13046 Cpdt.StackMachine <> Const constr
+R13009:13013 Cpdt.StackMachine <> Binop constr
+R13031:13035 Cpdt.StackMachine <> Const constr
+R13021:13025 Cpdt.StackMachine <> Const constr
+R13015:13018 Cpdt.StackMachine <> Plus constr
+R13002:13006 Cpdt.StackMachine <> Times constr
+R13261:13270 Cpdt.StackMachine <> progDenote def
+R13293:13295 Coq.Init.Datatypes <> nil constr
+R13273:13279 Cpdt.StackMachine <> compile def
+R13282:13286 Cpdt.StackMachine <> Const constr
+R13356:13365 Cpdt.StackMachine <> progDenote def
+R13410:13412 Coq.Init.Datatypes <> nil constr
+R13368:13374 Cpdt.StackMachine <> compile def
+R13377:13381 Cpdt.StackMachine <> Binop constr
+R13399:13403 Cpdt.StackMachine <> Const constr
+R13389:13393 Cpdt.StackMachine <> Const constr
+R13383:13386 Cpdt.StackMachine <> Plus constr
+R13472:13481 Cpdt.StackMachine <> progDenote def
+R13552:13554 Coq.Init.Datatypes <> nil constr
+R13484:13490 Cpdt.StackMachine <> compile def
+R13493:13497 Cpdt.StackMachine <> Binop constr
+R13541:13545 Cpdt.StackMachine <> Const constr
+R13506:13510 Cpdt.StackMachine <> Binop constr
+R13528:13532 Cpdt.StackMachine <> Const constr
+R13518:13522 Cpdt.StackMachine <> Const constr
+R13512:13515 Cpdt.StackMachine <> Plus constr
+R13499:13503 Cpdt.StackMachine <> Times constr
+prf 13997:14011 <> compile_correct
+binder 14022:14022 <> e:23
+R14051:14053 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14025:14034 Cpdt.StackMachine <> progDenote def
+R14048:14050 Coq.Init.Datatypes <> nil constr
+R14037:14043 Cpdt.StackMachine <> compile def
+R14045:14045 Cpdt.StackMachine <> e:23 var
+R14054:14057 Coq.Init.Datatypes <> Some constr
+R14071:14074 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14060:14068 Cpdt.StackMachine <> expDenote def
+R14070:14070 Cpdt.StackMachine <> e:23 var
+R14075:14077 Coq.Init.Datatypes <> nil constr
+prf 14648:14663 <> compile_correct'
+binder 14674:14674 <> e:24
+binder 14676:14676 <> p:25
+binder 14678:14678 <> s:26
+R14712:14714 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14683:14692 Cpdt.StackMachine <> progDenote def
+R14711:14711 Cpdt.StackMachine <> s:26 var
+R14704:14707 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R14695:14701 Cpdt.StackMachine <> compile def
+R14703:14703 Cpdt.StackMachine <> e:24 var
+R14708:14708 Cpdt.StackMachine <> p:25 var
+R14715:14724 Cpdt.StackMachine <> progDenote def
+R14740:14743 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R14729:14737 Cpdt.StackMachine <> expDenote def
+R14739:14739 Cpdt.StackMachine <> e:24 var
+R14744:14744 Cpdt.StackMachine <> s:26 var
+R14726:14726 Cpdt.StackMachine <> p:25 var
+R17812:17818 Cpdt.StackMachine <> compile def
+R17994:18002 Cpdt.StackMachine <> expDenote def
+R18407:18416 Cpdt.StackMachine <> progDenote def
+R20323:20332 Cpdt.StackMachine <> progDenote def
+R20323:20332 Cpdt.StackMachine <> progDenote def
+R21688:21694 Cpdt.StackMachine <> compile def
+R21704:21710 Cpdt.StackMachine <> compile def
+R21704:21710 Cpdt.StackMachine <> compile def
+R21722:21730 Cpdt.StackMachine <> expDenote def
+R21740:21748 Cpdt.StackMachine <> expDenote def
+R21740:21748 Cpdt.StackMachine <> expDenote def
+R22730:22746 Coq.Lists.List <> app_assoc_reverse thm
+R23085:23085 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23092:23096 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23087:23090 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R23404:23420 Coq.Lists.List <> app_assoc_reverse thm
+R23404:23420 Coq.Lists.List <> app_assoc_reverse thm
+R23404:23420 Coq.Lists.List <> app_assoc_reverse thm
+R24077:24093 Coq.Lists.List <> app_assoc_reverse thm
+R24077:24093 Coq.Lists.List <> app_assoc_reverse thm
+R24077:24093 Coq.Lists.List <> app_assoc_reverse thm
+R24472:24481 Cpdt.StackMachine <> progDenote def
+R24505:24514 Cpdt.StackMachine <> progDenote def
+R24505:24514 Cpdt.StackMachine <> progDenote def
+prf 25282:25297 <> compile_correct'
+binder 25308:25308 <> e:27
+binder 25310:25310 <> s:28
+binder 25312:25312 <> p:29
+R25344:25348 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25315:25324 Cpdt.StackMachine <> progDenote def
+R25343:25343 Cpdt.StackMachine <> s:28 var
+R25336:25339 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R25327:25333 Cpdt.StackMachine <> compile def
+R25335:25335 Cpdt.StackMachine <> e:27 var
+R25340:25340 Cpdt.StackMachine <> p:29 var
+R25349:25358 Cpdt.StackMachine <> progDenote def
+R25374:25377 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R25363:25371 Cpdt.StackMachine <> expDenote def
+R25373:25373 Cpdt.StackMachine <> e:27 var
+R25378:25378 Cpdt.StackMachine <> s:28 var
+R25360:25360 Cpdt.StackMachine <> p:29 var
+prf 27186:27200 <> compile_correct
+binder 27211:27211 <> e:30
+R27240:27242 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27214:27223 Cpdt.StackMachine <> progDenote def
+R27237:27239 Coq.Init.Datatypes <> nil constr
+R27226:27232 Cpdt.StackMachine <> compile def
+R27234:27234 Cpdt.StackMachine <> e:30 var
+R27243:27246 Coq.Init.Datatypes <> Some constr
+R27260:27263 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R27249:27257 Cpdt.StackMachine <> expDenote def
+R27259:27259 Cpdt.StackMachine <> e:30 var
+R27264:27266 Coq.Init.Datatypes <> nil constr
+R27548:27558 Coq.Lists.List <> app_nil_end thm
+R27676:27686 Coq.Lists.List <> app_nil_end thm
+R27689:27695 Cpdt.StackMachine <> compile def
+R27676:27686 Coq.Lists.List <> app_nil_end thm
+R27689:27695 Cpdt.StackMachine <> compile def
+R27676:27686 Coq.Lists.List <> app_nil_end thm
+R27689:27695 Cpdt.StackMachine <> compile def
+R28146:28161 Cpdt.StackMachine <> compile_correct' thm
+R28146:28161 Cpdt.StackMachine <> compile_correct' thm
+R28146:28161 Cpdt.StackMachine <> compile_correct' thm
+ind 29256:29259 <> type
+constr 29270:29272 <> Nat
+constr 29276:29279 <> Bool
+ind 29736:29741 <> tbinop
+constr 29778:29782 <> TPlus
+constr 29807:29812 <> TTimes
+constr 29837:29839 <> TEq
+constr 29871:29873 <> TLt
+R29749:29752 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29745:29748 Cpdt.StackMachine <> type ind
+R29757:29760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29753:29756 Cpdt.StackMachine <> type ind
+R29765:29768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29761:29764 Cpdt.StackMachine <> type ind
+R29786:29791 Cpdt.StackMachine <> tbinop:33 ind
+R29801:29803 Cpdt.StackMachine <> Nat constr
+R29797:29799 Cpdt.StackMachine <> Nat constr
+R29793:29795 Cpdt.StackMachine <> Nat constr
+R29816:29821 Cpdt.StackMachine <> tbinop:33 ind
+R29831:29833 Cpdt.StackMachine <> Nat constr
+R29827:29829 Cpdt.StackMachine <> Nat constr
+R29823:29825 Cpdt.StackMachine <> Nat constr
+binder 29850:29850 <> t:35
+R29853:29858 Cpdt.StackMachine <> tbinop:33 ind
+R29864:29867 Cpdt.StackMachine <> Bool constr
+R29862:29862 Cpdt.StackMachine <> t:35 var
+R29860:29860 Cpdt.StackMachine <> t:35 var
+R29877:29882 Cpdt.StackMachine <> tbinop:33 ind
+R29892:29895 Cpdt.StackMachine <> Bool constr
+R29888:29890 Cpdt.StackMachine <> Nat constr
+R29884:29886 Cpdt.StackMachine <> Nat constr
+ind 32680:32683 <> texp
+constr 32704:32710 <> TNConst
+constr 32732:32738 <> TBConst
+constr 32762:32767 <> TBinop
+R32691:32694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32687:32690 Cpdt.StackMachine <> type ind
+R32717:32720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32714:32716 Coq.Init.Datatypes <> nat ind
+R32721:32724 Cpdt.StackMachine <> texp:36 ind
+R32726:32728 Cpdt.StackMachine <> Nat constr
+R32746:32749 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32742:32745 Coq.Init.Datatypes <> bool ind
+R32750:32753 Cpdt.StackMachine <> texp:36 ind
+R32755:32758 Cpdt.StackMachine <> Bool constr
+binder 32778:32779 <> t1:38
+binder 32781:32782 <> t2:39
+binder 32784:32784 <> t:40
+R32801:32804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32787:32792 Cpdt.StackMachine <> tbinop ind
+R32800:32800 Cpdt.StackMachine <> t:40 var
+R32797:32798 Cpdt.StackMachine <> t2:39 var
+R32794:32795 Cpdt.StackMachine <> t1:38 var
+R32812:32815 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32805:32808 Cpdt.StackMachine <> texp:36 ind
+R32810:32811 Cpdt.StackMachine <> t1:38 var
+R32823:32826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32816:32819 Cpdt.StackMachine <> texp:36 ind
+R32821:32822 Cpdt.StackMachine <> t2:39 var
+R32827:32830 Cpdt.StackMachine <> texp:36 ind
+R32832:32832 Cpdt.StackMachine <> t:40 var
+def 33242:33251 <> typeDenote
+R33258:33261 Cpdt.StackMachine <> type ind
+binder 33254:33254 <> t:41
+R33281:33281 Cpdt.StackMachine <> t:41 var
+R33294:33296 Cpdt.StackMachine <> Nat constr
+R33301:33303 Coq.Init.Datatypes <> nat ind
+R33311:33314 Cpdt.StackMachine <> Bool constr
+R33319:33322 Coq.Init.Datatypes <> bool ind
+def 33851:33862 <> tbinopDenote
+binder 33864:33867 <> arg1:43
+binder 33869:33872 <> arg2:44
+binder 33874:33876 <> res:45
+R33883:33888 Cpdt.StackMachine <> tbinop ind
+R33900:33902 Cpdt.StackMachine <> res:45 var
+R33895:33898 Cpdt.StackMachine <> arg2:44 var
+R33890:33893 Cpdt.StackMachine <> arg1:43 var
+binder 33879:33879 <> b:46
+R33924:33927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33909:33918 Cpdt.StackMachine <> typeDenote def
+R33920:33923 Cpdt.StackMachine <> arg1:43 var
+R33943:33946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33928:33937 Cpdt.StackMachine <> typeDenote def
+R33939:33942 Cpdt.StackMachine <> arg2:44 var
+R33947:33956 Cpdt.StackMachine <> typeDenote def
+R33958:33960 Cpdt.StackMachine <> res:45 var
+R33973:33973 Cpdt.StackMachine <> b:46 var
+R33986:33990 Cpdt.StackMachine <> TPlus constr
+R33995:33998 Coq.Init.Peano <> plus abbrev
+R34006:34011 Cpdt.StackMachine <> TTimes constr
+R34016:34019 Coq.Init.Peano <> mult abbrev
+R34027:34029 Cpdt.StackMachine <> TEq constr
+R34031:34033 Cpdt.StackMachine <> Nat constr
+R34038:34044 Coq.Arith.EqNat <> beq_nat abbrev
+R34052:34054 Cpdt.StackMachine <> TEq constr
+R34056:34059 Cpdt.StackMachine <> Bool constr
+R34064:34066 Coq.Bool.Bool <> eqb def
+R34074:34076 Cpdt.StackMachine <> TLt constr
+R34081:34083 Coq.Arith.Compare_dec <> leb abbrev
+def 34960:34969 <> texpDenote
+binder 34971:34971 <> t:48
+R34978:34981 Cpdt.StackMachine <> texp ind
+R34983:34983 Cpdt.StackMachine <> t:48 var
+binder 34974:34974 <> e:49
+R34988:34997 Cpdt.StackMachine <> typeDenote def
+R34999:34999 Cpdt.StackMachine <> t:48 var
+R35012:35012 Cpdt.StackMachine <> e:49 var
+R35025:35031 Cpdt.StackMachine <> TNConst constr
+R35046:35052 Cpdt.StackMachine <> TBConst constr
+R35067:35072 Cpdt.StackMachine <> TBinop constr
+R35092:35103 Cpdt.StackMachine <> tbinopDenote def
+R35109:35118 Cpdt.StackMachine <> texpDenote:50 def
+R35125:35134 Cpdt.StackMachine <> texpDenote:50 def
+R35263:35272 Cpdt.StackMachine <> texpDenote def
+R35275:35281 Cpdt.StackMachine <> TNConst constr
+R35351:35360 Cpdt.StackMachine <> texpDenote def
+R35363:35369 Cpdt.StackMachine <> TBConst constr
+R35371:35375 Coq.Init.Datatypes <> false constr
+R35408:35417 Cpdt.StackMachine <> texpDenote def
+R35420:35426 Cpdt.StackMachine <> TBConst constr
+R35428:35431 Coq.Init.Datatypes <> true constr
+R35484:35493 Cpdt.StackMachine <> texpDenote def
+R35496:35501 Cpdt.StackMachine <> TBinop constr
+R35552:35558 Cpdt.StackMachine <> TNConst constr
+R35511:35516 Cpdt.StackMachine <> TBinop constr
+R35537:35543 Cpdt.StackMachine <> TNConst constr
+R35525:35531 Cpdt.StackMachine <> TNConst constr
+R35518:35522 Cpdt.StackMachine <> TPlus constr
+R35503:35508 Cpdt.StackMachine <> TTimes constr
+R35611:35620 Cpdt.StackMachine <> texpDenote def
+R35623:35628 Cpdt.StackMachine <> TBinop constr
+R35682:35688 Cpdt.StackMachine <> TNConst constr
+R35641:35646 Cpdt.StackMachine <> TBinop constr
+R35667:35673 Cpdt.StackMachine <> TNConst constr
+R35655:35661 Cpdt.StackMachine <> TNConst constr
+R35648:35652 Cpdt.StackMachine <> TPlus constr
+R35631:35633 Cpdt.StackMachine <> TEq constr
+R35635:35637 Cpdt.StackMachine <> Nat constr
+R35745:35754 Cpdt.StackMachine <> texpDenote def
+R35757:35762 Cpdt.StackMachine <> TBinop constr
+R35810:35816 Cpdt.StackMachine <> TNConst constr
+R35769:35774 Cpdt.StackMachine <> TBinop constr
+R35795:35801 Cpdt.StackMachine <> TNConst constr
+R35783:35789 Cpdt.StackMachine <> TNConst constr
+R35776:35780 Cpdt.StackMachine <> TPlus constr
+R35764:35766 Cpdt.StackMachine <> TLt constr
+def 36660:36665 <> tstack
+R36670:36673 Coq.Init.Datatypes <> list ind
+R36675:36678 Cpdt.StackMachine <> type ind
+ind 37030:37035 <> tinstr
+constr 37068:37075 <> TiNConst
+constr 37118:37125 <> TiBConst
+constr 37170:37176 <> TiBinop
+R37045:37048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37039:37044 Cpdt.StackMachine <> tstack def
+R37055:37058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37049:37054 Cpdt.StackMachine <> tstack def
+binder 37086:37086 <> s:54
+R37092:37095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37089:37091 Coq.Init.Datatypes <> nat ind
+R37096:37101 Cpdt.StackMachine <> tinstr:52 ind
+R37109:37112 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37106:37108 Cpdt.StackMachine <> Nat constr
+R37113:37113 Cpdt.StackMachine <> s:54 var
+R37103:37103 Cpdt.StackMachine <> s:54 var
+binder 37136:37136 <> s:55
+R37143:37146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37139:37142 Coq.Init.Datatypes <> bool ind
+R37147:37152 Cpdt.StackMachine <> tinstr:52 ind
+R37161:37164 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37157:37160 Cpdt.StackMachine <> Bool constr
+R37165:37165 Cpdt.StackMachine <> s:55 var
+R37154:37154 Cpdt.StackMachine <> s:55 var
+binder 37187:37190 <> arg1:56
+binder 37192:37195 <> arg2:57
+binder 37197:37199 <> res:58
+binder 37201:37201 <> s:59
+R37226:37231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37206:37211 Cpdt.StackMachine <> tbinop ind
+R37223:37225 Cpdt.StackMachine <> res:58 var
+R37218:37221 Cpdt.StackMachine <> arg2:57 var
+R37213:37216 Cpdt.StackMachine <> arg1:56 var
+R37232:37237 Cpdt.StackMachine <> tinstr:52 ind
+R37263:37266 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37260:37262 Cpdt.StackMachine <> res:58 var
+R37267:37267 Cpdt.StackMachine <> s:59 var
+R37244:37247 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37240:37243 Cpdt.StackMachine <> arg1:56 var
+R37252:37255 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37248:37251 Cpdt.StackMachine <> arg2:57 var
+R37256:37256 Cpdt.StackMachine <> s:59 var
+ind 37485:37489 <> tprog
+constr 37522:37525 <> TNil
+constr 37551:37555 <> TCons
+R37499:37502 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37493:37498 Cpdt.StackMachine <> tstack def
+R37509:37512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37503:37508 Cpdt.StackMachine <> tstack def
+binder 37536:37536 <> s:62
+R37539:37543 Cpdt.StackMachine <> tprog:60 ind
+R37547:37547 Cpdt.StackMachine <> s:62 var
+R37545:37545 Cpdt.StackMachine <> s:62 var
+binder 37566:37567 <> s1:63
+binder 37569:37570 <> s2:64
+binder 37572:37573 <> s3:65
+R37590:37595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37578:37583 Cpdt.StackMachine <> tinstr ind
+R37588:37589 Cpdt.StackMachine <> s2:64 var
+R37585:37586 Cpdt.StackMachine <> s1:63 var
+R37607:37612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R37596:37600 Cpdt.StackMachine <> tprog:60 ind
+R37605:37606 Cpdt.StackMachine <> s3:65 var
+R37602:37603 Cpdt.StackMachine <> s2:64 var
+R37613:37617 Cpdt.StackMachine <> tprog:60 ind
+R37622:37623 Cpdt.StackMachine <> s3:65 var
+R37619:37620 Cpdt.StackMachine <> s1:63 var
+def 37902:37907 <> vstack
+R37915:37920 Cpdt.StackMachine <> tstack def
+binder 37910:37911 <> ts:66
+R37940:37941 Cpdt.StackMachine <> ts:66 var
+R37954:37956 Coq.Init.Datatypes <> nil constr
+R37961:37964 Coq.Init.Datatypes <> unit ind
+R37973:37976 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R37996:37998 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R37984:37993 Cpdt.StackMachine <> typeDenote def
+R37999:38004 Cpdt.StackMachine <> vstack:67 def
+def 39433:39444 <> tinstrDenote
+binder 39446:39447 <> ts:69
+binder 39449:39451 <> ts':70
+R39458:39463 Cpdt.StackMachine <> tinstr ind
+R39468:39470 Cpdt.StackMachine <> ts':70 var
+R39465:39466 Cpdt.StackMachine <> ts:69 var
+binder 39454:39454 <> i:71
+R39484:39487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39475:39480 Cpdt.StackMachine <> vstack def
+R39482:39483 Cpdt.StackMachine <> ts:69 var
+R39488:39493 Cpdt.StackMachine <> vstack def
+R39495:39497 Cpdt.StackMachine <> ts':70 var
+R39510:39510 Cpdt.StackMachine <> i:71 var
+R39523:39530 Cpdt.StackMachine <> TiNConst constr
+binder 39543:39543 <> s:73
+R39548:39548 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39550:39551 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39553:39553 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39552:39552 Cpdt.StackMachine <> s:73 var
+R39561:39568 Cpdt.StackMachine <> TiBConst constr
+binder 39581:39581 <> s:74
+R39586:39586 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39588:39589 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39591:39591 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39590:39590 Cpdt.StackMachine <> s:74 var
+R39599:39605 Cpdt.StackMachine <> TiBinop constr
+binder 39624:39624 <> s:75
+R39662:39662 Cpdt.StackMachine <> s:75 var
+R39640:39640 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39645:39646 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39657:39657 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39647:39647 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39652:39653 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39656:39656 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39675:39675 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39702:39703 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39706:39706 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R39677:39688 Cpdt.StackMachine <> tbinopDenote def
+def 40774:40784 <> tprogDenote
+binder 40786:40787 <> ts:77
+binder 40789:40791 <> ts':78
+R40798:40802 Cpdt.StackMachine <> tprog ind
+R40807:40809 Cpdt.StackMachine <> ts':78 var
+R40804:40805 Cpdt.StackMachine <> ts:77 var
+binder 40794:40794 <> p:79
+R40823:40826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40814:40819 Cpdt.StackMachine <> vstack def
+R40821:40822 Cpdt.StackMachine <> ts:77 var
+R40827:40832 Cpdt.StackMachine <> vstack def
+R40834:40836 Cpdt.StackMachine <> ts':78 var
+R40849:40849 Cpdt.StackMachine <> p:79 var
+R40862:40865 Cpdt.StackMachine <> TNil constr
+binder 40876:40876 <> s:82
+R40881:40881 Cpdt.StackMachine <> s:82 var
+R40889:40893 Cpdt.StackMachine <> TCons constr
+binder 40913:40913 <> s:83
+R40918:40928 Cpdt.StackMachine <> tprogDenote:80 def
+R40934:40945 Cpdt.StackMachine <> tinstrDenote def
+R40949:40949 Cpdt.StackMachine <> s:83 var
+def 41192:41198 <> tconcat
+binder 41200:41201 <> ts:84
+binder 41203:41205 <> ts':85
+binder 41207:41210 <> ts'':86
+R41217:41221 Cpdt.StackMachine <> tprog ind
+R41226:41228 Cpdt.StackMachine <> ts':85 var
+R41223:41224 Cpdt.StackMachine <> ts:84 var
+binder 41213:41213 <> p:87
+R41247:41250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41233:41237 Cpdt.StackMachine <> tprog ind
+R41243:41246 Cpdt.StackMachine <> ts'':86 var
+R41239:41241 Cpdt.StackMachine <> ts':85 var
+R41251:41255 Cpdt.StackMachine <> tprog ind
+R41260:41263 Cpdt.StackMachine <> ts'':86 var
+R41257:41258 Cpdt.StackMachine <> ts:84 var
+R41276:41276 Cpdt.StackMachine <> p:87 var
+R41289:41292 Cpdt.StackMachine <> TNil constr
+binder 41303:41304 <> p':90
+R41309:41310 Cpdt.StackMachine <> p':90 var
+R41318:41322 Cpdt.StackMachine <> TCons constr
+binder 41342:41343 <> p':91
+R41348:41352 Cpdt.StackMachine <> TCons constr
+R41357:41363 Cpdt.StackMachine <> tconcat:88 def
+R41368:41369 Cpdt.StackMachine <> p':91 var
+def 41526:41533 <> tcompile
+binder 41535:41535 <> t:92
+R41542:41545 Cpdt.StackMachine <> texp ind
+R41547:41547 Cpdt.StackMachine <> t:92 var
+binder 41538:41538 <> e:93
+R41556:41561 Cpdt.StackMachine <> tstack def
+binder 41551:41552 <> ts:94
+R41566:41570 Cpdt.StackMachine <> tprog ind
+R41577:41580 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R41576:41576 Cpdt.StackMachine <> t:92 var
+R41581:41582 Cpdt.StackMachine <> ts:94 var
+R41572:41573 Cpdt.StackMachine <> ts:94 var
+R41596:41596 Cpdt.StackMachine <> e:93 var
+R41609:41615 Cpdt.StackMachine <> TNConst constr
+R41622:41626 Cpdt.StackMachine <> TCons constr
+R41644:41647 Cpdt.StackMachine <> TNil constr
+R41629:41636 Cpdt.StackMachine <> TiNConst constr
+R41658:41664 Cpdt.StackMachine <> TBConst constr
+R41671:41675 Cpdt.StackMachine <> TCons constr
+R41693:41696 Cpdt.StackMachine <> TNil constr
+R41678:41685 Cpdt.StackMachine <> TiBConst constr
+R41707:41712 Cpdt.StackMachine <> TBinop constr
+R41731:41737 Cpdt.StackMachine <> tconcat def
+R41762:41768 Cpdt.StackMachine <> tconcat def
+R41787:41791 Cpdt.StackMachine <> TCons constr
+R41808:41811 Cpdt.StackMachine <> TNil constr
+R41794:41800 Cpdt.StackMachine <> TiBinop constr
+R41771:41778 Cpdt.StackMachine <> tcompile:95 def
+R41740:41747 Cpdt.StackMachine <> tcompile:95 def
+R42912:42919 Cpdt.StackMachine <> tcompile def
+R43615:43625 Cpdt.StackMachine <> tprogDenote def
+R43655:43656 Coq.Init.Datatypes <> tt constr
+R43628:43635 Cpdt.StackMachine <> tcompile def
+R43650:43652 Coq.Init.Datatypes <> nil constr
+R43638:43644 Cpdt.StackMachine <> TNConst constr
+R43716:43726 Cpdt.StackMachine <> tprogDenote def
+R43758:43759 Coq.Init.Datatypes <> tt constr
+R43729:43736 Cpdt.StackMachine <> tcompile def
+R43753:43755 Coq.Init.Datatypes <> nil constr
+R43739:43745 Cpdt.StackMachine <> TBConst constr
+R43747:43750 Coq.Init.Datatypes <> true constr
+R43822:43832 Cpdt.StackMachine <> tprogDenote def
+R43918:43919 Coq.Init.Datatypes <> tt constr
+R43835:43842 Cpdt.StackMachine <> tcompile def
+R43913:43915 Coq.Init.Datatypes <> nil constr
+R43845:43850 Cpdt.StackMachine <> TBinop constr
+R43901:43907 Cpdt.StackMachine <> TNConst constr
+R43860:43865 Cpdt.StackMachine <> TBinop constr
+R43888:43894 Cpdt.StackMachine <> TNConst constr
+R43874:43880 Cpdt.StackMachine <> TNConst constr
+R43867:43871 Cpdt.StackMachine <> TPlus constr
+R43852:43857 Cpdt.StackMachine <> TTimes constr
+R43979:43989 Cpdt.StackMachine <> tprogDenote def
+R44078:44079 Coq.Init.Datatypes <> tt constr
+R43992:43999 Cpdt.StackMachine <> tcompile def
+R44073:44075 Coq.Init.Datatypes <> nil constr
+R44002:44007 Cpdt.StackMachine <> TBinop constr
+R44061:44067 Cpdt.StackMachine <> TNConst constr
+R44020:44025 Cpdt.StackMachine <> TBinop constr
+R44048:44054 Cpdt.StackMachine <> TNConst constr
+R44034:44040 Cpdt.StackMachine <> TNConst constr
+R44027:44031 Cpdt.StackMachine <> TPlus constr
+R44010:44012 Cpdt.StackMachine <> TEq constr
+R44014:44016 Cpdt.StackMachine <> Nat constr
+R44143:44153 Cpdt.StackMachine <> tprogDenote def
+R44236:44237 Coq.Init.Datatypes <> tt constr
+R44156:44163 Cpdt.StackMachine <> tcompile def
+R44231:44233 Coq.Init.Datatypes <> nil constr
+R44166:44171 Cpdt.StackMachine <> TBinop constr
+R44219:44225 Cpdt.StackMachine <> TNConst constr
+R44178:44183 Cpdt.StackMachine <> TBinop constr
+R44204:44210 Cpdt.StackMachine <> TNConst constr
+R44192:44198 Cpdt.StackMachine <> TNConst constr
+R44185:44189 Cpdt.StackMachine <> TPlus constr
+R44173:44175 Cpdt.StackMachine <> TLt constr
+prf 44504:44519 <> tcompile_correct
+binder 44530:44530 <> t:97
+R44537:44540 Cpdt.StackMachine <> texp ind
+R44542:44542 Cpdt.StackMachine <> t:97 var
+binder 44533:44533 <> e:98
+R44579:44581 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44548:44558 Cpdt.StackMachine <> tprogDenote def
+R44577:44578 Coq.Init.Datatypes <> tt constr
+R44561:44568 Cpdt.StackMachine <> tcompile def
+R44572:44574 Coq.Init.Datatypes <> nil constr
+R44570:44570 Cpdt.StackMachine <> e:98 var
+R44582:44582 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44595:44596 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44599:44599 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R44583:44592 Cpdt.StackMachine <> texpDenote def
+R44594:44594 Cpdt.StackMachine <> e:98 var
+R44597:44598 Coq.Init.Datatypes <> tt constr
+prf 44919:44935 <> tcompile_correct'
+binder 44946:44946 <> t:99
+R44953:44956 Cpdt.StackMachine <> texp ind
+R44958:44958 Cpdt.StackMachine <> t:99 var
+binder 44949:44949 <> e:100
+binder 44961:44962 <> ts:101
+R44969:44974 Cpdt.StackMachine <> vstack def
+R44976:44977 Cpdt.StackMachine <> ts:101 var
+binder 44965:44965 <> s:102
+R45012:45014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44983:44993 Cpdt.StackMachine <> tprogDenote def
+R45011:45011 Cpdt.StackMachine <> s:102 var
+R44996:45003 Cpdt.StackMachine <> tcompile def
+R45007:45008 Cpdt.StackMachine <> ts:101 var
+R45005:45005 Cpdt.StackMachine <> e:100 var
+R45015:45015 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45028:45029 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45031:45031 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R45016:45025 Cpdt.StackMachine <> texpDenote def
+R45027:45027 Cpdt.StackMachine <> e:100 var
+R45030:45030 Cpdt.StackMachine <> s:102 var
+prf 46101:46115 <> tconcat_correct
+binder 46126:46127 <> ts:103
+binder 46129:46131 <> ts':104
+binder 46133:46136 <> ts'':105
+R46143:46147 Cpdt.StackMachine <> tprog ind
+R46152:46154 Cpdt.StackMachine <> ts':104 var
+R46149:46150 Cpdt.StackMachine <> ts:103 var
+binder 46139:46139 <> p:106
+R46163:46167 Cpdt.StackMachine <> tprog ind
+R46173:46176 Cpdt.StackMachine <> ts'':105 var
+R46169:46171 Cpdt.StackMachine <> ts':104 var
+binder 46158:46159 <> p':107
+R46186:46191 Cpdt.StackMachine <> vstack def
+R46193:46194 Cpdt.StackMachine <> ts:103 var
+binder 46182:46182 <> s:108
+R46228:46232 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46200:46210 Cpdt.StackMachine <> tprogDenote def
+R46227:46227 Cpdt.StackMachine <> s:108 var
+R46213:46219 Cpdt.StackMachine <> tconcat def
+R46223:46224 Cpdt.StackMachine <> p':107 var
+R46221:46221 Cpdt.StackMachine <> p:106 var
+R46233:46243 Cpdt.StackMachine <> tprogDenote def
+R46249:46259 Cpdt.StackMachine <> tprogDenote def
+R46263:46263 Cpdt.StackMachine <> s:108 var
+R46261:46261 Cpdt.StackMachine <> p:106 var
+R46245:46246 Cpdt.StackMachine <> p':107 var
+R46555:46569 Cpdt.StackMachine <> tconcat_correct thm
+prf 47080:47096 <> tcompile_correct'
+binder 47107:47107 <> t:109
+R47114:47117 Cpdt.StackMachine <> texp ind
+R47119:47119 Cpdt.StackMachine <> t:109 var
+binder 47110:47110 <> e:110
+binder 47122:47123 <> ts:111
+R47130:47135 Cpdt.StackMachine <> vstack def
+R47137:47138 Cpdt.StackMachine <> ts:111 var
+binder 47126:47126 <> s:112
+R47173:47175 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R47144:47154 Cpdt.StackMachine <> tprogDenote def
+R47172:47172 Cpdt.StackMachine <> s:112 var
+R47157:47164 Cpdt.StackMachine <> tcompile def
+R47168:47169 Cpdt.StackMachine <> ts:111 var
+R47166:47166 Cpdt.StackMachine <> e:110 var
+R47176:47176 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47189:47190 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47192:47192 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47177:47186 Cpdt.StackMachine <> texpDenote def
+R47188:47188 Cpdt.StackMachine <> e:110 var
+R47191:47191 Cpdt.StackMachine <> s:112 var
+R47343:47359 Cpdt.StackMachine <> tcompile_correct' thm
+prf 47371:47386 <> tcompile_correct
+binder 47397:47397 <> t:113
+R47404:47407 Cpdt.StackMachine <> texp ind
+R47409:47409 Cpdt.StackMachine <> t:113 var
+binder 47400:47400 <> e:114
+R47446:47448 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R47415:47425 Cpdt.StackMachine <> tprogDenote def
+R47444:47445 Coq.Init.Datatypes <> tt constr
+R47428:47435 Cpdt.StackMachine <> tcompile def
+R47439:47441 Coq.Init.Datatypes <> nil constr
+R47437:47437 Cpdt.StackMachine <> e:114 var
+R47449:47449 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47462:47463 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47466:47466 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R47450:47459 Cpdt.StackMachine <> texpDenote def
+R47461:47461 Cpdt.StackMachine <> e:114 var
+R47464:47465 Coq.Init.Datatypes <> tt constr
+R48204:48213 Coq.extraction.Extraction <> <> lib

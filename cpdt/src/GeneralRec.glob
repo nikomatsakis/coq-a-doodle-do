@@ -1,0 +1,1870 @@
+DIGEST 5246b47b80e43910784550d3f5a96402
+FCpdt.GeneralRec
+R311:315 Coq.Arith.Arith <> <> lib
+R317:320 Coq.Lists.List <> <> lib
+R322:324 Coq.micromega.Lia <> <> lib
+R343:358 Cpdt.CpdtTactics <> <> lib
+R360:375 Cpdt.Coinductive <> <> lib
+R387:396 Coq.extraction.Extraction <> <> lib
+sec 3612:3620 <> mergeSort
+var 3634:3634 mergeSort A
+var 3655:3656 mergeSort le
+R3661:3664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3660:3660 Cpdt.GeneralRec <> mergeSort.A var
+R3666:3669 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3665:3665 Cpdt.GeneralRec <> mergeSort.A var
+R3670:3673 Coq.Init.Datatypes <> bool ind
+def 3853:3858 <> insert
+R3865:3865 Cpdt.GeneralRec <> mergeSort.A var
+binder 3861:3861 <> x:3
+R3874:3877 Coq.Init.Datatypes <> list ind
+R3879:3879 Cpdt.GeneralRec <> mergeSort.A var
+binder 3869:3870 <> ls:4
+R3884:3887 Coq.Init.Datatypes <> list ind
+R3889:3889 Cpdt.GeneralRec <> mergeSort.A var
+R3904:3905 Cpdt.GeneralRec <> ls:4 var
+R3920:3922 Coq.Init.Datatypes <> nil constr
+R3928:3931 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3927:3927 Cpdt.GeneralRec <> x:3 var
+R3932:3934 Coq.Init.Datatypes <> nil constr
+R3945:3948 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3960:3961 Cpdt.GeneralRec <> mergeSort.le var
+R3963:3963 Cpdt.GeneralRec <> x:3 var
+R3992:3995 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3996:4001 Cpdt.GeneralRec <> insert:5 def
+R4003:4003 Cpdt.GeneralRec <> x:3 var
+R3976:3979 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3975:3975 Cpdt.GeneralRec <> x:3 var
+R3980:3981 Cpdt.GeneralRec <> ls:4 var
+def 4324:4328 <> merge
+R4341:4344 Coq.Init.Datatypes <> list ind
+R4346:4346 Cpdt.GeneralRec <> mergeSort.A var
+binder 4331:4333 <> ls1:7
+binder 4335:4337 <> ls2:8
+R4351:4354 Coq.Init.Datatypes <> list ind
+R4356:4356 Cpdt.GeneralRec <> mergeSort.A var
+R4371:4373 Cpdt.GeneralRec <> ls1:7 var
+R4388:4390 Coq.Init.Datatypes <> nil constr
+R4395:4397 Cpdt.GeneralRec <> ls2:8 var
+R4408:4411 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4419:4424 Cpdt.GeneralRec <> insert def
+R4429:4433 Cpdt.GeneralRec <> merge:9 def
+R4439:4441 Cpdt.GeneralRec <> ls2:8 var
+def 4623:4627 <> split
+R4635:4638 Coq.Init.Datatypes <> list ind
+R4640:4640 Cpdt.GeneralRec <> mergeSort.A var
+binder 4630:4631 <> ls:11
+R4651:4653 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4645:4648 Coq.Init.Datatypes <> list ind
+R4650:4650 Cpdt.GeneralRec <> mergeSort.A var
+R4654:4657 Coq.Init.Datatypes <> list ind
+R4659:4659 Cpdt.GeneralRec <> mergeSort.A var
+R4674:4675 Cpdt.GeneralRec <> ls:11 var
+R4690:4692 Coq.Init.Datatypes <> nil constr
+R4697:4697 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4701:4702 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4706:4706 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4698:4700 Coq.Init.Datatypes <> nil constr
+R4703:4705 Coq.Init.Datatypes <> nil constr
+R4717:4720 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4721:4723 Coq.Init.Datatypes <> nil constr
+R4728:4728 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4737:4738 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4742:4742 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4730:4733 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4734:4736 Coq.Init.Datatypes <> nil constr
+R4739:4741 Coq.Init.Datatypes <> nil constr
+R4754:4757 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4760:4763 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4790:4794 Cpdt.GeneralRec <> split:12 def
+binder 4777:4779 <> ls1:14
+binder 4782:4784 <> ls2:15
+R4806:4806 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4816:4817 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4827:4827 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4809:4812 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4813:4815 Cpdt.GeneralRec <> ls1:14 var
+R4820:4823 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4824:4826 Cpdt.GeneralRec <> ls2:15 var
+R5790:5801 Coq.Init.Wf <> well_founded def
+def 6139:6148 <> Acc_intro'
+R6153:6161 Coq.Init.Wf <> Acc_intro constr
+R6204:6206 Coq.Init.Wf <> Acc ind
+ind 6827:6849 <> infiniteDecreasingChain
+constr 6900:6908 <> ChainCons
+binder 6851:6851 <> A:16
+R6859:6862 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6858:6858 Cpdt.GeneralRec <> A:16 var
+R6864:6867 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6863:6863 Cpdt.GeneralRec <> A:16 var
+binder 6854:6854 <> R:17
+R6884:6887 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6876:6881 Cpdt.Coinductive <> stream coind
+binder 6919:6919 <> x:20
+binder 6921:6921 <> y:21
+binder 6923:6923 <> s:22
+R6962:6969 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6926:6948 Cpdt.GeneralRec <> infiniteDecreasingChain:18 ind
+R6953:6956 Cpdt.Coinductive <> Cons constr
+R6960:6960 Cpdt.GeneralRec <> s:22 var
+R6958:6958 Cpdt.GeneralRec <> y:21 var
+R6950:6950 Cpdt.GeneralRec <> R:17 var
+R6975:6982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6970:6970 Cpdt.GeneralRec <> R:17 var
+R6974:6974 Cpdt.GeneralRec <> x:20 var
+R6972:6972 Cpdt.GeneralRec <> y:21 var
+R6983:7005 Cpdt.GeneralRec <> infiniteDecreasingChain:18 ind
+R7010:7013 Cpdt.Coinductive <> Cons constr
+R7018:7021 Cpdt.Coinductive <> Cons constr
+R7025:7025 Cpdt.GeneralRec <> s:22 var
+R7023:7023 Cpdt.GeneralRec <> y:21 var
+R7015:7015 Cpdt.GeneralRec <> x:20 var
+R7007:7007 Cpdt.GeneralRec <> R:17 var
+prf 7168:7179 <> noBadChains'
+binder 7190:7190 <> A:23
+R7198:7201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7197:7197 Cpdt.GeneralRec <> A:23 var
+R7203:7206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7202:7202 Cpdt.GeneralRec <> A:23 var
+binder 7193:7193 <> R:24
+binder 7213:7213 <> x:25
+R7223:7230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7216:7218 Coq.Init.Wf <> Acc ind
+R7222:7222 Cpdt.GeneralRec <> x:25 var
+R7220:7220 Cpdt.GeneralRec <> R:24 var
+binder 7238:7238 <> s:26
+R7241:7241 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7242:7264 Cpdt.GeneralRec <> infiniteDecreasingChain coind
+R7269:7272 Cpdt.Coinductive <> Cons constr
+R7276:7276 Cpdt.GeneralRec <> s:26 var
+R7274:7274 Cpdt.GeneralRec <> x:25 var
+R7266:7266 Cpdt.GeneralRec <> R:24 var
+R7342:7364 Cpdt.GeneralRec <> infiniteDecreasingChain coind
+R7342:7364 Cpdt.GeneralRec <> infiniteDecreasingChain coind
+prf 7524:7534 <> noBadChains
+binder 7545:7545 <> A:27
+R7553:7556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7552:7552 Cpdt.GeneralRec <> A:27 var
+R7558:7561 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7557:7557 Cpdt.GeneralRec <> A:27 var
+binder 7548:7548 <> R:28
+R7583:7590 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7569:7580 Coq.Init.Wf <> well_founded def
+R7582:7582 Cpdt.GeneralRec <> R:28 var
+binder 7598:7598 <> s:29
+R7601:7601 Coq.Init.Logic <> ::type_scope:'~'_x not
+R7602:7624 Cpdt.GeneralRec <> infiniteDecreasingChain coind
+R7628:7628 Cpdt.GeneralRec <> s:29 var
+R7626:7626 Cpdt.GeneralRec <> R:28 var
+R7653:7664 Cpdt.GeneralRec <> noBadChains' thm
+R7653:7664 Cpdt.GeneralRec <> noBadChains' thm
+R7950:7952 Coq.Init.Wf <> Fix def
+def 9328:9338 <> lengthOrder
+R9351:9354 Coq.Init.Datatypes <> list ind
+R9356:9356 Cpdt.GeneralRec <> mergeSort.A var
+binder 9341:9343 <> ls1:30
+binder 9345:9347 <> ls2:31
+R9376:9378 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9366:9371 Coq.Init.Datatypes <> length def
+R9373:9375 Cpdt.GeneralRec <> ls1:30 var
+R9379:9384 Coq.Init.Datatypes <> length def
+R9386:9388 Cpdt.GeneralRec <> ls2:31 var
+R9782:9784 Cpdt.GeneralRec <> Acc ind
+R9804:9806 Coq.Init.Wf <> Acc ind
+R9839:9842 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+prf 9865:9879 <> lengthOrder_wf'
+binder 9890:9892 <> len:32
+binder 9902:9903 <> ls:33
+R9922:9925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9915:9918 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R9906:9911 Coq.Init.Datatypes <> length def
+R9913:9914 Cpdt.GeneralRec <> ls:33 var
+R9919:9921 Cpdt.GeneralRec <> len:32 var
+R9926:9928 Coq.Init.Wf <> Acc ind
+R9942:9943 Cpdt.GeneralRec <> ls:33 var
+R9930:9940 Cpdt.GeneralRec <> lengthOrder def
+R9957:9967 Cpdt.GeneralRec <> lengthOrder def
+prf 10014:10027 <> lengthOrder_wf
+R10031:10042 Coq.Init.Wf <> well_founded def
+R10044:10054 Cpdt.GeneralRec <> lengthOrder def
+R10080:10094 Cpdt.GeneralRec <> lengthOrder_wf' thm
+R10080:10094 Cpdt.GeneralRec <> lengthOrder_wf' thm
+prf 11412:11419 <> split_wf
+binder 11430:11432 <> len:34
+binder 11434:11435 <> ls:35
+R11459:11466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11439:11442 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<='_x not
+R11452:11455 Coq.Init.Peano <> ::nat_scope:x_'<='_x_'<='_x not
+R11443:11448 Coq.Init.Datatypes <> length def
+R11450:11451 Cpdt.GeneralRec <> ls:35 var
+R11443:11448 Coq.Init.Datatypes <> length def
+R11450:11451 Cpdt.GeneralRec <> ls:35 var
+R11456:11458 Cpdt.GeneralRec <> len:34 var
+R11485:11489 Cpdt.GeneralRec <> split def
+R11491:11492 Cpdt.GeneralRec <> ls:35 var
+binder 11472:11474 <> ls1:36
+binder 11477:11479 <> ls2:37
+R11521:11524 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11503:11513 Cpdt.GeneralRec <> lengthOrder def
+R11519:11520 Cpdt.GeneralRec <> ls:35 var
+R11515:11517 Cpdt.GeneralRec <> ls1:36 var
+R11525:11535 Cpdt.GeneralRec <> lengthOrder def
+R11541:11542 Cpdt.GeneralRec <> ls:35 var
+R11537:11539 Cpdt.GeneralRec <> ls2:37 var
+R11556:11566 Cpdt.GeneralRec <> lengthOrder def
+R11634:11642 Coq.Arith.Compare_dec <> le_lt_dec def
+R11647:11652 Coq.Init.Datatypes <> length def
+R11727:11729 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11718:11723 Coq.Init.Datatypes <> length def
+R11727:11729 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11718:11723 Coq.Init.Datatypes <> length def
+R11792:11794 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11779:11779 Coq.Init.Datatypes <> S constr
+R11782:11787 Coq.Init.Datatypes <> length def
+R11792:11794 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R11779:11779 Coq.Init.Datatypes <> S constr
+R11782:11787 Coq.Init.Datatypes <> length def
+R11858:11862 Cpdt.GeneralRec <> split def
+R11858:11862 Cpdt.GeneralRec <> split def
+R11922:11926 Cpdt.GeneralRec <> split def
+R11634:11642 Coq.Arith.Compare_dec <> le_lt_dec def
+R11647:11652 Coq.Init.Datatypes <> length def
+R11922:11926 Cpdt.GeneralRec <> split def
+R12038:12045 Cpdt.GeneralRec <> split_wf thm
+R12048:12053 Coq.Init.Datatypes <> length def
+R12078:12082 Cpdt.GeneralRec <> split def
+prf 12117:12125 <> split_wf1
+binder 12136:12137 <> ls:38
+R12154:12161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12141:12144 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12145:12150 Coq.Init.Datatypes <> length def
+R12152:12153 Cpdt.GeneralRec <> ls:38 var
+R12162:12172 Cpdt.GeneralRec <> lengthOrder def
+R12191:12192 Cpdt.GeneralRec <> ls:38 var
+R12175:12177 Coq.Init.Datatypes <> fst def
+R12180:12184 Cpdt.GeneralRec <> split def
+R12186:12187 Cpdt.GeneralRec <> ls:38 var
+prf 12229:12237 <> split_wf2
+binder 12248:12249 <> ls:39
+R12266:12273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12253:12256 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R12257:12262 Coq.Init.Datatypes <> length def
+R12264:12265 Cpdt.GeneralRec <> ls:39 var
+R12274:12284 Cpdt.GeneralRec <> lengthOrder def
+R12303:12304 Cpdt.GeneralRec <> ls:39 var
+R12287:12289 Coq.Init.Datatypes <> snd def
+R12292:12296 Cpdt.GeneralRec <> split def
+R12298:12299 Cpdt.GeneralRec <> ls:39 var
+def 12901:12909 <> mergeSort
+R12919:12922 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12913:12916 Coq.Init.Datatypes <> list ind
+R12918:12918 Cpdt.GeneralRec <> mergeSort.A var
+R12923:12926 Coq.Init.Datatypes <> list ind
+R12928:12928 Cpdt.GeneralRec <> mergeSort.A var
+R12961:12963 Coq.Init.Wf <> Fix def
+R13015:13018 Coq.Init.Datatypes <> list ind
+R13020:13020 Cpdt.GeneralRec <> mergeSort.A var
+binder 13010:13011 <> ls:40
+R13057:13060 Coq.Init.Datatypes <> list ind
+R13062:13062 Cpdt.GeneralRec <> mergeSort.A var
+binder 13051:13053 <> ls':41
+R13083:13086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13065:13075 Cpdt.GeneralRec <> lengthOrder def
+R13081:13082 Cpdt.GeneralRec <> ls:40 var
+R13077:13079 Cpdt.GeneralRec <> ls':41 var
+R13087:13090 Coq.Init.Datatypes <> list ind
+R13092:13092 Cpdt.GeneralRec <> mergeSort.A var
+binder 13032:13040 <> mergeSort:42
+R13109:13117 Coq.Arith.Compare_dec <> le_lt_dec def
+R13122:13127 Coq.Init.Datatypes <> length def
+R13129:13130 Cpdt.GeneralRec <> ls:40 var
+R13238:13239 Cpdt.GeneralRec <> ls:40 var
+R13152:13156 Cpdt.GeneralRec <> split def
+R13158:13159 Cpdt.GeneralRec <> ls:40 var
+binder 13145:13147 <> lss:43
+R13176:13180 Cpdt.GeneralRec <> merge def
+R13207:13215 Cpdt.GeneralRec <> mergeSort:42 var
+R13218:13220 Coq.Init.Datatypes <> snd def
+R13222:13224 Cpdt.GeneralRec <> lss:43 var
+R13183:13191 Cpdt.GeneralRec <> mergeSort:42 var
+R13194:13196 Coq.Init.Datatypes <> fst def
+R13198:13200 Cpdt.GeneralRec <> lss:43 var
+R12990:12993 Coq.Init.Datatypes <> list ind
+R12995:12995 Cpdt.GeneralRec <> mergeSort.A var
+R12965:12978 Cpdt.GeneralRec <> lengthOrder_wf thm
+R12961:12963 Coq.Init.Wf <> Fix def
+R13015:13018 Coq.Init.Datatypes <> list ind
+R13020:13020 Cpdt.GeneralRec <> mergeSort.A var
+binder 13010:13011 <> ls:44
+R13057:13060 Coq.Init.Datatypes <> list ind
+R13062:13062 Cpdt.GeneralRec <> mergeSort.A var
+binder 13051:13053 <> ls':45
+R13083:13086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13065:13075 Cpdt.GeneralRec <> lengthOrder def
+R13081:13082 Cpdt.GeneralRec <> ls:44 var
+R13077:13079 Cpdt.GeneralRec <> ls':45 var
+R13087:13090 Coq.Init.Datatypes <> list ind
+R13092:13092 Cpdt.GeneralRec <> mergeSort.A var
+binder 13032:13040 <> mergeSort:46
+R13109:13117 Coq.Arith.Compare_dec <> le_lt_dec def
+R13122:13127 Coq.Init.Datatypes <> length def
+R13129:13130 Cpdt.GeneralRec <> ls:44 var
+R13238:13239 Cpdt.GeneralRec <> ls:44 var
+R13152:13156 Cpdt.GeneralRec <> split def
+R13158:13159 Cpdt.GeneralRec <> ls:44 var
+binder 13145:13147 <> lss:47
+R13176:13180 Cpdt.GeneralRec <> merge def
+R13207:13215 Cpdt.GeneralRec <> mergeSort:46 var
+R13218:13220 Coq.Init.Datatypes <> snd def
+R13222:13224 Cpdt.GeneralRec <> lss:47 var
+R13183:13191 Cpdt.GeneralRec <> mergeSort:46 var
+R13194:13196 Coq.Init.Datatypes <> fst def
+R13198:13200 Cpdt.GeneralRec <> lss:47 var
+R12990:12993 Coq.Init.Datatypes <> list ind
+R12995:12995 Cpdt.GeneralRec <> mergeSort.A var
+R12965:12978 Cpdt.GeneralRec <> lengthOrder_wf thm
+R13293:13301 Cpdt.GeneralRec mergeSort <> sec
+R13406:13414 Cpdt.GeneralRec <> mergeSort def
+R13422:13425 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13427:13430 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13433:13436 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13438:13441 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13444:13447 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R13448:13450 Coq.Init.Datatypes <> nil constr
+R13416:13418 Coq.Arith.Compare_dec <> leb abbrev
+prf 13854:13865 <> mergeSort_eq
+binder 13876:13876 <> A:48
+R13885:13888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13884:13884 Cpdt.GeneralRec <> A:48 var
+R13890:13893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13889:13889 Cpdt.GeneralRec <> A:48 var
+R13894:13897 Coq.Init.Datatypes <> bool ind
+binder 13879:13880 <> le:49
+binder 13900:13901 <> ls:50
+R13921:13923 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13906:13914 Cpdt.GeneralRec <> mergeSort def
+R13919:13920 Cpdt.GeneralRec <> ls:50 var
+R13916:13917 Cpdt.GeneralRec <> le:49 var
+R13927:13935 Coq.Arith.Compare_dec <> le_lt_dec def
+R13940:13945 Coq.Init.Datatypes <> length def
+R13947:13948 Cpdt.GeneralRec <> ls:50 var
+R14057:14058 Cpdt.GeneralRec <> ls:50 var
+R13971:13975 Cpdt.GeneralRec <> split def
+R13977:13978 Cpdt.GeneralRec <> ls:50 var
+binder 13964:13966 <> lss:51
+R13989:13993 Cpdt.GeneralRec <> merge def
+R14024:14032 Cpdt.GeneralRec <> mergeSort def
+R14038:14040 Coq.Init.Datatypes <> snd def
+R14042:14044 Cpdt.GeneralRec <> lss:51 var
+R14034:14035 Cpdt.GeneralRec <> le:49 var
+R13999:14007 Cpdt.GeneralRec <> mergeSort def
+R14013:14015 Coq.Init.Datatypes <> fst def
+R14017:14019 Cpdt.GeneralRec <> lss:51 var
+R14009:14010 Cpdt.GeneralRec <> le:49 var
+R13995:13996 Cpdt.GeneralRec <> le:49 var
+R14078:14083 Coq.Init.Wf <> Fix_eq thm
+R14115:14118 Coq.Init.Datatypes <> list ind
+R14087:14100 Cpdt.GeneralRec <> lengthOrder_wf thm
+R14078:14083 Coq.Init.Wf <> Fix_eq thm
+R14115:14118 Coq.Init.Datatypes <> list ind
+R14087:14100 Cpdt.GeneralRec <> lengthOrder_wf thm
+R14603:14608 Coq.Init.Wf <> Fix_eq thm
+R15199:15202 Coq.Init.Specif <> left constr
+R15213:15217 Coq.Init.Specif <> right constr
+R15199:15202 Coq.Init.Specif <> left constr
+R15213:15217 Coq.Init.Specif <> right constr
+R16202:16223 Coq.Init.Wf <> well_founded_induction thm
+sec 17574:17584 <> computation
+var 17598:17598 computation A
+def 17773:17783 <> computation
+R17792:17792 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17794:17796 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17812:17820 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17911:17911 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R17800:17803 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17797:17799 Coq.Init.Datatypes <> nat ind
+R17804:17809 Coq.Init.Datatypes <> option ind
+R17811:17811 Cpdt.GeneralRec <> computation.A var
+binder 17793:17793 <> f:53
+R17833:17835 Coq.Init.Datatypes <> nat ind
+binder 17829:17829 <> n:54
+R17843:17843 Cpdt.GeneralRec <> computation.A var
+binder 17839:17839 <> v:55
+R17860:17864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17851:17853 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17848:17848 Cpdt.GeneralRec <> f:53 var
+R17850:17850 Cpdt.GeneralRec <> n:54 var
+R17854:17857 Coq.Init.Datatypes <> Some constr
+R17859:17859 Cpdt.GeneralRec <> v:55 var
+R17878:17880 Coq.Init.Datatypes <> nat ind
+binder 17873:17874 <> n':56
+R17891:17897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17886:17889 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R17884:17885 Cpdt.GeneralRec <> n':56 var
+R17890:17890 Cpdt.GeneralRec <> n:54 var
+R17902:17904 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17898:17898 Cpdt.GeneralRec <> f:53 var
+R17900:17901 Cpdt.GeneralRec <> n':56 var
+R17905:17908 Coq.Init.Datatypes <> Some constr
+R17910:17910 Cpdt.GeneralRec <> v:55 var
+def 18647:18651 <> runTo
+R18658:18668 Cpdt.GeneralRec <> computation def
+binder 18654:18654 <> m:57
+R18676:18678 Coq.Init.Datatypes <> nat ind
+binder 18672:18672 <> n:58
+R18686:18686 Cpdt.GeneralRec <> computation.A var
+binder 18682:18682 <> v:59
+R18709:18711 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18696:18704 Coq.Init.Specif <> proj1_sig def
+R18708:18708 Cpdt.GeneralRec <> n:58 var
+R18706:18706 Cpdt.GeneralRec <> m:57 var
+R18712:18715 Coq.Init.Datatypes <> Some constr
+R18717:18717 Cpdt.GeneralRec <> v:59 var
+def 18858:18860 <> run
+R18867:18877 Cpdt.GeneralRec <> computation def
+binder 18863:18863 <> m:60
+R18885:18885 Cpdt.GeneralRec <> computation.A var
+binder 18881:18881 <> v:61
+R18895:18901 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R18903:18904 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 18902:18902 <> n:62
+R18905:18909 Cpdt.GeneralRec <> runTo def
+R18915:18915 Cpdt.GeneralRec <> v:61 var
+R18913:18913 Cpdt.GeneralRec <> n:62 var
+R18911:18911 Cpdt.GeneralRec <> m:60 var
+R18922:18932 Cpdt.GeneralRec computation <> sec
+R19225:19229 Cpdt.GeneralRec <> runTo def
+R19253:19255 Cpdt.GeneralRec <> run def
+R19258:19262 Cpdt.GeneralRec <> runTo def
+R19346:19348 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19332:19340 Coq.Init.Specif <> proj1_sig def
+R19346:19348 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19332:19340 Coq.Init.Specif <> proj1_sig def
+R19577:19581 Coq.Init.Specif <> exist constr
+R19577:19581 Coq.Init.Specif <> exist constr
+R19743:19747 Coq.Init.Specif <> exist constr
+R19743:19747 Coq.Init.Specif <> exist constr
+binder 19895:19895 <> n:63
+binder 19897:19897 <> v:64
+R19913:19916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19904:19906 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19903:19903 Cpdt.GeneralRec <> n:63 var
+R19907:19910 Coq.Init.Datatypes <> Some constr
+R19912:19912 Cpdt.GeneralRec <> v:64 var
+binder 19895:19895 <> n:65
+binder 19897:19897 <> v:66
+R19913:19916 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19904:19906 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19903:19903 Cpdt.GeneralRec <> n:65 var
+R19907:19910 Coq.Init.Datatypes <> Some constr
+R19912:19912 Cpdt.GeneralRec <> v:66 var
+R19965:19968 Coq.Init.Datatypes <> Some constr
+R19979:19982 Coq.Init.Datatypes <> None constr
+R19965:19968 Coq.Init.Datatypes <> Some constr
+R19979:19982 Coq.Init.Datatypes <> None constr
+binder 20135:20135 <> n:67
+binder 20137:20137 <> v:68
+R20153:20156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20144:20146 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20143:20143 Cpdt.GeneralRec <> n:67 var
+R20147:20150 Coq.Init.Datatypes <> Some constr
+R20152:20152 Cpdt.GeneralRec <> v:68 var
+binder 20135:20135 <> n:69
+binder 20137:20137 <> v:70
+R20153:20156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20144:20146 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20143:20143 Cpdt.GeneralRec <> n:69 var
+R20147:20150 Coq.Init.Datatypes <> Some constr
+R20152:20152 Cpdt.GeneralRec <> v:70 var
+R20169:20171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20172:20175 Coq.Init.Datatypes <> Some constr
+R20169:20171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20172:20175 Coq.Init.Datatypes <> Some constr
+R20070:20076 Coq.Init.Logic <> eq_refl constr
+binder 20339:20339 <> n:71
+binder 20341:20341 <> v:72
+R20357:20360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20348:20350 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20347:20347 Cpdt.GeneralRec <> n:71 var
+R20351:20354 Coq.Init.Datatypes <> Some constr
+R20356:20356 Cpdt.GeneralRec <> v:72 var
+binder 20339:20339 <> n:73
+binder 20341:20341 <> v:74
+R20357:20360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20348:20350 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20347:20347 Cpdt.GeneralRec <> n:73 var
+R20351:20354 Coq.Init.Datatypes <> Some constr
+R20356:20356 Cpdt.GeneralRec <> v:74 var
+R20423:20426 Coq.Init.Datatypes <> Some constr
+R20437:20440 Coq.Init.Datatypes <> None constr
+R20423:20426 Coq.Init.Datatypes <> Some constr
+R20437:20440 Coq.Init.Datatypes <> None constr
+R20539:20545 Coq.Init.Logic <> eq_refl constr
+prf 20622:20634 <> ex_irrelevant
+binder 20645:20645 <> P:75
+R20656:20659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20655:20655 Cpdt.GeneralRec <> P:75 var
+R20660:20666 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R20674:20675 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R20671:20673 Coq.Init.Datatypes <> nat ind
+binder 20667:20667 <> n:76
+R20676:20676 Cpdt.GeneralRec <> P:75 var
+R20747:20749 Coq.Arith.Max <> <> lib
+prf 20761:20771 <> max_spec_le
+binder 20782:20782 <> n:77
+binder 20784:20784 <> m:78
+R20808:20811 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R20793:20796 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20788:20791 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R20787:20787 Cpdt.GeneralRec <> n:77 var
+R20792:20792 Cpdt.GeneralRec <> m:78 var
+R20804:20806 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20797:20799 Coq.Arith.Max <> max abbrev
+R20801:20801 Cpdt.GeneralRec <> n:77 var
+R20803:20803 Cpdt.GeneralRec <> m:78 var
+R20807:20807 Cpdt.GeneralRec <> m:78 var
+R20818:20821 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R20813:20816 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R20812:20812 Cpdt.GeneralRec <> m:78 var
+R20817:20817 Cpdt.GeneralRec <> n:77 var
+R20829:20831 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R20822:20824 Coq.Arith.Max <> max abbrev
+R20826:20826 Cpdt.GeneralRec <> n:77 var
+R20828:20828 Cpdt.GeneralRec <> m:78 var
+R20832:20832 Cpdt.GeneralRec <> n:77 var
+R20957:20967 Cpdt.GeneralRec <> max_spec_le thm
+prf 20989:20993 <> max_1
+binder 21004:21004 <> n:79
+binder 21006:21006 <> m:80
+R21016:21019 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R21009:21011 Coq.Arith.Max <> max abbrev
+R21013:21013 Cpdt.GeneralRec <> n:79 var
+R21015:21015 Cpdt.GeneralRec <> m:80 var
+R21020:21020 Cpdt.GeneralRec <> n:79 var
+prf 21042:21046 <> max_2
+binder 21057:21057 <> n:81
+binder 21059:21059 <> m:82
+R21069:21072 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R21062:21064 Coq.Arith.Max <> max abbrev
+R21066:21066 Cpdt.GeneralRec <> n:81 var
+R21068:21068 Cpdt.GeneralRec <> m:82 var
+R21073:21073 Cpdt.GeneralRec <> m:82 var
+prf 21122:21128 <> ge_refl
+binder 21139:21139 <> n:83
+R21143:21146 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R21142:21142 Cpdt.GeneralRec <> n:83 var
+R21147:21147 Cpdt.GeneralRec <> n:83 var
+R21249:21251 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21252:21256 Coq.Init.Specif <> exist constr
+R21249:21251 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21252:21256 Coq.Init.Specif <> exist constr
+sec 22007:22012 <> Bottom
+var 22026:22026 Bottom A
+def 22050:22055 <> Bottom
+R22059:22069 Cpdt.GeneralRec <> computation def
+R22071:22071 Cpdt.GeneralRec <> Bottom.A var
+R22094:22096 Coq.Init.Datatypes <> nat ind
+R22102:22105 Coq.Init.Datatypes <> None constr
+R22107:22107 Cpdt.GeneralRec <> Bottom.A var
+R22094:22096 Coq.Init.Datatypes <> nat ind
+R22102:22105 Coq.Init.Datatypes <> None constr
+R22107:22107 Cpdt.GeneralRec <> Bottom.A var
+prf 22147:22156 <> run_Bottom
+binder 22167:22167 <> v:85
+R22170:22170 Coq.Init.Logic <> ::type_scope:'~'_x not
+R22171:22173 Cpdt.GeneralRec <> run def
+R22182:22182 Cpdt.GeneralRec <> v:85 var
+R22175:22180 Cpdt.GeneralRec <> Bottom def
+R22205:22210 Cpdt.GeneralRec Bottom <> sec
+sec 22349:22354 <> Return
+var 22368:22368 Return A
+var 22389:22389 Return v
+R22393:22393 Cpdt.GeneralRec <> Return.A var
+def 22410:22415 <> Return
+R22419:22429 Cpdt.GeneralRec <> computation def
+R22431:22431 Cpdt.GeneralRec <> Return.A var
+R22462:22464 Coq.Init.Datatypes <> nat ind
+R22469:22472 Coq.Init.Datatypes <> Some constr
+R22474:22474 Cpdt.GeneralRec <> Return.v var
+R22462:22464 Coq.Init.Datatypes <> nat ind
+R22469:22472 Coq.Init.Datatypes <> Some constr
+R22474:22474 Cpdt.GeneralRec <> Return.v var
+prf 22514:22523 <> run_Return
+R22527:22529 Cpdt.GeneralRec <> run def
+R22538:22538 Cpdt.GeneralRec <> Return.v var
+R22531:22536 Cpdt.GeneralRec <> Return def
+R22561:22566 Cpdt.GeneralRec Return <> sec
+sec 23097:23100 <> Bind
+var 23115:23115 Bind A
+var 23117:23117 Bind B
+var 23138:23139 Bind m1
+R23143:23153 Cpdt.GeneralRec <> computation def
+R23155:23155 Cpdt.GeneralRec <> Bind.A var
+var 23169:23170 Bind m2
+R23175:23178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23174:23174 Cpdt.GeneralRec <> Bind.A var
+R23179:23189 Cpdt.GeneralRec <> computation def
+R23191:23191 Cpdt.GeneralRec <> Bind.B var
+def 23208:23211 <> Bind
+R23215:23225 Cpdt.GeneralRec <> computation def
+R23227:23227 Cpdt.GeneralRec <> Bind.B var
+binder 23246:23246 <> n:92
+R23272:23273 Cpdt.GeneralRec <> Bind.m1 var
+binder 23262:23263 <> f1:93
+R23290:23291 Cpdt.GeneralRec <> f1:93 var
+R23293:23293 Cpdt.GeneralRec <> n:92 var
+R23303:23306 Coq.Init.Datatypes <> None constr
+R23311:23314 Coq.Init.Datatypes <> None constr
+R23319:23322 Coq.Init.Datatypes <> Some constr
+R23347:23348 Cpdt.GeneralRec <> Bind.m2 var
+binder 23337:23338 <> f2:94
+R23360:23361 Cpdt.GeneralRec <> f2:94 var
+R23363:23363 Cpdt.GeneralRec <> n:92 var
+binder 23246:23246 <> n:95
+R23272:23273 Cpdt.GeneralRec <> Bind.m1 var
+binder 23262:23263 <> f1:96
+R23290:23291 Cpdt.GeneralRec <> f1:96 var
+R23293:23293 Cpdt.GeneralRec <> n:95 var
+R23303:23306 Coq.Init.Datatypes <> None constr
+R23311:23314 Coq.Init.Datatypes <> None constr
+R23319:23322 Coq.Init.Datatypes <> Some constr
+R23347:23348 Cpdt.GeneralRec <> Bind.m2 var
+binder 23337:23338 <> f2:97
+R23360:23361 Cpdt.GeneralRec <> f2:97 var
+R23363:23363 Cpdt.GeneralRec <> n:95 var
+prf 23413:23420 <> run_Bind
+R23437:23437 Cpdt.GeneralRec <> Bind.A var
+binder 23432:23433 <> v1:98
+R23446:23446 Cpdt.GeneralRec <> Bind.B var
+binder 23441:23442 <> v2:99
+R23463:23470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23454:23456 Cpdt.GeneralRec <> run def
+R23461:23462 Cpdt.GeneralRec <> v1:98 var
+R23458:23459 Cpdt.GeneralRec <> Bind.m1 var
+R23485:23492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23471:23473 Cpdt.GeneralRec <> run def
+R23483:23484 Cpdt.GeneralRec <> v2:99 var
+R23476:23477 Cpdt.GeneralRec <> Bind.m2 var
+R23479:23480 Cpdt.GeneralRec <> v1:98 var
+R23493:23495 Cpdt.GeneralRec <> run def
+R23502:23503 Cpdt.GeneralRec <> v2:99 var
+R23497:23500 Cpdt.GeneralRec <> Bind def
+R23550:23552 Coq.Init.Datatypes <> nat ind
+R23550:23552 Coq.Init.Datatypes <> nat ind
+R23559:23561 Coq.Init.Datatypes <> nat ind
+R23559:23561 Coq.Init.Datatypes <> nat ind
+R23581:23583 Coq.Arith.Max <> max abbrev
+R23581:23583 Coq.Arith.Max <> max abbrev
+R23620:23623 Cpdt.GeneralRec Bind <> sec
+R23742:23745 Cpdt.GeneralRec <> Bind def
+binder 23755:23755 <> x:100
+not 23721:23721 <> :::x_'<-'_x_';'_x
+def 24046:24048 <> meq
+binder 24050:24050 <> A:101
+R24061:24071 Cpdt.GeneralRec <> computation def
+R24073:24073 Cpdt.GeneralRec <> A:101 var
+binder 24053:24054 <> m1:102
+binder 24056:24057 <> m2:103
+binder 24086:24086 <> n:104
+R24103:24105 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24089:24097 Coq.Init.Specif <> proj1_sig def
+R24102:24102 Cpdt.GeneralRec <> n:104 var
+R24099:24100 Cpdt.GeneralRec <> m1:102 var
+R24106:24114 Coq.Init.Specif <> proj1_sig def
+R24119:24119 Cpdt.GeneralRec <> n:104 var
+R24116:24117 Cpdt.GeneralRec <> m2:103 var
+prf 24131:24143 <> left_identity
+binder 24154:24154 <> A:105
+binder 24156:24156 <> B:106
+R24163:24163 Cpdt.GeneralRec <> A:105 var
+binder 24159:24159 <> a:107
+R24172:24175 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24171:24171 Cpdt.GeneralRec <> A:105 var
+R24176:24186 Cpdt.GeneralRec <> computation def
+R24188:24188 Cpdt.GeneralRec <> B:106 var
+binder 24167:24167 <> f:108
+R24194:24196 Cpdt.GeneralRec <> meq def
+R24219:24219 Cpdt.GeneralRec <> f:108 var
+R24221:24221 Cpdt.GeneralRec <> a:107 var
+R24199:24202 Cpdt.GeneralRec <> Bind def
+R24215:24215 Cpdt.GeneralRec <> f:108 var
+R24205:24210 Cpdt.GeneralRec <> Return def
+R24212:24212 Cpdt.GeneralRec <> a:107 var
+prf 24246:24259 <> right_identity
+binder 24270:24270 <> A:109
+R24277:24287 Cpdt.GeneralRec <> computation def
+R24289:24289 Cpdt.GeneralRec <> A:109 var
+binder 24273:24273 <> m:110
+R24295:24297 Cpdt.GeneralRec <> meq def
+R24320:24320 Cpdt.GeneralRec <> m:110 var
+R24300:24303 Cpdt.GeneralRec <> Bind def
+R24309:24314 Cpdt.GeneralRec <> Return def
+R24305:24305 Cpdt.GeneralRec <> m:110 var
+prf 24344:24356 <> associativity
+binder 24367:24367 <> A:111
+binder 24369:24369 <> B:112
+binder 24371:24371 <> C:113
+R24378:24388 Cpdt.GeneralRec <> computation def
+R24390:24390 Cpdt.GeneralRec <> A:111 var
+binder 24374:24374 <> m:114
+R24401:24404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24400:24400 Cpdt.GeneralRec <> A:111 var
+R24405:24415 Cpdt.GeneralRec <> computation def
+R24417:24417 Cpdt.GeneralRec <> B:112 var
+binder 24396:24396 <> f:115
+R24426:24429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24425:24425 Cpdt.GeneralRec <> B:112 var
+R24430:24440 Cpdt.GeneralRec <> computation def
+R24442:24442 Cpdt.GeneralRec <> C:113 var
+binder 24421:24421 <> g:116
+R24448:24450 Cpdt.GeneralRec <> meq def
+R24473:24476 Cpdt.GeneralRec <> Bind def
+binder 24485:24485 <> x:117
+R24490:24493 Cpdt.GeneralRec <> Bind def
+R24501:24501 Cpdt.GeneralRec <> g:116 var
+R24496:24496 Cpdt.GeneralRec <> f:115 var
+R24498:24498 Cpdt.GeneralRec <> x:117 var
+R24478:24478 Cpdt.GeneralRec <> m:114 var
+R24453:24456 Cpdt.GeneralRec <> Bind def
+R24469:24469 Cpdt.GeneralRec <> g:116 var
+R24459:24462 Cpdt.GeneralRec <> Bind def
+R24466:24466 Cpdt.GeneralRec <> f:115 var
+R24464:24464 Cpdt.GeneralRec <> m:114 var
+sec 24983:24989 <> lattice
+var 25003:25003 lattice A
+def 25027:25029 <> leq
+R25038:25043 Coq.Init.Datatypes <> option ind
+R25045:25045 Cpdt.GeneralRec <> lattice.A var
+binder 25032:25032 <> x:119
+binder 25034:25034 <> y:120
+binder 25062:25062 <> v:121
+R25075:25078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25066:25068 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25065:25065 Cpdt.GeneralRec <> x:119 var
+R25069:25072 Coq.Init.Datatypes <> Some constr
+R25074:25074 Cpdt.GeneralRec <> v:121 var
+R25080:25082 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25079:25079 Cpdt.GeneralRec <> y:120 var
+R25083:25086 Coq.Init.Datatypes <> Some constr
+R25088:25088 Cpdt.GeneralRec <> v:121 var
+R25095:25101 Cpdt.GeneralRec lattice <> sec
+sec 25371:25373 <> Fix
+var 25451:25451 Fix A
+var 25453:25453 Fix B
+var 25600:25600 Fix f
+R25604:25604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25623:25628 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25647:25647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25606:25609 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25605:25605 Cpdt.GeneralRec <> Fix.A var
+R25610:25620 Cpdt.GeneralRec <> computation def
+R25622:25622 Cpdt.GeneralRec <> Fix.B var
+R25630:25633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25629:25629 Cpdt.GeneralRec <> Fix.A var
+R25634:25644 Cpdt.GeneralRec <> computation def
+R25646:25646 Cpdt.GeneralRec <> Fix.B var
+var 25976:25987 Fix f_continuous
+binder 25998:25998 <> n:125
+binder 26000:26000 <> v:126
+binder 26002:26003 <> v1:127
+binder 26005:26005 <> x:128
+R26030:26037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26012:26016 Cpdt.GeneralRec <> runTo def
+R26029:26029 Cpdt.GeneralRec <> v:126 var
+R26027:26027 Cpdt.GeneralRec <> n:125 var
+R26019:26019 Cpdt.GeneralRec <> Fix.f var
+R26024:26024 Cpdt.GeneralRec <> x:128 var
+R26021:26022 Cpdt.GeneralRec <> v1:127 var
+R26052:26055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26051:26051 Cpdt.GeneralRec <> Fix.A var
+R26056:26066 Cpdt.GeneralRec <> computation def
+R26068:26068 Cpdt.GeneralRec <> Fix.B var
+binder 26046:26047 <> v2:129
+R26078:26078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26134:26144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 26086:26086 <> x:130
+R26089:26091 Cpdt.GeneralRec <> leq def
+R26115:26123 Coq.Init.Specif <> proj1_sig def
+R26132:26132 Cpdt.GeneralRec <> n:125 var
+R26126:26127 Cpdt.GeneralRec <> v2:129 var
+R26129:26129 Cpdt.GeneralRec <> x:130 var
+R26094:26102 Coq.Init.Specif <> proj1_sig def
+R26111:26111 Cpdt.GeneralRec <> n:125 var
+R26105:26106 Cpdt.GeneralRec <> v1:127 var
+R26108:26108 Cpdt.GeneralRec <> x:130 var
+R26145:26149 Cpdt.GeneralRec <> runTo def
+R26162:26162 Cpdt.GeneralRec <> v:126 var
+R26160:26160 Cpdt.GeneralRec <> n:125 var
+R26152:26152 Cpdt.GeneralRec <> Fix.f var
+R26157:26157 Cpdt.GeneralRec <> x:128 var
+R26154:26155 Cpdt.GeneralRec <> v2:129 var
+def 26386:26389 <> Fix'
+R26396:26398 Coq.Init.Datatypes <> nat ind
+binder 26392:26392 <> n:132
+R26406:26406 Cpdt.GeneralRec <> Fix.A var
+binder 26402:26402 <> x:133
+R26411:26421 Cpdt.GeneralRec <> computation def
+R26423:26423 Cpdt.GeneralRec <> Fix.B var
+R26438:26438 Cpdt.GeneralRec <> n:132 var
+R26453:26453 Coq.Init.Datatypes <> O constr
+R26458:26463 Cpdt.GeneralRec <> Bottom def
+R26475:26475 Coq.Init.Datatypes <> S constr
+R26483:26483 Cpdt.GeneralRec <> Fix.f var
+R26495:26495 Cpdt.GeneralRec <> x:133 var
+R26486:26489 Cpdt.GeneralRec <> Fix':134 def
+R26614:26617 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R26643:26645 Cpdt.GeneralRec <> leq def
+prf 26657:26663 <> Fix'_ok
+binder 26674:26678 <> steps:136
+binder 26680:26680 <> n:137
+binder 26682:26682 <> x:138
+binder 26684:26684 <> v:139
+R26722:26729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26713:26715 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26687:26695 Coq.Init.Specif <> proj1_sig def
+R26708:26712 Cpdt.GeneralRec <> steps:136 var
+R26698:26701 Cpdt.GeneralRec <> Fix' def
+R26705:26705 Cpdt.GeneralRec <> x:138 var
+R26703:26703 Cpdt.GeneralRec <> n:137 var
+R26716:26719 Coq.Init.Datatypes <> Some constr
+R26721:26721 Cpdt.GeneralRec <> v:139 var
+binder 26737:26738 <> n':140
+R26748:26757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26743:26746 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R26741:26742 Cpdt.GeneralRec <> n':140 var
+R26747:26747 Cpdt.GeneralRec <> n:137 var
+R26785:26787 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26758:26766 Coq.Init.Specif <> proj1_sig def
+R26780:26784 Cpdt.GeneralRec <> steps:136 var
+R26769:26772 Cpdt.GeneralRec <> Fix' def
+R26777:26777 Cpdt.GeneralRec <> x:138 var
+R26774:26775 Cpdt.GeneralRec <> n':140 var
+R26788:26791 Coq.Init.Datatypes <> Some constr
+R26793:26793 Cpdt.GeneralRec <> v:139 var
+R26807:26811 Cpdt.GeneralRec <> runTo def
+R26878:26881 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R26878:26881 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R26994:26996 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26981:26989 Coq.Init.Specif <> proj1_sig def
+R27057:27059 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27043:27051 Coq.Init.Specif <> proj1_sig def
+R27057:27059 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27043:27051 Coq.Init.Specif <> proj1_sig def
+R27075:27083 Coq.Init.Specif <> proj2_sig def
+def 27111:27113 <> Fix
+R27118:27121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27117:27117 Cpdt.GeneralRec <> Fix.A var
+R27122:27132 Cpdt.GeneralRec <> computation def
+R27134:27134 Cpdt.GeneralRec <> Fix.B var
+binder 27162:27162 <> n:141
+R27167:27175 Coq.Init.Specif <> proj1_sig def
+R27188:27188 Cpdt.GeneralRec <> n:141 var
+R27178:27181 Cpdt.GeneralRec <> Fix' def
+R27183:27183 Cpdt.GeneralRec <> n:141 var
+binder 27162:27162 <> n:142
+R27167:27175 Coq.Init.Specif <> proj1_sig def
+R27188:27188 Cpdt.GeneralRec <> n:142 var
+R27178:27181 Cpdt.GeneralRec <> Fix' def
+R27183:27183 Cpdt.GeneralRec <> n:142 var
+prf 27308:27314 <> run_Fix
+binder 27325:27325 <> x:143
+binder 27327:27327 <> v:144
+R27349:27356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27334:27336 Cpdt.GeneralRec <> run def
+R27348:27348 Cpdt.GeneralRec <> v:144 var
+R27339:27339 Cpdt.GeneralRec <> Fix.f var
+R27345:27345 Cpdt.GeneralRec <> x:143 var
+R27341:27343 Cpdt.GeneralRec <> Fix def
+R27357:27359 Cpdt.GeneralRec <> run def
+R27369:27369 Cpdt.GeneralRec <> v:144 var
+R27362:27364 Cpdt.GeneralRec <> Fix def
+R27366:27366 Cpdt.GeneralRec <> x:143 var
+R27416:27418 Coq.Init.Datatypes <> nat ind
+R27416:27418 Coq.Init.Datatypes <> nat ind
+R27438:27438 Coq.Init.Datatypes <> S constr
+R27438:27438 Coq.Init.Datatypes <> S constr
+R27475:27477 Cpdt.GeneralRec Fix <> sec
+prf 27504:27511 <> leq_Some
+binder 27522:27522 <> A:145
+R27531:27531 Cpdt.GeneralRec <> A:145 var
+binder 27525:27525 <> x:146
+binder 27527:27527 <> y:147
+R27556:27561 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27535:27537 Cpdt.GeneralRec <> leq def
+R27549:27552 Coq.Init.Datatypes <> Some constr
+R27554:27554 Cpdt.GeneralRec <> y:147 var
+R27540:27543 Coq.Init.Datatypes <> Some constr
+R27545:27545 Cpdt.GeneralRec <> x:146 var
+R27563:27565 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27562:27562 Cpdt.GeneralRec <> x:146 var
+R27566:27566 Cpdt.GeneralRec <> y:147 var
+R27604:27610 Coq.Init.Logic <> eq_refl constr
+R27604:27610 Coq.Init.Logic <> eq_refl constr
+prf 27636:27643 <> leq_None
+binder 27654:27654 <> A:148
+R27663:27663 Cpdt.GeneralRec <> A:148 var
+binder 27657:27657 <> x:149
+binder 27659:27659 <> y:150
+R27684:27689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27667:27669 Cpdt.GeneralRec <> leq def
+R27680:27683 Coq.Init.Datatypes <> None constr
+R27672:27675 Coq.Init.Datatypes <> Some constr
+R27677:27677 Cpdt.GeneralRec <> x:149 var
+R27690:27694 Coq.Init.Logic <> False ind
+R27732:27738 Coq.Init.Logic <> eq_refl constr
+R27732:27738 Coq.Init.Logic <> eq_refl constr
+R27849:27849 Coq.Init.Datatypes <> O constr
+R27858:27858 Coq.Init.Datatypes <> S constr
+R27849:27849 Coq.Init.Datatypes <> O constr
+R27858:27858 Coq.Init.Datatypes <> S constr
+binder 27960:27960 <> x:151
+R27963:27965 Cpdt.GeneralRec <> leq def
+R27989:27997 Coq.Init.Specif <> proj1_sig def
+R28003:28003 Cpdt.GeneralRec <> x:151 var
+R27968:27976 Coq.Init.Specif <> proj1_sig def
+R27982:27982 Cpdt.GeneralRec <> x:151 var
+binder 27960:27960 <> x:152
+R27963:27965 Cpdt.GeneralRec <> leq def
+R27989:27997 Coq.Init.Specif <> proj1_sig def
+R28003:28003 Cpdt.GeneralRec <> x:152 var
+R27968:27976 Coq.Init.Specif <> proj1_sig def
+R27982:27982 Cpdt.GeneralRec <> x:152 var
+R28078:28080 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28078:28080 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28095:28097 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28095:28097 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28343:28350 Cpdt.GeneralRec <> leq_Some thm
+R28311:28318 Cpdt.GeneralRec <> leq_None thm
+def 28662:28671 <> mergeSort'
+binder 28682:28682 <> A:153
+R28685:28685 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28700:28704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28687:28690 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28686:28686 Cpdt.GeneralRec <> A:153 var
+R28692:28695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28691:28691 Cpdt.GeneralRec <> A:153 var
+R28696:28699 Coq.Init.Datatypes <> bool ind
+R28711:28714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28705:28708 Coq.Init.Datatypes <> list ind
+R28710:28710 Cpdt.GeneralRec <> A:153 var
+R28715:28725 Cpdt.GeneralRec <> computation def
+R28728:28731 Coq.Init.Datatypes <> list ind
+R28733:28733 Cpdt.GeneralRec <> A:153 var
+binder 28751:28751 <> A:154
+binder 28753:28754 <> le:155
+R28759:28761 Cpdt.GeneralRec <> Fix def
+R28791:28794 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28785:28788 Coq.Init.Datatypes <> list ind
+R28790:28790 Cpdt.GeneralRec <> A:154 var
+R28795:28805 Cpdt.GeneralRec <> computation def
+R28808:28811 Coq.Init.Datatypes <> list ind
+R28813:28813 Cpdt.GeneralRec <> A:154 var
+binder 28773:28781 <> mergeSort:156
+R28829:28832 Coq.Init.Datatypes <> list ind
+R28834:28834 Cpdt.GeneralRec <> A:154 var
+binder 28824:28825 <> ls:157
+R28849:28857 Coq.Arith.Compare_dec <> le_lt_dec def
+R28862:28867 Coq.Init.Datatypes <> length def
+R28869:28870 Cpdt.GeneralRec <> ls:157 var
+R29020:29025 Cpdt.GeneralRec <> Return def
+R29027:29028 Cpdt.GeneralRec <> ls:157 var
+R28890:28894 Cpdt.GeneralRec <> split def
+R28896:28897 Cpdt.GeneralRec <> ls:157 var
+binder 28883:28885 <> lss:158
+R28915:28918 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R28938:28949 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R28919:28927 Cpdt.GeneralRec <> mergeSort:156 var
+R28930:28932 Coq.Init.Datatypes <> fst def
+R28934:28936 Cpdt.GeneralRec <> lss:158 var
+binder 28912:28914 <> ls1:159
+R28953:28956 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R28976:28987 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R28957:28965 Cpdt.GeneralRec <> mergeSort:156 var
+R28968:28970 Coq.Init.Datatypes <> snd def
+R28972:28974 Cpdt.GeneralRec <> lss:158 var
+binder 28950:28952 <> ls2:160
+R28988:28993 Cpdt.GeneralRec <> Return def
+R28996:29000 Cpdt.GeneralRec <> merge def
+R29009:29011 Cpdt.GeneralRec <> ls2:160 var
+R29005:29007 Cpdt.GeneralRec <> ls1:159 var
+R29002:29003 Cpdt.GeneralRec <> le:155 var
+binder 28751:28751 <> A:161
+binder 28753:28754 <> le:162
+R28759:28761 Cpdt.GeneralRec <> Fix def
+R28791:28794 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28785:28788 Coq.Init.Datatypes <> list ind
+R28790:28790 Cpdt.GeneralRec <> A:161 var
+R28795:28805 Cpdt.GeneralRec <> computation def
+R28808:28811 Coq.Init.Datatypes <> list ind
+R28813:28813 Cpdt.GeneralRec <> A:161 var
+binder 28773:28781 <> mergeSort:163
+R28829:28832 Coq.Init.Datatypes <> list ind
+R28834:28834 Cpdt.GeneralRec <> A:161 var
+binder 28824:28825 <> ls:164
+R28849:28857 Coq.Arith.Compare_dec <> le_lt_dec def
+R28862:28867 Coq.Init.Datatypes <> length def
+R28869:28870 Cpdt.GeneralRec <> ls:164 var
+R29020:29025 Cpdt.GeneralRec <> Return def
+R29027:29028 Cpdt.GeneralRec <> ls:164 var
+R28890:28894 Cpdt.GeneralRec <> split def
+R28896:28897 Cpdt.GeneralRec <> ls:164 var
+binder 28883:28885 <> lss:165
+R28915:28918 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R28938:28949 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R28919:28927 Cpdt.GeneralRec <> mergeSort:163 var
+R28930:28932 Coq.Init.Datatypes <> fst def
+R28934:28936 Cpdt.GeneralRec <> lss:165 var
+binder 28912:28914 <> ls1:166
+R28953:28956 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R28976:28987 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R28957:28965 Cpdt.GeneralRec <> mergeSort:163 var
+R28968:28970 Coq.Init.Datatypes <> snd def
+R28972:28974 Cpdt.GeneralRec <> lss:165 var
+binder 28950:28952 <> ls2:167
+R28988:28993 Cpdt.GeneralRec <> Return def
+R28996:29000 Cpdt.GeneralRec <> merge def
+R29009:29011 Cpdt.GeneralRec <> ls2:167 var
+R29005:29007 Cpdt.GeneralRec <> ls1:166 var
+R29002:29003 Cpdt.GeneralRec <> le:162 var
+prf 29418:29432 <> test_mergeSort'
+R29436:29438 Cpdt.GeneralRec <> run def
+R29494:29497 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29499:29502 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29504:29507 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29510:29513 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29516:29519 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29520:29522 Coq.Init.Datatypes <> nil constr
+R29441:29450 Cpdt.GeneralRec <> mergeSort' def
+R29458:29461 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29463:29466 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29469:29472 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29474:29477 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29480:29483 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R29484:29486 Coq.Init.Datatypes <> nil constr
+R29452:29454 Coq.Arith.Compare_dec <> leb abbrev
+R29935:29937 Cpdt.GeneralRec <> leq def
+R29994:29997 Coq.Init.Datatypes <> unit ind
+R29994:29997 Coq.Init.Datatypes <> unit ind
+R30039:30042 Coq.Init.Datatypes <> bool ind
+R30039:30042 Coq.Init.Datatypes <> bool ind
+def 30112:30117 <> looper
+R30125:30128 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30121:30124 Coq.Init.Datatypes <> bool ind
+R30129:30139 Cpdt.GeneralRec <> computation def
+R30141:30144 Coq.Init.Datatypes <> unit ind
+R30157:30159 Cpdt.GeneralRec <> Fix def
+binder 30166:30171 <> looper:168
+R30178:30181 Coq.Init.Datatypes <> bool ind
+binder 30174:30174 <> b:169
+R30194:30194 Cpdt.GeneralRec <> b:169 var
+R30216:30221 Cpdt.GeneralRec <> looper:168 var
+R30223:30223 Cpdt.GeneralRec <> b:169 var
+R30201:30206 Cpdt.GeneralRec <> Return def
+R30208:30209 Coq.Init.Datatypes <> tt constr
+R30157:30159 Cpdt.GeneralRec <> Fix def
+binder 30166:30171 <> looper:170
+R30178:30181 Coq.Init.Datatypes <> bool ind
+binder 30174:30174 <> b:171
+R30194:30194 Cpdt.GeneralRec <> b:171 var
+R30216:30221 Cpdt.GeneralRec <> looper:170 var
+R30223:30223 Cpdt.GeneralRec <> b:171 var
+R30201:30206 Cpdt.GeneralRec <> Return def
+R30208:30209 Coq.Init.Datatypes <> tt constr
+prf 30263:30273 <> test_looper
+R30277:30279 Cpdt.GeneralRec <> run def
+R30295:30296 Coq.Init.Datatypes <> tt constr
+R30282:30287 Cpdt.GeneralRec <> looper def
+R30289:30292 Coq.Init.Datatypes <> true constr
+ind 32220:32224 <> thunk
+constr 32249:32254 <> Answer
+constr 32273:32277 <> Think
+binder 32227:32227 <> A:172
+R32259:32262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32258:32258 Cpdt.GeneralRec <> A:172 var
+R32263:32267 Cpdt.GeneralRec <> thunk:173 ind
+R32269:32269 Cpdt.GeneralRec <> A:172 var
+R32288:32291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32281:32285 Cpdt.GeneralRec <> thunk:173 ind
+R32287:32287 Cpdt.GeneralRec <> A:172 var
+R32292:32296 Cpdt.GeneralRec <> thunk:173 ind
+R32298:32298 Cpdt.GeneralRec <> A:172 var
+def 32828:32832 <> TBind
+binder 32834:32834 <> A:175
+binder 32836:32836 <> B:176
+R32844:32848 Cpdt.GeneralRec <> thunk coind
+R32850:32850 Cpdt.GeneralRec <> A:175 var
+binder 32839:32840 <> m1:177
+R32860:32863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32859:32859 Cpdt.GeneralRec <> A:175 var
+R32864:32868 Cpdt.GeneralRec <> thunk coind
+R32870:32870 Cpdt.GeneralRec <> B:176 var
+binder 32854:32855 <> m2:178
+R32875:32879 Cpdt.GeneralRec <> thunk coind
+R32881:32881 Cpdt.GeneralRec <> B:176 var
+R32894:32895 Cpdt.GeneralRec <> m1:177 var
+R32908:32913 Cpdt.GeneralRec <> Answer constr
+R32920:32921 Cpdt.GeneralRec <> m2:178 var
+R32931:32935 Cpdt.GeneralRec <> Think constr
+R32944:32948 Cpdt.GeneralRec <> Think constr
+R32951:32955 Cpdt.GeneralRec <> TBind:179 def
+R32961:32962 Cpdt.GeneralRec <> m2:178 var
+ind 33427:33434 <> thunk_eq
+constr 33472:33479 <> EqAnswer
+constr 33526:33533 <> EqThinkL
+constr 33594:33601 <> EqThinkR
+binder 33436:33436 <> A:181
+R33447:33450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33440:33444 Cpdt.GeneralRec <> thunk coind
+R33458:33461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33451:33455 Cpdt.GeneralRec <> thunk coind
+binder 33490:33490 <> x:184
+R33493:33500 Cpdt.GeneralRec <> thunk_eq:182 ind
+R33514:33519 Cpdt.GeneralRec <> Answer constr
+R33521:33521 Cpdt.GeneralRec <> x:184 var
+R33503:33508 Cpdt.GeneralRec <> Answer constr
+R33510:33510 Cpdt.GeneralRec <> x:184 var
+binder 33544:33545 <> m1:185
+binder 33547:33548 <> m2:186
+R33565:33568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33551:33558 Cpdt.GeneralRec <> thunk_eq:182 ind
+R33563:33564 Cpdt.GeneralRec <> m2:186 var
+R33560:33561 Cpdt.GeneralRec <> m1:185 var
+R33569:33576 Cpdt.GeneralRec <> thunk_eq:182 ind
+R33589:33590 Cpdt.GeneralRec <> m2:186 var
+R33579:33583 Cpdt.GeneralRec <> Think constr
+R33585:33586 Cpdt.GeneralRec <> m1:185 var
+binder 33612:33613 <> m1:187
+binder 33615:33616 <> m2:188
+R33633:33636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33619:33626 Cpdt.GeneralRec <> thunk_eq:182 ind
+R33631:33632 Cpdt.GeneralRec <> m2:188 var
+R33628:33629 Cpdt.GeneralRec <> m1:187 var
+R33637:33644 Cpdt.GeneralRec <> thunk_eq:182 ind
+R33650:33654 Cpdt.GeneralRec <> Think constr
+R33656:33657 Cpdt.GeneralRec <> m2:188 var
+R33646:33647 Cpdt.GeneralRec <> m1:187 var
+sec 33670:33683 <> thunk_eq_coind
+var 33697:33697 thunk_eq_coind A
+var 33718:33718 thunk_eq_coind P
+R33729:33732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33722:33726 Cpdt.GeneralRec <> thunk coind
+R33728:33728 Cpdt.GeneralRec <> thunk_eq_coind.A var
+R33740:33743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33733:33737 Cpdt.GeneralRec <> thunk coind
+R33739:33739 Cpdt.GeneralRec <> thunk_eq_coind.A var
+var 33764:33764 thunk_eq_coind H
+binder 33775:33776 <> m1:191
+binder 33778:33779 <> m2:192
+R33789:33796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33782:33782 Cpdt.GeneralRec <> thunk_eq_coind.P var
+R33787:33788 Cpdt.GeneralRec <> m2:192 var
+R33784:33785 Cpdt.GeneralRec <> m1:191 var
+R33807:33808 Cpdt.GeneralRec <> m2:192 var
+R33803:33804 Cpdt.GeneralRec <> m1:191 var
+R33826:33831 Cpdt.GeneralRec <> Answer constr
+R33837:33842 Cpdt.GeneralRec <> Answer constr
+R33852:33854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R33869:33873 Cpdt.GeneralRec <> Think constr
+R33880:33884 Cpdt.GeneralRec <> Think constr
+R33893:33893 Cpdt.GeneralRec <> thunk_eq_coind.P var
+R33914:33918 Cpdt.GeneralRec <> Think constr
+R33930:33930 Cpdt.GeneralRec <> thunk_eq_coind.P var
+R33936:33937 Cpdt.GeneralRec <> m2:192 var
+R33953:33957 Cpdt.GeneralRec <> Think constr
+R33966:33966 Cpdt.GeneralRec <> thunk_eq_coind.P var
+R33968:33969 Cpdt.GeneralRec <> m1:191 var
+prf 33998:34011 <> thunk_eq_coind
+binder 34022:34023 <> m1:196
+binder 34025:34026 <> m2:197
+R34036:34039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34029:34029 Cpdt.GeneralRec <> thunk_eq_coind.P var
+R34034:34035 Cpdt.GeneralRec <> m2:197 var
+R34031:34032 Cpdt.GeneralRec <> m1:196 var
+R34040:34047 Cpdt.GeneralRec <> thunk_eq coind
+R34052:34053 Cpdt.GeneralRec <> m2:197 var
+R34049:34050 Cpdt.GeneralRec <> m1:196 var
+R34129:34129 Cpdt.GeneralRec <> thunk_eq_coind.P var
+R34129:34129 Cpdt.GeneralRec <> thunk_eq_coind.P var
+R34157:34157 Cpdt.GeneralRec <> thunk_eq_coind.H var
+R34157:34157 Cpdt.GeneralRec <> thunk_eq_coind.H var
+R34254:34267 Cpdt.GeneralRec thunk_eq_coind <> sec
+def 34485:34488 <> frob
+binder 34490:34490 <> A:198
+R34497:34501 Cpdt.GeneralRec <> thunk coind
+R34503:34503 Cpdt.GeneralRec <> A:198 var
+binder 34493:34493 <> m:199
+R34508:34512 Cpdt.GeneralRec <> thunk coind
+R34514:34514 Cpdt.GeneralRec <> A:198 var
+R34527:34527 Cpdt.GeneralRec <> m:199 var
+R34540:34545 Cpdt.GeneralRec <> Answer constr
+R34552:34557 Cpdt.GeneralRec <> Answer constr
+R34567:34571 Cpdt.GeneralRec <> Think constr
+R34579:34583 Cpdt.GeneralRec <> Think constr
+prf 34604:34610 <> frob_eq
+binder 34621:34621 <> A:201
+R34628:34632 Cpdt.GeneralRec <> thunk coind
+R34634:34634 Cpdt.GeneralRec <> A:201 var
+binder 34624:34624 <> m:202
+R34644:34646 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R34638:34641 Cpdt.GeneralRec <> frob def
+R34643:34643 Cpdt.GeneralRec <> m:202 var
+R34647:34647 Cpdt.GeneralRec <> m:202 var
+prf 34708:34720 <> thunk_eq_frob
+binder 34731:34731 <> A:203
+R34742:34746 Cpdt.GeneralRec <> thunk coind
+R34748:34748 Cpdt.GeneralRec <> A:203 var
+binder 34734:34735 <> m1:204
+binder 34737:34738 <> m2:205
+R34782:34787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34754:34761 Cpdt.GeneralRec <> thunk_eq coind
+R34774:34777 Cpdt.GeneralRec <> frob def
+R34779:34780 Cpdt.GeneralRec <> m2:205 var
+R34764:34767 Cpdt.GeneralRec <> frob def
+R34769:34770 Cpdt.GeneralRec <> m1:204 var
+R34788:34795 Cpdt.GeneralRec <> thunk_eq coind
+R34800:34801 Cpdt.GeneralRec <> m2:205 var
+R34797:34798 Cpdt.GeneralRec <> m1:204 var
+R34829:34835 Cpdt.GeneralRec <> frob_eq thm
+R34829:34835 Cpdt.GeneralRec <> frob_eq thm
+R34829:34835 Cpdt.GeneralRec <> frob_eq thm
+R34829:34835 Cpdt.GeneralRec <> frob_eq thm
+R34829:34835 Cpdt.GeneralRec <> frob_eq thm
+R34829:34835 Cpdt.GeneralRec <> frob_eq thm
+R34938:34943 Cpdt.GeneralRec <> Answer constr
+R34954:34958 Cpdt.GeneralRec <> Think constr
+R34938:34943 Cpdt.GeneralRec <> Answer constr
+R34954:34958 Cpdt.GeneralRec <> Think constr
+R35059:35064 Cpdt.GeneralRec <> Answer constr
+R35075:35079 Cpdt.GeneralRec <> Think constr
+R35059:35064 Cpdt.GeneralRec <> Answer constr
+R35075:35079 Cpdt.GeneralRec <> Think constr
+prf 35203:35215 <> thunk_eq_refl
+binder 35226:35226 <> A:206
+R35233:35237 Cpdt.GeneralRec <> thunk coind
+R35239:35239 Cpdt.GeneralRec <> A:206 var
+binder 35229:35229 <> m:207
+R35243:35250 Cpdt.GeneralRec <> thunk_eq coind
+R35254:35254 Cpdt.GeneralRec <> m:207 var
+R35252:35252 Cpdt.GeneralRec <> m:207 var
+R35274:35287 Cpdt.GeneralRec <> thunk_eq_coind thm
+binder 35294:35295 <> m1:208
+binder 35297:35298 <> m2:209
+R35305:35307 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35303:35304 Cpdt.GeneralRec <> m1:208 var
+R35308:35309 Cpdt.GeneralRec <> m2:209 var
+R35274:35287 Cpdt.GeneralRec <> thunk_eq_coind thm
+binder 35294:35295 <> m1:210
+binder 35297:35298 <> m2:211
+R35305:35307 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35303:35304 Cpdt.GeneralRec <> m1:210 var
+R35308:35309 Cpdt.GeneralRec <> m2:211 var
+prf 35388:35401 <> tleft_identity
+binder 35412:35412 <> A:212
+binder 35414:35414 <> B:213
+R35421:35421 Cpdt.GeneralRec <> A:212 var
+binder 35417:35417 <> a:214
+R35430:35433 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35429:35429 Cpdt.GeneralRec <> A:212 var
+R35434:35438 Cpdt.GeneralRec <> thunk coind
+R35440:35440 Cpdt.GeneralRec <> B:213 var
+binder 35425:35425 <> f:215
+R35446:35453 Cpdt.GeneralRec <> thunk_eq coind
+R35477:35477 Cpdt.GeneralRec <> f:215 var
+R35479:35479 Cpdt.GeneralRec <> a:214 var
+R35456:35460 Cpdt.GeneralRec <> TBind def
+R35473:35473 Cpdt.GeneralRec <> f:215 var
+R35463:35468 Cpdt.GeneralRec <> Answer constr
+R35470:35470 Cpdt.GeneralRec <> a:214 var
+R35499:35511 Cpdt.GeneralRec <> thunk_eq_frob thm
+R35499:35511 Cpdt.GeneralRec <> thunk_eq_frob thm
+prf 35535:35549 <> tright_identity
+binder 35560:35560 <> A:216
+R35567:35571 Cpdt.GeneralRec <> thunk coind
+R35573:35573 Cpdt.GeneralRec <> A:216 var
+binder 35563:35563 <> m:217
+R35579:35586 Cpdt.GeneralRec <> thunk_eq coind
+R35610:35610 Cpdt.GeneralRec <> m:217 var
+R35589:35593 Cpdt.GeneralRec <> TBind def
+R35599:35604 Cpdt.GeneralRec <> Answer constr
+R35595:35595 Cpdt.GeneralRec <> m:217 var
+R35630:35643 Cpdt.GeneralRec <> thunk_eq_coind thm
+binder 35650:35651 <> m1:218
+binder 35653:35654 <> m2:219
+R35661:35663 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35659:35660 Cpdt.GeneralRec <> m1:218 var
+R35664:35668 Cpdt.GeneralRec <> TBind def
+R35675:35680 Cpdt.GeneralRec <> Answer constr
+R35670:35671 Cpdt.GeneralRec <> m2:219 var
+R35630:35643 Cpdt.GeneralRec <> thunk_eq_coind thm
+binder 35650:35651 <> m1:220
+binder 35653:35654 <> m2:221
+R35661:35663 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35659:35660 Cpdt.GeneralRec <> m1:220 var
+R35664:35668 Cpdt.GeneralRec <> TBind def
+R35675:35680 Cpdt.GeneralRec <> Answer constr
+R35670:35671 Cpdt.GeneralRec <> m2:221 var
+prf 35735:35746 <> TBind_Answer
+binder 35758:35758 <> A:222
+binder 35760:35760 <> B:223
+R35775:35775 Cpdt.GeneralRec <> A:222 var
+binder 35771:35771 <> v:224
+R35785:35788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35784:35784 Cpdt.GeneralRec <> A:222 var
+R35789:35793 Cpdt.GeneralRec <> thunk coind
+R35795:35795 Cpdt.GeneralRec <> B:223 var
+binder 35779:35780 <> m2:225
+R35820:35822 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R35801:35805 Cpdt.GeneralRec <> TBind def
+R35818:35819 Cpdt.GeneralRec <> m2:225 var
+R35808:35813 Cpdt.GeneralRec <> Answer constr
+R35815:35815 Cpdt.GeneralRec <> v:224 var
+R35823:35824 Cpdt.GeneralRec <> m2:225 var
+R35826:35826 Cpdt.GeneralRec <> v:224 var
+R35851:35857 Cpdt.GeneralRec <> frob_eq thm
+R35860:35864 Cpdt.GeneralRec <> TBind def
+R35867:35872 Cpdt.GeneralRec <> Answer constr
+R35851:35857 Cpdt.GeneralRec <> frob_eq thm
+R35860:35864 Cpdt.GeneralRec <> TBind def
+R35867:35872 Cpdt.GeneralRec <> Answer constr
+R35851:35857 Cpdt.GeneralRec <> frob_eq thm
+R35860:35864 Cpdt.GeneralRec <> TBind def
+R35867:35872 Cpdt.GeneralRec <> Answer constr
+R35937:35948 Cpdt.GeneralRec <> TBind_Answer thm
+prf 35994:36007 <> tassociativity
+binder 36018:36018 <> A:226
+binder 36020:36020 <> B:227
+binder 36022:36022 <> C:228
+R36029:36033 Cpdt.GeneralRec <> thunk coind
+R36035:36035 Cpdt.GeneralRec <> A:226 var
+binder 36025:36025 <> m:229
+R36044:36047 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36043:36043 Cpdt.GeneralRec <> A:226 var
+R36048:36052 Cpdt.GeneralRec <> thunk coind
+R36054:36054 Cpdt.GeneralRec <> B:227 var
+binder 36039:36039 <> f:230
+R36063:36066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36062:36062 Cpdt.GeneralRec <> B:227 var
+R36067:36071 Cpdt.GeneralRec <> thunk coind
+R36073:36073 Cpdt.GeneralRec <> C:228 var
+binder 36058:36058 <> g:231
+R36079:36086 Cpdt.GeneralRec <> thunk_eq coind
+R36111:36115 Cpdt.GeneralRec <> TBind def
+binder 36124:36124 <> x:232
+R36129:36133 Cpdt.GeneralRec <> TBind def
+R36141:36141 Cpdt.GeneralRec <> g:231 var
+R36136:36136 Cpdt.GeneralRec <> f:230 var
+R36138:36138 Cpdt.GeneralRec <> x:232 var
+R36117:36117 Cpdt.GeneralRec <> m:229 var
+R36089:36093 Cpdt.GeneralRec <> TBind def
+R36107:36107 Cpdt.GeneralRec <> g:231 var
+R36096:36100 Cpdt.GeneralRec <> TBind def
+R36104:36104 Cpdt.GeneralRec <> f:230 var
+R36102:36102 Cpdt.GeneralRec <> m:229 var
+R36163:36176 Cpdt.GeneralRec <> thunk_eq_coind thm
+binder 36183:36184 <> m1:233
+binder 36186:36187 <> m2:234
+R36192:36192 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R36276:36282 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R36193:36199 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R36201:36206 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 36200:36200 <> m:235
+R36231:36238 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R36209:36211 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36207:36208 Cpdt.GeneralRec <> m1:233 var
+R36212:36216 Cpdt.GeneralRec <> TBind def
+R36219:36223 Cpdt.GeneralRec <> TBind def
+R36225:36225 Cpdt.GeneralRec <> m:235 var
+R36241:36243 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36239:36240 Cpdt.GeneralRec <> m2:234 var
+R36244:36248 Cpdt.GeneralRec <> TBind def
+binder 36257:36257 <> x:236
+R36262:36266 Cpdt.GeneralRec <> TBind def
+R36271:36271 Cpdt.GeneralRec <> x:236 var
+R36250:36250 Cpdt.GeneralRec <> m:235 var
+R36285:36287 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36283:36284 Cpdt.GeneralRec <> m1:233 var
+R36288:36289 Cpdt.GeneralRec <> m2:234 var
+R36163:36176 Cpdt.GeneralRec <> thunk_eq_coind thm
+binder 36183:36184 <> m1:237
+binder 36186:36187 <> m2:238
+R36192:36192 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R36276:36282 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R36193:36199 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R36201:36206 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 36200:36200 <> m:239
+R36231:36238 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R36209:36211 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36207:36208 Cpdt.GeneralRec <> m1:237 var
+R36212:36216 Cpdt.GeneralRec <> TBind def
+R36219:36223 Cpdt.GeneralRec <> TBind def
+R36225:36225 Cpdt.GeneralRec <> m:239 var
+R36241:36243 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36239:36240 Cpdt.GeneralRec <> m2:238 var
+R36244:36248 Cpdt.GeneralRec <> TBind def
+binder 36257:36257 <> x:240
+R36262:36266 Cpdt.GeneralRec <> TBind def
+R36271:36271 Cpdt.GeneralRec <> x:240 var
+R36250:36250 Cpdt.GeneralRec <> m:239 var
+R36285:36287 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R36283:36284 Cpdt.GeneralRec <> m1:237 var
+R36288:36289 Cpdt.GeneralRec <> m2:238 var
+def 36468:36471 <> fact
+R36482:36484 Coq.Init.Datatypes <> nat ind
+binder 36474:36474 <> n:241
+binder 36476:36478 <> acc:242
+R36489:36493 Cpdt.GeneralRec <> thunk coind
+R36495:36497 Coq.Init.Datatypes <> nat ind
+R36510:36510 Cpdt.GeneralRec <> n:241 var
+R36523:36523 Coq.Init.Datatypes <> O constr
+R36528:36533 Cpdt.GeneralRec <> Answer constr
+R36535:36537 Cpdt.GeneralRec <> acc:242 var
+R36545:36545 Coq.Init.Datatypes <> S constr
+R36553:36557 Cpdt.GeneralRec <> Think constr
+R36560:36563 Cpdt.GeneralRec <> fact:243 def
+R36573:36575 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R36569:36569 Coq.Init.Datatypes <> S constr
+R36576:36578 Cpdt.GeneralRec <> acc:242 var
+ind 36714:36717 <> eval
+constr 36749:36758 <> EvalAnswer
+constr 36792:36800 <> EvalThink
+binder 36719:36719 <> A:245
+R36730:36733 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36723:36727 Cpdt.GeneralRec <> thunk coind
+R36735:36738 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 36769:36769 <> x:248
+R36772:36775 Cpdt.GeneralRec <> eval:246 ind
+R36788:36788 Cpdt.GeneralRec <> x:248 var
+R36778:36783 Cpdt.GeneralRec <> Answer constr
+R36785:36785 Cpdt.GeneralRec <> x:248 var
+binder 36811:36811 <> m:249
+binder 36813:36813 <> x:250
+R36824:36827 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36816:36819 Cpdt.GeneralRec <> eval:246 ind
+R36823:36823 Cpdt.GeneralRec <> x:250 var
+R36821:36821 Cpdt.GeneralRec <> m:249 var
+R36828:36831 Cpdt.GeneralRec <> eval:246 ind
+R36843:36843 Cpdt.GeneralRec <> x:250 var
+R36834:36838 Cpdt.GeneralRec <> Think constr
+R36840:36840 Cpdt.GeneralRec <> m:249 var
+R36860:36866 Cpdt.GeneralRec <> frob_eq thm
+prf 36876:36884 <> eval_frob
+binder 36895:36895 <> A:251
+R36902:36906 Cpdt.GeneralRec <> thunk coind
+R36908:36908 Cpdt.GeneralRec <> A:251 var
+binder 36898:36898 <> c:252
+binder 36911:36911 <> x:253
+R36931:36936 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36916:36919 Cpdt.GeneralRec <> eval ind
+R36930:36930 Cpdt.GeneralRec <> x:253 var
+R36922:36925 Cpdt.GeneralRec <> frob def
+R36927:36927 Cpdt.GeneralRec <> c:252 var
+R36937:36940 Cpdt.GeneralRec <> eval ind
+R36944:36944 Cpdt.GeneralRec <> x:253 var
+R36942:36942 Cpdt.GeneralRec <> c:252 var
+prf 36970:36978 <> eval_fact
+R36982:36985 Cpdt.GeneralRec <> eval ind
+R36988:36991 Cpdt.GeneralRec <> fact def
+R37019:37027 Cpdt.GeneralRec <> eval_frob thm
+R37019:37027 Cpdt.GeneralRec <> eval_frob thm
+R37019:37027 Cpdt.GeneralRec <> eval_frob thm
+R37019:37027 Cpdt.GeneralRec <> eval_frob thm
+R37019:37027 Cpdt.GeneralRec <> eval_frob thm
+R37019:37027 Cpdt.GeneralRec <> eval_frob thm
+R37019:37027 Cpdt.GeneralRec <> eval_frob thm
+R37315:37319 Cpdt.GeneralRec <> TBind def
+binder 37329:37329 <> x:254
+not 37294:37294 <> :::x_'<-'_x_';'_x
+def 37422:37424 <> fib
+R37429:37432 Coq.Init.Peano <> pred abbrev
+ind 38610:38613 <> comp
+constr 38638:38640 <> Ret
+constr 38658:38660 <> Bnd
+binder 38616:38616 <> A:255
+R38645:38648 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38644:38644 Cpdt.GeneralRec <> A:255 var
+R38649:38652 Cpdt.GeneralRec <> comp:256 ind
+R38654:38654 Cpdt.GeneralRec <> A:255 var
+binder 38671:38671 <> B:258
+R38680:38683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38674:38677 Cpdt.GeneralRec <> comp:256 ind
+R38679:38679 Cpdt.GeneralRec <> B:258 var
+R38684:38684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38696:38700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38686:38689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38685:38685 Cpdt.GeneralRec <> B:258 var
+R38690:38693 Cpdt.GeneralRec <> comp:256 ind
+R38695:38695 Cpdt.GeneralRec <> A:255 var
+R38701:38704 Cpdt.GeneralRec <> comp:256 ind
+R38706:38706 Cpdt.GeneralRec <> A:255 var
+ind 39250:39253 <> exec
+constr 39284:39290 <> ExecRet
+constr 39321:39327 <> ExecBnd
+binder 39255:39255 <> A:259
+R39265:39268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39259:39262 Cpdt.GeneralRec <> comp coind
+R39270:39273 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 39301:39301 <> x:262
+R39304:39307 Cpdt.GeneralRec <> exec:260 ind
+R39317:39317 Cpdt.GeneralRec <> x:262 var
+R39310:39312 Cpdt.GeneralRec <> Ret constr
+R39314:39314 Cpdt.GeneralRec <> x:262 var
+binder 39338:39338 <> B:263
+R39345:39348 Cpdt.GeneralRec <> comp coind
+R39350:39350 Cpdt.GeneralRec <> B:263 var
+binder 39341:39341 <> c:264
+R39359:39362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39358:39358 Cpdt.GeneralRec <> B:263 var
+R39363:39366 Cpdt.GeneralRec <> comp coind
+R39368:39368 Cpdt.GeneralRec <> A:259 var
+binder 39354:39354 <> f:265
+binder 39371:39372 <> x1:266
+binder 39374:39375 <> x2:267
+R39396:39401 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39378:39381 Cpdt.GeneralRec <> exec:260 ind
+R39394:39395 Cpdt.GeneralRec <> x1:266 var
+R39392:39392 Cpdt.GeneralRec <> c:264 var
+R39389:39389 Cpdt.GeneralRec <> B:263 var
+R39416:39421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39402:39405 Cpdt.GeneralRec <> exec:260 ind
+R39414:39415 Cpdt.GeneralRec <> x2:267 var
+R39408:39408 Cpdt.GeneralRec <> f:265 var
+R39410:39411 Cpdt.GeneralRec <> x1:266 var
+R39422:39425 Cpdt.GeneralRec <> exec:260 ind
+R39437:39438 Cpdt.GeneralRec <> x2:267 var
+R39428:39430 Cpdt.GeneralRec <> Bnd constr
+R39434:39434 Cpdt.GeneralRec <> f:265 var
+R39432:39432 Cpdt.GeneralRec <> c:264 var
+R39664:39667 Cpdt.GeneralRec <> exec ind
+def 39682:39688 <> comp_eq
+binder 39690:39690 <> A:268
+R39701:39704 Cpdt.GeneralRec <> comp coind
+R39706:39706 Cpdt.GeneralRec <> A:268 var
+binder 39693:39694 <> c1:269
+binder 39696:39697 <> c2:270
+binder 39719:39719 <> r:271
+R39731:39735 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R39722:39725 Cpdt.GeneralRec <> exec ind
+R39730:39730 Cpdt.GeneralRec <> r:271 var
+R39727:39728 Cpdt.GeneralRec <> c1:269 var
+R39736:39739 Cpdt.GeneralRec <> exec ind
+R39744:39744 Cpdt.GeneralRec <> r:271 var
+R39741:39742 Cpdt.GeneralRec <> c2:270 var
+R39822:39825 Cpdt.GeneralRec <> exec ind
+R39822:39825 Cpdt.GeneralRec <> exec ind
+prf 39902:39915 <> cleft_identity
+binder 39926:39926 <> A:272
+binder 39928:39928 <> B:273
+R39935:39935 Cpdt.GeneralRec <> A:272 var
+binder 39931:39931 <> a:274
+R39944:39947 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39943:39943 Cpdt.GeneralRec <> A:272 var
+R39948:39951 Cpdt.GeneralRec <> comp coind
+R39953:39953 Cpdt.GeneralRec <> B:273 var
+binder 39939:39939 <> f:275
+R39959:39965 Cpdt.GeneralRec <> comp_eq def
+R39984:39984 Cpdt.GeneralRec <> f:275 var
+R39986:39986 Cpdt.GeneralRec <> a:274 var
+R39968:39970 Cpdt.GeneralRec <> Bnd constr
+R39980:39980 Cpdt.GeneralRec <> f:275 var
+R39973:39975 Cpdt.GeneralRec <> Ret constr
+R39977:39977 Cpdt.GeneralRec <> a:274 var
+prf 40035:40049 <> cright_identity
+binder 40060:40060 <> A:276
+R40067:40070 Cpdt.GeneralRec <> comp coind
+R40072:40072 Cpdt.GeneralRec <> A:276 var
+binder 40063:40063 <> m:277
+R40078:40084 Cpdt.GeneralRec <> comp_eq def
+R40103:40103 Cpdt.GeneralRec <> m:277 var
+R40087:40089 Cpdt.GeneralRec <> Bnd constr
+R40095:40097 Cpdt.GeneralRec <> Ret constr
+R40091:40091 Cpdt.GeneralRec <> m:277 var
+prf 40149:40163 <> cassociativity1
+binder 40174:40174 <> A:278
+binder 40176:40176 <> B:279
+binder 40178:40178 <> C:280
+R40186:40189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40185:40185 Cpdt.GeneralRec <> A:278 var
+R40190:40193 Cpdt.GeneralRec <> comp coind
+R40195:40195 Cpdt.GeneralRec <> B:279 var
+binder 40181:40181 <> f:281
+R40204:40207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40203:40203 Cpdt.GeneralRec <> B:279 var
+R40208:40211 Cpdt.GeneralRec <> comp coind
+R40213:40213 Cpdt.GeneralRec <> C:280 var
+binder 40199:40199 <> g:282
+binder 40216:40216 <> r:283
+binder 40218:40218 <> c:284
+R40231:40236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40223:40226 Cpdt.GeneralRec <> exec ind
+R40230:40230 Cpdt.GeneralRec <> r:283 var
+R40228:40228 Cpdt.GeneralRec <> c:284 var
+binder 40244:40244 <> m:285
+R40266:40272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40248:40250 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40247:40247 Cpdt.GeneralRec <> c:284 var
+R40251:40253 Cpdt.GeneralRec <> Bnd constr
+R40265:40265 Cpdt.GeneralRec <> g:282 var
+R40256:40258 Cpdt.GeneralRec <> Bnd constr
+R40262:40262 Cpdt.GeneralRec <> f:281 var
+R40260:40260 Cpdt.GeneralRec <> m:285 var
+R40273:40276 Cpdt.GeneralRec <> exec ind
+R40309:40309 Cpdt.GeneralRec <> r:283 var
+R40279:40281 Cpdt.GeneralRec <> Bnd constr
+binder 40290:40290 <> x:286
+R40295:40297 Cpdt.GeneralRec <> Bnd constr
+R40305:40305 Cpdt.GeneralRec <> g:282 var
+R40300:40300 Cpdt.GeneralRec <> f:281 var
+R40302:40302 Cpdt.GeneralRec <> x:286 var
+R40283:40283 Cpdt.GeneralRec <> m:285 var
+R40371:40373 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40364:40366 Cpdt.GeneralRec <> Bnd constr
+R40374:40376 Cpdt.GeneralRec <> Bnd constr
+R40371:40373 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40364:40366 Cpdt.GeneralRec <> Bnd constr
+R40374:40376 Cpdt.GeneralRec <> Bnd constr
+prf 40583:40597 <> cassociativity2
+binder 40608:40608 <> A:287
+binder 40610:40610 <> B:288
+binder 40612:40612 <> C:289
+R40620:40623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40619:40619 Cpdt.GeneralRec <> A:287 var
+R40624:40627 Cpdt.GeneralRec <> comp coind
+R40629:40629 Cpdt.GeneralRec <> B:288 var
+binder 40615:40615 <> f:290
+R40638:40641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40637:40637 Cpdt.GeneralRec <> B:288 var
+R40642:40645 Cpdt.GeneralRec <> comp coind
+R40647:40647 Cpdt.GeneralRec <> C:289 var
+binder 40633:40633 <> g:291
+binder 40650:40650 <> r:292
+binder 40652:40652 <> c:293
+R40665:40670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40657:40660 Cpdt.GeneralRec <> exec ind
+R40664:40664 Cpdt.GeneralRec <> r:292 var
+R40662:40662 Cpdt.GeneralRec <> c:293 var
+binder 40678:40678 <> m:294
+R40713:40719 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R40682:40684 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40681:40681 Cpdt.GeneralRec <> c:293 var
+R40685:40687 Cpdt.GeneralRec <> Bnd constr
+binder 40696:40696 <> x:295
+R40701:40703 Cpdt.GeneralRec <> Bnd constr
+R40711:40711 Cpdt.GeneralRec <> g:291 var
+R40706:40706 Cpdt.GeneralRec <> f:290 var
+R40708:40708 Cpdt.GeneralRec <> x:295 var
+R40689:40689 Cpdt.GeneralRec <> m:294 var
+R40720:40723 Cpdt.GeneralRec <> exec ind
+R40743:40743 Cpdt.GeneralRec <> r:292 var
+R40726:40728 Cpdt.GeneralRec <> Bnd constr
+R40740:40740 Cpdt.GeneralRec <> g:291 var
+R40731:40733 Cpdt.GeneralRec <> Bnd constr
+R40737:40737 Cpdt.GeneralRec <> f:290 var
+R40735:40735 Cpdt.GeneralRec <> m:294 var
+R40805:40807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40798:40800 Cpdt.GeneralRec <> Bnd constr
+R40808:40810 Cpdt.GeneralRec <> Bnd constr
+R40805:40807 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R40798:40800 Cpdt.GeneralRec <> Bnd constr
+R40808:40810 Cpdt.GeneralRec <> Bnd constr
+prf 41020:41033 <> cassociativity
+binder 41044:41044 <> A:296
+binder 41046:41046 <> B:297
+binder 41048:41048 <> C:298
+R41055:41058 Cpdt.GeneralRec <> comp coind
+R41060:41060 Cpdt.GeneralRec <> A:296 var
+binder 41051:41051 <> m:299
+R41069:41072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41068:41068 Cpdt.GeneralRec <> A:296 var
+R41073:41076 Cpdt.GeneralRec <> comp coind
+R41078:41078 Cpdt.GeneralRec <> B:297 var
+binder 41064:41064 <> f:300
+R41087:41090 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41086:41086 Cpdt.GeneralRec <> B:297 var
+R41091:41094 Cpdt.GeneralRec <> comp coind
+R41096:41096 Cpdt.GeneralRec <> C:298 var
+binder 41082:41082 <> g:301
+R41102:41108 Cpdt.GeneralRec <> comp_eq def
+R41129:41131 Cpdt.GeneralRec <> Bnd constr
+binder 41140:41140 <> x:302
+R41145:41147 Cpdt.GeneralRec <> Bnd constr
+R41155:41155 Cpdt.GeneralRec <> g:301 var
+R41150:41150 Cpdt.GeneralRec <> f:300 var
+R41152:41152 Cpdt.GeneralRec <> x:302 var
+R41133:41133 Cpdt.GeneralRec <> m:299 var
+R41111:41113 Cpdt.GeneralRec <> Bnd constr
+R41125:41125 Cpdt.GeneralRec <> g:301 var
+R41116:41118 Cpdt.GeneralRec <> Bnd constr
+R41122:41122 Cpdt.GeneralRec <> f:300 var
+R41120:41120 Cpdt.GeneralRec <> m:299 var
+R41533:41535 Cpdt.GeneralRec <> Bnd constr
+binder 41545:41545 <> x:303
+not 41514:41514 <> :::x_'<-'_x_';'_x
+def 41568:41578 <> mergeSort''
+binder 41580:41580 <> A:304
+R41589:41592 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41588:41588 Cpdt.GeneralRec <> A:304 var
+R41594:41597 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R41593:41593 Cpdt.GeneralRec <> A:304 var
+R41598:41601 Coq.Init.Datatypes <> bool ind
+binder 41583:41584 <> le:305
+R41610:41613 Coq.Init.Datatypes <> list ind
+R41615:41615 Cpdt.GeneralRec <> A:304 var
+binder 41605:41606 <> ls:306
+R41620:41623 Cpdt.GeneralRec <> comp coind
+R41626:41629 Coq.Init.Datatypes <> list ind
+R41631:41631 Cpdt.GeneralRec <> A:304 var
+R41642:41650 Coq.Arith.Compare_dec <> le_lt_dec def
+R41655:41660 Coq.Init.Datatypes <> length def
+R41662:41663 Cpdt.GeneralRec <> ls:306 var
+R41814:41816 Cpdt.GeneralRec <> Ret constr
+R41818:41819 Cpdt.GeneralRec <> ls:306 var
+R41686:41690 Cpdt.GeneralRec <> split def
+R41692:41693 Cpdt.GeneralRec <> ls:306 var
+binder 41679:41681 <> lss:308
+R41707:41710 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R41735:41742 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R41711:41721 Cpdt.GeneralRec <> mergeSort'':307 def
+R41727:41729 Coq.Init.Datatypes <> fst def
+R41731:41733 Cpdt.GeneralRec <> lss:308 var
+R41723:41724 Cpdt.GeneralRec <> le:305 var
+binder 41704:41706 <> ls1:309
+R41746:41749 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R41774:41781 Cpdt.GeneralRec <> :::x_'<-'_x_';'_x not
+R41750:41760 Cpdt.GeneralRec <> mergeSort'':307 def
+R41766:41768 Coq.Init.Datatypes <> snd def
+R41770:41772 Cpdt.GeneralRec <> lss:308 var
+R41762:41763 Cpdt.GeneralRec <> le:305 var
+binder 41743:41745 <> ls2:310
+R41782:41784 Cpdt.GeneralRec <> Ret constr
+R41787:41791 Cpdt.GeneralRec <> merge def
+R41800:41802 Cpdt.GeneralRec <> ls2:310 var
+R41796:41798 Cpdt.GeneralRec <> ls1:309 var
+R41793:41794 Cpdt.GeneralRec <> le:305 var
+def 41969:41973 <> frob'
+binder 41975:41975 <> A:311
+R41982:41985 Cpdt.GeneralRec <> comp coind
+R41987:41987 Cpdt.GeneralRec <> A:311 var
+binder 41978:41978 <> c:312
+R42001:42001 Cpdt.GeneralRec <> c:312 var
+R42014:42016 Cpdt.GeneralRec <> Ret constr
+R42023:42025 Cpdt.GeneralRec <> Ret constr
+R42035:42037 Cpdt.GeneralRec <> Bnd constr
+R42049:42051 Cpdt.GeneralRec <> Bnd constr
+prf 42072:42080 <> exec_frob
+binder 42091:42091 <> A:314
+R42098:42101 Cpdt.GeneralRec <> comp coind
+R42103:42103 Cpdt.GeneralRec <> A:314 var
+binder 42094:42094 <> c:315
+binder 42106:42106 <> x:316
+R42127:42132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42111:42114 Cpdt.GeneralRec <> exec ind
+R42126:42126 Cpdt.GeneralRec <> x:316 var
+R42117:42121 Cpdt.GeneralRec <> frob' def
+R42123:42123 Cpdt.GeneralRec <> c:315 var
+R42133:42136 Cpdt.GeneralRec <> exec ind
+R42140:42140 Cpdt.GeneralRec <> x:316 var
+R42138:42138 Cpdt.GeneralRec <> c:315 var
+prf 42278:42293 <> test_mergeSort''
+R42297:42300 Cpdt.GeneralRec <> exec ind
+R42357:42360 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R42362:42365 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R42367:42370 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R42373:42376 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R42379:42382 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R42383:42385 Coq.Init.Datatypes <> nil constr
+R42303:42313 Cpdt.GeneralRec <> mergeSort'' def
+R42321:42324 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R42326:42329 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R42332:42335 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R42337:42340 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R42343:42346 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R42347:42349 Coq.Init.Datatypes <> nil constr
+R42315:42317 Coq.Arith.Compare_dec <> leb abbrev
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+R42405:42413 Cpdt.GeneralRec <> exec_frob thm
+def 42746:42755 <> curriedAdd
+R42762:42764 Coq.Init.Datatypes <> nat ind
+binder 42758:42758 <> n:317
+R42770:42772 Cpdt.GeneralRec <> Ret constr
+R42783:42785 Coq.Init.Datatypes <> nat ind
+binder 42779:42779 <> m:318
+R42790:42792 Cpdt.GeneralRec <> Ret constr
+R42796:42798 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R42795:42795 Cpdt.GeneralRec <> n:317 var
+R42799:42799 Cpdt.GeneralRec <> m:318 var
+def 46527:46537 <> curriedAdd'
+R46544:46546 Coq.Init.Datatypes <> nat ind
+binder 46540:46540 <> n:319
+R46552:46557 Cpdt.GeneralRec <> Return def
+R46568:46570 Coq.Init.Datatypes <> nat ind
+binder 46564:46564 <> m:320
+R46575:46580 Cpdt.GeneralRec <> Return def
+R46584:46586 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R46583:46583 Cpdt.GeneralRec <> n:319 var
+R46587:46587 Cpdt.GeneralRec <> m:320 var
+def 46604:46617 <> testCurriedAdd
+R46622:46625 Cpdt.GeneralRec <> Bind def
+binder 46648:46648 <> f:321
+R46653:46653 Cpdt.GeneralRec <> f:321 var
+R46628:46638 Cpdt.GeneralRec <> curriedAdd' def
+def 46906:46908 <> map
+binder 46910:46910 <> A:322
+binder 46912:46912 <> B:323
+R46920:46923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R46919:46919 Cpdt.GeneralRec <> A:322 var
+R46924:46934 Cpdt.GeneralRec <> computation def
+R46936:46936 Cpdt.GeneralRec <> B:323 var
+binder 46915:46915 <> f:324
+R46945:46948 Coq.Init.Datatypes <> list ind
+R46950:46950 Cpdt.GeneralRec <> A:322 var
+binder 46940:46941 <> ls:325
+R46955:46965 Cpdt.GeneralRec <> computation def
+R46968:46971 Coq.Init.Datatypes <> list ind
+R46973:46973 Cpdt.GeneralRec <> B:323 var
+R46987:46988 Cpdt.GeneralRec <> ls:325 var
+R47001:47003 Coq.Init.Datatypes <> nil constr
+R47008:47013 Cpdt.GeneralRec <> Return def
+R47015:47017 Coq.Init.Datatypes <> nil constr
+R47026:47029 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R47037:47040 Cpdt.GeneralRec <> Bind def
+binder 47053:47054 <> x':328
+R47065:47068 Cpdt.GeneralRec <> Bind def
+binder 47087:47090 <> ls'':329
+R47103:47108 Cpdt.GeneralRec <> Return def
+R47113:47116 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R47111:47112 Cpdt.GeneralRec <> x':328 var
+R47117:47120 Cpdt.GeneralRec <> ls'':329 var
+R47071:47073 Cpdt.GeneralRec <> map:326 def
+R47075:47075 Cpdt.GeneralRec <> f:324 var
+R47043:47043 Cpdt.GeneralRec <> f:324 var
+prf 47171:47178 <> test_map
+R47182:47184 Cpdt.GeneralRec <> run def
+R47241:47244 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R47246:47249 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R47251:47254 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R47255:47257 Coq.Init.Datatypes <> nil constr
+R47187:47189 Cpdt.GeneralRec <> map def
+R47217:47220 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R47222:47225 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R47227:47230 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R47231:47233 Coq.Init.Datatypes <> nil constr
+binder 47196:47196 <> x:330
+R47201:47206 Cpdt.GeneralRec <> Return def
+R47209:47209 Coq.Init.Datatypes <> S constr
+R47211:47211 Cpdt.GeneralRec <> x:330 var

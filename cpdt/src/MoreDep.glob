@@ -1,0 +1,2771 @@
+DIGEST a5ebfd7e99cd64e8603e1d9461af6d76
+FCpdt.MoreDep
+R305:309 Coq.Arith.Arith <> <> lib
+R311:314 Coq.Bool.Bool <> <> lib
+R316:319 Coq.Lists.List <> <> lib
+R321:323 Coq.micromega.Lia <> <> lib
+R342:357 Cpdt.CpdtTactics <> <> lib
+R359:373 Cpdt.MoreSpecif <> <> lib
+R385:394 Coq.extraction.Extraction <> <> lib
+sec 2017:2021 <> ilist
+var 2035:2035 ilist A
+ind 2057:2061 <> ilist
+constr 2083:2085 <> Nil
+constr 2101:2104 <> Cons
+R2068:2071 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2065:2067 Coq.Init.Datatypes <> nat ind
+R2089:2093 Cpdt.MoreDep <> ilist:2 ind
+R2095:2095 Coq.Init.Datatypes <> O constr
+binder 2115:2115 <> n:4
+R2119:2122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2118:2118 Cpdt.MoreDep <> ilist.A var
+R2130:2133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2123:2127 Cpdt.MoreDep <> ilist:2 ind
+R2129:2129 Cpdt.MoreDep <> n:4 var
+R2134:2138 Cpdt.MoreDep <> ilist:2 ind
+R2141:2141 Coq.Init.Datatypes <> S constr
+R2143:2143 Cpdt.MoreDep <> n:4 var
+def 3150:3152 <> app
+binder 3154:3155 <> n1:5
+R3164:3168 Cpdt.MoreDep <> ilist ind
+R3170:3171 Cpdt.MoreDep <> n1:5 var
+binder 3158:3160 <> ls1:6
+binder 3174:3175 <> n2:7
+R3184:3188 Cpdt.MoreDep <> ilist ind
+R3190:3191 Cpdt.MoreDep <> n2:7 var
+binder 3178:3180 <> ls2:8
+R3196:3200 Cpdt.MoreDep <> ilist ind
+R3205:3207 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3203:3204 Cpdt.MoreDep <> n1:5 var
+R3208:3209 Cpdt.MoreDep <> n2:7 var
+R3225:3227 Cpdt.MoreDep <> ls1:6 var
+R3242:3244 Cpdt.MoreDep <> Nil constr
+R3249:3251 Cpdt.MoreDep <> ls2:8 var
+R3261:3264 Cpdt.MoreDep <> Cons constr
+R3278:3281 Cpdt.MoreDep <> Cons constr
+R3286:3288 Cpdt.MoreDep <> app:9 def
+R3295:3297 Cpdt.MoreDep <> ls2:8 var
+def 3731:3734 <> app'
+binder 3736:3737 <> n1:11
+R3746:3750 Cpdt.MoreDep <> ilist ind
+R3752:3753 Cpdt.MoreDep <> n1:11 var
+binder 3740:3742 <> ls1:12
+binder 3756:3757 <> n2:13
+R3766:3770 Cpdt.MoreDep <> ilist ind
+R3772:3773 Cpdt.MoreDep <> n2:13 var
+binder 3760:3762 <> ls2:14
+R3778:3782 Cpdt.MoreDep <> ilist ind
+R3787:3789 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3785:3786 Cpdt.MoreDep <> n1:11 var
+R3790:3791 Cpdt.MoreDep <> n2:13 var
+R3807:3809 Cpdt.MoreDep <> ls1:12 var
+R3815:3819 Cpdt.MoreDep <> ilist ind
+R3833:3837 Cpdt.MoreDep <> ilist ind
+R3842:3844 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R3840:3841 Cpdt.MoreDep <> n1:17 var
+R3845:3846 Cpdt.MoreDep <> n2:13 var
+R3863:3865 Cpdt.MoreDep <> Nil constr
+R3870:3872 Cpdt.MoreDep <> ls2:14 var
+R3882:3885 Cpdt.MoreDep <> Cons constr
+R3899:3902 Cpdt.MoreDep <> Cons constr
+R3907:3910 Cpdt.MoreDep <> app':15 def
+R3917:3919 Cpdt.MoreDep <> ls2:14 var
+def 5959:5964 <> inject
+R5972:5975 Coq.Init.Datatypes <> list ind
+R5977:5977 Cpdt.MoreDep <> ilist.A var
+binder 5967:5968 <> ls:18
+R5982:5986 Cpdt.MoreDep <> ilist ind
+R5989:5994 Coq.Init.Datatypes <> length def
+R5996:5997 Cpdt.MoreDep <> ls:18 var
+R6013:6014 Cpdt.MoreDep <> ls:18 var
+R6029:6031 Coq.Init.Datatypes <> nil constr
+R6036:6038 Cpdt.MoreDep <> Nil constr
+R6049:6052 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6058:6061 Cpdt.MoreDep <> Cons constr
+R6066:6071 Cpdt.MoreDep <> inject:19 def
+def 6181:6186 <> unject
+binder 6188:6188 <> n:21
+R6196:6200 Cpdt.MoreDep <> ilist ind
+R6202:6202 Cpdt.MoreDep <> n:21 var
+binder 6191:6192 <> ls:22
+R6207:6210 Coq.Init.Datatypes <> list ind
+R6212:6212 Cpdt.MoreDep <> ilist.A var
+R6227:6228 Cpdt.MoreDep <> ls:22 var
+R6243:6245 Cpdt.MoreDep <> Nil constr
+R6250:6252 Coq.Init.Datatypes <> nil constr
+R6262:6265 Cpdt.MoreDep <> Cons constr
+R6277:6280 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6281:6286 Cpdt.MoreDep <> unject:23 def
+prf 6310:6323 <> inject_inverse
+binder 6334:6335 <> ls:25
+R6356:6358 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6338:6343 Cpdt.MoreDep <> unject def
+R6346:6351 Cpdt.MoreDep <> inject def
+R6353:6354 Cpdt.MoreDep <> ls:25 var
+R6359:6360 Cpdt.MoreDep <> ls:25 var
+def 8716:8718 <> hd'
+binder 8720:8720 <> n:26
+R8728:8732 Cpdt.MoreDep <> ilist ind
+R8734:8734 Cpdt.MoreDep <> n:26 var
+binder 8723:8724 <> ls:27
+R8750:8751 Cpdt.MoreDep <> ls:27 var
+R8757:8761 Cpdt.MoreDep <> ilist ind
+R8780:8780 Cpdt.MoreDep <> n:29 var
+R8787:8787 Coq.Init.Datatypes <> O constr
+R8792:8795 Coq.Init.Datatypes <> unit ind
+R8799:8799 Coq.Init.Datatypes <> S constr
+R8806:8806 Cpdt.MoreDep <> ilist.A var
+R8826:8828 Cpdt.MoreDep <> Nil constr
+R8833:8834 Coq.Init.Datatypes <> tt constr
+R8844:8847 Cpdt.MoreDep <> Cons constr
+R8878:8880 Cpdt.MoreDep <> hd' def
+def 9112:9113 <> hd
+binder 9115:9115 <> n:31
+R9123:9127 Cpdt.MoreDep <> ilist ind
+R9130:9130 Coq.Init.Datatypes <> S constr
+R9132:9132 Cpdt.MoreDep <> n:31 var
+binder 9118:9119 <> ls:32
+R9138:9138 Cpdt.MoreDep <> ilist.A var
+R9143:9145 Cpdt.MoreDep <> hd' def
+R9147:9148 Cpdt.MoreDep <> ls:32 var
+R9172:9176 Cpdt.MoreDep ilist <> sec
+ind 15782:15785 <> type
+constr 15798:15800 <> Nat
+constr 15811:15814 <> Bool
+constr 15825:15828 <> Prod
+R15804:15807 Cpdt.MoreDep <> type:33 ind
+R15818:15821 Cpdt.MoreDep <> type:33 ind
+R15836:15839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15832:15835 Cpdt.MoreDep <> type:33 ind
+R15844:15847 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15840:15843 Cpdt.MoreDep <> type:33 ind
+R15848:15851 Cpdt.MoreDep <> type:33 ind
+ind 15865:15867 <> exp
+constr 15888:15893 <> NConst
+constr 15914:15917 <> Plus
+constr 15953:15954 <> Eq
+constr 15992:15997 <> BConst
+constr 16020:16022 <> And
+constr 16061:16062 <> If
+constr 16115:16118 <> Pair
+constr 16175:16177 <> Fst
+constr 16224:16226 <> Snd
+R15875:15878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15871:15874 Cpdt.MoreDep <> type ind
+R15900:15903 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15897:15899 Coq.Init.Datatypes <> nat ind
+R15904:15906 Cpdt.MoreDep <> exp:35 ind
+R15908:15910 Cpdt.MoreDep <> Nat constr
+R15928:15931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15921:15923 Cpdt.MoreDep <> exp:35 ind
+R15925:15927 Cpdt.MoreDep <> Nat constr
+R15939:15942 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15932:15934 Cpdt.MoreDep <> exp:35 ind
+R15936:15938 Cpdt.MoreDep <> Nat constr
+R15943:15945 Cpdt.MoreDep <> exp:35 ind
+R15947:15949 Cpdt.MoreDep <> Nat constr
+R15965:15968 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15958:15960 Cpdt.MoreDep <> exp:35 ind
+R15962:15964 Cpdt.MoreDep <> Nat constr
+R15976:15979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15969:15971 Cpdt.MoreDep <> exp:35 ind
+R15973:15975 Cpdt.MoreDep <> Nat constr
+R15980:15982 Cpdt.MoreDep <> exp:35 ind
+R15984:15987 Cpdt.MoreDep <> Bool constr
+R16005:16008 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16001:16004 Coq.Init.Datatypes <> bool ind
+R16009:16011 Cpdt.MoreDep <> exp:35 ind
+R16013:16016 Cpdt.MoreDep <> Bool constr
+R16034:16037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16026:16028 Cpdt.MoreDep <> exp:35 ind
+R16030:16033 Cpdt.MoreDep <> Bool constr
+R16046:16049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16038:16040 Cpdt.MoreDep <> exp:35 ind
+R16042:16045 Cpdt.MoreDep <> Bool constr
+R16050:16052 Cpdt.MoreDep <> exp:35 ind
+R16054:16057 Cpdt.MoreDep <> Bool constr
+binder 16073:16073 <> t:37
+R16084:16087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16076:16078 Cpdt.MoreDep <> exp:35 ind
+R16080:16083 Cpdt.MoreDep <> Bool constr
+R16093:16096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16088:16090 Cpdt.MoreDep <> exp:35 ind
+R16092:16092 Cpdt.MoreDep <> t:37 var
+R16102:16105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16097:16099 Cpdt.MoreDep <> exp:35 ind
+R16101:16101 Cpdt.MoreDep <> t:37 var
+R16106:16108 Cpdt.MoreDep <> exp:35 ind
+R16110:16110 Cpdt.MoreDep <> t:37 var
+binder 16129:16130 <> t1:38
+binder 16132:16133 <> t2:39
+R16142:16145 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16136:16138 Cpdt.MoreDep <> exp:35 ind
+R16140:16141 Cpdt.MoreDep <> t1:38 var
+R16152:16155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16146:16148 Cpdt.MoreDep <> exp:35 ind
+R16150:16151 Cpdt.MoreDep <> t2:39 var
+R16156:16158 Cpdt.MoreDep <> exp:35 ind
+R16161:16164 Cpdt.MoreDep <> Prod constr
+R16169:16170 Cpdt.MoreDep <> t2:39 var
+R16166:16167 Cpdt.MoreDep <> t1:38 var
+binder 16188:16189 <> t1:40
+binder 16191:16192 <> t2:41
+R16211:16214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16195:16197 Cpdt.MoreDep <> exp:35 ind
+R16200:16203 Cpdt.MoreDep <> Prod constr
+R16208:16209 Cpdt.MoreDep <> t2:41 var
+R16205:16206 Cpdt.MoreDep <> t1:40 var
+R16215:16217 Cpdt.MoreDep <> exp:35 ind
+R16219:16220 Cpdt.MoreDep <> t1:40 var
+binder 16237:16238 <> t1:42
+binder 16240:16241 <> t2:43
+R16260:16263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16244:16246 Cpdt.MoreDep <> exp:35 ind
+R16249:16252 Cpdt.MoreDep <> Prod constr
+R16257:16258 Cpdt.MoreDep <> t2:43 var
+R16254:16255 Cpdt.MoreDep <> t1:42 var
+R16264:16266 Cpdt.MoreDep <> exp:35 ind
+R16268:16269 Cpdt.MoreDep <> t2:43 var
+def 16748:16757 <> typeDenote
+R16764:16767 Cpdt.MoreDep <> type ind
+binder 16760:16760 <> t:44
+R16787:16787 Cpdt.MoreDep <> t:44 var
+R16800:16802 Cpdt.MoreDep <> Nat constr
+R16807:16809 Coq.Init.Datatypes <> nat ind
+R16817:16820 Cpdt.MoreDep <> Bool constr
+R16825:16828 Coq.Init.Datatypes <> bool ind
+R16836:16839 Cpdt.MoreDep <> Prod constr
+R16863:16865 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R16850:16859 Cpdt.MoreDep <> typeDenote:45 def
+R16866:16875 Cpdt.MoreDep <> typeDenote:45 def
+def 17698:17706 <> expDenote
+binder 17708:17708 <> t:47
+R17715:17717 Cpdt.MoreDep <> exp ind
+R17719:17719 Cpdt.MoreDep <> t:47 var
+binder 17711:17711 <> e:48
+R17724:17733 Cpdt.MoreDep <> typeDenote def
+R17735:17735 Cpdt.MoreDep <> t:47 var
+R17748:17748 Cpdt.MoreDep <> e:48 var
+R17761:17766 Cpdt.MoreDep <> NConst constr
+R17781:17784 Cpdt.MoreDep <> Plus constr
+R17807:17809 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R17795:17803 Cpdt.MoreDep <> expDenote:49 def
+R17810:17818 Cpdt.MoreDep <> expDenote:49 def
+R17829:17830 Cpdt.MoreDep <> Eq constr
+R17844:17853 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R17856:17864 Cpdt.MoreDep <> expDenote:49 def
+R17871:17879 Cpdt.MoreDep <> expDenote:49 def
+R17900:17904 Coq.Init.Datatypes <> false constr
+R17890:17893 Coq.Init.Datatypes <> true constr
+R17913:17918 Cpdt.MoreDep <> BConst constr
+R17933:17935 Cpdt.MoreDep <> And constr
+R17958:17961 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R17946:17954 Cpdt.MoreDep <> expDenote:49 def
+R17962:17970 Cpdt.MoreDep <> expDenote:49 def
+R17981:17982 Cpdt.MoreDep <> If constr
+R18001:18009 Cpdt.MoreDep <> expDenote:49 def
+R18037:18045 Cpdt.MoreDep <> expDenote:49 def
+R18019:18027 Cpdt.MoreDep <> expDenote:49 def
+R18057:18060 Cpdt.MoreDep <> Pair constr
+R18075:18075 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18088:18089 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18102:18102 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R18076:18084 Cpdt.MoreDep <> expDenote:49 def
+R18090:18098 Cpdt.MoreDep <> expDenote:49 def
+R18110:18112 Cpdt.MoreDep <> Fst constr
+R18124:18126 Coq.Init.Datatypes <> fst def
+R18129:18137 Cpdt.MoreDep <> expDenote:49 def
+R18149:18151 Cpdt.MoreDep <> Snd constr
+R18163:18165 Coq.Init.Datatypes <> snd def
+R18168:18176 Cpdt.MoreDep <> expDenote:49 def
+def 18236:18243 <> sumboool
+R18248:18254 Coq.Init.Specif <> sumbool ind
+def 19996:20006 <> pairOutType
+R20013:20016 Cpdt.MoreDep <> type ind
+binder 20009:20009 <> t:51
+R20022:20027 Coq.Init.Datatypes <> option ind
+R20036:20036 Cpdt.MoreDep <> t:51 var
+R20092:20095 Cpdt.MoreDep <> Prod constr
+R20112:20114 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R20106:20108 Cpdt.MoreDep <> exp ind
+R20115:20117 Cpdt.MoreDep <> exp ind
+R20176:20179 Coq.Init.Datatypes <> unit ind
+def 20508:20514 <> pairOut
+binder 20516:20516 <> t:53
+R20523:20525 Cpdt.MoreDep <> exp ind
+R20527:20527 Cpdt.MoreDep <> t:53 var
+binder 20519:20519 <> e:54
+R20541:20541 Cpdt.MoreDep <> e:54 var
+R20547:20549 Cpdt.MoreDep <> exp ind
+R20562:20572 Cpdt.MoreDep <> pairOutType def
+R20574:20574 Cpdt.MoreDep <> t:56 var
+R20588:20591 Cpdt.MoreDep <> Pair constr
+R20606:20609 Coq.Init.Datatypes <> Some constr
+R20611:20611 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20614:20615 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20618:20618 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R20631:20634 Coq.Init.Datatypes <> None constr
+def 21051:21055 <> cfold
+binder 21057:21057 <> t:57
+R21064:21066 Cpdt.MoreDep <> exp ind
+R21068:21068 Cpdt.MoreDep <> t:57 var
+binder 21060:21060 <> e:58
+R21073:21075 Cpdt.MoreDep <> exp ind
+R21077:21077 Cpdt.MoreDep <> t:57 var
+R21090:21090 Cpdt.MoreDep <> e:58 var
+R21103:21108 Cpdt.MoreDep <> NConst constr
+R21115:21120 Cpdt.MoreDep <> NConst constr
+R21130:21133 Cpdt.MoreDep <> Plus constr
+R21161:21165 Cpdt.MoreDep <> cfold:59 def
+binder 21154:21156 <> e1':61
+R21190:21194 Cpdt.MoreDep <> cfold:59 def
+binder 21183:21185 <> e2':62
+R21219:21221 Cpdt.MoreDep <> e2':62 var
+R21214:21216 Cpdt.MoreDep <> e1':61 var
+R21230:21232 Cpdt.MoreDep <> exp ind
+R21234:21236 Cpdt.MoreDep <> Nat constr
+R21253:21258 Cpdt.MoreDep <> NConst constr
+R21264:21269 Cpdt.MoreDep <> NConst constr
+R21277:21282 Cpdt.MoreDep <> NConst constr
+R21287:21289 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R21312:21315 Cpdt.MoreDep <> Plus constr
+R21321:21323 Cpdt.MoreDep <> e2':62 var
+R21317:21319 Cpdt.MoreDep <> e1':61 var
+R21341:21342 Cpdt.MoreDep <> Eq constr
+R21370:21374 Cpdt.MoreDep <> cfold:59 def
+binder 21363:21365 <> e1':65
+R21399:21403 Cpdt.MoreDep <> cfold:59 def
+binder 21392:21394 <> e2':66
+R21428:21430 Cpdt.MoreDep <> e2':66 var
+R21423:21425 Cpdt.MoreDep <> e1':65 var
+R21439:21441 Cpdt.MoreDep <> exp ind
+R21443:21446 Cpdt.MoreDep <> Bool constr
+R21463:21468 Cpdt.MoreDep <> NConst constr
+R21474:21479 Cpdt.MoreDep <> NConst constr
+R21487:21492 Cpdt.MoreDep <> BConst constr
+R21498:21507 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R21530:21534 Coq.Init.Datatypes <> false constr
+R21520:21523 Coq.Init.Datatypes <> true constr
+R21555:21556 Cpdt.MoreDep <> Eq constr
+R21562:21564 Cpdt.MoreDep <> e2':66 var
+R21558:21560 Cpdt.MoreDep <> e1':65 var
+R21583:21588 Cpdt.MoreDep <> BConst constr
+R21595:21600 Cpdt.MoreDep <> BConst constr
+R21610:21612 Cpdt.MoreDep <> And constr
+R21640:21644 Cpdt.MoreDep <> cfold:59 def
+binder 21633:21635 <> e1':69
+R21669:21673 Cpdt.MoreDep <> cfold:59 def
+binder 21662:21664 <> e2':70
+R21698:21700 Cpdt.MoreDep <> e2':70 var
+R21693:21695 Cpdt.MoreDep <> e1':69 var
+R21709:21711 Cpdt.MoreDep <> exp ind
+R21713:21716 Cpdt.MoreDep <> Bool constr
+R21733:21738 Cpdt.MoreDep <> BConst constr
+R21744:21749 Cpdt.MoreDep <> BConst constr
+R21757:21762 Cpdt.MoreDep <> BConst constr
+R21767:21770 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R21793:21795 Cpdt.MoreDep <> And constr
+R21801:21803 Cpdt.MoreDep <> e2':70 var
+R21797:21799 Cpdt.MoreDep <> e1':69 var
+R21821:21822 Cpdt.MoreDep <> If constr
+R21853:21857 Cpdt.MoreDep <> cfold:59 def
+R21859:21859 Cpdt.MoreDep <> e:58 var
+binder 21847:21848 <> e':73
+R21876:21877 Cpdt.MoreDep <> e':73 var
+R21894:21899 Cpdt.MoreDep <> BConst constr
+R21901:21904 Coq.Init.Datatypes <> true constr
+R21909:21913 Cpdt.MoreDep <> cfold:59 def
+R21928:21933 Cpdt.MoreDep <> BConst constr
+R21935:21939 Coq.Init.Datatypes <> false constr
+R21944:21948 Cpdt.MoreDep <> cfold:59 def
+R21968:21969 Cpdt.MoreDep <> If constr
+R21986:21990 Cpdt.MoreDep <> cfold:59 def
+R21975:21979 Cpdt.MoreDep <> cfold:59 def
+R21971:21972 Cpdt.MoreDep <> e':73 var
+R22013:22016 Cpdt.MoreDep <> Pair constr
+R22031:22034 Cpdt.MoreDep <> Pair constr
+R22048:22052 Cpdt.MoreDep <> cfold:59 def
+R22037:22041 Cpdt.MoreDep <> cfold:59 def
+R22064:22066 Cpdt.MoreDep <> Fst constr
+R22093:22097 Cpdt.MoreDep <> cfold:59 def
+R22099:22099 Cpdt.MoreDep <> e:58 var
+binder 22087:22088 <> e':75
+R22116:22122 Cpdt.MoreDep <> pairOut def
+R22124:22125 Cpdt.MoreDep <> e':75 var
+R22142:22145 Coq.Init.Datatypes <> Some constr
+R22152:22154 Coq.Init.Datatypes <> fst def
+R22168:22171 Coq.Init.Datatypes <> None constr
+R22176:22178 Cpdt.MoreDep <> Fst constr
+R22180:22181 Cpdt.MoreDep <> e':75 var
+R22199:22201 Cpdt.MoreDep <> Snd constr
+R22228:22232 Cpdt.MoreDep <> cfold:59 def
+R22234:22234 Cpdt.MoreDep <> e:58 var
+binder 22222:22223 <> e':76
+R22251:22257 Cpdt.MoreDep <> pairOut def
+R22259:22260 Cpdt.MoreDep <> e':76 var
+R22277:22280 Coq.Init.Datatypes <> Some constr
+R22287:22289 Coq.Init.Datatypes <> snd def
+R22303:22306 Coq.Init.Datatypes <> None constr
+R22311:22313 Cpdt.MoreDep <> Snd constr
+R22315:22316 Cpdt.MoreDep <> e':76 var
+prf 22456:22468 <> cfold_correct
+binder 22479:22479 <> t:77
+R22486:22488 Cpdt.MoreDep <> exp ind
+R22490:22490 Cpdt.MoreDep <> t:77 var
+binder 22482:22482 <> e:78
+R22505:22507 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22494:22502 Cpdt.MoreDep <> expDenote def
+R22504:22504 Cpdt.MoreDep <> e:78 var
+R22508:22516 Cpdt.MoreDep <> expDenote def
+R22519:22523 Cpdt.MoreDep <> cfold def
+R22525:22525 Cpdt.MoreDep <> e:78 var
+R25191:25195 Cpdt.MoreDep <> cfold def
+R25191:25195 Cpdt.MoreDep <> cfold def
+R25832:25836 Cpdt.MoreDep <> cfold def
+R25846:25851 Cpdt.MoreDep <> NConst constr
+R25832:25836 Cpdt.MoreDep <> cfold def
+R25846:25851 Cpdt.MoreDep <> NConst constr
+R25953:25959 Cpdt.MoreDep <> pairOut def
+R25962:25966 Cpdt.MoreDep <> cfold def
+R25977:25980 Coq.Init.Datatypes <> Some constr
+R26022:26025 Coq.Init.Datatypes <> None constr
+R25953:25959 Cpdt.MoreDep <> pairOut def
+R25962:25966 Cpdt.MoreDep <> cfold def
+R25977:25980 Coq.Init.Datatypes <> Some constr
+R26022:26025 Coq.Init.Datatypes <> None constr
+R26102:26102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26122:26125 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26102:26102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26122:26125 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26072:26076 Cpdt.MoreDep <> cfold def
+R25909:25913 Cpdt.MoreDep <> cfold def
+R25909:25913 Cpdt.MoreDep <> cfold def
+R25909:25913 Cpdt.MoreDep <> cfold def
+R25909:25913 Cpdt.MoreDep <> cfold def
+R25909:25913 Cpdt.MoreDep <> cfold def
+R25909:25913 Cpdt.MoreDep <> cfold def
+R25909:25913 Cpdt.MoreDep <> cfold def
+R25909:25913 Cpdt.MoreDep <> cfold def
+R26072:26076 Cpdt.MoreDep <> cfold def
+R26072:26076 Cpdt.MoreDep <> cfold def
+ind 26671:26675 <> color
+constr 26686:26688 <> Red
+constr 26692:26696 <> Black
+ind 26710:26715 <> rbtree
+constr 26744:26747 <> Leaf
+constr 26768:26774 <> RedNode
+constr 26846:26854 <> BlackNode
+R26724:26727 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26719:26723 Cpdt.MoreDep <> color ind
+R26731:26734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26728:26730 Coq.Init.Datatypes <> nat ind
+R26751:26756 Cpdt.MoreDep <> rbtree:81 ind
+R26758:26762 Cpdt.MoreDep <> Black constr
+binder 26785:26785 <> n:83
+R26802:26805 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26788:26793 Cpdt.MoreDep <> rbtree:81 ind
+R26801:26801 Cpdt.MoreDep <> n:83 var
+R26795:26799 Cpdt.MoreDep <> Black constr
+R26809:26812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26806:26808 Coq.Init.Datatypes <> nat ind
+R26827:26830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26813:26818 Cpdt.MoreDep <> rbtree:81 ind
+R26826:26826 Cpdt.MoreDep <> n:83 var
+R26820:26824 Cpdt.MoreDep <> Black constr
+R26831:26836 Cpdt.MoreDep <> rbtree:81 ind
+R26842:26842 Cpdt.MoreDep <> n:83 var
+R26838:26840 Cpdt.MoreDep <> Red constr
+binder 26865:26866 <> c1:84
+binder 26868:26869 <> c2:85
+binder 26871:26871 <> n:86
+R26885:26888 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26874:26879 Cpdt.MoreDep <> rbtree:81 ind
+R26884:26884 Cpdt.MoreDep <> n:86 var
+R26881:26882 Cpdt.MoreDep <> c1:84 var
+R26892:26895 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26889:26891 Coq.Init.Datatypes <> nat ind
+R26907:26910 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26896:26901 Cpdt.MoreDep <> rbtree:81 ind
+R26906:26906 Cpdt.MoreDep <> n:86 var
+R26903:26904 Cpdt.MoreDep <> c2:85 var
+R26911:26916 Cpdt.MoreDep <> rbtree:81 ind
+R26925:26925 Coq.Init.Datatypes <> S constr
+R26927:26927 Cpdt.MoreDep <> n:86 var
+R26918:26922 Cpdt.MoreDep <> Black constr
+R27721:27723 Coq.Arith.Max <> <> lib
+R27725:27727 Coq.Arith.Min <> <> lib
+sec 27739:27743 <> depth
+var 27757:27757 depth f
+R27764:27767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27761:27763 Coq.Init.Datatypes <> nat ind
+R27771:27774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27768:27770 Coq.Init.Datatypes <> nat ind
+R27775:27777 Coq.Init.Datatypes <> nat ind
+def 27792:27796 <> depth
+binder 27798:27798 <> c:88
+binder 27800:27800 <> n:89
+R27807:27812 Cpdt.MoreDep <> rbtree ind
+R27816:27816 Cpdt.MoreDep <> n:89 var
+R27814:27814 Cpdt.MoreDep <> c:88 var
+binder 27803:27803 <> t:90
+R27821:27823 Coq.Init.Datatypes <> nat ind
+R27838:27838 Cpdt.MoreDep <> t:90 var
+R27853:27856 Cpdt.MoreDep <> Leaf constr
+R27871:27877 Cpdt.MoreDep <> RedNode constr
+R27892:27892 Coq.Init.Datatypes <> S constr
+R27895:27895 Cpdt.MoreDep <> depth.f var
+R27909:27913 Cpdt.MoreDep <> depth:91 def
+R27898:27902 Cpdt.MoreDep <> depth:91 def
+R27928:27936 Cpdt.MoreDep <> BlackNode constr
+R27955:27955 Coq.Init.Datatypes <> S constr
+R27958:27958 Cpdt.MoreDep <> depth.f var
+R27972:27976 Cpdt.MoreDep <> depth:91 def
+R27961:27965 Cpdt.MoreDep <> depth:91 def
+R27996:28000 Cpdt.MoreDep depth <> sec
+R28331:28337 Coq.Arith.Min <> min_dec abbrev
+prf 28449:28457 <> depth_min
+binder 28468:28468 <> c:93
+binder 28470:28470 <> n:94
+R28477:28482 Cpdt.MoreDep <> rbtree ind
+R28486:28486 Cpdt.MoreDep <> n:94 var
+R28484:28484 Cpdt.MoreDep <> c:93 var
+binder 28473:28473 <> t:95
+R28501:28504 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R28490:28494 Cpdt.MoreDep <> depth def
+R28500:28500 Cpdt.MoreDep <> t:95 var
+R28496:28498 Coq.Arith.Min <> min abbrev
+R28505:28505 Cpdt.MoreDep <> n:94 var
+R28571:28573 Coq.Arith.Min <> min abbrev
+R28571:28573 Coq.Arith.Min <> min abbrev
+R28597:28603 Coq.Arith.Min <> min_dec abbrev
+prf 28787:28795 <> depth_max
+binder 28806:28806 <> c:96
+binder 28808:28808 <> n:97
+R28815:28820 Cpdt.MoreDep <> rbtree ind
+R28824:28824 Cpdt.MoreDep <> n:97 var
+R28822:28822 Cpdt.MoreDep <> c:96 var
+binder 28811:28811 <> t:98
+R28839:28842 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R28828:28832 Cpdt.MoreDep <> depth def
+R28838:28838 Cpdt.MoreDep <> t:98 var
+R28834:28836 Coq.Arith.Max <> max abbrev
+R28848:28850 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R28844:28846 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R28847:28847 Cpdt.MoreDep <> n:97 var
+R28917:28919 Coq.Arith.Max <> max abbrev
+R28917:28919 Coq.Arith.Max <> max abbrev
+R28943:28949 Coq.Arith.Max <> max_dec abbrev
+R28943:28949 Coq.Arith.Max <> max_dec abbrev
+prf 29752:29761 <> depth_max'
+binder 29772:29772 <> c:99
+binder 29774:29774 <> n:100
+R29781:29786 Cpdt.MoreDep <> rbtree ind
+R29790:29790 Cpdt.MoreDep <> n:100 var
+R29788:29788 Cpdt.MoreDep <> c:99 var
+binder 29777:29777 <> t:101
+R29800:29800 Cpdt.MoreDep <> c:99 var
+R29859:29861 Cpdt.MoreDep <> Red constr
+R29877:29880 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R29866:29870 Cpdt.MoreDep <> depth def
+R29876:29876 Cpdt.MoreDep <> t:101 var
+R29872:29874 Coq.Arith.Max <> max abbrev
+R29886:29888 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R29882:29884 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R29885:29885 Cpdt.MoreDep <> n:100 var
+R29943:29947 Cpdt.MoreDep <> Black constr
+R29963:29966 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R29952:29956 Cpdt.MoreDep <> depth def
+R29962:29962 Cpdt.MoreDep <> t:101 var
+R29958:29960 Coq.Arith.Max <> max abbrev
+R29968:29970 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R29971:29971 Cpdt.MoreDep <> n:100 var
+R30089:30091 Coq.Arith.Max <> max abbrev
+R30089:30091 Coq.Arith.Max <> max abbrev
+R30115:30121 Coq.Arith.Max <> max_dec abbrev
+R30216:30218 Cpdt.MoreDep <> Red constr
+R30227:30231 Cpdt.MoreDep <> Black constr
+R30216:30218 Cpdt.MoreDep <> Red constr
+R30227:30231 Cpdt.MoreDep <> Black constr
+R30115:30121 Coq.Arith.Max <> max_dec abbrev
+prf 30734:30742 <> depth_max
+binder 30753:30753 <> c:103
+binder 30755:30755 <> n:104
+R30762:30767 Cpdt.MoreDep <> rbtree ind
+R30771:30771 Cpdt.MoreDep <> n:104 var
+R30769:30769 Cpdt.MoreDep <> c:103 var
+binder 30758:30758 <> t:105
+R30786:30789 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R30775:30779 Cpdt.MoreDep <> depth def
+R30785:30785 Cpdt.MoreDep <> t:105 var
+R30781:30783 Coq.Arith.Max <> max abbrev
+R30795:30797 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R30791:30793 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R30794:30794 Cpdt.MoreDep <> n:104 var
+R30823:30832 Cpdt.MoreDep <> depth_max' thm
+R30823:30832 Cpdt.MoreDep <> depth_max' thm
+prf 31013:31020 <> balanced
+binder 31031:31031 <> c:106
+binder 31033:31033 <> n:107
+R31040:31045 Cpdt.MoreDep <> rbtree ind
+R31049:31049 Cpdt.MoreDep <> n:107 var
+R31047:31047 Cpdt.MoreDep <> c:106 var
+binder 31036:31036 <> t:108
+R31072:31075 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R31068:31070 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R31054:31056 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R31057:31061 Cpdt.MoreDep <> depth def
+R31067:31067 Cpdt.MoreDep <> t:108 var
+R31063:31065 Coq.Arith.Min <> min abbrev
+R31076:31080 Cpdt.MoreDep <> depth def
+R31086:31086 Cpdt.MoreDep <> t:108 var
+R31082:31084 Coq.Arith.Max <> max abbrev
+R31111:31119 Cpdt.MoreDep <> depth_min thm
+R31137:31145 Cpdt.MoreDep <> depth_max thm
+R31111:31119 Cpdt.MoreDep <> depth_min thm
+R31137:31145 Cpdt.MoreDep <> depth_max thm
+ind 31551:31555 <> rtree
+constr 31575:31582 <> RedNode'
+R31562:31565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31559:31561 Coq.Init.Datatypes <> nat ind
+binder 31593:31594 <> c1:111
+binder 31596:31597 <> c2:112
+binder 31599:31599 <> n:113
+R31613:31616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31602:31607 Cpdt.MoreDep <> rbtree ind
+R31612:31612 Cpdt.MoreDep <> n:113 var
+R31609:31610 Cpdt.MoreDep <> c1:111 var
+R31620:31623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31617:31619 Coq.Init.Datatypes <> nat ind
+R31635:31638 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31624:31629 Cpdt.MoreDep <> rbtree ind
+R31634:31634 Cpdt.MoreDep <> n:113 var
+R31631:31632 Cpdt.MoreDep <> c2:112 var
+R31639:31643 Cpdt.MoreDep <> rtree:109 ind
+R31645:31645 Cpdt.MoreDep <> n:113 var
+sec 31814:31820 <> present
+var 31834:31834 present x
+R31838:31840 Coq.Init.Datatypes <> nat ind
+def 31855:31861 <> present
+binder 31863:31863 <> c:115
+binder 31865:31865 <> n:116
+R31872:31877 Cpdt.MoreDep <> rbtree ind
+R31881:31881 Cpdt.MoreDep <> n:116 var
+R31879:31879 Cpdt.MoreDep <> c:115 var
+binder 31868:31868 <> t:117
+R31904:31904 Cpdt.MoreDep <> t:117 var
+R31919:31922 Cpdt.MoreDep <> Leaf constr
+R31927:31931 Coq.Init.Logic <> False ind
+R31941:31947 Cpdt.MoreDep <> RedNode constr
+R31969:31972 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R31960:31966 Cpdt.MoreDep <> present:118 def
+R31978:31981 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R31974:31976 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31973:31973 Cpdt.MoreDep <> present.x var
+R31982:31988 Cpdt.MoreDep <> present:118 def
+R32000:32008 Cpdt.MoreDep <> BlackNode constr
+R32034:32037 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R32025:32031 Cpdt.MoreDep <> present:118 def
+R32043:32046 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R32039:32041 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32038:32038 Cpdt.MoreDep <> present.x var
+R32047:32053 Cpdt.MoreDep <> present:118 def
+def 32080:32087 <> rpresent
+binder 32089:32089 <> n:120
+R32096:32100 Cpdt.MoreDep <> rtree ind
+R32102:32102 Cpdt.MoreDep <> n:120 var
+binder 32092:32092 <> t:121
+R32125:32125 Cpdt.MoreDep <> t:121 var
+R32140:32147 Cpdt.MoreDep <> RedNode' constr
+R32173:32176 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R32164:32170 Cpdt.MoreDep <> present def
+R32182:32185 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R32178:32180 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R32177:32177 Cpdt.MoreDep <> present.x var
+R32186:32192 Cpdt.MoreDep <> present def
+R32209:32215 Cpdt.MoreDep present <> sec
+R32726:32729 Coq.Init.Specif <> sigT ind
+R32966:32971 Coq.Init.Specif <> existT constr
+not 32952:32952 <> :::'{<'_x_'>}'
+def 34101:34108 <> balance1
+binder 34110:34110 <> n:123
+R34117:34121 Cpdt.MoreDep <> rtree ind
+R34123:34123 Cpdt.MoreDep <> n:123 var
+binder 34113:34113 <> a:124
+R34134:34136 Coq.Init.Datatypes <> nat ind
+binder 34127:34130 <> data:125
+binder 34139:34140 <> c2:126
+R34153:34153 Cpdt.MoreDep <> a:124 var
+R34158:34162 Cpdt.MoreDep <> rtree ind
+R34184:34191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34173:34178 Cpdt.MoreDep <> rbtree ind
+R34183:34183 Cpdt.MoreDep <> n:128 var
+R34180:34181 Cpdt.MoreDep <> c2:126 var
+R34192:34193 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34195:34197 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34203:34205 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34220:34221 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34198:34202 Cpdt.MoreDep <> color ind
+binder 34194:34194 <> c:129
+R34206:34211 Cpdt.MoreDep <> rbtree ind
+R34216:34216 Coq.Init.Datatypes <> S constr
+R34218:34218 Cpdt.MoreDep <> n:128 var
+R34213:34213 Cpdt.MoreDep <> c:129 var
+R34234:34241 Cpdt.MoreDep <> RedNode' constr
+R34279:34284 Cpdt.MoreDep <> rbtree ind
+R34308:34311 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34297:34302 Cpdt.MoreDep <> rbtree ind
+R34307:34307 Cpdt.MoreDep <> n:131 var
+R34323:34334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34312:34317 Cpdt.MoreDep <> rbtree ind
+R34322:34322 Cpdt.MoreDep <> n:131 var
+R34319:34320 Cpdt.MoreDep <> c2:126 var
+R34335:34336 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34338:34340 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34346:34348 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34363:34364 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34341:34345 Cpdt.MoreDep <> color ind
+binder 34337:34337 <> c:133
+R34349:34354 Cpdt.MoreDep <> rbtree ind
+R34359:34359 Coq.Init.Datatypes <> S constr
+R34361:34361 Cpdt.MoreDep <> n:131 var
+R34356:34356 Cpdt.MoreDep <> c:133 var
+R34381:34387 Cpdt.MoreDep <> RedNode constr
+binder 34404:34404 <> c:134
+binder 34406:34406 <> d:135
+R34421:34422 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R34471:34472 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R34423:34429 Cpdt.MoreDep <> RedNode constr
+R34452:34460 Cpdt.MoreDep <> BlackNode constr
+R34469:34469 Cpdt.MoreDep <> d:135 var
+R34464:34467 Cpdt.MoreDep <> data:125 var
+R34462:34462 Cpdt.MoreDep <> c:134 var
+R34432:34440 Cpdt.MoreDep <> BlackNode constr
+R34442:34442 Cpdt.MoreDep <> a:124 var
+binder 34495:34496 <> t2:136
+R34517:34518 Cpdt.MoreDep <> t2:136 var
+R34523:34528 Cpdt.MoreDep <> rbtree ind
+R34555:34558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34541:34546 Cpdt.MoreDep <> rbtree ind
+R34554:34554 Cpdt.MoreDep <> n:138 var
+R34548:34552 Cpdt.MoreDep <> Black constr
+R34570:34585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R34559:34564 Cpdt.MoreDep <> rbtree ind
+R34569:34569 Cpdt.MoreDep <> n:138 var
+R34566:34567 Cpdt.MoreDep <> c2:126 var
+R34586:34587 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34589:34591 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34597:34599 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34614:34615 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R34592:34596 Cpdt.MoreDep <> color ind
+binder 34588:34588 <> c:140
+R34600:34605 Cpdt.MoreDep <> rbtree ind
+R34610:34610 Coq.Init.Datatypes <> S constr
+R34612:34612 Cpdt.MoreDep <> n:138 var
+R34607:34607 Cpdt.MoreDep <> c:140 var
+R34636:34642 Cpdt.MoreDep <> RedNode constr
+binder 34659:34659 <> a:141
+binder 34661:34661 <> d:142
+R34680:34681 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R34730:34731 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R34682:34688 Cpdt.MoreDep <> RedNode constr
+R34711:34719 Cpdt.MoreDep <> BlackNode constr
+R34728:34728 Cpdt.MoreDep <> d:142 var
+R34723:34726 Cpdt.MoreDep <> data:125 var
+R34691:34699 Cpdt.MoreDep <> BlackNode constr
+R34701:34701 Cpdt.MoreDep <> a:141 var
+binder 34756:34756 <> a:143
+binder 34758:34758 <> t:144
+R34763:34764 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R34797:34798 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R34765:34773 Cpdt.MoreDep <> BlackNode constr
+R34796:34796 Cpdt.MoreDep <> t:144 var
+R34791:34794 Cpdt.MoreDep <> data:125 var
+R34776:34782 Cpdt.MoreDep <> RedNode constr
+R34784:34784 Cpdt.MoreDep <> a:143 var
+def 36051:36058 <> balance2
+binder 36060:36060 <> n:145
+R36067:36071 Cpdt.MoreDep <> rtree ind
+R36073:36073 Cpdt.MoreDep <> n:145 var
+binder 36063:36063 <> a:146
+R36084:36086 Coq.Init.Datatypes <> nat ind
+binder 36077:36080 <> data:147
+binder 36089:36090 <> c2:148
+R36103:36103 Cpdt.MoreDep <> a:146 var
+R36108:36112 Cpdt.MoreDep <> rtree ind
+R36134:36137 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36123:36128 Cpdt.MoreDep <> rbtree ind
+R36133:36133 Cpdt.MoreDep <> n:150 var
+R36130:36131 Cpdt.MoreDep <> c2:148 var
+R36138:36139 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36141:36143 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36149:36151 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36166:36167 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36144:36148 Cpdt.MoreDep <> color ind
+binder 36140:36140 <> c:151
+R36152:36157 Cpdt.MoreDep <> rbtree ind
+R36162:36162 Coq.Init.Datatypes <> S constr
+R36164:36164 Cpdt.MoreDep <> n:150 var
+R36159:36159 Cpdt.MoreDep <> c:151 var
+R36180:36187 Cpdt.MoreDep <> RedNode' constr
+R36225:36230 Cpdt.MoreDep <> rbtree ind
+R36254:36257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36243:36248 Cpdt.MoreDep <> rbtree ind
+R36253:36253 Cpdt.MoreDep <> n:153 var
+R36269:36280 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36258:36263 Cpdt.MoreDep <> rbtree ind
+R36268:36268 Cpdt.MoreDep <> n:153 var
+R36265:36266 Cpdt.MoreDep <> c2:148 var
+R36281:36282 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36284:36286 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36292:36294 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36309:36310 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36287:36291 Cpdt.MoreDep <> color ind
+binder 36283:36283 <> c:155
+R36295:36300 Cpdt.MoreDep <> rbtree ind
+R36305:36305 Coq.Init.Datatypes <> S constr
+R36307:36307 Cpdt.MoreDep <> n:153 var
+R36302:36302 Cpdt.MoreDep <> c:155 var
+R36327:36333 Cpdt.MoreDep <> RedNode constr
+binder 36350:36350 <> d:156
+binder 36352:36352 <> a:157
+R36367:36368 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R36417:36418 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R36369:36375 Cpdt.MoreDep <> RedNode constr
+R36401:36409 Cpdt.MoreDep <> BlackNode constr
+R36415:36415 Cpdt.MoreDep <> d:156 var
+R36378:36386 Cpdt.MoreDep <> BlackNode constr
+R36390:36393 Cpdt.MoreDep <> data:147 var
+R36388:36388 Cpdt.MoreDep <> a:157 var
+binder 36441:36442 <> t2:158
+R36463:36464 Cpdt.MoreDep <> t2:158 var
+R36469:36474 Cpdt.MoreDep <> rbtree ind
+R36501:36504 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36487:36492 Cpdt.MoreDep <> rbtree ind
+R36500:36500 Cpdt.MoreDep <> n:160 var
+R36494:36498 Cpdt.MoreDep <> Black constr
+R36516:36531 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R36505:36510 Cpdt.MoreDep <> rbtree ind
+R36515:36515 Cpdt.MoreDep <> n:160 var
+R36512:36513 Cpdt.MoreDep <> c2:148 var
+R36532:36533 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36535:36537 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36543:36545 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36560:36561 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R36538:36542 Cpdt.MoreDep <> color ind
+binder 36534:36534 <> c:162
+R36546:36551 Cpdt.MoreDep <> rbtree ind
+R36556:36556 Coq.Init.Datatypes <> S constr
+R36558:36558 Cpdt.MoreDep <> n:160 var
+R36553:36553 Cpdt.MoreDep <> c:162 var
+R36582:36588 Cpdt.MoreDep <> RedNode constr
+binder 36606:36606 <> b:163
+binder 36608:36608 <> a:164
+R36627:36628 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R36678:36679 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R36629:36635 Cpdt.MoreDep <> RedNode constr
+R36661:36669 Cpdt.MoreDep <> BlackNode constr
+R36638:36646 Cpdt.MoreDep <> BlackNode constr
+R36655:36655 Cpdt.MoreDep <> b:163 var
+R36650:36653 Cpdt.MoreDep <> data:147 var
+R36648:36648 Cpdt.MoreDep <> a:164 var
+binder 36704:36704 <> a:165
+binder 36706:36706 <> t:166
+R36711:36712 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R36745:36746 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R36713:36721 Cpdt.MoreDep <> BlackNode constr
+R36731:36737 Cpdt.MoreDep <> RedNode constr
+R36739:36739 Cpdt.MoreDep <> a:165 var
+R36725:36728 Cpdt.MoreDep <> data:147 var
+R36723:36723 Cpdt.MoreDep <> t:166 var
+sec 36976:36981 <> insert
+var 36995:36995 insert x
+R36999:37001 Coq.Init.Datatypes <> nat ind
+def 37168:37176 <> insResult
+binder 37178:37178 <> c:168
+binder 37180:37180 <> n:169
+R37195:37195 Cpdt.MoreDep <> c:168 var
+R37210:37212 Cpdt.MoreDep <> Red constr
+R37217:37221 Cpdt.MoreDep <> rtree ind
+R37223:37223 Cpdt.MoreDep <> n:169 var
+R37233:37237 Cpdt.MoreDep <> Black constr
+R37242:37243 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37246:37248 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37254:37256 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37268:37269 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R37249:37253 Cpdt.MoreDep <> color ind
+binder 37244:37245 <> c':171
+R37257:37262 Cpdt.MoreDep <> rbtree ind
+R37267:37267 Cpdt.MoreDep <> n:169 var
+R37264:37265 Cpdt.MoreDep <> c':171 var
+def 37718:37720 <> ins
+binder 37722:37722 <> c:172
+binder 37724:37724 <> n:173
+R37731:37736 Cpdt.MoreDep <> rbtree ind
+R37740:37740 Cpdt.MoreDep <> n:173 var
+R37738:37738 Cpdt.MoreDep <> c:172 var
+binder 37727:37727 <> t:174
+R37745:37753 Cpdt.MoreDep <> insResult def
+R37757:37757 Cpdt.MoreDep <> n:173 var
+R37755:37755 Cpdt.MoreDep <> c:172 var
+R37772:37772 Cpdt.MoreDep <> t:174 var
+R37787:37790 Cpdt.MoreDep <> Leaf constr
+R37795:37797 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R37817:37819 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R37798:37804 Cpdt.MoreDep <> RedNode constr
+R37813:37816 Cpdt.MoreDep <> Leaf constr
+R37811:37811 Cpdt.MoreDep <> insert.x var
+R37806:37809 Cpdt.MoreDep <> Leaf constr
+R37829:37835 Cpdt.MoreDep <> RedNode constr
+R37859:37867 Coq.Arith.Compare_dec <> le_lt_dec def
+R37869:37869 Cpdt.MoreDep <> insert.x var
+R37933:37940 Cpdt.MoreDep <> RedNode' constr
+R37947:37952 Coq.Init.Specif <> projT2 def
+R37955:37957 Cpdt.MoreDep <> ins:175 def
+R37888:37895 Cpdt.MoreDep <> RedNode' constr
+R37898:37903 Coq.Init.Specif <> projT2 def
+R37906:37908 Cpdt.MoreDep <> ins:175 def
+R37971:37979 Cpdt.MoreDep <> BlackNode constr
+R38009:38017 Coq.Arith.Compare_dec <> le_lt_dec def
+R38019:38019 Cpdt.MoreDep <> insert.x var
+R38296:38299 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38282:38290 Cpdt.MoreDep <> insResult def
+R38292:38293 Cpdt.MoreDep <> c2:177 var
+R38323:38325 Cpdt.MoreDep <> Red constr
+binder 38334:38338 <> ins_b:178
+R38343:38350 Cpdt.MoreDep <> balance2 def
+R38352:38356 Cpdt.MoreDep <> ins_b:178 var
+binder 38387:38391 <> ins_b:179
+R38396:38398 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R38427:38429 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R38399:38407 Cpdt.MoreDep <> BlackNode constr
+R38414:38419 Coq.Init.Specif <> projT2 def
+R38421:38425 Cpdt.MoreDep <> ins_b:179 var
+R38448:38450 Cpdt.MoreDep <> ins:175 def
+R38080:38083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38066:38074 Cpdt.MoreDep <> insResult def
+R38076:38077 Cpdt.MoreDep <> c1:180 var
+R38107:38109 Cpdt.MoreDep <> Red constr
+binder 38118:38122 <> ins_a:181
+R38127:38134 Cpdt.MoreDep <> balance1 def
+R38136:38140 Cpdt.MoreDep <> ins_a:181 var
+binder 38171:38175 <> ins_a:182
+R38180:38182 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R38211:38213 Cpdt.MoreDep <> :::'{<'_x_'>}' not
+R38183:38191 Cpdt.MoreDep <> BlackNode constr
+R38194:38199 Coq.Init.Specif <> projT2 def
+R38201:38205 Cpdt.MoreDep <> ins_a:182 var
+R38232:38234 Cpdt.MoreDep <> ins:175 def
+def 39725:39736 <> insertResult
+binder 39738:39738 <> c:183
+binder 39740:39740 <> n:184
+R39755:39755 Cpdt.MoreDep <> c:183 var
+R39770:39772 Cpdt.MoreDep <> Red constr
+R39777:39782 Cpdt.MoreDep <> rbtree ind
+R39791:39791 Coq.Init.Datatypes <> S constr
+R39793:39793 Cpdt.MoreDep <> n:184 var
+R39784:39788 Cpdt.MoreDep <> Black constr
+R39804:39808 Cpdt.MoreDep <> Black constr
+R39813:39814 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R39817:39819 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R39825:39827 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R39839:39840 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R39820:39824 Cpdt.MoreDep <> color ind
+binder 39815:39816 <> c':186
+R39828:39833 Cpdt.MoreDep <> rbtree ind
+R39838:39838 Cpdt.MoreDep <> n:184 var
+R39835:39836 Cpdt.MoreDep <> c':186 var
+def 39949:39958 <> makeRbtree
+binder 39960:39960 <> c:187
+binder 39962:39962 <> n:188
+R39979:39982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R39966:39974 Cpdt.MoreDep <> insResult def
+R39978:39978 Cpdt.MoreDep <> n:188 var
+R39976:39976 Cpdt.MoreDep <> c:187 var
+R39983:39994 Cpdt.MoreDep <> insertResult def
+R39998:39998 Cpdt.MoreDep <> n:188 var
+R39996:39996 Cpdt.MoreDep <> c:187 var
+R40013:40013 Cpdt.MoreDep <> c:187 var
+R40028:40030 Cpdt.MoreDep <> Red constr
+binder 40039:40039 <> r:190
+R40058:40058 Cpdt.MoreDep <> r:190 var
+R40077:40084 Cpdt.MoreDep <> RedNode' constr
+R40094:40094 Cpdt.MoreDep <> x vardefax
+R40101:40109 Cpdt.MoreDep <> BlackNode constr
+R40137:40141 Cpdt.MoreDep <> Black constr
+binder 40150:40150 <> r:192
+R40155:40155 Cpdt.MoreDep <> r:192 var
+R40347:40356 Cpdt.MoreDep <> makeRbtree def
+R40347:40356 Cpdt.MoreDep <> makeRbtree def
+def 40470:40475 <> insert
+binder 40477:40477 <> c:193
+binder 40479:40479 <> n:194
+R40486:40491 Cpdt.MoreDep <> rbtree ind
+R40495:40495 Cpdt.MoreDep <> n:194 var
+R40493:40493 Cpdt.MoreDep <> c:193 var
+binder 40482:40482 <> t:195
+R40500:40511 Cpdt.MoreDep <> insertResult def
+R40515:40515 Cpdt.MoreDep <> n:194 var
+R40513:40513 Cpdt.MoreDep <> c:193 var
+R40524:40533 Cpdt.MoreDep <> makeRbtree def
+R40536:40538 Cpdt.MoreDep <> ins def
+R40540:40540 Cpdt.MoreDep <> t:195 var
+sec 40836:40842 insert present
+var 40858:40858 insert.present z
+R40862:40864 Coq.Init.Datatypes <> nat ind
+R41649:41652 Cpdt.MoreDep <> Leaf constr
+R41649:41652 Cpdt.MoreDep <> Leaf constr
+R41761:41764 Cpdt.MoreDep <> Leaf constr
+R41761:41764 Cpdt.MoreDep <> Leaf constr
+prf 42008:42023 <> present_balance1
+binder 42034:42034 <> n:197
+R42041:42045 Cpdt.MoreDep <> rtree ind
+R42047:42047 Cpdt.MoreDep <> n:197 var
+binder 42037:42037 <> a:198
+R42055:42057 Coq.Init.Datatypes <> nat ind
+binder 42051:42051 <> y:199
+binder 42060:42061 <> c2:200
+R42068:42073 Cpdt.MoreDep <> rbtree ind
+R42078:42078 Cpdt.MoreDep <> n:197 var
+R42075:42076 Cpdt.MoreDep <> c2:200 var
+binder 42064:42064 <> b:201
+R42123:42133 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R42088:42094 Cpdt.MoreDep <> present def
+R42099:42104 Coq.Init.Specif <> projT2 def
+R42107:42114 Cpdt.MoreDep <> balance1 def
+R42120:42120 Cpdt.MoreDep <> b:201 var
+R42118:42118 Cpdt.MoreDep <> y:199 var
+R42116:42116 Cpdt.MoreDep <> a:198 var
+R42096:42096 Cpdt.MoreDep <> insert.present.z var
+R42146:42149 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R42134:42141 Cpdt.MoreDep <> rpresent def
+R42145:42145 Cpdt.MoreDep <> a:198 var
+R42143:42143 Cpdt.MoreDep <> insert.present.z var
+R42155:42158 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R42151:42153 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42150:42150 Cpdt.MoreDep <> insert.present.z var
+R42154:42154 Cpdt.MoreDep <> y:199 var
+R42159:42165 Cpdt.MoreDep <> present def
+R42169:42169 Cpdt.MoreDep <> b:201 var
+R42167:42167 Cpdt.MoreDep <> insert.present.z var
+prf 42227:42242 <> present_balance2
+binder 42253:42253 <> n:202
+R42260:42264 Cpdt.MoreDep <> rtree ind
+R42266:42266 Cpdt.MoreDep <> n:202 var
+binder 42256:42256 <> a:203
+R42274:42276 Coq.Init.Datatypes <> nat ind
+binder 42270:42270 <> y:204
+binder 42279:42280 <> c2:205
+R42287:42292 Cpdt.MoreDep <> rbtree ind
+R42297:42297 Cpdt.MoreDep <> n:202 var
+R42294:42295 Cpdt.MoreDep <> c2:205 var
+binder 42283:42283 <> b:206
+R42342:42352 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R42307:42313 Cpdt.MoreDep <> present def
+R42318:42323 Coq.Init.Specif <> projT2 def
+R42326:42333 Cpdt.MoreDep <> balance2 def
+R42339:42339 Cpdt.MoreDep <> b:206 var
+R42337:42337 Cpdt.MoreDep <> y:204 var
+R42335:42335 Cpdt.MoreDep <> a:203 var
+R42315:42315 Cpdt.MoreDep <> insert.present.z var
+R42365:42368 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R42353:42360 Cpdt.MoreDep <> rpresent def
+R42364:42364 Cpdt.MoreDep <> a:203 var
+R42362:42362 Cpdt.MoreDep <> insert.present.z var
+R42374:42377 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R42370:42372 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42369:42369 Cpdt.MoreDep <> insert.present.z var
+R42373:42373 Cpdt.MoreDep <> y:204 var
+R42378:42384 Cpdt.MoreDep <> present def
+R42388:42388 Cpdt.MoreDep <> b:206 var
+R42386:42386 Cpdt.MoreDep <> insert.present.z var
+def 42708:42724 <> present_insResult
+binder 42726:42726 <> c:207
+binder 42728:42728 <> n:208
+R42745:42745 Cpdt.MoreDep <> c:207 var
+R42765:42768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42755:42760 Cpdt.MoreDep <> rbtree ind
+R42764:42764 Cpdt.MoreDep <> n:208 var
+R42762:42762 Cpdt.MoreDep <> c:209 var
+R42782:42785 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42769:42777 Cpdt.MoreDep <> insResult def
+R42781:42781 Cpdt.MoreDep <> n:208 var
+R42779:42779 Cpdt.MoreDep <> c:209 var
+R42807:42809 Cpdt.MoreDep <> Red constr
+binder 42818:42818 <> t:210
+binder 42820:42820 <> r:211
+R42837:42841 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R42825:42832 Cpdt.MoreDep <> rpresent def
+R42836:42836 Cpdt.MoreDep <> r:211 var
+R42834:42834 Cpdt.MoreDep <> insert.present.z var
+R42847:42850 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R42843:42845 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42842:42842 Cpdt.MoreDep <> insert.present.z var
+R42846:42846 Cpdt.MoreDep <> insert.x var
+R42851:42857 Cpdt.MoreDep <> present def
+R42861:42861 Cpdt.MoreDep <> t:210 var
+R42859:42859 Cpdt.MoreDep <> insert.present.z var
+R42873:42877 Cpdt.MoreDep <> Black constr
+binder 42886:42886 <> t:212
+binder 42888:42888 <> r:213
+R42913:42917 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R42893:42899 Cpdt.MoreDep <> present def
+R42904:42909 Coq.Init.Specif <> projT2 def
+R42911:42911 Cpdt.MoreDep <> r:213 var
+R42901:42901 Cpdt.MoreDep <> insert.present.z var
+R42923:42926 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R42919:42921 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42918:42918 Cpdt.MoreDep <> insert.present.z var
+R42922:42922 Cpdt.MoreDep <> insert.x var
+R42927:42933 Cpdt.MoreDep <> present def
+R42937:42937 Cpdt.MoreDep <> t:212 var
+R42935:42935 Cpdt.MoreDep <> insert.present.z var
+prf 43502:43512 <> present_ins
+binder 43523:43523 <> c:214
+binder 43525:43525 <> n:215
+R43532:43537 Cpdt.MoreDep <> rbtree ind
+R43541:43541 Cpdt.MoreDep <> n:215 var
+R43539:43539 Cpdt.MoreDep <> c:214 var
+binder 43528:43528 <> t:216
+R43551:43567 Cpdt.MoreDep <> present_insResult def
+R43572:43574 Cpdt.MoreDep <> ins def
+R43576:43576 Cpdt.MoreDep <> t:216 var
+R43569:43569 Cpdt.MoreDep <> t:216 var
+R43832:43834 Cpdt.MoreDep <> Red constr
+R43843:43847 Cpdt.MoreDep <> Black constr
+R43832:43834 Cpdt.MoreDep <> Red constr
+R43843:43847 Cpdt.MoreDep <> Black constr
+R43989:43996 Cpdt.MoreDep <> balance1 def
+R43989:43996 Cpdt.MoreDep <> balance1 def
+R44046:44061 Cpdt.MoreDep <> present_balance1 thm
+R44145:44152 Cpdt.MoreDep <> balance2 def
+R44145:44152 Cpdt.MoreDep <> balance2 def
+R44202:44217 Cpdt.MoreDep <> present_balance2 thm
+R44300:44307 Cpdt.MoreDep <> balance1 def
+R44300:44307 Cpdt.MoreDep <> balance1 def
+R44352:44367 Cpdt.MoreDep <> present_balance1 thm
+R44450:44457 Cpdt.MoreDep <> balance2 def
+R44450:44457 Cpdt.MoreDep <> balance2 def
+R44502:44517 Cpdt.MoreDep <> present_balance2 thm
+R44604:44606 Coq.Init.Datatypes <> nat ind
+R44604:44606 Coq.Init.Datatypes <> nat ind
+R44613:44615 Coq.Init.Datatypes <> nat ind
+R44613:44615 Coq.Init.Datatypes <> nat ind
+R44682:44684 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44682:44684 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R44046:44061 Cpdt.MoreDep <> present_balance1 thm
+R44202:44217 Cpdt.MoreDep <> present_balance2 thm
+R44352:44367 Cpdt.MoreDep <> present_balance1 thm
+R44352:44367 Cpdt.MoreDep <> present_balance1 thm
+R44352:44367 Cpdt.MoreDep <> present_balance1 thm
+R44352:44367 Cpdt.MoreDep <> present_balance1 thm
+R44352:44367 Cpdt.MoreDep <> present_balance1 thm
+R44352:44367 Cpdt.MoreDep <> present_balance1 thm
+R44352:44367 Cpdt.MoreDep <> present_balance1 thm
+R44502:44517 Cpdt.MoreDep <> present_balance2 thm
+R44502:44517 Cpdt.MoreDep <> present_balance2 thm
+R44502:44517 Cpdt.MoreDep <> present_balance2 thm
+R44502:44517 Cpdt.MoreDep <> present_balance2 thm
+R44502:44517 Cpdt.MoreDep <> present_balance2 thm
+R44502:44517 Cpdt.MoreDep <> present_balance2 thm
+R44502:44517 Cpdt.MoreDep <> present_balance2 thm
+R45067:45072 Cpdt.MoreDep <> insert def
+R45120:45130 Cpdt.MoreDep <> present_ins thm
+R45167:45169 Cpdt.MoreDep <> ins def
+prf 45195:45212 <> present_insert_Red
+binder 45223:45223 <> n:217
+R45230:45235 Cpdt.MoreDep <> rbtree ind
+R45241:45241 Cpdt.MoreDep <> n:217 var
+R45237:45239 Cpdt.MoreDep <> Red constr
+binder 45226:45226 <> t:218
+R45271:45282 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R45303:45303 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R45251:45257 Cpdt.MoreDep <> present def
+R45262:45267 Cpdt.MoreDep <> insert def
+R45269:45269 Cpdt.MoreDep <> t:218 var
+R45259:45259 Cpdt.MoreDep <> insert.present.z var
+R45288:45291 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R45284:45286 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45283:45283 Cpdt.MoreDep <> insert.present.z var
+R45287:45287 Cpdt.MoreDep <> insert.x var
+R45292:45298 Cpdt.MoreDep <> present def
+R45302:45302 Cpdt.MoreDep <> t:218 var
+R45300:45300 Cpdt.MoreDep <> insert.present.z var
+prf 45350:45369 <> present_insert_Black
+binder 45380:45380 <> n:219
+R45387:45392 Cpdt.MoreDep <> rbtree ind
+R45400:45400 Cpdt.MoreDep <> n:219 var
+R45394:45398 Cpdt.MoreDep <> Black constr
+binder 45383:45383 <> t:220
+R45439:45450 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R45471:45471 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R45410:45416 Cpdt.MoreDep <> present def
+R45421:45426 Coq.Init.Specif <> projT2 def
+R45429:45434 Cpdt.MoreDep <> insert def
+R45436:45436 Cpdt.MoreDep <> t:220 var
+R45418:45418 Cpdt.MoreDep <> insert.present.z var
+R45456:45459 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R45452:45454 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45451:45451 Cpdt.MoreDep <> insert.present.z var
+R45455:45455 Cpdt.MoreDep <> insert.x var
+R45460:45466 Cpdt.MoreDep <> present def
+R45470:45470 Cpdt.MoreDep <> t:220 var
+R45468:45468 Cpdt.MoreDep <> insert.present.z var
+R45511:45517 Cpdt.MoreDep insert.present <> sec
+R45524:45529 Cpdt.MoreDep insert <> sec
+R47474:47478 Coq.Strings.Ascii <> <> lib
+R47480:47485 Coq.Strings.String <> <> lib
+sec 47522:47525 <> star
+var 47539:47539 star P
+R47549:47552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R47543:47548 Coq.Strings.String <> string ind
+ind 47572:47575 <> star
+constr 47601:47605 <> Empty
+constr 47621:47624 <> Iter
+R47585:47588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R47579:47584 Coq.Strings.String <> string ind
+R47609:47612 Cpdt.MoreDep <> star:222 ind
+binder 47635:47636 <> s1:224
+binder 47638:47639 <> s2:225
+R47650:47657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R47646:47646 Cpdt.MoreDep <> star.P var
+R47648:47649 Cpdt.MoreDep <> s1:224 var
+R47665:47672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R47658:47661 Cpdt.MoreDep <> star:222 ind
+R47663:47664 Cpdt.MoreDep <> s2:225 var
+R47673:47676 Cpdt.MoreDep <> star:222 ind
+R47681:47684 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R47679:47680 Cpdt.MoreDep <> s1:224 var
+R47685:47686 Cpdt.MoreDep <> s2:225 var
+R47694:47697 Cpdt.MoreDep star <> sec
+ind 49278:49283 <> regexp
+constr 49317:49320 <> Char
+constr 49382:49387 <> Concat
+constr 49514:49515 <> Or
+constr 49602:49605 <> Star
+R49287:49287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R49302:49306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R49294:49297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R49288:49293 Coq.Strings.String <> string ind
+R49336:49340 Coq.Strings.Ascii <> ascii ind
+binder 49331:49332 <> ch:228
+R49345:49350 Cpdt.MoreDep <> regexp:226 ind
+binder 49357:49357 <> s:229
+R49363:49365 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R49362:49362 Cpdt.MoreDep <> s:229 var
+R49366:49371 Coq.Strings.String <> String constr
+R49373:49374 Cpdt.MoreDep <> ch:228 var
+binder 49398:49399 <> P1:230
+binder 49401:49402 <> P2:231
+R49410:49415 Cpdt.MoreDep <> regexp:226 ind
+R49417:49418 Cpdt.MoreDep <> P1:230 var
+binder 49405:49406 <> r1:232
+R49427:49432 Cpdt.MoreDep <> regexp:226 ind
+R49434:49435 Cpdt.MoreDep <> P2:231 var
+binder 49422:49423 <> r2:233
+R49441:49446 Cpdt.MoreDep <> regexp:226 ind
+binder 49453:49453 <> s:234
+R49458:49464 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R49467:49468 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 49465:49466 <> s1:235
+R49469:49475 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R49478:49479 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 49476:49477 <> s2:236
+R49492:49495 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R49481:49483 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R49480:49480 Cpdt.MoreDep <> s:234 var
+R49486:49489 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R49484:49485 Cpdt.MoreDep <> s1:235 var
+R49490:49491 Cpdt.MoreDep <> s2:236 var
+R49501:49504 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R49496:49497 Cpdt.MoreDep <> P1:230 var
+R49499:49500 Cpdt.MoreDep <> s1:235 var
+R49505:49506 Cpdt.MoreDep <> P2:231 var
+R49508:49509 Cpdt.MoreDep <> s2:236 var
+binder 49526:49527 <> P1:237
+binder 49529:49530 <> P2:238
+R49538:49543 Cpdt.MoreDep <> regexp:226 ind
+R49545:49546 Cpdt.MoreDep <> P1:237 var
+binder 49533:49534 <> r1:239
+R49555:49560 Cpdt.MoreDep <> regexp:226 ind
+R49562:49563 Cpdt.MoreDep <> P2:238 var
+binder 49550:49551 <> r2:240
+R49569:49574 Cpdt.MoreDep <> regexp:226 ind
+binder 49581:49581 <> s:241
+R49590:49593 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R49586:49587 Cpdt.MoreDep <> P1:237 var
+R49589:49589 Cpdt.MoreDep <> s:241 var
+R49594:49595 Cpdt.MoreDep <> P2:238 var
+R49597:49597 Cpdt.MoreDep <> s:241 var
+binder 49616:49616 <> P:242
+R49623:49628 Cpdt.MoreDep <> regexp:226 ind
+R49630:49630 Cpdt.MoreDep <> P:242 var
+binder 49619:49619 <> r:243
+R49636:49641 Cpdt.MoreDep <> regexp:226 ind
+R49644:49647 Cpdt.MoreDep <> star ind
+R49649:49649 Cpdt.MoreDep <> P:242 var
+prf 50054:50063 <> length_emp
+R50076:50079 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R50067:50072 Coq.Strings.String <> length def
+prf 50104:50113 <> append_emp
+binder 50124:50124 <> s:244
+R50128:50130 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R50127:50127 Cpdt.MoreDep <> s:244 var
+R50133:50136 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R50137:50137 Cpdt.MoreDep <> s:244 var
+R50247:50247 Coq.Init.Datatypes <> O constr
+R50256:50256 Coq.Init.Datatypes <> S constr
+R50247:50247 Coq.Init.Datatypes <> O constr
+R50256:50256 Coq.Init.Datatypes <> S constr
+prf 50314:50325 <> substring_le
+binder 50336:50336 <> s:245
+binder 50338:50338 <> n:246
+binder 50340:50340 <> m:247
+R50369:50372 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R50345:50350 Coq.Strings.String <> length def
+R50353:50361 Coq.Strings.String <> substring def
+R50363:50363 Cpdt.MoreDep <> n:246 var
+R50365:50365 Cpdt.MoreDep <> m:247 var
+R50367:50367 Cpdt.MoreDep <> s:245 var
+R50373:50373 Cpdt.MoreDep <> m:247 var
+prf 50414:50426 <> substring_all
+binder 50437:50437 <> s:248
+R50466:50468 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R50442:50450 Coq.Strings.String <> substring def
+R50455:50460 Coq.Strings.String <> length def
+R50462:50462 Cpdt.MoreDep <> s:248 var
+R50465:50465 Cpdt.MoreDep <> s:248 var
+R50469:50469 Cpdt.MoreDep <> s:248 var
+prf 50510:50523 <> substring_none
+binder 50534:50534 <> s:249
+binder 50536:50536 <> n:250
+R50556:50558 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R50541:50549 Coq.Strings.String <> substring def
+R50551:50551 Cpdt.MoreDep <> n:250 var
+R50555:50555 Cpdt.MoreDep <> s:249 var
+R50608:50620 Cpdt.MoreDep <> substring_all thm
+R50622:50635 Cpdt.MoreDep <> substring_none thm
+prf 50645:50659 <> substring_split
+binder 50670:50670 <> s:251
+binder 50672:50672 <> m:252
+R50724:50726 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R50692:50695 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R50677:50685 Coq.Strings.String <> substring def
+R50689:50689 Cpdt.MoreDep <> m:252 var
+R50691:50691 Cpdt.MoreDep <> s:251 var
+R50696:50704 Coq.Strings.String <> substring def
+R50706:50706 Cpdt.MoreDep <> m:252 var
+R50717:50719 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R50709:50714 Coq.Strings.String <> length def
+R50716:50716 Cpdt.MoreDep <> s:251 var
+R50720:50720 Cpdt.MoreDep <> m:252 var
+R50723:50723 Cpdt.MoreDep <> s:251 var
+R50727:50727 Cpdt.MoreDep <> s:251 var
+prf 50768:50778 <> length_app1
+binder 50789:50790 <> s1:253
+binder 50792:50793 <> s2:254
+R50807:50810 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R50798:50803 Coq.Strings.String <> length def
+R50805:50806 Cpdt.MoreDep <> s1:253 var
+R50811:50816 Coq.Strings.String <> length def
+R50821:50824 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R50819:50820 Cpdt.MoreDep <> s1:253 var
+R50825:50826 Cpdt.MoreDep <> s2:254 var
+prf 50943:50959 <> substring_app_fst
+binder 50970:50971 <> s2:255
+binder 50973:50974 <> s1:256
+binder 50976:50976 <> n:257
+R50994:50999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R50990:50992 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R50981:50986 Coq.Strings.String <> length def
+R50988:50989 Cpdt.MoreDep <> s1:256 var
+R50993:50993 Cpdt.MoreDep <> n:257 var
+R51024:51026 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R51000:51008 Coq.Strings.String <> substring def
+R51012:51012 Cpdt.MoreDep <> n:257 var
+R51017:51020 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R51015:51016 Cpdt.MoreDep <> s1:256 var
+R51021:51022 Cpdt.MoreDep <> s2:255 var
+R51027:51028 Cpdt.MoreDep <> s1:256 var
+prf 51066:51082 <> substring_app_snd
+binder 51093:51094 <> s2:258
+binder 51096:51097 <> s1:259
+binder 51099:51099 <> n:260
+R51117:51122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R51113:51115 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R51104:51109 Coq.Strings.String <> length def
+R51111:51112 Cpdt.MoreDep <> s1:259 var
+R51116:51116 Cpdt.MoreDep <> n:260 var
+R51169:51171 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R51123:51131 Coq.Strings.String <> substring def
+R51133:51133 Cpdt.MoreDep <> n:260 var
+R51153:51155 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R51136:51141 Coq.Strings.String <> length def
+R51146:51149 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R51144:51145 Cpdt.MoreDep <> s1:259 var
+R51150:51151 Cpdt.MoreDep <> s2:258 var
+R51156:51156 Cpdt.MoreDep <> n:260 var
+R51162:51165 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R51160:51161 Cpdt.MoreDep <> s1:259 var
+R51166:51167 Cpdt.MoreDep <> s2:258 var
+R51172:51173 Cpdt.MoreDep <> s2:258 var
+R51194:51202 Coq.Arith.Minus <> minus_n_O abbrev
+R51194:51202 Coq.Arith.Minus <> minus_n_O abbrev
+R51248:51264 Cpdt.MoreDep <> substring_app_fst thm
+R51266:51282 Cpdt.MoreDep <> substring_app_snd thm
+R51492:51495 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+sec 51516:51520 <> split
+var 51535:51536 split P1
+var 51538:51539 split P2
+R51549:51552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R51543:51548 Coq.Strings.String <> string ind
+var 51570:51575 split P1_dec
+binder 51586:51586 <> s:263
+R51589:51589 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R51594:51598 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R51605:51605 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R51590:51591 Cpdt.MoreDep <> split.P1 var
+R51593:51593 Cpdt.MoreDep <> s:263 var
+R51599:51600 Coq.Init.Logic <> ::type_scope:'~'_x not
+R51601:51602 Cpdt.MoreDep <> split.P1 var
+R51604:51604 Cpdt.MoreDep <> s:263 var
+var 51619:51624 split P2_dec
+binder 51635:51635 <> s:265
+R51638:51638 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R51643:51647 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R51654:51654 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R51639:51640 Cpdt.MoreDep <> split.P2 var
+R51642:51642 Cpdt.MoreDep <> s:265 var
+R51648:51649 Coq.Init.Logic <> ::type_scope:'~'_x not
+R51650:51651 Cpdt.MoreDep <> split.P2 var
+R51653:51653 Cpdt.MoreDep <> s:265 var
+var 51766:51766 split s
+R51770:51775 Coq.Strings.String <> string ind
+def 52393:52398 <> split'
+R52413:52415 Coq.Init.Datatypes <> nat ind
+binder 52409:52409 <> n:268
+R52431:52438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52419:52422 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R52418:52418 Cpdt.MoreDep <> n:268 var
+R52423:52428 Coq.Strings.String <> length def
+R52430:52430 Cpdt.MoreDep <> split.s var
+R52439:52439 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R52510:52518 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R52585:52585 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R52440:52446 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R52449:52450 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 52447:52448 <> s1:269
+R52451:52457 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R52460:52461 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 52458:52459 <> s2:270
+R52476:52479 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R52471:52474 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R52462:52467 Coq.Strings.String <> length def
+R52469:52470 Cpdt.MoreDep <> s1:269 var
+R52475:52475 Cpdt.MoreDep <> n:268 var
+R52492:52495 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R52488:52490 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R52482:52485 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R52480:52481 Cpdt.MoreDep <> s1:269 var
+R52486:52487 Cpdt.MoreDep <> s2:270 var
+R52491:52491 Cpdt.MoreDep <> split.s var
+R52501:52504 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R52496:52497 Cpdt.MoreDep <> split.P1 var
+R52499:52500 Cpdt.MoreDep <> s1:269 var
+R52505:52506 Cpdt.MoreDep <> split.P2 var
+R52508:52509 Cpdt.MoreDep <> s2:270 var
+binder 52526:52527 <> s1:271
+binder 52529:52530 <> s2:272
+R52547:52550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52542:52545 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R52533:52538 Coq.Strings.String <> length def
+R52540:52541 Cpdt.MoreDep <> s1:271 var
+R52546:52546 Cpdt.MoreDep <> n:268 var
+R52563:52566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52559:52561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R52553:52556 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R52551:52552 Cpdt.MoreDep <> s1:271 var
+R52557:52558 Cpdt.MoreDep <> s2:272 var
+R52562:52562 Cpdt.MoreDep <> split.s var
+R52574:52577 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R52567:52568 Coq.Init.Logic <> ::type_scope:'~'_x not
+R52569:52570 Cpdt.MoreDep <> split.P1 var
+R52572:52573 Cpdt.MoreDep <> s1:271 var
+R52578:52579 Coq.Init.Logic <> ::type_scope:'~'_x not
+R52580:52581 Cpdt.MoreDep <> split.P2 var
+R52583:52584 Cpdt.MoreDep <> s2:272 var
+R52611:52613 Coq.Init.Datatypes <> nat ind
+binder 52607:52607 <> n:273
+R52631:52640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52619:52622 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R52618:52618 Cpdt.MoreDep <> n:273 var
+R52623:52628 Coq.Strings.String <> length def
+R52630:52630 Cpdt.MoreDep <> split.s var
+R52641:52641 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R52712:52722 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R52789:52789 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R52642:52648 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R52651:52652 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 52649:52650 <> s1:274
+R52653:52659 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R52662:52663 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 52660:52661 <> s2:275
+R52678:52681 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R52673:52676 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R52664:52669 Coq.Strings.String <> length def
+R52671:52672 Cpdt.MoreDep <> s1:274 var
+R52677:52677 Cpdt.MoreDep <> n:273 var
+R52694:52697 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R52690:52692 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R52684:52687 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R52682:52683 Cpdt.MoreDep <> s1:274 var
+R52688:52689 Cpdt.MoreDep <> s2:275 var
+R52693:52693 Cpdt.MoreDep <> split.s var
+R52703:52706 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R52698:52699 Cpdt.MoreDep <> split.P1 var
+R52701:52702 Cpdt.MoreDep <> s1:274 var
+R52707:52708 Cpdt.MoreDep <> split.P2 var
+R52710:52711 Cpdt.MoreDep <> s2:275 var
+binder 52730:52731 <> s1:276
+binder 52733:52734 <> s2:277
+R52751:52754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52746:52749 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R52737:52742 Coq.Strings.String <> length def
+R52744:52745 Cpdt.MoreDep <> s1:276 var
+R52750:52750 Cpdt.MoreDep <> n:273 var
+R52767:52770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52763:52765 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R52757:52760 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R52755:52756 Cpdt.MoreDep <> s1:276 var
+R52761:52762 Cpdt.MoreDep <> s2:277 var
+R52766:52766 Cpdt.MoreDep <> split.s var
+R52778:52781 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R52771:52772 Coq.Init.Logic <> ::type_scope:'~'_x not
+R52773:52774 Cpdt.MoreDep <> split.P1 var
+R52776:52777 Cpdt.MoreDep <> s1:276 var
+R52782:52783 Coq.Init.Logic <> ::type_scope:'~'_x not
+R52784:52785 Cpdt.MoreDep <> split.P2 var
+R52787:52788 Cpdt.MoreDep <> s2:277 var
+R52806:52806 Cpdt.MoreDep <> n:273 var
+R52823:52823 Coq.Init.Datatypes <> O constr
+R52837:52844 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R52866:52866 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R52854:52857 Cpdt.MoreSpecif <> ::specif_scope:x_'&&'_x not
+R52845:52850 Cpdt.MoreDep <> split.P1_dec var
+R52858:52863 Cpdt.MoreDep <> split.P2_dec var
+R52865:52865 Cpdt.MoreDep <> split.s var
+R52878:52878 Coq.Init.Datatypes <> S constr
+R52895:52895 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R52986:53000 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R53001:53001 Cpdt.MoreDep <> F:278 var
+R52925:52940 Cpdt.MoreSpecif <> ::specif_scope:x_'&&'_x not
+R52896:52901 Cpdt.MoreDep <> split.P1_dec var
+R52904:52912 Coq.Strings.String <> substring def
+R52917:52917 Coq.Init.Datatypes <> S constr
+R52923:52923 Cpdt.MoreDep <> split.s var
+R52941:52946 Cpdt.MoreDep <> split.P2_dec var
+R52949:52957 Coq.Strings.String <> substring def
+R52960:52960 Coq.Init.Datatypes <> S constr
+R52975:52977 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R52967:52972 Coq.Strings.String <> length def
+R52974:52974 Cpdt.MoreDep <> split.s var
+R52978:52978 Coq.Init.Datatypes <> S constr
+R52984:52984 Cpdt.MoreDep <> split.s var
+R53088:53091 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R53079:53084 Coq.Strings.String <> length def
+R53088:53091 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R53079:53084 Coq.Strings.String <> length def
+R53139:53142 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R53129:53134 Coq.Strings.String <> length def
+R53143:53143 Coq.Init.Datatypes <> S constr
+R53139:53142 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R53129:53134 Coq.Strings.String <> length def
+R53143:53143 Coq.Init.Datatypes <> S constr
+R53168:53177 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R53180:53185 Coq.Strings.String <> length def
+R53192:53192 Coq.Init.Datatypes <> S constr
+R52611:52613 Coq.Init.Datatypes <> nat ind
+binder 52607:52607 <> n:280
+R52631:52640 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52619:52622 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R52618:52618 Cpdt.MoreDep <> n:280 var
+R52623:52628 Coq.Strings.String <> length def
+R52630:52630 Cpdt.MoreDep <> split.s var
+R52641:52641 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R52712:52722 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R52789:52789 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R52642:52648 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R52651:52652 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 52649:52650 <> s1:281
+R52653:52659 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R52662:52663 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 52660:52661 <> s2:282
+R52678:52681 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R52673:52676 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R52664:52669 Coq.Strings.String <> length def
+R52671:52672 Cpdt.MoreDep <> s1:281 var
+R52677:52677 Cpdt.MoreDep <> n:280 var
+R52694:52697 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R52690:52692 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R52684:52687 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R52682:52683 Cpdt.MoreDep <> s1:281 var
+R52688:52689 Cpdt.MoreDep <> s2:282 var
+R52693:52693 Cpdt.MoreDep <> split.s var
+R52703:52706 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R52698:52699 Cpdt.MoreDep <> split.P1 var
+R52701:52702 Cpdt.MoreDep <> s1:281 var
+R52707:52708 Cpdt.MoreDep <> split.P2 var
+R52710:52711 Cpdt.MoreDep <> s2:282 var
+binder 52730:52731 <> s1:283
+binder 52733:52734 <> s2:284
+R52751:52754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52746:52749 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R52737:52742 Coq.Strings.String <> length def
+R52744:52745 Cpdt.MoreDep <> s1:283 var
+R52750:52750 Cpdt.MoreDep <> n:280 var
+R52767:52770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R52763:52765 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R52757:52760 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R52755:52756 Cpdt.MoreDep <> s1:283 var
+R52761:52762 Cpdt.MoreDep <> s2:284 var
+R52766:52766 Cpdt.MoreDep <> split.s var
+R52778:52781 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R52771:52772 Coq.Init.Logic <> ::type_scope:'~'_x not
+R52773:52774 Cpdt.MoreDep <> split.P1 var
+R52776:52777 Cpdt.MoreDep <> s1:283 var
+R52782:52783 Coq.Init.Logic <> ::type_scope:'~'_x not
+R52784:52785 Cpdt.MoreDep <> split.P2 var
+R52787:52788 Cpdt.MoreDep <> s2:284 var
+R52806:52806 Cpdt.MoreDep <> n:280 var
+R52823:52823 Coq.Init.Datatypes <> O constr
+R52837:52844 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R52866:52866 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R52854:52857 Cpdt.MoreSpecif <> ::specif_scope:x_'&&'_x not
+R52845:52850 Cpdt.MoreDep <> split.P1_dec var
+R52858:52863 Cpdt.MoreDep <> split.P2_dec var
+R52865:52865 Cpdt.MoreDep <> split.s var
+R52878:52878 Coq.Init.Datatypes <> S constr
+R52895:52895 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R52986:53000 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R53001:53001 Cpdt.MoreDep <> F:285 var
+R52925:52940 Cpdt.MoreSpecif <> ::specif_scope:x_'&&'_x not
+R52896:52901 Cpdt.MoreDep <> split.P1_dec var
+R52904:52912 Coq.Strings.String <> substring def
+R52917:52917 Coq.Init.Datatypes <> S constr
+R52923:52923 Cpdt.MoreDep <> split.s var
+R52941:52946 Cpdt.MoreDep <> split.P2_dec var
+R52949:52957 Coq.Strings.String <> substring def
+R52960:52960 Coq.Init.Datatypes <> S constr
+R52975:52977 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R52967:52972 Coq.Strings.String <> length def
+R52974:52974 Cpdt.MoreDep <> split.s var
+R52978:52978 Coq.Init.Datatypes <> S constr
+R52984:52984 Cpdt.MoreDep <> split.s var
+R53168:53177 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R53180:53185 Coq.Strings.String <> length def
+R53192:53192 Coq.Init.Datatypes <> S constr
+R53168:53177 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R53180:53185 Coq.Strings.String <> length def
+R53192:53192 Coq.Init.Datatypes <> S constr
+def 54162:54166 <> split
+R54170:54170 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R54223:54231 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R54280:54280 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R54171:54177 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R54180:54181 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 54178:54179 <> s1:287
+R54182:54188 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R54191:54192 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 54189:54190 <> s2:288
+R54205:54208 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R54194:54196 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R54193:54193 Cpdt.MoreDep <> split.s var
+R54199:54202 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R54197:54198 Cpdt.MoreDep <> s1:287 var
+R54203:54204 Cpdt.MoreDep <> s2:288 var
+R54214:54217 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R54209:54210 Cpdt.MoreDep <> split.P1 var
+R54212:54213 Cpdt.MoreDep <> s1:287 var
+R54218:54219 Cpdt.MoreDep <> split.P2 var
+R54221:54222 Cpdt.MoreDep <> s2:288 var
+binder 54239:54240 <> s1:289
+binder 54242:54243 <> s2:290
+R54258:54261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R54247:54249 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R54246:54246 Cpdt.MoreDep <> split.s var
+R54252:54255 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R54250:54251 Cpdt.MoreDep <> s1:289 var
+R54256:54257 Cpdt.MoreDep <> s2:290 var
+R54269:54272 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R54262:54263 Coq.Init.Logic <> ::type_scope:'~'_x not
+R54264:54265 Cpdt.MoreDep <> split.P1 var
+R54267:54268 Cpdt.MoreDep <> s1:289 var
+R54273:54274 Coq.Init.Logic <> ::type_scope:'~'_x not
+R54275:54276 Cpdt.MoreDep <> split.P2 var
+R54278:54279 Cpdt.MoreDep <> s2:290 var
+R54295:54302 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R54327:54327 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R54303:54308 Cpdt.MoreDep <> split' def
+R54316:54321 Coq.Strings.String <> length def
+R54323:54323 Cpdt.MoreDep <> split.s var
+R54295:54302 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R54327:54327 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R54303:54308 Cpdt.MoreDep <> split' def
+R54316:54321 Coq.Strings.String <> length def
+R54323:54323 Cpdt.MoreDep <> split.s var
+R54360:54364 Cpdt.MoreDep split <> sec
+R54378:54382 Cpdt.MoreDep <> split def
+R54378:54382 Cpdt.MoreDep <> split def
+prf 54433:54445 <> app_empty_end
+binder 54456:54456 <> s:291
+R54466:54468 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R54460:54463 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R54459:54459 Cpdt.MoreDep <> s:291 var
+R54469:54469 Cpdt.MoreDep <> s:291 var
+R54513:54525 Cpdt.MoreDep <> app_empty_end thm
+prf 54535:54548 <> substring_self
+binder 54559:54559 <> s:292
+binder 54561:54561 <> n:293
+R54572:54577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R54567:54570 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R54566:54566 Cpdt.MoreDep <> n:293 var
+R54606:54608 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R54578:54586 Coq.Strings.String <> substring def
+R54588:54588 Cpdt.MoreDep <> n:293 var
+R54599:54601 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R54591:54596 Coq.Strings.String <> length def
+R54598:54598 Cpdt.MoreDep <> s:292 var
+R54602:54602 Cpdt.MoreDep <> n:293 var
+R54605:54605 Cpdt.MoreDep <> s:292 var
+R54609:54609 Cpdt.MoreDep <> s:292 var
+prf 54650:54664 <> substring_empty
+binder 54675:54675 <> s:294
+binder 54677:54677 <> n:295
+binder 54679:54679 <> m:296
+R54690:54695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R54685:54688 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R54684:54684 Cpdt.MoreDep <> m:296 var
+R54711:54713 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R54696:54704 Coq.Strings.String <> substring def
+R54706:54706 Cpdt.MoreDep <> n:295 var
+R54708:54708 Cpdt.MoreDep <> m:296 var
+R54710:54710 Cpdt.MoreDep <> s:294 var
+R54763:54776 Cpdt.MoreDep <> substring_self thm
+R54778:54792 Cpdt.MoreDep <> substring_empty thm
+prf 54812:54827 <> substring_split'
+binder 54838:54838 <> s:297
+binder 54840:54840 <> n:298
+binder 54842:54842 <> m:299
+R54906:54910 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R54862:54865 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R54847:54855 Coq.Strings.String <> substring def
+R54857:54857 Cpdt.MoreDep <> n:298 var
+R54859:54859 Cpdt.MoreDep <> m:299 var
+R54861:54861 Cpdt.MoreDep <> s:297 var
+R54866:54874 Coq.Strings.String <> substring def
+R54878:54880 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R54877:54877 Cpdt.MoreDep <> n:298 var
+R54881:54881 Cpdt.MoreDep <> m:299 var
+R54893:54896 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R54902:54902 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R54885:54890 Coq.Strings.String <> length def
+R54892:54892 Cpdt.MoreDep <> s:297 var
+R54898:54900 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R54897:54897 Cpdt.MoreDep <> n:298 var
+R54901:54901 Cpdt.MoreDep <> m:299 var
+R54905:54905 Cpdt.MoreDep <> s:297 var
+R54911:54919 Coq.Strings.String <> substring def
+R54921:54921 Cpdt.MoreDep <> n:298 var
+R54932:54934 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R54924:54929 Coq.Strings.String <> length def
+R54931:54931 Cpdt.MoreDep <> s:297 var
+R54935:54935 Cpdt.MoreDep <> n:298 var
+R54938:54938 Cpdt.MoreDep <> s:297 var
+R54956:54970 Cpdt.MoreDep <> substring_split thm
+R54956:54970 Cpdt.MoreDep <> substring_split thm
+prf 55012:55026 <> substring_stack
+binder 55037:55037 <> s:300
+binder 55039:55040 <> n2:301
+binder 55042:55043 <> m1:302
+binder 55045:55046 <> m2:303
+R55059:55064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R55053:55056 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R55051:55052 Cpdt.MoreDep <> m1:302 var
+R55057:55058 Cpdt.MoreDep <> m2:303 var
+R55099:55103 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R55065:55073 Coq.Strings.String <> substring def
+R55077:55078 Cpdt.MoreDep <> m1:302 var
+R55081:55089 Coq.Strings.String <> substring def
+R55091:55092 Cpdt.MoreDep <> n2:301 var
+R55094:55095 Cpdt.MoreDep <> m2:303 var
+R55097:55097 Cpdt.MoreDep <> s:300 var
+R55104:55112 Coq.Strings.String <> substring def
+R55114:55115 Cpdt.MoreDep <> n2:301 var
+R55117:55118 Cpdt.MoreDep <> m1:302 var
+R55120:55120 Cpdt.MoreDep <> s:300 var
+R55248:55248 Coq.Init.Datatypes <> O constr
+R55257:55257 Coq.Init.Datatypes <> S constr
+R55248:55248 Coq.Init.Datatypes <> O constr
+R55257:55257 Coq.Init.Datatypes <> S constr
+prf 55314:55329 <> substring_stack'
+binder 55340:55340 <> s:304
+binder 55342:55343 <> n1:305
+binder 55345:55346 <> n2:306
+binder 55348:55349 <> m1:307
+binder 55351:55352 <> m2:308
+R55370:55375 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R55364:55367 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R55359:55361 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R55357:55358 Cpdt.MoreDep <> n1:305 var
+R55362:55363 Cpdt.MoreDep <> m1:307 var
+R55368:55369 Cpdt.MoreDep <> m2:308 var
+R55411:55415 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R55376:55384 Coq.Strings.String <> substring def
+R55386:55387 Cpdt.MoreDep <> n1:305 var
+R55389:55390 Cpdt.MoreDep <> m1:307 var
+R55393:55401 Coq.Strings.String <> substring def
+R55403:55404 Cpdt.MoreDep <> n2:306 var
+R55406:55407 Cpdt.MoreDep <> m2:308 var
+R55409:55409 Cpdt.MoreDep <> s:304 var
+R55416:55424 Coq.Strings.String <> substring def
+R55429:55431 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R55427:55428 Cpdt.MoreDep <> n1:305 var
+R55432:55433 Cpdt.MoreDep <> n2:306 var
+R55436:55437 Cpdt.MoreDep <> m1:307 var
+R55439:55439 Cpdt.MoreDep <> s:304 var
+R55519:55521 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R55502:55510 Coq.Strings.String <> substring def
+R55522:55530 Coq.Strings.String <> substring def
+R55519:55521 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R55502:55510 Coq.Strings.String <> substring def
+R55522:55530 Coq.Strings.String <> substring def
+prf 55600:55615 <> substring_suffix
+binder 55626:55626 <> s:309
+binder 55628:55628 <> n:310
+R55646:55651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R55634:55637 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R55633:55633 Cpdt.MoreDep <> n:310 var
+R55638:55643 Coq.Strings.String <> length def
+R55645:55645 Cpdt.MoreDep <> s:309 var
+R55689:55691 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R55652:55657 Coq.Strings.String <> length def
+R55660:55668 Coq.Strings.String <> substring def
+R55670:55670 Cpdt.MoreDep <> n:310 var
+R55681:55683 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R55673:55678 Coq.Strings.String <> length def
+R55680:55680 Cpdt.MoreDep <> s:309 var
+R55684:55684 Cpdt.MoreDep <> n:310 var
+R55687:55687 Cpdt.MoreDep <> s:309 var
+R55700:55702 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R55692:55697 Coq.Strings.String <> length def
+R55699:55699 Cpdt.MoreDep <> s:309 var
+R55703:55703 Cpdt.MoreDep <> n:310 var
+prf 55744:55764 <> substring_suffix_emp'
+binder 55775:55775 <> s:311
+binder 55777:55777 <> n:312
+binder 55779:55779 <> m:313
+R55808:55813 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R55803:55805 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R55784:55792 Coq.Strings.String <> substring def
+R55794:55794 Cpdt.MoreDep <> n:312 var
+R55797:55797 Coq.Init.Datatypes <> S constr
+R55799:55799 Cpdt.MoreDep <> m:313 var
+R55802:55802 Cpdt.MoreDep <> s:311 var
+R55815:55818 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R55814:55814 Cpdt.MoreDep <> n:312 var
+R55819:55824 Coq.Strings.String <> length def
+R55826:55826 Cpdt.MoreDep <> s:311 var
+R55886:55889 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R55886:55889 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R55959:55962 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R55955:55955 Coq.Init.Datatypes <> S constr
+R55963:55963 Coq.Init.Datatypes <> S constr
+R55959:55962 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R55955:55955 Coq.Init.Datatypes <> S constr
+R55963:55963 Coq.Init.Datatypes <> S constr
+R55982:55985 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R55982:55985 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+prf 56027:56046 <> substring_suffix_emp
+binder 56057:56057 <> s:314
+binder 56059:56059 <> n:315
+binder 56061:56061 <> m:316
+R56086:56091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R56081:56083 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56066:56074 Coq.Strings.String <> substring def
+R56076:56076 Cpdt.MoreDep <> n:315 var
+R56078:56078 Cpdt.MoreDep <> m:316 var
+R56080:56080 Cpdt.MoreDep <> s:314 var
+R56097:56102 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R56093:56095 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R56092:56092 Cpdt.MoreDep <> m:316 var
+R56104:56107 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R56103:56103 Cpdt.MoreDep <> n:315 var
+R56108:56113 Coq.Strings.String <> length def
+R56115:56115 Cpdt.MoreDep <> s:314 var
+R56165:56185 Cpdt.MoreDep <> substring_suffix_emp' thm
+R56165:56185 Cpdt.MoreDep <> substring_suffix_emp' thm
+R56227:56241 Cpdt.MoreDep <> substring_stack thm
+R56243:56258 Cpdt.MoreDep <> substring_stack' thm
+R56260:56275 Cpdt.MoreDep <> substring_suffix thm
+prf 56297:56307 <> minus_minus
+binder 56318:56318 <> n:317
+binder 56320:56321 <> m1:318
+binder 56323:56324 <> m2:319
+R56341:56346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R56336:56339 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R56331:56333 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R56329:56330 Cpdt.MoreDep <> m1:318 var
+R56334:56335 Cpdt.MoreDep <> m2:319 var
+R56340:56340 Cpdt.MoreDep <> n:317 var
+R56358:56360 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56353:56355 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R56348:56350 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R56347:56347 Cpdt.MoreDep <> n:317 var
+R56351:56352 Cpdt.MoreDep <> m1:318 var
+R56356:56357 Cpdt.MoreDep <> m2:319 var
+R56362:56365 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R56373:56373 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R56361:56361 Cpdt.MoreDep <> n:317 var
+R56368:56370 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R56366:56367 Cpdt.MoreDep <> m1:318 var
+R56371:56372 Cpdt.MoreDep <> m2:319 var
+prf 56403:56412 <> plus_n_Sm'
+R56429:56431 Coq.Init.Datatypes <> nat ind
+binder 56423:56423 <> n:320
+binder 56425:56425 <> m:321
+R56443:56445 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R56434:56434 Coq.Init.Datatypes <> S constr
+R56438:56440 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R56437:56437 Cpdt.MoreDep <> n:320 var
+R56441:56441 Cpdt.MoreDep <> m:321 var
+R56447:56449 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R56446:56446 Cpdt.MoreDep <> m:321 var
+R56450:56450 Coq.Init.Datatypes <> S constr
+R56452:56452 Cpdt.MoreDep <> n:320 var
+R56489:56499 Cpdt.MoreDep <> minus_minus thm
+sec 56720:56727 <> dec_star
+var 56741:56741 dec_star P
+R56751:56754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R56745:56750 Coq.Strings.String <> string ind
+var 56772:56776 dec_star P_dec
+binder 56787:56787 <> s:323
+R56790:56790 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R56794:56798 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R56804:56804 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R56791:56791 Cpdt.MoreDep <> dec_star.P var
+R56793:56793 Cpdt.MoreDep <> s:323 var
+R56799:56800 Coq.Init.Logic <> ::type_scope:'~'_x not
+R56801:56801 Cpdt.MoreDep <> dec_star.P var
+R56803:56803 Cpdt.MoreDep <> s:323 var
+R56996:56999 Cpdt.MoreDep <> star ind
+prf 57011:57020 <> star_empty
+binder 57031:57031 <> s:325
+R57050:57057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R57046:57048 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R57038:57043 Coq.Strings.String <> length def
+R57045:57045 Cpdt.MoreDep <> s:325 var
+R57058:57061 Cpdt.MoreDep <> star ind
+R57065:57065 Cpdt.MoreDep <> s:325 var
+R57063:57063 Cpdt.MoreDep <> dec_star.P var
+prf 57107:57120 <> star_singleton
+binder 57131:57131 <> s:326
+R57137:57140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R57134:57134 Cpdt.MoreDep <> dec_star.P var
+R57136:57136 Cpdt.MoreDep <> s:326 var
+R57141:57144 Cpdt.MoreDep <> star ind
+R57148:57148 Cpdt.MoreDep <> s:326 var
+R57146:57146 Cpdt.MoreDep <> dec_star.P var
+R57175:57187 Cpdt.MoreDep <> app_empty_end thm
+R57175:57187 Cpdt.MoreDep <> app_empty_end thm
+R57175:57187 Cpdt.MoreDep <> app_empty_end thm
+prf 57215:57222 <> star_app
+binder 57233:57233 <> s:327
+binder 57235:57235 <> n:328
+binder 57237:57237 <> m:329
+R57263:57270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R57244:57244 Cpdt.MoreDep <> dec_star.P var
+R57247:57255 Coq.Strings.String <> substring def
+R57257:57257 Cpdt.MoreDep <> n:328 var
+R57259:57259 Cpdt.MoreDep <> m:329 var
+R57261:57261 Cpdt.MoreDep <> s:327 var
+R57320:57327 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R57271:57274 Cpdt.MoreDep <> star ind
+R57279:57287 Coq.Strings.String <> substring def
+R57291:57293 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R57290:57290 Cpdt.MoreDep <> n:328 var
+R57294:57294 Cpdt.MoreDep <> m:329 var
+R57306:57309 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R57315:57315 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R57298:57303 Coq.Strings.String <> length def
+R57305:57305 Cpdt.MoreDep <> s:327 var
+R57311:57313 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R57310:57310 Cpdt.MoreDep <> n:328 var
+R57314:57314 Cpdt.MoreDep <> m:329 var
+R57318:57318 Cpdt.MoreDep <> s:327 var
+R57276:57276 Cpdt.MoreDep <> dec_star.P var
+R57328:57331 Cpdt.MoreDep <> star ind
+R57336:57344 Coq.Strings.String <> substring def
+R57346:57346 Cpdt.MoreDep <> n:328 var
+R57357:57359 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R57349:57354 Coq.Strings.String <> length def
+R57356:57356 Cpdt.MoreDep <> s:327 var
+R57360:57360 Cpdt.MoreDep <> n:328 var
+R57363:57363 Cpdt.MoreDep <> s:327 var
+R57333:57333 Cpdt.MoreDep <> dec_star.P var
+R57433:57433 Cpdt.MoreDep <> dec_star.P var
+R57436:57444 Coq.Strings.String <> substring def
+R57433:57433 Cpdt.MoreDep <> dec_star.P var
+R57436:57444 Coq.Strings.String <> substring def
+R57496:57510 Cpdt.MoreDep <> substring_split thm
+R57549:57564 Cpdt.MoreDep <> substring_split' thm
+R57496:57510 Cpdt.MoreDep <> substring_split thm
+R57496:57510 Cpdt.MoreDep <> substring_split thm
+R57496:57510 Cpdt.MoreDep <> substring_split thm
+R57496:57510 Cpdt.MoreDep <> substring_split thm
+R57549:57564 Cpdt.MoreDep <> substring_split' thm
+R57549:57564 Cpdt.MoreDep <> substring_split' thm
+var 57663:57663 dec_star s
+R57667:57672 Coq.Strings.String <> string ind
+prf 57684:57691 <> star_inv
+binder 57702:57702 <> s:331
+R57717:57724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R57709:57712 Cpdt.MoreDep <> star ind
+R57716:57716 Cpdt.MoreDep <> s:331 var
+R57714:57714 Cpdt.MoreDep <> dec_star.P var
+R57731:57738 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R57726:57728 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R57725:57725 Cpdt.MoreDep <> s:331 var
+R57739:57745 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R57747:57748 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 57746:57746 <> i:332
+R57761:57770 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R57750:57752 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R57749:57749 Cpdt.MoreDep <> i:332 var
+R57753:57758 Coq.Strings.String <> length def
+R57760:57760 Cpdt.MoreDep <> s:331 var
+R57794:57803 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R57771:57771 Cpdt.MoreDep <> dec_star.P var
+R57774:57782 Coq.Strings.String <> substring def
+R57787:57787 Coq.Init.Datatypes <> S constr
+R57789:57789 Cpdt.MoreDep <> i:332 var
+R57792:57792 Cpdt.MoreDep <> s:331 var
+R57804:57807 Cpdt.MoreDep <> star ind
+R57812:57820 Coq.Strings.String <> substring def
+R57823:57823 Coq.Init.Datatypes <> S constr
+R57825:57825 Cpdt.MoreDep <> i:332 var
+R57837:57839 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R57829:57834 Coq.Strings.String <> length def
+R57836:57836 Cpdt.MoreDep <> s:331 var
+R57840:57840 Coq.Init.Datatypes <> S constr
+R57842:57842 Cpdt.MoreDep <> i:332 var
+R57845:57845 Cpdt.MoreDep <> s:331 var
+R57809:57809 Cpdt.MoreDep <> dec_star.P var
+R57868:57874 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R57882:57883 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R57879:57881 Coq.Init.Datatypes <> nat ind
+binder 57875:57875 <> i:333
+R57928:57928 Cpdt.MoreDep <> dec_star.P var
+R57931:57936 Coq.Strings.String <> String constr
+R57928:57928 Cpdt.MoreDep <> dec_star.P var
+R57931:57936 Coq.Strings.String <> String constr
+R57962:57967 Coq.Strings.String <> length def
+R58064:58064 Cpdt.MoreDep <> dec_star.P var
+R58064:58064 Cpdt.MoreDep <> dec_star.P var
+R57868:57874 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R57882:57883 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R57879:57881 Coq.Init.Datatypes <> nat ind
+binder 57875:57875 <> i:334
+R57928:57928 Cpdt.MoreDep <> dec_star.P var
+R57931:57936 Coq.Strings.String <> String constr
+R57928:57928 Cpdt.MoreDep <> dec_star.P var
+R57931:57936 Coq.Strings.String <> String constr
+R57962:57967 Coq.Strings.String <> length def
+prf 58136:58153 <> star_substring_inv
+binder 58164:58164 <> n:335
+R58184:58191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R58172:58175 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R58171:58171 Cpdt.MoreDep <> n:335 var
+R58176:58181 Coq.Strings.String <> length def
+R58183:58183 Cpdt.MoreDep <> dec_star.s var
+R58229:58236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R58192:58195 Cpdt.MoreDep <> star ind
+R58200:58208 Coq.Strings.String <> substring def
+R58210:58210 Cpdt.MoreDep <> n:335 var
+R58221:58223 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R58213:58218 Coq.Strings.String <> length def
+R58220:58220 Cpdt.MoreDep <> dec_star.s var
+R58224:58224 Cpdt.MoreDep <> n:335 var
+R58227:58227 Cpdt.MoreDep <> dec_star.s var
+R58197:58197 Cpdt.MoreDep <> dec_star.P var
+R58270:58277 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R58265:58267 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R58237:58245 Coq.Strings.String <> substring def
+R58247:58247 Cpdt.MoreDep <> n:335 var
+R58258:58260 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R58250:58255 Coq.Strings.String <> length def
+R58257:58257 Cpdt.MoreDep <> dec_star.s var
+R58261:58261 Cpdt.MoreDep <> n:335 var
+R58264:58264 Cpdt.MoreDep <> dec_star.s var
+R58278:58284 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R58286:58287 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 58285:58285 <> l:336
+R58304:58313 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R58289:58291 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R58288:58288 Cpdt.MoreDep <> l:336 var
+R58300:58302 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R58292:58297 Coq.Strings.String <> length def
+R58299:58299 Cpdt.MoreDep <> dec_star.s var
+R58303:58303 Cpdt.MoreDep <> n:335 var
+R58337:58346 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R58314:58314 Cpdt.MoreDep <> dec_star.P var
+R58317:58325 Coq.Strings.String <> substring def
+R58327:58327 Cpdt.MoreDep <> n:335 var
+R58330:58330 Coq.Init.Datatypes <> S constr
+R58332:58332 Cpdt.MoreDep <> l:336 var
+R58335:58335 Cpdt.MoreDep <> dec_star.s var
+R58347:58350 Cpdt.MoreDep <> star ind
+R58355:58363 Coq.Strings.String <> substring def
+R58367:58369 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R58366:58366 Cpdt.MoreDep <> n:335 var
+R58370:58370 Coq.Init.Datatypes <> S constr
+R58372:58372 Cpdt.MoreDep <> l:336 var
+R58384:58387 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R58395:58395 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R58376:58381 Coq.Strings.String <> length def
+R58383:58383 Cpdt.MoreDep <> dec_star.s var
+R58389:58391 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R58388:58388 Cpdt.MoreDep <> n:335 var
+R58392:58392 Coq.Init.Datatypes <> S constr
+R58394:58394 Cpdt.MoreDep <> l:336 var
+R58398:58398 Cpdt.MoreDep <> dec_star.s var
+R58352:58352 Cpdt.MoreDep <> dec_star.P var
+R58419:58428 Cpdt.MoreDep <> plus_n_Sm' thm
+R58482:58485 Cpdt.MoreDep <> star ind
+R58482:58485 Cpdt.MoreDep <> star ind
+R58513:58520 Cpdt.MoreDep <> star_inv thm
+R58513:58520 Cpdt.MoreDep <> star_inv thm
+R58419:58428 Cpdt.MoreDep <> plus_n_Sm' thm
+sec 58792:58801 dec_star dec_star''
+var 58817:58817 dec_star.dec_star'' n
+R58821:58823 Coq.Init.Datatypes <> nat ind
+var 58931:58932 dec_star.dec_star'' P'
+R58942:58945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R58936:58941 Coq.Strings.String <> string ind
+var 58965:58970 dec_star.dec_star'' P'_dec
+R58986:58988 Coq.Init.Datatypes <> nat ind
+binder 58981:58982 <> n':339
+R58997:59006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R58993:58995 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R58991:58992 Cpdt.MoreDep <> n':339 var
+R58996:58996 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R59007:59007 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R59043:59053 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R59091:59091 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R59008:59009 Cpdt.MoreDep <> dec_star.dec_star''.P' var
+R59012:59020 Coq.Strings.String <> substring def
+R59022:59023 Cpdt.MoreDep <> n':339 var
+R59034:59036 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R59026:59031 Coq.Strings.String <> length def
+R59033:59033 Cpdt.MoreDep <> dec_star.s var
+R59037:59038 Cpdt.MoreDep <> n':339 var
+R59041:59041 Cpdt.MoreDep <> dec_star.s var
+R59054:59055 Coq.Init.Logic <> ::type_scope:'~'_x not
+R59056:59057 Cpdt.MoreDep <> dec_star.dec_star''.P' var
+R59060:59068 Coq.Strings.String <> substring def
+R59070:59071 Cpdt.MoreDep <> n':339 var
+R59082:59084 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R59074:59079 Coq.Strings.String <> length def
+R59081:59081 Cpdt.MoreDep <> dec_star.s var
+R59085:59086 Cpdt.MoreDep <> n':339 var
+R59089:59089 Cpdt.MoreDep <> dec_star.s var
+R59624:59627 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+def 59659:59668 <> dec_star''
+R59683:59685 Coq.Init.Datatypes <> nat ind
+binder 59679:59679 <> l:341
+R59694:59694 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R59806:59816 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R59940:59940 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R59695:59701 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R59704:59705 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 59702:59703 <> l':342
+R59715:59726 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R59710:59713 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R59706:59706 Coq.Init.Datatypes <> S constr
+R59708:59709 Cpdt.MoreDep <> l':342 var
+R59714:59714 Cpdt.MoreDep <> l:341 var
+R59751:59754 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R59727:59727 Cpdt.MoreDep <> dec_star.P var
+R59730:59738 Coq.Strings.String <> substring def
+R59740:59740 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R59743:59743 Coq.Init.Datatypes <> S constr
+R59745:59746 Cpdt.MoreDep <> l':342 var
+R59749:59749 Cpdt.MoreDep <> dec_star.s var
+R59755:59756 Cpdt.MoreDep <> dec_star.dec_star''.P' var
+R59759:59767 Coq.Strings.String <> substring def
+R59771:59773 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R59770:59770 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R59774:59774 Coq.Init.Datatypes <> S constr
+R59776:59777 Cpdt.MoreDep <> l':342 var
+R59789:59792 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R59801:59801 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R59781:59786 Coq.Strings.String <> length def
+R59788:59788 Cpdt.MoreDep <> dec_star.s var
+R59794:59796 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R59793:59793 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R59797:59797 Coq.Init.Datatypes <> S constr
+R59799:59800 Cpdt.MoreDep <> l':342 var
+R59804:59804 Cpdt.MoreDep <> dec_star.s var
+binder 59824:59825 <> l':343
+R59837:59848 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R59832:59835 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R59828:59828 Coq.Init.Datatypes <> S constr
+R59830:59831 Cpdt.MoreDep <> l':343 var
+R59836:59836 Cpdt.MoreDep <> l:341 var
+R59875:59886 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R59849:59850 Coq.Init.Logic <> ::type_scope:'~'_x not
+R59851:59851 Cpdt.MoreDep <> dec_star.P var
+R59854:59862 Coq.Strings.String <> substring def
+R59864:59864 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R59867:59867 Coq.Init.Datatypes <> S constr
+R59869:59870 Cpdt.MoreDep <> l':343 var
+R59873:59873 Cpdt.MoreDep <> dec_star.s var
+R59887:59888 Coq.Init.Logic <> ::type_scope:'~'_x not
+R59889:59890 Cpdt.MoreDep <> dec_star.dec_star''.P' var
+R59893:59901 Coq.Strings.String <> substring def
+R59905:59907 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R59904:59904 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R59908:59908 Coq.Init.Datatypes <> S constr
+R59910:59911 Cpdt.MoreDep <> l':343 var
+R59923:59926 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R59935:59935 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R59915:59920 Coq.Strings.String <> length def
+R59922:59922 Cpdt.MoreDep <> dec_star.s var
+R59928:59930 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R59927:59927 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R59931:59931 Coq.Init.Datatypes <> S constr
+R59933:59934 Cpdt.MoreDep <> l':343 var
+R59938:59938 Cpdt.MoreDep <> dec_star.s var
+R59968:59970 Coq.Init.Datatypes <> nat ind
+binder 59964:59964 <> l:344
+R59975:59975 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R60089:60101 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R60229:60229 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R59976:59982 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R59985:59986 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 59983:59984 <> l':345
+R59996:60009 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R59991:59994 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R59987:59987 Coq.Init.Datatypes <> S constr
+R59989:59990 Cpdt.MoreDep <> l':345 var
+R59995:59995 Cpdt.MoreDep <> l:344 var
+R60034:60037 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R60010:60010 Cpdt.MoreDep <> dec_star.P var
+R60013:60021 Coq.Strings.String <> substring def
+R60023:60023 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60026:60026 Coq.Init.Datatypes <> S constr
+R60028:60029 Cpdt.MoreDep <> l':345 var
+R60032:60032 Cpdt.MoreDep <> dec_star.s var
+R60038:60039 Cpdt.MoreDep <> dec_star.dec_star''.P' var
+R60042:60050 Coq.Strings.String <> substring def
+R60054:60056 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R60053:60053 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60057:60057 Coq.Init.Datatypes <> S constr
+R60059:60060 Cpdt.MoreDep <> l':345 var
+R60072:60075 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R60084:60084 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R60064:60069 Coq.Strings.String <> length def
+R60071:60071 Cpdt.MoreDep <> dec_star.s var
+R60077:60079 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R60076:60076 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60080:60080 Coq.Init.Datatypes <> S constr
+R60082:60083 Cpdt.MoreDep <> l':345 var
+R60087:60087 Cpdt.MoreDep <> dec_star.s var
+binder 60109:60110 <> l':346
+R60122:60135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R60117:60120 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R60113:60113 Coq.Init.Datatypes <> S constr
+R60115:60116 Cpdt.MoreDep <> l':346 var
+R60121:60121 Cpdt.MoreDep <> l:344 var
+R60162:60175 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R60136:60137 Coq.Init.Logic <> ::type_scope:'~'_x not
+R60138:60138 Cpdt.MoreDep <> dec_star.P var
+R60141:60149 Coq.Strings.String <> substring def
+R60151:60151 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60154:60154 Coq.Init.Datatypes <> S constr
+R60156:60157 Cpdt.MoreDep <> l':346 var
+R60160:60160 Cpdt.MoreDep <> dec_star.s var
+R60176:60177 Coq.Init.Logic <> ::type_scope:'~'_x not
+R60178:60179 Cpdt.MoreDep <> dec_star.dec_star''.P' var
+R60182:60190 Coq.Strings.String <> substring def
+R60194:60196 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R60193:60193 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60197:60197 Coq.Init.Datatypes <> S constr
+R60199:60200 Cpdt.MoreDep <> l':346 var
+R60212:60215 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R60224:60224 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R60204:60209 Coq.Strings.String <> length def
+R60211:60211 Cpdt.MoreDep <> dec_star.s var
+R60217:60219 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R60216:60216 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60220:60220 Coq.Init.Datatypes <> S constr
+R60222:60223 Cpdt.MoreDep <> l':346 var
+R60227:60227 Cpdt.MoreDep <> dec_star.s var
+R60248:60248 Cpdt.MoreDep <> l:344 var
+R60267:60267 Coq.Init.Datatypes <> O constr
+R60286:60286 Coq.Init.Datatypes <> S constr
+R60306:60306 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R60364:60380 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R60381:60381 Cpdt.MoreDep <> F:347 var
+R60335:60338 Cpdt.MoreSpecif <> ::specif_scope:x_'&&'_x not
+R60307:60311 Cpdt.MoreDep <> dec_star.P_dec var
+R60314:60322 Coq.Strings.String <> substring def
+R60324:60324 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60327:60327 Coq.Init.Datatypes <> S constr
+R60333:60333 Cpdt.MoreDep <> dec_star.s var
+R60339:60344 Cpdt.MoreDep <> dec_star.dec_star''.P'_dec var
+R60354:60356 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R60353:60353 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60357:60357 Coq.Init.Datatypes <> S constr
+R60469:60472 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R60473:60473 Coq.Init.Datatypes <> S constr
+R60469:60472 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R60473:60473 Coq.Init.Datatypes <> S constr
+R60498:60507 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R60512:60512 Coq.Init.Datatypes <> S constr
+R59968:59970 Coq.Init.Datatypes <> nat ind
+binder 59964:59964 <> l:349
+R59975:59975 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R60089:60101 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R60229:60229 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R59976:59982 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R59985:59986 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 59983:59984 <> l':350
+R59996:60009 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R59991:59994 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R59987:59987 Coq.Init.Datatypes <> S constr
+R59989:59990 Cpdt.MoreDep <> l':350 var
+R59995:59995 Cpdt.MoreDep <> l:349 var
+R60034:60037 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R60010:60010 Cpdt.MoreDep <> dec_star.P var
+R60013:60021 Coq.Strings.String <> substring def
+R60023:60023 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60026:60026 Coq.Init.Datatypes <> S constr
+R60028:60029 Cpdt.MoreDep <> l':350 var
+R60032:60032 Cpdt.MoreDep <> dec_star.s var
+R60038:60039 Cpdt.MoreDep <> dec_star.dec_star''.P' var
+R60042:60050 Coq.Strings.String <> substring def
+R60054:60056 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R60053:60053 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60057:60057 Coq.Init.Datatypes <> S constr
+R60059:60060 Cpdt.MoreDep <> l':350 var
+R60072:60075 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R60084:60084 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R60064:60069 Coq.Strings.String <> length def
+R60071:60071 Cpdt.MoreDep <> dec_star.s var
+R60077:60079 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R60076:60076 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60080:60080 Coq.Init.Datatypes <> S constr
+R60082:60083 Cpdt.MoreDep <> l':350 var
+R60087:60087 Cpdt.MoreDep <> dec_star.s var
+binder 60109:60110 <> l':351
+R60122:60135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R60117:60120 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R60113:60113 Coq.Init.Datatypes <> S constr
+R60115:60116 Cpdt.MoreDep <> l':351 var
+R60121:60121 Cpdt.MoreDep <> l:349 var
+R60162:60175 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R60136:60137 Coq.Init.Logic <> ::type_scope:'~'_x not
+R60138:60138 Cpdt.MoreDep <> dec_star.P var
+R60141:60149 Coq.Strings.String <> substring def
+R60151:60151 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60154:60154 Coq.Init.Datatypes <> S constr
+R60156:60157 Cpdt.MoreDep <> l':351 var
+R60160:60160 Cpdt.MoreDep <> dec_star.s var
+R60176:60177 Coq.Init.Logic <> ::type_scope:'~'_x not
+R60178:60179 Cpdt.MoreDep <> dec_star.dec_star''.P' var
+R60182:60190 Coq.Strings.String <> substring def
+R60194:60196 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R60193:60193 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60197:60197 Coq.Init.Datatypes <> S constr
+R60199:60200 Cpdt.MoreDep <> l':351 var
+R60212:60215 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R60224:60224 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R60204:60209 Coq.Strings.String <> length def
+R60211:60211 Cpdt.MoreDep <> dec_star.s var
+R60217:60219 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R60216:60216 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60220:60220 Coq.Init.Datatypes <> S constr
+R60222:60223 Cpdt.MoreDep <> l':351 var
+R60227:60227 Cpdt.MoreDep <> dec_star.s var
+R60248:60248 Cpdt.MoreDep <> l:349 var
+R60267:60267 Coq.Init.Datatypes <> O constr
+R60286:60286 Coq.Init.Datatypes <> S constr
+R60306:60306 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R60364:60380 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R60381:60381 Cpdt.MoreDep <> F:352 var
+R60335:60338 Cpdt.MoreSpecif <> ::specif_scope:x_'&&'_x not
+R60307:60311 Cpdt.MoreDep <> dec_star.P_dec var
+R60314:60322 Coq.Strings.String <> substring def
+R60324:60324 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60327:60327 Coq.Init.Datatypes <> S constr
+R60333:60333 Cpdt.MoreDep <> dec_star.s var
+R60339:60344 Cpdt.MoreDep <> dec_star.dec_star''.P'_dec var
+R60354:60356 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R60353:60353 Cpdt.MoreDep <> dec_star.dec_star''.n var
+R60357:60357 Coq.Init.Datatypes <> S constr
+R60498:60507 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R60512:60512 Coq.Init.Datatypes <> S constr
+R60498:60507 Coq.Arith.Peano_dec <> eq_nat_dec abbrev
+R60512:60512 Coq.Init.Datatypes <> S constr
+R60557:60566 Cpdt.MoreDep dec_star.dec_star'' <> sec
+prf 60597:60614 <> star_length_contra
+binder 60625:60625 <> n:354
+R60644:60651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R60640:60642 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R60632:60637 Coq.Strings.String <> length def
+R60639:60639 Cpdt.MoreDep <> dec_star.s var
+R60643:60643 Cpdt.MoreDep <> n:354 var
+R60665:60672 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R60653:60656 Coq.Init.Peano <> ::nat_scope:x_'>='_x not
+R60652:60652 Cpdt.MoreDep <> n:354 var
+R60657:60662 Coq.Strings.String <> length def
+R60664:60664 Cpdt.MoreDep <> dec_star.s var
+R60673:60677 Coq.Init.Logic <> False ind
+prf 60707:60722 <> star_length_flip
+binder 60733:60733 <> n:355
+binder 60735:60736 <> n':356
+R60763:60770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R60755:60758 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R60751:60753 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R60743:60748 Coq.Strings.String <> length def
+R60750:60750 Cpdt.MoreDep <> dec_star.s var
+R60754:60754 Cpdt.MoreDep <> n:355 var
+R60759:60759 Coq.Init.Datatypes <> S constr
+R60761:60762 Cpdt.MoreDep <> n':356 var
+R60783:60790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R60779:60781 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R60771:60776 Coq.Strings.String <> length def
+R60778:60778 Cpdt.MoreDep <> dec_star.s var
+R60782:60782 Cpdt.MoreDep <> n:355 var
+R60803:60805 Coq.Init.Peano <> ::nat_scope:x_'>'_x not
+R60799:60801 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R60791:60796 Coq.Strings.String <> length def
+R60798:60798 Cpdt.MoreDep <> dec_star.s var
+R60802:60802 Cpdt.MoreDep <> n:355 var
+def 61141:61149 <> dec_star'
+R61167:61169 Coq.Init.Datatypes <> nat ind
+binder 61160:61160 <> n:357
+binder 61162:61163 <> n':358
+R61190:61197 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R61185:61188 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R61180:61182 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61172:61177 Coq.Strings.String <> length def
+R61179:61179 Cpdt.MoreDep <> dec_star.s var
+R61183:61184 Cpdt.MoreDep <> n':358 var
+R61189:61189 Cpdt.MoreDep <> n:357 var
+R61198:61198 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R61238:61246 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R61288:61288 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R61199:61202 Cpdt.MoreDep <> star ind
+R61207:61215 Coq.Strings.String <> substring def
+R61217:61218 Cpdt.MoreDep <> n':358 var
+R61229:61231 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61221:61226 Coq.Strings.String <> length def
+R61228:61228 Cpdt.MoreDep <> dec_star.s var
+R61232:61233 Cpdt.MoreDep <> n':358 var
+R61236:61236 Cpdt.MoreDep <> dec_star.s var
+R61204:61204 Cpdt.MoreDep <> dec_star.P var
+R61247:61248 Coq.Init.Logic <> ::type_scope:'~'_x not
+R61249:61252 Cpdt.MoreDep <> star ind
+R61257:61265 Coq.Strings.String <> substring def
+R61267:61268 Cpdt.MoreDep <> n':358 var
+R61279:61281 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61271:61276 Coq.Strings.String <> length def
+R61278:61278 Cpdt.MoreDep <> dec_star.s var
+R61282:61283 Cpdt.MoreDep <> n':358 var
+R61286:61286 Cpdt.MoreDep <> dec_star.s var
+R61254:61254 Cpdt.MoreDep <> dec_star.P var
+R61317:61319 Coq.Init.Datatypes <> nat ind
+binder 61310:61310 <> n:359
+binder 61312:61313 <> n':360
+R61342:61351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R61337:61340 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R61332:61334 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61324:61329 Coq.Strings.String <> length def
+R61331:61331 Cpdt.MoreDep <> dec_star.s var
+R61335:61336 Cpdt.MoreDep <> n':360 var
+R61341:61341 Cpdt.MoreDep <> n:359 var
+R61352:61352 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R61392:61402 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R61444:61444 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R61353:61356 Cpdt.MoreDep <> star ind
+R61361:61369 Coq.Strings.String <> substring def
+R61371:61372 Cpdt.MoreDep <> n':360 var
+R61383:61385 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61375:61380 Coq.Strings.String <> length def
+R61382:61382 Cpdt.MoreDep <> dec_star.s var
+R61386:61387 Cpdt.MoreDep <> n':360 var
+R61390:61390 Cpdt.MoreDep <> dec_star.s var
+R61358:61358 Cpdt.MoreDep <> dec_star.P var
+R61403:61404 Coq.Init.Logic <> ::type_scope:'~'_x not
+R61405:61408 Cpdt.MoreDep <> star ind
+R61413:61421 Coq.Strings.String <> substring def
+R61423:61424 Cpdt.MoreDep <> n':360 var
+R61435:61437 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61427:61432 Coq.Strings.String <> length def
+R61434:61434 Cpdt.MoreDep <> dec_star.s var
+R61438:61439 Cpdt.MoreDep <> n':360 var
+R61442:61442 Cpdt.MoreDep <> dec_star.s var
+R61410:61410 Cpdt.MoreDep <> dec_star.P var
+R61461:61461 Cpdt.MoreDep <> n:359 var
+R61478:61478 Coq.Init.Datatypes <> O constr
+R61492:61494 Cpdt.MoreSpecif <> ::specif_scope:'Yes' not
+R61506:61506 Coq.Init.Datatypes <> S constr
+R61557:61570 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R61571:61580 Cpdt.MoreDep <> dec_star'' def
+R61656:61658 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61648:61653 Coq.Strings.String <> length def
+R61655:61655 Cpdt.MoreDep <> dec_star.s var
+R61659:61660 Cpdt.MoreDep <> n':360 var
+binder 61618:61619 <> n0:363
+R61626:61633 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R61644:61644 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R61634:61634 Cpdt.MoreDep <> F:361 var
+R61640:61641 Cpdt.MoreDep <> n0:363 var
+R61593:61596 Cpdt.MoreDep <> star ind
+R61598:61598 Cpdt.MoreDep <> dec_star.P var
+R61588:61589 Cpdt.MoreDep <> n':360 var
+R61534:61542 Coq.Arith.Compare_dec <> le_gt_dec def
+R61545:61550 Coq.Strings.String <> length def
+R61552:61552 Cpdt.MoreDep <> dec_star.s var
+R61555:61556 Cpdt.MoreDep <> n':360 var
+R61732:61735 Cpdt.MoreDep <> star ind
+R61732:61735 Cpdt.MoreDep <> star ind
+R61757:61774 Cpdt.MoreDep <> star_substring_inv thm
+R61840:61842 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R61844:61846 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61840:61842 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R61844:61846 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61867:61869 Coq.Init.Datatypes <> nat ind
+binder 61862:61863 <> l':364
+R61882:61885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R61873:61876 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R61878:61880 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61867:61869 Coq.Init.Datatypes <> nat ind
+binder 61862:61863 <> l':365
+R61882:61885 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R61873:61876 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R61878:61880 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61924:61930 Coq.Arith.Lt <> lt_le_S abbrev
+R61317:61319 Coq.Init.Datatypes <> nat ind
+binder 61310:61310 <> n:366
+binder 61312:61313 <> n':367
+R61342:61351 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R61337:61340 Coq.Init.Peano <> ::nat_scope:x_'<='_x not
+R61332:61334 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61324:61329 Coq.Strings.String <> length def
+R61331:61331 Cpdt.MoreDep <> dec_star.s var
+R61335:61336 Cpdt.MoreDep <> n':367 var
+R61341:61341 Cpdt.MoreDep <> n:366 var
+R61352:61352 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R61392:61402 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R61444:61444 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R61353:61356 Cpdt.MoreDep <> star ind
+R61361:61369 Coq.Strings.String <> substring def
+R61371:61372 Cpdt.MoreDep <> n':367 var
+R61383:61385 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61375:61380 Coq.Strings.String <> length def
+R61382:61382 Cpdt.MoreDep <> dec_star.s var
+R61386:61387 Cpdt.MoreDep <> n':367 var
+R61390:61390 Cpdt.MoreDep <> dec_star.s var
+R61358:61358 Cpdt.MoreDep <> dec_star.P var
+R61403:61404 Coq.Init.Logic <> ::type_scope:'~'_x not
+R61405:61408 Cpdt.MoreDep <> star ind
+R61413:61421 Coq.Strings.String <> substring def
+R61423:61424 Cpdt.MoreDep <> n':367 var
+R61435:61437 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61427:61432 Coq.Strings.String <> length def
+R61434:61434 Cpdt.MoreDep <> dec_star.s var
+R61438:61439 Cpdt.MoreDep <> n':367 var
+R61442:61442 Cpdt.MoreDep <> dec_star.s var
+R61410:61410 Cpdt.MoreDep <> dec_star.P var
+R61461:61461 Cpdt.MoreDep <> n:366 var
+R61478:61478 Coq.Init.Datatypes <> O constr
+R61492:61494 Cpdt.MoreSpecif <> ::specif_scope:'Yes' not
+R61506:61506 Coq.Init.Datatypes <> S constr
+R61557:61570 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R61571:61580 Cpdt.MoreDep <> dec_star'' def
+R61656:61658 Coq.Init.Peano <> ::nat_scope:x_'-'_x not
+R61648:61653 Coq.Strings.String <> length def
+R61655:61655 Cpdt.MoreDep <> dec_star.s var
+R61659:61660 Cpdt.MoreDep <> n':367 var
+binder 61618:61619 <> n0:370
+R61626:61633 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R61644:61644 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R61634:61634 Cpdt.MoreDep <> F:368 var
+R61640:61641 Cpdt.MoreDep <> n0:370 var
+R61593:61596 Cpdt.MoreDep <> star ind
+R61598:61598 Cpdt.MoreDep <> dec_star.P var
+R61588:61589 Cpdt.MoreDep <> n':367 var
+R61534:61542 Coq.Arith.Compare_dec <> le_gt_dec def
+R61545:61550 Coq.Strings.String <> length def
+R61552:61552 Cpdt.MoreDep <> dec_star.s var
+R61555:61556 Cpdt.MoreDep <> n':367 var
+R61757:61774 Cpdt.MoreDep <> star_substring_inv thm
+R61924:61930 Coq.Arith.Lt <> lt_le_S abbrev
+def 62076:62083 <> dec_star
+R62087:62087 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62096:62100 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62111:62111 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62088:62091 Cpdt.MoreDep <> star ind
+R62095:62095 Cpdt.MoreDep <> dec_star.s var
+R62093:62093 Cpdt.MoreDep <> dec_star.P var
+R62101:62102 Coq.Init.Logic <> ::type_scope:'~'_x not
+R62103:62106 Cpdt.MoreDep <> star ind
+R62110:62110 Cpdt.MoreDep <> dec_star.s var
+R62108:62108 Cpdt.MoreDep <> dec_star.P var
+R62126:62133 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R62163:62163 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R62134:62142 Cpdt.MoreDep <> dec_star' def
+R62150:62155 Coq.Strings.String <> length def
+R62157:62157 Cpdt.MoreDep <> dec_star.s var
+R62126:62133 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R62163:62163 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R62134:62142 Cpdt.MoreDep <> dec_star' def
+R62150:62155 Coq.Strings.String <> length def
+R62157:62157 Cpdt.MoreDep <> dec_star.s var
+R62189:62196 Cpdt.MoreDep dec_star <> sec
+prf 62223:62230 <> app_cong
+binder 62241:62242 <> x1:371
+binder 62244:62245 <> y1:372
+binder 62247:62248 <> x2:373
+binder 62250:62251 <> y2:374
+R62263:62268 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R62258:62260 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R62256:62257 Cpdt.MoreDep <> x1:371 var
+R62261:62262 Cpdt.MoreDep <> x2:373 var
+R62276:62281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R62271:62273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R62269:62270 Cpdt.MoreDep <> y1:372 var
+R62274:62275 Cpdt.MoreDep <> y2:374 var
+R62290:62292 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R62284:62287 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R62282:62283 Cpdt.MoreDep <> x1:371 var
+R62288:62289 Cpdt.MoreDep <> y1:372 var
+R62295:62298 Coq.Strings.String <> ::string_scope:x_'++'_x not
+R62293:62294 Cpdt.MoreDep <> x2:373 var
+R62299:62300 Cpdt.MoreDep <> y2:374 var
+def 62585:62591 <> matches
+binder 62602:62602 <> P:375
+R62609:62614 Cpdt.MoreDep <> regexp ind
+R62616:62616 Cpdt.MoreDep <> P:375 var
+binder 62605:62605 <> r:376
+binder 62619:62619 <> s:377
+R62622:62622 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62626:62630 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62636:62636 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62623:62623 Cpdt.MoreDep <> P:375 var
+R62625:62625 Cpdt.MoreDep <> s:377 var
+R62631:62632 Coq.Init.Logic <> ::type_scope:'~'_x not
+R62633:62633 Cpdt.MoreDep <> P:375 var
+R62635:62635 Cpdt.MoreDep <> s:377 var
+binder 62655:62655 <> P:378
+R62662:62667 Cpdt.MoreDep <> regexp ind
+R62669:62669 Cpdt.MoreDep <> P:378 var
+binder 62658:62658 <> r:379
+binder 62672:62672 <> s:380
+R62676:62676 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62680:62684 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62690:62690 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62677:62677 Cpdt.MoreDep <> P:378 var
+R62679:62679 Cpdt.MoreDep <> s:380 var
+R62685:62686 Coq.Init.Logic <> ::type_scope:'~'_x not
+R62687:62687 Cpdt.MoreDep <> P:378 var
+R62689:62689 Cpdt.MoreDep <> s:380 var
+R62705:62705 Cpdt.MoreDep <> r:379 var
+R62720:62723 Cpdt.MoreDep <> Char constr
+R62731:62740 Coq.Strings.String <> string_dec def
+R62742:62742 Cpdt.MoreDep <> s:380 var
+R62745:62750 Coq.Strings.String <> String constr
+R62767:62772 Cpdt.MoreDep <> Concat constr
+R62787:62794 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R62820:62820 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R62795:62799 Cpdt.MoreDep <> split def
+R62819:62819 Cpdt.MoreDep <> s:380 var
+R62811:62811 Cpdt.MoreDep <> F:381 var
+R62802:62802 Cpdt.MoreDep <> F:381 var
+R62830:62831 Cpdt.MoreDep <> Or constr
+R62854:62857 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R62858:62858 Cpdt.MoreDep <> F:381 var
+R62865:62865 Cpdt.MoreDep <> s:380 var
+R62846:62846 Cpdt.MoreDep <> F:381 var
+R62853:62853 Cpdt.MoreDep <> s:380 var
+R62875:62878 Cpdt.MoreDep <> Star constr
+R62887:62894 Cpdt.MoreDep <> dec_star def
+R62980:62986 Coq.Init.Logic <> eq_refl constr
+binder 62655:62655 <> P:383
+R62662:62667 Cpdt.MoreDep <> regexp ind
+R62669:62669 Cpdt.MoreDep <> P:383 var
+binder 62658:62658 <> r:384
+binder 62672:62672 <> s:385
+R62676:62676 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62680:62684 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62690:62690 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R62677:62677 Cpdt.MoreDep <> P:383 var
+R62679:62679 Cpdt.MoreDep <> s:385 var
+R62685:62686 Coq.Init.Logic <> ::type_scope:'~'_x not
+R62687:62687 Cpdt.MoreDep <> P:383 var
+R62689:62689 Cpdt.MoreDep <> s:385 var
+R62705:62705 Cpdt.MoreDep <> r:384 var
+R62720:62723 Cpdt.MoreDep <> Char constr
+R62731:62740 Coq.Strings.String <> string_dec def
+R62742:62742 Cpdt.MoreDep <> s:385 var
+R62745:62750 Coq.Strings.String <> String constr
+R62767:62772 Cpdt.MoreDep <> Concat constr
+R62787:62794 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R62820:62820 Cpdt.MoreSpecif <> ::specif_scope:'Reduce'_x not
+R62795:62799 Cpdt.MoreDep <> split def
+R62819:62819 Cpdt.MoreDep <> s:385 var
+R62811:62811 Cpdt.MoreDep <> F:386 var
+R62802:62802 Cpdt.MoreDep <> F:386 var
+R62830:62831 Cpdt.MoreDep <> Or constr
+R62854:62857 Cpdt.MoreSpecif <> ::specif_scope:x_'||'_x not
+R62858:62858 Cpdt.MoreDep <> F:386 var
+R62865:62865 Cpdt.MoreDep <> s:385 var
+R62846:62846 Cpdt.MoreDep <> F:386 var
+R62853:62853 Cpdt.MoreDep <> s:385 var
+R62875:62878 Cpdt.MoreDep <> Star constr
+R62887:62894 Cpdt.MoreDep <> dec_star def
+R62980:62986 Coq.Init.Logic <> eq_refl constr
+R62980:62986 Coq.Init.Logic <> eq_refl constr
+R62980:62986 Coq.Init.Logic <> eq_refl constr
+def 63884:63885 <> hi
+R63890:63895 Cpdt.MoreDep <> Concat constr
+R63914:63917 Cpdt.MoreDep <> Char constr
+R63898:63901 Cpdt.MoreDep <> Char constr
+R63942:63948 Cpdt.MoreDep <> matches def
+R63950:63951 Cpdt.MoreDep <> hi ex
+R63971:63977 Cpdt.MoreDep <> matches def
+R63979:63980 Cpdt.MoreDep <> hi ex
+def 63998:64000 <> a_b
+R64005:64006 Cpdt.MoreDep <> Or constr
+R64025:64028 Cpdt.MoreDep <> Char constr
+R64009:64012 Cpdt.MoreDep <> Char constr
+R64053:64059 Cpdt.MoreDep <> matches def
+R64061:64063 Cpdt.MoreDep <> a_b ex
+R64081:64087 Cpdt.MoreDep <> matches def
+R64089:64091 Cpdt.MoreDep <> a_b ex
+R64110:64116 Cpdt.MoreDep <> matches def
+R64118:64120 Cpdt.MoreDep <> a_b ex
+R64140:64146 Cpdt.MoreDep <> matches def
+R64148:64150 Cpdt.MoreDep <> a_b ex
+def 64648:64653 <> a_star
+R64658:64661 Cpdt.MoreDep <> Star constr
+R64664:64667 Cpdt.MoreDep <> Char constr
+R64692:64698 Cpdt.MoreDep <> matches def
+R64700:64705 Cpdt.MoreDep <> a_star ex
+R64723:64729 Cpdt.MoreDep <> matches def
+R64731:64736 Cpdt.MoreDep <> a_star ex
+R64755:64761 Cpdt.MoreDep <> matches def
+R64763:64768 Cpdt.MoreDep <> a_star ex
+R64787:64793 Cpdt.MoreDep <> matches def
+R64795:64800 Cpdt.MoreDep <> a_star ex

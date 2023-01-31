@@ -1,0 +1,750 @@
+DIGEST a1d9d7640ddacc05c7d3035a6bf61de9
+FCpdt.Equality
+R305:309 Coq.Logic.Eqdep <> <> lib
+R311:314 Coq.Logic.JMeq <> <> lib
+R316:319 Coq.Lists.List <> <> lib
+R338:353 Cpdt.CpdtTactics <> <> lib
+def 2026:2030 <> pred'
+R2037:2039 Coq.Init.Datatypes <> nat ind
+binder 2033:2033 <> x:1
+R2053:2053 Cpdt.Equality <> x:1 var
+R2066:2066 Coq.Init.Datatypes <> O constr
+R2071:2071 Coq.Init.Datatypes <> O constr
+R2079:2079 Coq.Init.Datatypes <> S constr
+binder 2091:2091 <> y:3
+R2102:2102 Cpdt.Equality <> y:3 var
+prf 2120:2128 <> reduce_me
+R2139:2141 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2132:2136 Cpdt.Equality <> pred' def
+def 4449:4450 <> id
+R4457:4459 Coq.Init.Datatypes <> nat ind
+binder 4453:4453 <> n:4
+R4465:4465 Cpdt.Equality <> n:4 var
+binder 4489:4489 <> x:5
+R4494:4495 Cpdt.Equality <> id def
+R4497:4497 Cpdt.Equality <> x:5 var
+def 4564:4566 <> id'
+R4573:4575 Coq.Init.Datatypes <> nat ind
+binder 4569:4569 <> n:6
+R4581:4581 Cpdt.Equality <> n:6 var
+binder 4605:4605 <> x:8
+R4610:4612 Cpdt.Equality <> id' def
+R4614:4614 Cpdt.Equality <> x:8 var
+def 6297:6304 <> addLists
+R6317:6320 Coq.Init.Datatypes <> list ind
+R6322:6324 Coq.Init.Datatypes <> nat ind
+binder 6307:6309 <> ls1:9
+binder 6311:6313 <> ls2:10
+R6329:6332 Coq.Init.Datatypes <> list ind
+R6334:6336 Coq.Init.Datatypes <> nat ind
+R6354:6356 Cpdt.Equality <> ls2:10 var
+R6349:6351 Cpdt.Equality <> ls1:9 var
+R6371:6374 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6384:6387 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6403:6406 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R6398:6400 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R6407:6414 Cpdt.Equality <> addLists:11 def
+R6440:6442 Coq.Init.Datatypes <> nil constr
+binder 6689:6690 <> ls:14
+R6695:6702 Cpdt.Equality <> addLists def
+R6708:6709 Cpdt.Equality <> ls:14 var
+R6704:6706 Coq.Init.Datatypes <> nil constr
+binder 6794:6795 <> ls:15
+R6800:6807 Cpdt.Equality <> addLists def
+R6812:6814 Coq.Init.Datatypes <> nil constr
+R6809:6810 Cpdt.Equality <> ls:15 var
+def 7642:7650 <> addLists'
+R7663:7666 Coq.Init.Datatypes <> list ind
+R7668:7670 Coq.Init.Datatypes <> nat ind
+binder 7653:7655 <> ls1:16
+R7663:7666 Coq.Init.Datatypes <> list ind
+R7668:7670 Coq.Init.Datatypes <> nat ind
+binder 7657:7659 <> ls2:17
+R7688:7691 Coq.Init.Datatypes <> list ind
+R7693:7695 Coq.Init.Datatypes <> nat ind
+R7713:7715 Cpdt.Equality <> ls2:17 var
+R7708:7710 Cpdt.Equality <> ls1:16 var
+R7730:7733 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7743:7746 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7762:7765 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R7757:7759 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R7766:7774 Cpdt.Equality <> addLists':18 def
+R7800:7802 Coq.Init.Datatypes <> nil constr
+def 7858:7860 <> foo
+R7865:7865 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7869:7870 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7875:7875 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7867:7868 Coq.Init.Logic <> eq ind
+R7871:7874 Coq.Init.Peano <> plus abbrev
+binder 7930:7931 <> ls:21
+R7936:7944 Cpdt.Equality <> addLists' def
+R7949:7951 Coq.Init.Datatypes <> nil constr
+R7946:7947 Cpdt.Equality <> ls:21 var
+sec 10026:10031 <> fhlist
+var 10045:10045 fhlist A
+var 10066:10066 fhlist B
+R10071:10074 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10070:10070 Cpdt.Equality <> fhlist.A var
+def 10093:10098 <> fhlist
+R10106:10109 Coq.Init.Datatypes <> list ind
+R10111:10111 Cpdt.Equality <> fhlist.A var
+binder 10101:10102 <> ls:24
+R10134:10135 Cpdt.Equality <> ls:24 var
+R10150:10152 Coq.Init.Datatypes <> nil constr
+R10157:10160 Coq.Init.Datatypes <> unit ind
+R10171:10174 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10185:10187 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R10182:10182 Cpdt.Equality <> fhlist.B var
+R10188:10193 Cpdt.Equality <> fhlist:25 def
+var 10225:10227 fhlist elm
+R10231:10231 Cpdt.Equality <> fhlist.A var
+def 10246:10252 <> fmember
+R10260:10263 Coq.Init.Datatypes <> list ind
+R10265:10265 Cpdt.Equality <> fhlist.A var
+binder 10255:10256 <> ls:28
+R10288:10289 Cpdt.Equality <> ls:28 var
+R10304:10306 Coq.Init.Datatypes <> nil constr
+R10311:10319 Coq.Init.Datatypes <> Empty_set ind
+R10330:10333 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R10341:10341 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R10349:10352 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R10343:10345 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10346:10348 Cpdt.Equality <> fhlist.elm var
+R10353:10359 Cpdt.Equality <> fmember:29 def
+def 10391:10395 <> fhget
+R10403:10406 Coq.Init.Datatypes <> list ind
+R10408:10408 Cpdt.Equality <> fhlist.A var
+binder 10398:10399 <> ls:31
+R10422:10425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10413:10418 Cpdt.Equality <> fhlist def
+R10420:10421 Cpdt.Equality <> ls:31 var
+R10436:10439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10426:10432 Cpdt.Equality <> fmember def
+R10434:10435 Cpdt.Equality <> ls:31 var
+R10440:10440 Cpdt.Equality <> fhlist.B var
+R10442:10444 Cpdt.Equality <> fhlist.elm var
+R10459:10460 Cpdt.Equality <> ls:31 var
+R10478:10481 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10469:10474 Cpdt.Equality <> fhlist def
+R10476:10477 Cpdt.Equality <> ls:33 var
+R10492:10495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10482:10488 Cpdt.Equality <> fmember def
+R10490:10491 Cpdt.Equality <> ls:33 var
+R10496:10496 Cpdt.Equality <> fhlist.B var
+R10498:10500 Cpdt.Equality <> fhlist.elm var
+R10515:10517 Coq.Init.Datatypes <> nil constr
+binder 10528:10530 <> idx:34
+R10541:10543 Cpdt.Equality <> idx:34 var
+R10563:10566 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+binder 10578:10580 <> mls:36
+binder 10582:10584 <> idx:37
+R10603:10605 Cpdt.Equality <> idx:37 var
+R10624:10626 Coq.Init.Datatypes <> inl constr
+R10674:10680 Coq.Init.Logic <> eq_refl constr
+R10685:10687 Coq.Init.Datatypes <> fst def
+R10689:10691 Cpdt.Equality <> mls:36 var
+R10731:10733 Coq.Init.Datatypes <> inr constr
+R10743:10747 Cpdt.Equality <> fhget:32 def
+R10754:10756 Coq.Init.Datatypes <> snd def
+R10758:10760 Cpdt.Equality <> mls:36 var
+R10793:10798 Cpdt.Equality fhlist <> sec
+R10812:10816 Cpdt.Equality <> fhget def
+R10812:10816 Cpdt.Equality <> fhget def
+def 10883:10885 <> map
+R10890:10890 Coq.Init.Datatypes <> O constr
+sec 10992:11001 <> fhlist_map
+var 11016:11016 fhlist_map A
+var 11038:11038 fhlist_map B
+var 11040:11040 fhlist_map C
+R11045:11048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11044:11044 Cpdt.Equality <> fhlist_map.A var
+var 11066:11066 fhlist_map f
+binder 11077:11077 <> x:43
+R11083:11086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11080:11080 Cpdt.Equality <> fhlist_map.B var
+R11082:11082 Cpdt.Equality <> x:43 var
+R11087:11087 Cpdt.Equality <> fhlist_map.C var
+R11089:11089 Cpdt.Equality <> x:43 var
+def 11104:11108 <> fhmap
+R11116:11119 Coq.Init.Datatypes <> list ind
+R11121:11121 Cpdt.Equality <> fhlist_map.A var
+binder 11111:11112 <> ls:45
+R11137:11140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11126:11131 Cpdt.Equality <> fhlist def
+R11135:11136 Cpdt.Equality <> ls:45 var
+R11133:11133 Cpdt.Equality <> fhlist_map.B var
+R11141:11146 Cpdt.Equality <> fhlist def
+R11150:11151 Cpdt.Equality <> ls:45 var
+R11148:11148 Cpdt.Equality <> fhlist_map.C var
+R11166:11167 Cpdt.Equality <> ls:45 var
+R11187:11190 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11176:11181 Cpdt.Equality <> fhlist def
+R11185:11186 Cpdt.Equality <> ls:47 var
+R11183:11183 Cpdt.Equality <> fhlist_map.B var
+R11191:11196 Cpdt.Equality <> fhlist def
+R11200:11201 Cpdt.Equality <> ls:47 var
+R11198:11198 Cpdt.Equality <> fhlist_map.C var
+R11216:11218 Coq.Init.Datatypes <> nil constr
+R11232:11233 Coq.Init.Datatypes <> tt constr
+R11244:11247 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+binder 11257:11259 <> hls:48
+R11264:11264 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11276:11277 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11295:11295 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R11265:11265 Cpdt.Equality <> fhlist_map.f var
+R11268:11270 Coq.Init.Datatypes <> fst def
+R11272:11274 Cpdt.Equality <> hls:48 var
+R11278:11282 Cpdt.Equality <> fhmap:46 def
+R11287:11289 Coq.Init.Datatypes <> snd def
+R11291:11293 Cpdt.Equality <> hls:48 var
+R11319:11323 Cpdt.Equality <> fhmap def
+R11319:11323 Cpdt.Equality <> fhmap def
+def 11386:11390 <> ilist
+R11395:11395 Coq.Init.Datatypes <> O constr
+def 11411:11413 <> get
+R11418:11418 Coq.Init.Datatypes <> O constr
+def 11434:11437 <> imap
+R11442:11442 Coq.Init.Datatypes <> O constr
+var 11804:11806 fhlist_map elm
+R11810:11810 Cpdt.Equality <> fhlist_map.A var
+prf 11824:11834 <> fhget_fhmap
+binder 11845:11846 <> ls:50
+R11855:11861 Cpdt.Equality <> fmember def
+R11867:11868 Cpdt.Equality <> ls:50 var
+R11863:11865 Cpdt.Equality <> fhlist_map.elm var
+binder 11849:11851 <> mem:51
+R11878:11883 Cpdt.Equality <> fhlist def
+R11887:11888 Cpdt.Equality <> ls:50 var
+R11885:11885 Cpdt.Equality <> fhlist_map.B var
+binder 11872:11874 <> hls:52
+R11917:11919 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11896:11900 Cpdt.Equality <> fhget def
+R11914:11916 Cpdt.Equality <> mem:51 var
+R11903:11907 Cpdt.Equality <> fhmap def
+R11909:11911 Cpdt.Equality <> hls:52 var
+R11920:11920 Cpdt.Equality <> fhlist_map.f var
+R11923:11927 Cpdt.Equality <> fhget def
+R11933:11935 Cpdt.Equality <> mem:51 var
+R11929:11931 Cpdt.Equality <> hls:52 var
+prf 14450:14455 <> lemma1
+binder 14466:14466 <> x:53
+R14475:14477 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14474:14474 Cpdt.Equality <> x:53 var
+R14478:14480 Cpdt.Equality <> fhlist_map.elm var
+binder 14469:14470 <> pf:54
+R14485:14487 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14484:14484 Coq.Init.Datatypes <> O constr
+R14494:14495 Cpdt.Equality <> pf:54 var
+R14502:14508 Coq.Init.Logic <> eq_refl constr
+R14513:14513 Coq.Init.Datatypes <> O constr
+R14806:14811 Cpdt.Equality <> lemma1 thm
+def 15376:15382 <> lemma1'
+R15389:15389 Cpdt.Equality <> fhlist_map.A var
+binder 15385:15385 <> x:56
+R15399:15401 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15398:15398 Cpdt.Equality <> x:56 var
+R15402:15404 Cpdt.Equality <> fhlist_map.elm var
+binder 15393:15394 <> pf:57
+R15420:15421 Cpdt.Equality <> pf:57 var
+R15432:15434 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15441:15442 Cpdt.Equality <> pf:58 var
+R15478:15484 Coq.Init.Logic <> eq_refl constr
+R15534:15540 Coq.Init.Logic <> eq_refl constr
+R15545:15551 Coq.Init.Logic <> eq_refl constr
+prf 15676:15681 <> lemma2
+R15697:15697 Cpdt.Equality <> fhlist_map.A var
+binder 15693:15693 <> x:60
+R15707:15709 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15706:15706 Cpdt.Equality <> x:60 var
+R15710:15710 Cpdt.Equality <> x:60 var
+binder 15701:15702 <> pf:61
+R15715:15717 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15714:15714 Coq.Init.Datatypes <> O constr
+R15724:15725 Cpdt.Equality <> pf:61 var
+R15732:15738 Coq.Init.Logic <> eq_refl constr
+R15743:15743 Coq.Init.Datatypes <> O constr
+def 16022:16027 <> lemma2
+R16045:16045 Cpdt.Equality <> fhlist_map.A var
+binder 16041:16041 <> x:63
+R16055:16057 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16054:16054 Cpdt.Equality <> x:63 var
+R16058:16058 Cpdt.Equality <> x:63 var
+binder 16049:16050 <> pf:64
+R16076:16077 Cpdt.Equality <> pf:64 var
+R16088:16090 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16097:16098 Cpdt.Equality <> pf:65 var
+R16136:16142 Coq.Init.Logic <> eq_refl constr
+R16196:16202 Coq.Init.Logic <> eq_refl constr
+R16207:16213 Coq.Init.Logic <> eq_refl constr
+def 16391:16397 <> lemma3'
+R16402:16402 Coq.Init.Datatypes <> O constr
+prf 16449:16454 <> lemma3
+R16470:16470 Cpdt.Equality <> fhlist_map.A var
+binder 16466:16466 <> x:67
+R16480:16482 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16479:16479 Cpdt.Equality <> x:67 var
+R16483:16483 Cpdt.Equality <> x:67 var
+binder 16474:16475 <> pf:68
+R16489:16491 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16487:16488 Cpdt.Equality <> pf:68 var
+R16492:16498 Coq.Init.Logic <> eq_refl constr
+R16500:16500 Cpdt.Equality <> x:67 var
+prf 17595:17600 <> lemma3
+R17616:17616 Cpdt.Equality <> fhlist_map.A var
+binder 17612:17612 <> x:69
+R17626:17628 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17625:17625 Cpdt.Equality <> x:69 var
+R17629:17629 Cpdt.Equality <> x:69 var
+binder 17620:17621 <> pf:70
+R17635:17637 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17633:17634 Cpdt.Equality <> pf:70 var
+R17638:17644 Coq.Init.Logic <> eq_refl constr
+R17646:17646 Cpdt.Equality <> x:69 var
+R17667:17674 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R17667:17674 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R17693:17700 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R18242:18251 Coq.Logic.Eqdep Eq_rect_eq <> mod
+R18277:18286 Coq.Logic.Eqdep Eq_rect_eq eq_rect_eq prfax
+def 19122:19127 <> False'
+R19132:19136 Coq.Init.Logic <> False ind
+binder 19202:19202 <> U:71
+R19217:19217 Cpdt.Equality <> U:71 var
+binder 19213:19213 <> p:72
+R19226:19229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19225:19225 Cpdt.Equality <> U:71 var
+binder 19221:19221 <> Q:73
+R19241:19241 Cpdt.Equality <> Q:73 var
+R19243:19243 Cpdt.Equality <> p:72 var
+binder 19237:19237 <> x:74
+R19252:19254 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19251:19251 Cpdt.Equality <> p:72 var
+R19255:19255 Cpdt.Equality <> p:72 var
+binder 19247:19247 <> h:75
+R19264:19266 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19263:19263 Cpdt.Equality <> x:74 var
+R19267:19273 Coq.Init.Logic <> eq_rect scheme
+R19283:19283 Cpdt.Equality <> h:75 var
+R19281:19281 Cpdt.Equality <> p:72 var
+R19279:19279 Cpdt.Equality <> x:74 var
+R19277:19277 Cpdt.Equality <> Q:73 var
+R19275:19275 Cpdt.Equality <> p:72 var
+def 20360:20371 <> Streicher_K'
+R20376:20396 Coq.Logic.EqdepFacts <> UIP_refl__Streicher_K thm
+R20443:20453 Coq.Logic.Eqdep EqdepTheory Streicher_K thm
+R20803:20812 Cpdt.Equality fhlist_map <> sec
+R20859:20867 Coq.Logic.Eqdep_dec <> <> lib
+sec 21457:21461 <> fhapp
+var 21475:21475 fhapp A
+var 21496:21496 fhapp B
+R21501:21504 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21500:21500 Cpdt.Equality <> fhapp.A var
+def 21523:21527 <> fhapp
+R21540:21543 Coq.Init.Datatypes <> list ind
+R21545:21545 Cpdt.Equality <> fhapp.A var
+binder 21530:21532 <> ls1:78
+binder 21534:21536 <> ls2:79
+R21566:21569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21554:21559 Cpdt.Equality <> fhlist def
+R21563:21565 Cpdt.Equality <> ls1:78 var
+R21561:21561 Cpdt.Equality <> fhapp.B var
+R21582:21585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21570:21575 Cpdt.Equality <> fhlist def
+R21579:21581 Cpdt.Equality <> ls2:79 var
+R21577:21577 Cpdt.Equality <> fhapp.B var
+R21586:21591 Cpdt.Equality <> fhlist def
+R21599:21602 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R21596:21598 Cpdt.Equality <> ls1:78 var
+R21603:21605 Cpdt.Equality <> ls2:79 var
+R21593:21593 Cpdt.Equality <> fhapp.B var
+R21621:21623 Cpdt.Equality <> ls1:78 var
+R21638:21640 Coq.Init.Datatypes <> nil constr
+binder 21651:21654 <> hls2:82
+R21659:21662 Cpdt.Equality <> hls2:82 var
+R21673:21676 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+binder 21686:21689 <> hls1:83
+binder 21691:21694 <> hls2:84
+R21699:21699 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21708:21709 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21735:21735 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21700:21702 Coq.Init.Datatypes <> fst def
+R21704:21707 Cpdt.Equality <> hls1:83 var
+R21710:21714 Cpdt.Equality <> fhapp:80 def
+R21731:21734 Cpdt.Equality <> hls2:84 var
+R21721:21723 Coq.Init.Datatypes <> snd def
+R21725:21728 Cpdt.Equality <> hls1:83 var
+R21759:21763 Cpdt.Equality <> fhapp def
+R21759:21763 Cpdt.Equality <> fhapp def
+prf 22849:22859 <> fhapp_assoc
+binder 22870:22872 <> ls1:85
+binder 22874:22876 <> ls2:86
+binder 22878:22880 <> ls3:87
+R22911:22913 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22892:22892 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22903:22907 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22896:22899 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22893:22895 Cpdt.Equality <> ls1:85 var
+R22900:22902 Cpdt.Equality <> ls2:86 var
+R22908:22910 Cpdt.Equality <> ls3:87 var
+R22917:22921 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22932:22932 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22914:22916 Cpdt.Equality <> ls1:85 var
+R22925:22928 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R22922:22924 Cpdt.Equality <> ls2:86 var
+R22929:22931 Cpdt.Equality <> ls3:87 var
+binder 22887:22888 <> pf:88
+R22947:22952 Cpdt.Equality <> fhlist def
+R22956:22958 Cpdt.Equality <> ls1:85 var
+R22954:22954 Cpdt.Equality <> fhapp.B var
+binder 22940:22943 <> hls1:89
+R22969:22974 Cpdt.Equality <> fhlist def
+R22978:22980 Cpdt.Equality <> ls2:86 var
+R22976:22976 Cpdt.Equality <> fhapp.B var
+binder 22962:22965 <> hls2:90
+R22991:22996 Cpdt.Equality <> fhlist def
+R23000:23002 Cpdt.Equality <> ls3:87 var
+R22998:22998 Cpdt.Equality <> fhapp.B var
+binder 22984:22987 <> hls3:91
+R23038:23044 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23010:23014 Cpdt.Equality <> fhapp def
+R23022:23026 Cpdt.Equality <> fhapp def
+R23033:23036 Cpdt.Equality <> hls3:91 var
+R23028:23031 Cpdt.Equality <> hls2:90 var
+R23016:23019 Cpdt.Equality <> hls1:89 var
+R23051:23052 Cpdt.Equality <> pf:88 var
+R23059:23061 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23073:23078 Cpdt.Equality <> fhlist def
+R23082:23083 Cpdt.Equality <> ls:92 var
+R23100:23106 Coq.Init.Logic <> eq_refl constr
+R23111:23115 Cpdt.Equality <> fhapp def
+R23135:23138 Cpdt.Equality <> hls3:91 var
+R23118:23122 Cpdt.Equality <> fhapp def
+R23129:23132 Cpdt.Equality <> hls2:90 var
+R23124:23127 Cpdt.Equality <> hls1:89 var
+R23797:23804 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R23797:23804 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R23797:23804 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R26459:26463 Cpdt.Equality <> fhapp def
+R26466:26470 Cpdt.Equality <> fhapp def
+R26459:26463 Cpdt.Equality <> fhapp def
+R26466:26470 Cpdt.Equality <> fhapp def
+R28806:28814 Coq.Lists.List <> app_assoc thm
+R28806:28814 Coq.Lists.List <> app_assoc thm
+R28806:28814 Coq.Lists.List <> app_assoc thm
+R29427:29434 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R29427:29434 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R29427:29434 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R29459:29466 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R29459:29466 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R29459:29466 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R29523:29527 Cpdt.Equality fhapp <> sec
+R29541:29545 Cpdt.Equality <> fhapp def
+R29541:29545 Cpdt.Equality <> fhapp def
+R30004:30007 Coq.Logic.JMeq <> JMeq ind
+R30652:30655 Coq.Logic.JMeq <> JMeq ind
+not 30644:30644 <> :::x_'=='_x
+def 30804:30812 <> UIP_refl'
+binder 30815:30815 <> A:94
+R30830:30830 Cpdt.Equality <> A:94 var
+binder 30826:30826 <> x:95
+R30840:30842 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30839:30839 Cpdt.Equality <> x:95 var
+R30843:30843 Cpdt.Equality <> x:95 var
+binder 30834:30835 <> pf:96
+R30850:30853 Cpdt.Equality <> :::x_'=='_x not
+R30848:30849 Cpdt.Equality <> pf:96 var
+R30854:30860 Coq.Init.Logic <> eq_refl constr
+R30862:30862 Cpdt.Equality <> x:95 var
+R30875:30876 Cpdt.Equality <> pf:96 var
+R30888:30891 Cpdt.Equality <> :::x_'=='_x not
+R30886:30887 Cpdt.Equality <> pf:97 var
+R30892:30898 Coq.Init.Logic <> eq_refl constr
+R30914:30920 Coq.Init.Logic <> eq_refl constr
+R30925:30933 Coq.Logic.JMeq <> JMeq_refl constr
+prf 31208:31213 <> lemma4
+binder 31225:31225 <> A:98
+R31240:31240 Cpdt.Equality <> A:98 var
+binder 31236:31236 <> x:99
+R31250:31252 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31249:31249 Cpdt.Equality <> x:99 var
+R31253:31253 Cpdt.Equality <> x:99 var
+binder 31244:31245 <> pf:100
+R31260:31262 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31259:31259 Coq.Init.Datatypes <> O constr
+R31269:31270 Cpdt.Equality <> pf:100 var
+R31277:31283 Coq.Init.Logic <> eq_refl constr
+R31288:31288 Coq.Init.Datatypes <> O constr
+R31332:31340 Cpdt.Equality <> UIP_refl' def
+R31332:31340 Cpdt.Equality <> UIP_refl' def
+R31332:31340 Cpdt.Equality <> UIP_refl' def
+R31548:31554 Coq.Logic.JMeq <> JMeq_eq thm
+sec 32118:32123 <> fhapp'
+var 32137:32137 fhapp' A
+var 32158:32158 fhapp' B
+R32163:32166 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R32162:32162 Cpdt.Equality <> fhapp'.A var
+prf 32326:32337 <> fhapp_assoc'
+binder 32348:32350 <> ls1:104
+binder 32352:32354 <> ls2:105
+binder 32356:32358 <> ls3:106
+R32368:32373 Cpdt.Equality <> fhlist def
+R32377:32379 Cpdt.Equality <> ls1:104 var
+R32375:32375 Cpdt.Equality <> fhapp'.B var
+binder 32361:32364 <> hls1:107
+R32390:32395 Cpdt.Equality <> fhlist def
+R32399:32401 Cpdt.Equality <> ls2:105 var
+R32397:32397 Cpdt.Equality <> fhapp'.B var
+binder 32383:32386 <> hls2:108
+R32416:32421 Cpdt.Equality <> fhlist def
+R32425:32427 Cpdt.Equality <> ls3:106 var
+R32423:32423 Cpdt.Equality <> fhapp'.B var
+binder 32409:32412 <> hls3:109
+R32463:32466 Cpdt.Equality <> :::x_'=='_x not
+R32435:32439 Cpdt.Equality <> fhapp def
+R32447:32451 Cpdt.Equality <> fhapp def
+R32458:32461 Cpdt.Equality <> hls3:109 var
+R32453:32456 Cpdt.Equality <> hls2:108 var
+R32441:32444 Cpdt.Equality <> hls1:107 var
+R32467:32471 Cpdt.Equality <> fhapp def
+R32491:32494 Cpdt.Equality <> hls3:109 var
+R32474:32478 Cpdt.Equality <> fhapp def
+R32485:32488 Cpdt.Equality <> hls2:108 var
+R32480:32483 Cpdt.Equality <> hls1:107 var
+R34018:34022 Cpdt.Equality <> fhapp def
+R34027:34031 Cpdt.Equality <> fhapp def
+R34052:34056 Cpdt.Equality <> fhapp def
+R34059:34063 Cpdt.Equality <> fhapp def
+R34018:34022 Cpdt.Equality <> fhapp def
+R34027:34031 Cpdt.Equality <> fhapp def
+R34052:34056 Cpdt.Equality <> fhapp def
+R34059:34063 Cpdt.Equality <> fhapp def
+R34382:34390 Coq.Lists.List <> app_assoc thm
+R34382:34390 Coq.Lists.List <> app_assoc thm
+R34382:34390 Coq.Lists.List <> app_assoc thm
+R34661:34666 Cpdt.Equality fhapp' <> sec
+R35099:35110 Cpdt.Equality <> fhapp_assoc' thm
+prf 35519:35527 <> pair_cong
+binder 35538:35539 <> A1:110
+binder 35541:35542 <> A2:111
+binder 35544:35545 <> B1:112
+binder 35547:35548 <> B2:113
+R35556:35557 Cpdt.Equality <> A1:110 var
+binder 35551:35552 <> x1:114
+R35566:35567 Cpdt.Equality <> A2:111 var
+binder 35561:35562 <> x2:115
+R35576:35577 Cpdt.Equality <> B1:112 var
+binder 35571:35572 <> y1:116
+R35586:35587 Cpdt.Equality <> B2:113 var
+binder 35581:35582 <> y2:117
+R35601:35606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35595:35598 Cpdt.Equality <> :::x_'=='_x not
+R35593:35594 Cpdt.Equality <> x1:114 var
+R35599:35600 Cpdt.Equality <> x2:115 var
+R35615:35620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35609:35612 Cpdt.Equality <> :::x_'=='_x not
+R35607:35608 Cpdt.Equality <> y1:116 var
+R35613:35614 Cpdt.Equality <> y2:117 var
+R35629:35632 Cpdt.Equality <> :::x_'=='_x not
+R35621:35621 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35624:35625 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35628:35628 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35622:35623 Cpdt.Equality <> x1:114 var
+R35626:35627 Cpdt.Equality <> y1:116 var
+R35633:35633 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35636:35637 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35640:35640 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R35634:35635 Cpdt.Equality <> x2:115 var
+R35638:35639 Cpdt.Equality <> y2:117 var
+sec 35752:35758 <> fhapp''
+var 35772:35772 fhapp'' A
+var 35793:35793 fhapp'' B
+R35798:35801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R35797:35797 Cpdt.Equality <> fhapp''.A var
+prf 35819:35831 <> fhapp_assoc''
+binder 35842:35844 <> ls1:120
+binder 35846:35848 <> ls2:121
+binder 35850:35852 <> ls3:122
+R35862:35867 Cpdt.Equality <> fhlist def
+R35871:35873 Cpdt.Equality <> ls1:120 var
+R35869:35869 Cpdt.Equality <> fhapp''.B var
+binder 35855:35858 <> hls1:123
+R35884:35889 Cpdt.Equality <> fhlist def
+R35893:35895 Cpdt.Equality <> ls2:121 var
+R35891:35891 Cpdt.Equality <> fhapp''.B var
+binder 35877:35880 <> hls2:124
+R35910:35915 Cpdt.Equality <> fhlist def
+R35919:35921 Cpdt.Equality <> ls3:122 var
+R35917:35917 Cpdt.Equality <> fhapp''.B var
+binder 35903:35906 <> hls3:125
+R35957:35960 Cpdt.Equality <> :::x_'=='_x not
+R35929:35933 Cpdt.Equality <> fhapp def
+R35941:35945 Cpdt.Equality <> fhapp def
+R35952:35955 Cpdt.Equality <> hls3:125 var
+R35947:35950 Cpdt.Equality <> hls2:124 var
+R35935:35938 Cpdt.Equality <> hls1:123 var
+R35961:35965 Cpdt.Equality <> fhapp def
+R35985:35988 Cpdt.Equality <> hls3:125 var
+R35968:35972 Cpdt.Equality <> fhapp def
+R35979:35982 Cpdt.Equality <> hls2:124 var
+R35974:35977 Cpdt.Equality <> hls1:123 var
+R36028:36034 Cpdt.Equality fhapp'' <> sec
+R36056:36068 Cpdt.Equality <> fhapp_assoc'' thm
+R36619:36626 Coq.Init.Logic <> eq_ind_r def
+R38121:38130 Coq.Logic.JMeq <> JMeq_ind_r thm
+prf 38655:38665 <> out_of_luck
+R38682:38684 Coq.Init.Datatypes <> nat ind
+binder 38676:38676 <> n:126
+binder 38678:38678 <> m:127
+R38695:38700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R38690:38693 Cpdt.Equality <> :::x_'=='_x not
+R38689:38689 Cpdt.Equality <> n:126 var
+R38694:38694 Cpdt.Equality <> m:127 var
+R38704:38707 Cpdt.Equality <> :::x_'=='_x not
+R38701:38701 Coq.Init.Datatypes <> S constr
+R38703:38703 Cpdt.Equality <> n:126 var
+R38708:38708 Coq.Init.Datatypes <> S constr
+R38710:38710 Cpdt.Equality <> m:127 var
+R39193:39202 Coq.Logic.JMeq <> JMeq_ind_r thm
+R39193:39202 Coq.Logic.JMeq <> JMeq_ind_r thm
+prf 41517:41526 <> UIP_refl''
+binder 41538:41538 <> A:128
+R41553:41553 Cpdt.Equality <> A:128 var
+binder 41549:41549 <> x:129
+R41563:41565 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41562:41562 Cpdt.Equality <> x:129 var
+R41566:41566 Cpdt.Equality <> x:129 var
+binder 41557:41558 <> pf:130
+R41572:41574 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41570:41571 Cpdt.Equality <> pf:130 var
+R41575:41581 Coq.Init.Logic <> eq_refl constr
+R41583:41583 Cpdt.Equality <> x:129 var
+R41605:41613 Cpdt.Equality <> UIP_refl' def
+R41605:41613 Cpdt.Equality <> UIP_refl' def
+R41605:41613 Cpdt.Equality <> UIP_refl' def
+def 41915:41919 <> JMeq'
+binder 41922:41922 <> A:131
+R41937:41937 Cpdt.Equality <> A:131 var
+binder 41933:41933 <> x:132
+binder 41941:41941 <> B:133
+R41956:41956 Cpdt.Equality <> B:133 var
+binder 41952:41952 <> y:134
+R41971:41977 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R41988:41989 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R41984:41986 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41983:41983 Cpdt.Equality <> B:133 var
+R41987:41987 Cpdt.Equality <> A:131 var
+binder 41978:41979 <> pf:135
+R41991:41993 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R41990:41990 Cpdt.Equality <> x:132 var
+R42000:42001 Cpdt.Equality <> pf:135 var
+R42008:42014 Coq.Init.Logic <> eq_refl constr
+R42019:42019 Cpdt.Equality <> y:134 var
+R42042:42046 Cpdt.Equality <> JMeq' def
+not 42033:42033 <> :::x_'==='_x
+prf 42595:42604 <> JMeq_refl'
+binder 42616:42616 <> A:137
+R42631:42631 Cpdt.Equality <> A:137 var
+binder 42627:42627 <> x:138
+R42636:42640 Cpdt.Equality <> :::x_'==='_x not
+R42635:42635 Cpdt.Equality <> x:138 var
+R42641:42641 Cpdt.Equality <> x:138 var
+R42661:42665 Cpdt.Equality <> JMeq' def
+R42676:42682 Coq.Init.Logic <> eq_refl constr
+R42676:42682 Coq.Init.Logic <> eq_refl constr
+prf 42879:42886 <> JMeq_eq'
+binder 42898:42898 <> A:139
+R42915:42915 Cpdt.Equality <> A:139 var
+binder 42909:42909 <> x:140
+binder 42911:42911 <> y:141
+R42928:42931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R42922:42926 Cpdt.Equality <> :::x_'==='_x not
+R42921:42921 Cpdt.Equality <> x:140 var
+R42927:42927 Cpdt.Equality <> y:141 var
+R42933:42935 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R42932:42932 Cpdt.Equality <> x:140 var
+R42936:42936 Cpdt.Equality <> y:141 var
+R42948:42952 Cpdt.Equality <> JMeq' def
+R43485:43492 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R43485:43492 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R43485:43492 Coq.Logic.Eqdep EqdepTheory UIP_refl thm
+R44880:44903 Coq.Logic.FunctionalExtensionality <> <> lib
+R44912:44936 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+prf 45258:45265 <> two_funs
+R45269:45269 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45280:45284 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45299:45299 Coq.Init.Logic <> ::type_scope:x_'='_x not
+binder 45274:45274 <> n:142
+R45279:45279 Cpdt.Equality <> n:142 var
+binder 45289:45289 <> n:143
+R45295:45297 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R45294:45294 Cpdt.Equality <> n:143 var
+R45328:45352 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R45328:45352 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+prf 45497:45505 <> forall_eq
+R45509:45509 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45680:45686 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45707:45707 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45521:45523 Coq.Init.Datatypes <> nat ind
+binder 45517:45517 <> x:144
+R45532:45532 Cpdt.Equality <> x:144 var
+R45579:45579 Coq.Init.Datatypes <> O constr
+R45584:45587 Coq.Init.Logic <> True ind
+R45629:45629 Coq.Init.Datatypes <> S constr
+R45636:45639 Coq.Init.Logic <> True ind
+R45698:45700 Coq.Init.Datatypes <> nat ind
+R45703:45706 Coq.Init.Logic <> True ind
+R45893:45893 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46080:46084 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46096:46096 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45905:45907 Coq.Init.Datatypes <> nat ind
+binder 45901:45901 <> x:146
+binder 45915:45915 <> x:147
+R45926:45926 Cpdt.Equality <> x:147 var
+R45979:45982 Coq.Init.Logic <> True ind
+R46025:46025 Coq.Init.Datatypes <> S constr
+R46032:46035 Coq.Init.Logic <> True ind
+R46079:46079 Cpdt.Equality <> x:146 var
+R46088:46091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R46085:46087 Coq.Init.Datatypes <> nat ind
+R46092:46095 Coq.Init.Logic <> True ind
+R45893:45893 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46080:46084 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R46096:46096 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R45905:45907 Coq.Init.Datatypes <> nat ind
+binder 45901:45901 <> x:149
+binder 45915:45915 <> x:150
+R45926:45926 Cpdt.Equality <> x:150 var
+R45979:45982 Coq.Init.Logic <> True ind
+R46025:46025 Coq.Init.Datatypes <> S constr
+R46032:46035 Coq.Init.Logic <> True ind
+R46079:46079 Cpdt.Equality <> x:149 var
+R46088:46091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R46085:46087 Coq.Init.Datatypes <> nat ind
+R46092:46095 Coq.Init.Logic <> True ind
+R46111:46135 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R46346:46349 Coq.Init.Logic <> True ind
+binder 46142:46142 <> x:152
+R46153:46153 Cpdt.Equality <> x:152 var
+R46216:46219 Coq.Init.Logic <> True ind
+R46272:46272 Coq.Init.Datatypes <> S constr
+R46279:46282 Coq.Init.Logic <> True ind
+R46111:46135 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R46346:46349 Coq.Init.Logic <> True ind
+binder 46142:46142 <> x:154
+R46153:46153 Cpdt.Equality <> x:154 var
+R46216:46219 Coq.Init.Logic <> True ind
+R46272:46272 Coq.Init.Datatypes <> S constr
+R46279:46282 Coq.Init.Logic <> True ind
+R46111:46135 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R46346:46349 Coq.Init.Logic <> True ind
+binder 46142:46142 <> x:156
+R46153:46153 Cpdt.Equality <> x:156 var
+R46216:46219 Coq.Init.Logic <> True ind
+R46272:46272 Coq.Init.Datatypes <> S constr
+R46279:46282 Coq.Init.Logic <> True ind
+R46111:46135 Coq.Logic.FunctionalExtensionality <> functional_extensionality thm
+R46346:46349 Coq.Init.Logic <> True ind
+binder 46142:46142 <> x:158
+R46153:46153 Cpdt.Equality <> x:158 var
+R46216:46219 Coq.Init.Logic <> True ind
+R46272:46272 Coq.Init.Datatypes <> S constr
+R46279:46282 Coq.Init.Logic <> True ind
