@@ -1,0 +1,43 @@
+DIGEST 1155a6945695c7bea70f56b49de8dfe2
+Fchapter2
+R15:18 Coq.Bool.Bool <> <> lib
+R20:24 Coq.Arith.Arith <> <> lib
+R26:29 Coq.Lists.List <> <> lib
+R31:46 Cpdt.CpdtTactics <> <> lib
+ind 84:88 <> binop
+constr 99:102 <> Plus
+constr 106:110 <> Times
+ind 124:126 <> exp
+constr 140:144 <> Const
+constr 162:166 <> Binop
+R151:154 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R148:150 Coq.Init.Datatypes <> nat ind
+R155:157 chapter2 <> exp:3 ind
+R175:178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R170:174 chapter2 <> binop ind
+R182:185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R179:181 chapter2 <> exp:3 ind
+R189:192 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R186:188 chapter2 <> exp:3 ind
+R193:195 chapter2 <> exp:3 ind
+def 210:220 <> binopDenote
+R227:231 chapter2 <> binop ind
+binder 223:223 <> b:5
+R239:242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R236:238 Coq.Init.Datatypes <> nat ind
+R246:249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R243:245 Coq.Init.Datatypes <> nat ind
+R250:252 Coq.Init.Datatypes <> nat ind
+R267:267 chapter2 <> b:5 var
+R281:284 chapter2 <> Plus constr
+R289:292 Coq.Init.Peano <> plus abbrev
+R300:304 chapter2 <> Times constr
+R309:312 Coq.Init.Peano <> mult abbrev
+def 335:343 <> expDenote
+R350:352 chapter2 <> exp ind
+binder 346:346 <> e:7
+R357:359 Coq.Init.Datatypes <> nat ind
+R374:374 chapter2 <> e:7 var
+R387:391 chapter2 <> Const constr
+R406:410 chapter2 <> Binop constr
+R424:434 chapter2 <> binopDenote def
