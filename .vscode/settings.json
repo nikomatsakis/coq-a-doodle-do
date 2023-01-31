@@ -1,0 +1,3 @@
+{
+  "coq-lsp.args": ["-I cpdt/src"]
+}
